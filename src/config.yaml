@@ -1,0 +1,163 @@
+# days: [0, 7] # Day range [start, end): simulate days 0-6
+# y1: 166 # Spatial crop: row start
+# y2: 453 # Spatial crop: row end
+# x1: 166 # Spatial crop: col start
+# x2: 581 # Spatial crop: col end
+data:
+  base_dir: "data/data_real" # Root directory for fire event data
+  train_events: # Training fire events (name → crop/days)
+    "Bear_2020":
+      days: [0, 10]
+      y1: 166
+      y2: 453
+      x1: 166
+      x2: 581
+    "Ferguson_2018":
+      days: [0, 10]
+      y1: 166
+      y2: 1149
+      x1: 166
+      x2: 988
+    "Brattain_2020":
+      days: [0, 10]
+      y1: 166
+      y2: 918
+      x1: 166
+      x2: 842
+    "Chimney_2016":
+      days: [0, 10]
+      y1: 166
+      y2: 723
+      x1: 166
+      x2: 819
+    "Buck_2017":
+      days: [0, 10]
+      y1: 0
+      y2: 455
+      x1: 0
+      x2: 473
+    "Pier_2017":
+      days: [0, 10]
+      y1: 0
+      y2: 679
+      x1: 0
+      x2: 706
+  test_events: # Validation/test fire events
+    # "Pier_2017":
+    #   days: [7, 10]
+    #   y1: 0
+    #   y2: 679
+    #   x1: 0
+    #   x2: 706
+    # "Bear_2020":
+    #   days: [7, 10]
+    #   y1: 166
+    #   y2: 453
+    #   x1: 166
+    #   x2: 581
+    # "Brattain_2020":
+    #   days: [7, 10]
+    #   y1: 166
+    #   y2: 918
+    #   x1: 166
+    #   x2: 842
+    # "Buck_2017":
+    #   days: [5, 8]
+    #   y1: 0
+    #   y2: 455
+    #   x1: 0
+    #   x2: 473
+    # "Chimney_2016":
+    #   days: [6, 8]
+    #   y1: 166
+    #   y2: 723
+    #   x1: 166
+    #   x2: 819
+    # "Ferguson_2018":
+    #   days: [10, 15]
+    #   y1: 166
+    #   y2: 1149
+    #   x1: 166
+    #   x2: 988
+
+  static_files: # LANDFIRE static raster filenames
+    elevation: "ELEV2020.npy" # Elevation (meters)
+    slope: "SLPD2020.npy" # Slope (degrees, 0-90)
+    aspect: "ASP2020.npy" # Aspect (compass degrees, -1=flat)
+    canopy_bulk_density: "230CBD.npy" # Canopy bulk density (kg/m3 * 100)
+    canopy_cover: "230CC.npy" # Canopy cover (percent)
+    canopy_height: "230CH.npy" # Canopy height (meters * 10)
+    fuel_model: "230FBFM40.npy" # FBFM40 fire behavior fuel model (categorical)
+  dynamic_files: # ERA5 wind component filenames
+    wind_u: "u_component_of_wind_10m.npy" # U-component of 10m wind (m/s)
+    wind_v: "v_component_of_wind_10m.npy" # V-component of 10m wind (m/s)
+  target_file: "fire.npy" # Daily fire perimeter sequence (D+1, H, W)
+
+preprocessing:
+  nodata_value: -9999 # LANDFIRE nodata sentinel value
+  canopy_norm: "global" # "global" (fixed max) or "per_event" (per-event max)
+  canopy_max: 100 # Max canopy cover for normalization (CC / canopy_max)
+  density_max: 45 # Max canopy bulk density for normalization (CBD / density_max)
+  canopy_height_max: 550 # Max canopy height for normalization (CH / canopy_height_max)
+  wind_speed_max: 10.0 # Fixed wind scaling divisor (wind / max)
+  fbfm_num_classes: 203 # Max FBFM40 value is 202, index from 0
+  fbfm_embedding_dim: 4 # Learnable embedding dimension per fuel class
+  fbfm_non_burnable: [91, 99] # FBFM40 code range [lo, hi] for non-burnable cells
+
+model:
+  kernel_size: 7 # Max CNN kernel size; branches at k=3,5,...,K
+  branch_out_channels: 32 # Output channels per conv branch
+  n_ca_params: 6 # CA params: p_base, alpha_w1/w2, alpha_s, alpha_gamma, fuel_factor
+  cnn_in_channels: 13 # CNN input: 7 static + 4 fbfm_embed + 2 wind channels
+  burn_duration: 10 # Steps a cell stays burning (p_continue = 1 - 1/T)
+  dropout_rate: 0 # Dropout probability after CNN branch activations (0 to disable)
+  seed: 42 # PRNG seed for model weight initialization
+
+training:
+  epochs: 5 # 5000 # Max training epochs
+  lr: 0.0001 # Constant learning rate (Adam)
+  save_all_loss: loss.csv # Filename for saving per-epoch training/validation loss history (relative to out_dir)
+
+  grad_clip_norm: 1.0 # Global gradient L2 norm clip
+  steps_per_day: 50 # 15 # CA micro-steps per simulated day ###################################
+
+  # Default
+  # weight_decay: 0.001 # Weight decay (only used with optimizer=adamw)
+  # optimizer: "adam" # Optimizer: "adam" or "adamw"
+  # bce_weight: 1.0 # Frontier-weighted BCE loss weight
+  # mse_weight: 0.2 # MSE loss weight (also used for pooled MSE)
+  # area_weight: 0.2 # Burned area constraint loss weight
+  # frontier_weight: 10.0 # BCE multiplier for fire perimeter pixels
+  # iou_weight: 2.0 # Soft IoU (Jaccard) loss weight (0 to disable)
+  # mse_pool_window: 3 # Average-pool window for coarse MSE (0 to disable), it must be an integer (it's used as a kernel size)
+
+  optimizer: "adamw"
+  weight_decay: 0.001
+  bce_weight: 0.5
+  mse_weight: 0.1
+  area_weight: 0.5
+  frontier_weight: 10.0
+  iou_weight: 4.0
+  mse_pool_window: 3
+
+  Pth: 0.5 # Probability threshold for binary fire classification
+  bce_epsilon: 1.0e-7 # Numerical stability for log in BCE and area loss
+  use_remat: false # Gradient rematerialization to save memory
+  print_interval: 10 # Log training loss every N epochs
+  patience: 1000 # Early stop after N val checks without improvement
+  start_save_epoch: 200 # Start saving checkpoints after this epoch
+  grad_clip: # Per-element gradient clipping (before optimizer)
+    per_element:
+      - -5.0 # Lower bound
+      - 5.0 # Upper bound
+
+output:
+  out_dir: "result/run" # Base output directory (timestamp appended)
+  best_loss_file: "best_loss.eqx" # Best training loss model checkpoint
+  best_iou_file: "best_iou.eqx" # Best training iou model checkpoint
+  # checkpoint_dir: "checkpoint" # Directory for epoch checkpoints
+  config_file: "config.yaml" # Config copy saved to output dir
+  log_file: "training.log" # Training log file
+
+
+# pretrained_model_path: "result_saved/prob_nn_02_28_16_56_all_50/best_loss.eqx" # Uncomment to fine-tune from checkpoint

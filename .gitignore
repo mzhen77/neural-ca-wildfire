@@ -1,0 +1,13 @@
+__pycache__
+.ipynb_checkpoints
+.pytest_cache
+.env
+.venv
+.vscode
+.CondaPkg
+.claude
+
+raw
+cache
+result
+tmp
