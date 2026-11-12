@@ -1,0 +1,22 @@
+{
+  "fire": "Ferguson_2018",
+  "phase1_removal": {
+    "computation_seconds": 2792.5270220279926,
+    "setup_seconds": 72.98592079104856,
+    "total_seconds": 2865.512942819041,
+    "source_log": "control/results/regional_polygon_protection_v1/Ferguson_2018/progress.jsonl",
+    "event": 1975
+  },
+  "phase2_sequential_integer": {
+    "computation_seconds": 3606.665996880969,
+    "setup_seconds": 0.0005760600324720144,
+    "total_seconds": 3606.6665729410015,
+    "source_log": "control/results/regional_polygon_protection_v1/Ferguson_2018/progress.jsonl",
+    "event": 5450,
+    "stop_reason": "Optimization time allowance reached"
+  },
+  "benchmark_time_limit_seconds": 6472.179515760043,
+  "timing_basis": "Instrumented elapsed time from study construction, including model setup, JIT compilation, validation, search and final stage reports. Python import time and idle time between processes are excluded.",
+  "interrupted_phase2_excluded": false,
+  "budget_rule": "The benchmark receives the combined completed-phase time, including setup and compilation under the same timing convention. Failed or interrupted attempts are excluded."
+}

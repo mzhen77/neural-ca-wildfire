@@ -1,0 +1,275 @@
+{
+  "snapshot_utc": "2026-11-06T00:02:36.851779+00:00",
+  "pending": [],
+  "matched_phase1_comparisons": 16,
+  "phase1_wins": 16,
+  "rows": {
+    "Pier_2017": {
+      "phase1_cost": 22935295.651983507,
+      "combined_cost": 22771359.159014806,
+      "phase1_seconds": 1143.7309644119814,
+      "benchmark_seconds": 1662.6718293399317,
+      "methods": {
+        "annealing": {
+          "complete": true,
+          "cost_at_phase1_time": 85681668.95240748,
+          "final_cost": 77449858.22051397,
+          "cost_within_nominal_budget": 77449858.22051397,
+          "latest_observed_cost": 77449858.22051397,
+          "latest_charged_seconds": 1667.6534050829941,
+          "rate_preparation_seconds": 0.0,
+          "last_event": 1803,
+          "all_regions_feasible": true,
+          "overrun_seconds": 4.981360480072908
+        },
+        "nsga2": {
+          "complete": true,
+          "cost_at_phase1_time": 102020612.51956582,
+          "final_cost": 96220535.70994622,
+          "cost_within_nominal_budget": 96220535.70994622,
+          "latest_observed_cost": 96220535.70994622,
+          "latest_charged_seconds": 1666.2784949180204,
+          "rate_preparation_seconds": 0.0,
+          "last_event": 1093,
+          "all_regions_feasible": true,
+          "overrun_seconds": 3.6064294880488887
+        },
+        "dpv": {
+          "complete": true,
+          "cost_at_phase1_time": 45152269.96084592,
+          "final_cost": 34615609.25207668,
+          "cost_within_nominal_budget": 34615609.25207668,
+          "latest_observed_cost": 34615609.25207668,
+          "latest_charged_seconds": 1667.2618702820037,
+          "rate_preparation_seconds": 4.328111137030646,
+          "last_event": 2015,
+          "all_regions_feasible": true,
+          "overrun_seconds": 4.589842539047822
+        },
+        "path_delay": {
+          "complete": true,
+          "cost_at_phase1_time": 103446057.07099059,
+          "final_cost": 100915999.13031487,
+          "cost_within_nominal_budget": 100915999.13031487,
+          "latest_observed_cost": 100915999.13031487,
+          "latest_charged_seconds": 1667.1848607360153,
+          "rate_preparation_seconds": 4.328111137030646,
+          "last_event": 1069,
+          "all_regions_feasible": true,
+          "overrun_seconds": 4.512781247147359
+        }
+      },
+      "best_observed_final_cost": 22771359.159014806,
+      "phase1_gap_to_best_final_percent": 0.7199240582167921,
+      "phase1_fraction_of_combined_allowance": 0.6878873775506463
+    },
+    "Brattain_2020": {
+      "phase1_cost": 12447263.645710766,
+      "combined_cost": 11961574.53424425,
+      "phase1_seconds": 2765.7143741499167,
+      "benchmark_seconds": 5658.727233145968,
+      "methods": {
+        "annealing": {
+          "complete": true,
+          "cost_at_phase1_time": 70194029.59354614,
+          "final_cost": 52284454.40943681,
+          "cost_within_nominal_budget": 52284454.40943681,
+          "latest_observed_cost": 52284454.40943681,
+          "latest_charged_seconds": 5664.440019767964,
+          "rate_preparation_seconds": 0.0,
+          "last_event": 5434,
+          "all_regions_feasible": true,
+          "overrun_seconds": 5.71244185406249
+        },
+        "nsga2": {
+          "complete": true,
+          "cost_at_phase1_time": 86156570.38567272,
+          "final_cost": 68517601.17401877,
+          "cost_within_nominal_budget": 68517601.17401877,
+          "latest_observed_cost": 68517601.17401877,
+          "latest_charged_seconds": 5663.093040736043,
+          "rate_preparation_seconds": 0.0,
+          "last_event": 3273,
+          "all_regions_feasible": true,
+          "overrun_seconds": 4.3654712290735915
+        },
+        "dpv": {
+          "complete": true,
+          "cost_at_phase1_time": 15745788.514926927,
+          "final_cost": 11880304.338756237,
+          "cost_within_nominal_budget": 11880304.338756237,
+          "latest_observed_cost": 11880304.338756237,
+          "latest_charged_seconds": 5664.46720026806,
+          "rate_preparation_seconds": 5.633891769102775,
+          "last_event": 5938,
+          "all_regions_feasible": true,
+          "overrun_seconds": 5.739666674169712
+        },
+        "path_delay": {
+          "complete": true,
+          "cost_at_phase1_time": 90198513.53632525,
+          "final_cost": 73224925.5543612,
+          "cost_within_nominal_budget": 73224925.5543612,
+          "latest_observed_cost": 73224925.5543612,
+          "latest_charged_seconds": 5663.245311068138,
+          "rate_preparation_seconds": 5.633891769102775,
+          "last_event": 3327,
+          "all_regions_feasible": true,
+          "overrun_seconds": 4.517821820103563
+        }
+      },
+      "best_observed_final_cost": 11880304.338756237,
+      "phase1_gap_to_best_final_percent": 4.772262484092926,
+      "phase1_fraction_of_combined_allowance": 0.4887520214704391
+    },
+    "Chimney_2016": {
+      "phase1_cost": 9883922.815729,
+      "combined_cost": 9883922.815729,
+      "phase1_seconds": 737.4212610869436,
+      "benchmark_seconds": 737.4212610869436,
+      "methods": {
+        "annealing": {
+          "complete": true,
+          "cost_at_phase1_time": 37791685.093939394,
+          "final_cost": 37791685.093939394,
+          "cost_within_nominal_budget": 37791685.093939394,
+          "latest_observed_cost": 37791685.093939394,
+          "latest_charged_seconds": 742.2125211539678,
+          "rate_preparation_seconds": 0.0,
+          "last_event": 826,
+          "all_regions_feasible": true,
+          "overrun_seconds": 4.790992710972205
+        },
+        "nsga2": {
+          "complete": true,
+          "cost_at_phase1_time": 43858202.85658196,
+          "final_cost": 43858202.85658196,
+          "cost_within_nominal_budget": 43858202.85658196,
+          "latest_observed_cost": 43858202.85658196,
+          "latest_charged_seconds": 742.2002329250099,
+          "rate_preparation_seconds": 0.0,
+          "last_event": 508,
+          "all_regions_feasible": true,
+          "overrun_seconds": 4.778723494964652
+        },
+        "dpv": {
+          "complete": true,
+          "cost_at_phase1_time": 27537819.83350437,
+          "final_cost": 27537819.83350437,
+          "cost_within_nominal_budget": 27537819.83350437,
+          "latest_observed_cost": 27537819.83350437,
+          "latest_charged_seconds": 741.4316136660054,
+          "rate_preparation_seconds": 4.895932101993822,
+          "last_event": 893,
+          "all_regions_feasible": true,
+          "overrun_seconds": 4.009475655038841
+        },
+        "path_delay": {
+          "complete": true,
+          "cost_at_phase1_time": 44665291.129764035,
+          "final_cost": 44665291.129764035,
+          "cost_within_nominal_budget": 44665291.129764035,
+          "latest_observed_cost": 44665291.129764035,
+          "latest_charged_seconds": 741.6451766630635,
+          "rate_preparation_seconds": 4.895932101993822,
+          "last_event": 441,
+          "all_regions_feasible": true,
+          "overrun_seconds": 4.2236656721215695
+        }
+      },
+      "best_observed_final_cost": 9883922.815729,
+      "phase1_gap_to_best_final_percent": 0.0,
+      "phase1_fraction_of_combined_allowance": 1.0
+    },
+    "Ferguson_2018": {
+      "phase1_cost": 44198155.68905175,
+      "combined_cost": 43823097.11927822,
+      "phase1_seconds": 2860.179305096972,
+      "benchmark_seconds": 6060.576049411902,
+      "methods": {
+        "annealing": {
+          "complete": true,
+          "cost_at_phase1_time": 178018036.3131423,
+          "final_cost": 148674136.52264324,
+          "cost_within_nominal_budget": 148674136.52264324,
+          "latest_observed_cost": 148674136.52264324,
+          "latest_charged_seconds": 6071.339550385019,
+          "rate_preparation_seconds": 0.0,
+          "last_event": 4369,
+          "all_regions_feasible": true,
+          "overrun_seconds": 10.763208165066317
+        },
+        "nsga2": {
+          "complete": true,
+          "cost_at_phase1_time": 204906853.31414616,
+          "final_cost": 185644681.30409896,
+          "cost_within_nominal_budget": 185644681.30409896,
+          "latest_observed_cost": 185644681.30409896,
+          "latest_charged_seconds": 6070.747405142989,
+          "rate_preparation_seconds": 0.0,
+          "last_event": 3185,
+          "all_regions_feasible": true,
+          "overrun_seconds": 10.170983098098077
+        },
+        "dpv": {
+          "complete": true,
+          "cost_at_phase1_time": 79332483.36107235,
+          "final_cost": 42985644.62096503,
+          "cost_within_nominal_budget": 43012248.16592726,
+          "latest_observed_cost": 42985644.62096503,
+          "latest_charged_seconds": 6068.867226008093,
+          "rate_preparation_seconds": 8.916497305035591,
+          "last_event": 5837,
+          "all_regions_feasible": true,
+          "overrun_seconds": 8.290589664131403
+        },
+        "path_delay": {
+          "complete": true,
+          "cost_at_phase1_time": 198394976.2869962,
+          "final_cost": 181460342.40223527,
+          "cost_within_nominal_budget": 181460342.40223527,
+          "latest_observed_cost": 181460342.40223527,
+          "latest_charged_seconds": 6070.063492543064,
+          "rate_preparation_seconds": 8.916497305035591,
+          "last_event": 2851,
+          "all_regions_feasible": true,
+          "overrun_seconds": 9.485223097144626
+        }
+      },
+      "best_observed_final_cost": 42985644.62096503,
+      "phase1_gap_to_best_final_percent": 2.8207348727192327,
+      "phase1_fraction_of_combined_allowance": 0.4719319222756909
+    }
+  },
+  "source_sha256": {
+    "control/results/regional_polygon_protection_v1/benchmark_time_to_best.json": "7f573f77859013d1fe30f4370c6f6ef49fea9c1a35545cfc97436393d7643d0d",
+    "control/results/regional_polygon_protection_v1/Pier_2017/timing.json": "dbbdf0ebf32c8ea09c2c03da05d7804382b3727d167f29ef50482c4c1ea557e5",
+    "control/results/regional_polygon_protection_v1/Pier_2017/progress_before_phase2_restart.jsonl": "c8df0111aa4b9b46e58bf143fb2e1282bd2d40248d1e3710b51338302eabc0e2",
+    "control/results/regional_literature_benchmarks_v2/Pier_2017/annealing/progress.jsonl": "0826d6a4312e8b01e88f1651362e1af583dd80d5c7c03000039981558ae33188",
+    "control/results/regional_literature_benchmarks_v2/Pier_2017/nsga2/progress.jsonl": "15cfe82b62931583b0e1cfb02b7b19a60dd553455cf1a0c0428c8d446727d913",
+    "control/results/regional_literature_benchmarks_v2/Pier_2017/dpv/progress.jsonl": "e76b0460f8bc25a8a5812296d9c45d25aacf2b4ea04c73665242a8a6b2c4d3de",
+    "control/results/regional_literature_benchmarks_v2/Pier_2017/rates/metadata.json": "2dac5cc43726117a96dbdfdad3172c5725bf9d2025e039a22291ad38554a3996",
+    "control/results/regional_literature_benchmarks_v2/Pier_2017/path_delay/progress.jsonl": "12baf5d8144d1efe9e7b4f310b08880bdf9663e5b30aa01b1686a3072ba30e08",
+    "control/results/regional_polygon_protection_v1/Brattain_2020/timing.json": "91465b7944600c4f7f4fa6672d1bac3b0489462740bb8bfcac3b70b8da379a95",
+    "control/results/regional_polygon_protection_v1/Brattain_2020/progress.jsonl": "087ca839e67f187badee058bc64dbb0923705a2775d114333e4db1d76e7ffdb6",
+    "control/results/regional_literature_benchmarks_v2/Brattain_2020/annealing/progress.jsonl": "c780561f6e1304557255a387d75f022e521a9c885d3767f0951522d6496bc772",
+    "control/results/regional_literature_benchmarks_v2/Brattain_2020/nsga2/progress.jsonl": "febaf81dcf6cc94d79fd9d34e6cca757afa8cd2aea2ab762d6616b1ca0ec3fe6",
+    "control/results/regional_literature_benchmarks_v2/Brattain_2020/dpv/progress.jsonl": "63f0172d28d49aac2d71460e43bfa62ef39c89d104122d547f3500fe518961b8",
+    "control/results/regional_literature_benchmarks_v2/Brattain_2020/rates/metadata.json": "0e8c3cae692ad668c86dd5d146adbacc6fd810c83fa317b0265284de41fe6a6d",
+    "control/results/regional_literature_benchmarks_v2/Brattain_2020/path_delay/progress.jsonl": "46e930db0f79154f0cc5a9fa1a6ed85b417aeacd659ecf2e099f1d8a3bc8b26b",
+    "control/results/regional_polygon_protection_v1/Chimney_2016/timing.json": "a34a387c91d6dd34a295ddb87b4a390554a016e72ca3d67ee1676ef07280de8a",
+    "control/results/regional_polygon_protection_v1/Chimney_2016/progress.jsonl": "d796a9e934515b9684ad2cb1b26816bd36f7aa2c2a63b81b797710c216085abd",
+    "control/results/regional_literature_benchmarks_v2/Chimney_2016/annealing/progress.jsonl": "03600b734c8bdce788190204c95df2ab6d863fa1c546fd638b0564ad2ad37a9a",
+    "control/results/regional_literature_benchmarks_v2/Chimney_2016/nsga2/progress.jsonl": "ea61a672d1c830e8ee7ecf1003d356b1bc387a613c7d614ab5e69cb2115a05e4",
+    "control/results/regional_literature_benchmarks_v2/Chimney_2016/dpv/progress.jsonl": "521b7551545c181c11458bd20cfc975565c30db0636af7c5f66bbea2d7c001dd",
+    "control/results/regional_literature_benchmarks_v2/Chimney_2016/rates/metadata.json": "e7185aebe962935a6b938ab86594cc77d17de5ac4fcb479744246de0e4c4d4bd",
+    "control/results/regional_literature_benchmarks_v2/Chimney_2016/path_delay/progress.jsonl": "a7e2a6e18d8cd2a07a28f50d222f98442a3af2b4153efd37633c287ed1e37304",
+    "control/results/regional_polygon_protection_v1/Ferguson_2018/timing.json": "abf5aaafdbade62c894815b8624ed4e3394106c1fa9d6de0a9c404c83f88485f",
+    "control/results/regional_polygon_protection_v1/Ferguson_2018/progress.jsonl": "236cea407dae936f7cab8406e8c72bddb761524283af47861814eaf2a0315f66",
+    "control/results/regional_literature_benchmarks_v2/Ferguson_2018/annealing/progress.jsonl": "f106e3897af5daf1901634c40a23e58ab01a268e7acf1854b42c22fc7c2ba380",
+    "control/results/regional_literature_benchmarks_v2/Ferguson_2018/nsga2/progress.jsonl": "ab1991e94fc9d690f046c24ad88588eba252df6fd671bdff820460b0b48c5ed6",
+    "control/results/regional_literature_benchmarks_v2/Ferguson_2018/dpv/progress.jsonl": "720d753549bda1b90161cf0e9a1b2c4eae2446a1bc385ac01074da7a1d13fbea",
+    "control/results/regional_literature_benchmarks_v2/Ferguson_2018/rates/metadata.json": "bd78191e419d2c3a9932955899a04dc52250fdf7c42a6ad8f38b89a39b23a98a",
+    "control/results/regional_literature_benchmarks_v2/Ferguson_2018/path_delay/progress.jsonl": "e2569f368aa63eec4ee5f0ededff398a11aad30bed365855787f186ef93a508e"
+  }
+}

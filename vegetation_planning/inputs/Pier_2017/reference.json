@@ -1,0 +1,33 @@
+{
+  "fire": "Pier_2017",
+  "checks": {
+    "untreated": {
+      "seconds": 6.369011400965974,
+      "affected_protected_area_ha": 1803.2204245394894,
+      "original_core_affected_ha": 310.3114909648489
+    },
+    "strongest": {
+      "seconds": 0.7352950769709423,
+      "affected_protected_area_ha": 240.58130248999942,
+      "original_core_affected_ha": 39.77863660400479
+    }
+  },
+  "area_limit_ha": 252.6103676144994,
+  "strongest_affected_area_ha": 240.58130248999942,
+  "reference_cost_USD2025": 115380990.32423735,
+  "full_grid_reference_max_error": 0.0,
+  "preparation_seconds": 41.54083608498331,
+  "checkpoint": "control/results/stable_refit_gpu_v1/Pier_2017/candidates/best_loss/best_loss.eqx",
+  "checkpoint_sha256": "b1d518e70201d6c8dc4d06084b248f8a297a12f2f23012b0a956582b1e7c811e",
+  "reference_definition": "Strongest allowed whole-polygon program at every retained management polygon. Excluded cells remain untreated. This is a feasible reference, not a certified minimum of affected area.",
+  "hashes": {
+    "control/results/management_polygons_v3/Pier_2017/inputs/initial_plan.npz": "1e990a8a7bff577ecf37867f5dfd31e7511669f256b05a791ec1ee002e054f9d",
+    "control/results/management_polygons_v3/Pier_2017/inputs/protection_masks.npz": "ced5ba444b1819610896ab63549e0b79a39b36a475d0db6e0decab88b44f275f",
+    "control/results/management_polygons_v3/Pier_2017/inputs/cost_fields.npz": "91e1a37351077401b40e5629760074bea0a0cd1e9f242738e52e5b877061090c",
+    "control/results/management_polygons_v3/Pier_2017/inputs/candidate_operations.npz": "6e224f688a96cee332a8bdf17d7e3352339645ae145cd264b5c1a387cfc9f4c4",
+    "control/results/management_polygons_v3/Pier_2017/inputs/planning/fixed_maps.npz": "470c4d12fa4da312358446c12dc1bd0e5156b3589e4a2bfee099da7089a20a1a",
+    "control/results/management_polygons_v3/Pier_2017/inputs/planning/protocol.json": "dfe878752351d4d121f8b7ecb8aa484b2ba423419f934fcc7b0881a183df88be",
+    "control/results/management_polygons_v3/Pier_2017/inputs/operational_units.npz": "7c6bbaa817bccf9edf817f41ea848151a8f37e714b79c5925f8d51fcfa33f616",
+    "control/results/management_polygons_v3/Pier_2017/inputs/operational_protocol.json": "0a3af3e7080dc8c509f90f179b19d24f7b53fcc268e2820761facecf8ceae188"
+  }
+}

@@ -1,0 +1,574 @@
+{
+ "fire": "Chimney_2016",
+ "pth": 0.5,
+ "listed_min_structures": 10,
+ "areas": [
+  {
+   "kind": "homes",
+   "name": "Cal-Shasta, Ranchos Del Lago, Running Deer Ranch",
+   "community": 2,
+   "census_place": false,
+   "structures": 304,
+   "housing_units": 213.66494984826159,
+   "population": 55.925729124827036,
+   "threatened_structures": {
+    "raw": 66,
+    "crop": 66
+   },
+   "threatened_housing_units": {
+    "raw": 62.81214539811144,
+    "crop": 62.81214539811144
+   },
+   "census_points_without_footprint": 1,
+   "centroid_3310": [
+    -89430.89522888573,
+    -253810.90017468773
+   ],
+   "all_cells": 1791,
+   "in_crop_share": 0.8297040759352318,
+   "burnable_cells": 1389,
+   "area_ha": 125.00999999999999,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 18.03287124633789,
+    "share_above_pth": 0.14614830813534918
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 18.03287124633789,
+    "share_above_pth": 0.14614830813534918
+   },
+   "observed_day15_share": 0.14542836573074155,
+   "observed_final_share": 0.14542836573074155,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H1"
+  },
+  {
+   "kind": "homes",
+   "name": "homes 3.1 km from Bryson",
+   "community": 13,
+   "census_place": false,
+   "structures": 125,
+   "housing_units": 64.46514080549917,
+   "population": 128.52824200044878,
+   "threatened_structures": {
+    "raw": 37,
+    "crop": 39
+   },
+   "threatened_housing_units": {
+    "raw": 20.85453100158983,
+    "crop": 22.01669316375199
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    -94855.43768745486,
+    -244185.65259843474
+   ],
+   "all_cells": 824,
+   "in_crop_share": 0.4987864077669903,
+   "burnable_cells": 747,
+   "area_ha": 67.23,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 10,
+    "expected_affected_ha": 17.602102279663086,
+    "share_above_pth": 0.26238286479250333
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 10,
+    "expected_affected_ha": 18.470170974731445,
+    "share_above_pth": 0.27041499330655955
+   },
+   "observed_day15_share": 0.20481927710843373,
+   "observed_final_share": 0.20481927710843373,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H2"
+  },
+  {
+   "kind": "homes",
+   "name": "homes 4.5 km from Pleyto",
+   "community": 9,
+   "census_place": false,
+   "structures": 37,
+   "housing_units": 20.29978231790863,
+   "population": 42.68086339898973,
+   "threatened_structures": {
+    "raw": 1,
+    "crop": 0
+   },
+   "threatened_housing_units": {
+    "raw": 0.5000000000000003,
+    "crop": 0.0
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    -92809.00949289942,
+    -242393.65071961595
+   ],
+   "all_cells": 236,
+   "in_crop_share": 0.0,
+   "burnable_cells": 208,
+   "area_ha": 18.72,
+   "raw": {
+    "max_affected": 0.6205886602401733,
+    "arrival_day": 15,
+    "expected_affected_ha": 0.14353924989700317,
+    "share_above_pth": 0.004807692307692308
+   },
+   "crop": {
+    "max_affected": 0.0,
+    "arrival_day": null,
+    "expected_affected_ha": 0.0,
+    "share_above_pth": 0.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": false
+   },
+   "label": "H3"
+  },
+  {
+   "kind": "homes",
+   "name": "dispersed homes",
+   "communities": 13,
+   "area_ha": 22.23,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 2,
+    "expected_affected_ha": 11.36115550994873,
+    "share_above_pth": 0.5020242914979757
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 2,
+    "expected_affected_ha": 10.072894096374512,
+    "share_above_pth": 0.44534412955465585
+   },
+   "observed_day15_share": 0.3360323886639676,
+   "observed_final_share": 0.3360323886639676,
+   "structures": 41.0,
+   "housing_units": 18.74570090638299,
+   "population": 22.454323382857726,
+   "threatened_structures": {
+    "raw": 28,
+    "crop": 24
+   },
+   "threatened_housing_units": {
+    "raw": 12.466364763332534,
+    "crop": 10.434004891597224
+   },
+   "label": "H4",
+   "burnable_cells": 247
+  },
+  {
+   "kind": "evacuation route",
+   "name": "Cal-Shasta, Ranchos Del Lago, Running Deer Ranch: Gage Irving Rd, Chimney Rock Rd, Cypress Mountain Dr, Aluffo Rd",
+   "community": 2,
+   "road_class": [
+    "S1400",
+    "S1740"
+   ],
+   "length_km": 52.3893681688947,
+   "housing_units_served": 213.66494984826159,
+   "median_snap_m": 55.939686353866946,
+   "all_cells": 5464,
+   "in_crop_share": 0.6281112737920937,
+   "burnable_cells": 3275,
+   "area_ha": 294.75,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 55.436134338378906,
+    "share_above_pth": 0.18717557251908398
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 55.436134338378906,
+    "share_above_pth": 0.18717557251908398
+   },
+   "observed_day15_share": 0.19297709923664122,
+   "observed_final_share": 0.19297709923664122,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R1"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "Tri Counties: Gage Irving Rd, Chimney Rock Rd, Cypress Mountain Dr, Allen Rd",
+   "community": 5,
+   "road_class": [
+    "S1400"
+   ],
+   "length_km": 21.632242734595213,
+   "housing_units_served": 79.85714285714288,
+   "median_snap_m": 22.465713241970697,
+   "all_cells": 2328,
+   "in_crop_share": 0.3947594501718213,
+   "burnable_cells": 1255,
+   "area_ha": 112.95,
+   "raw": {
+    "max_affected": 0.9998363852500916,
+    "arrival_day": 5,
+    "expected_affected_ha": 0.6877803802490234,
+    "share_above_pth": 0.004780876494023904
+   },
+   "crop": {
+    "max_affected": 0.9998363852500916,
+    "arrival_day": 5,
+    "expected_affected_ha": 0.6877803802490234,
+    "share_above_pth": 0.004780876494023904
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R2"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "Christmas Cove: Lynch Canyon Rd, Co Hwy G14, Lakeview Rd",
+   "community": 10,
+   "road_class": [
+    "S1400"
+   ],
+   "length_km": 13.845959880618802,
+   "housing_units_served": 32.333333333333336,
+   "median_snap_m": 21.78813237566055,
+   "all_cells": 1512,
+   "in_crop_share": 0.7387566137566137,
+   "burnable_cells": 951,
+   "area_ha": 85.59,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 9,
+    "expected_affected_ha": 19.366897583007812,
+    "share_above_pth": 0.22397476340694006
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 9,
+    "expected_affected_ha": 19.366897583007812,
+    "share_above_pth": 0.22397476340694006
+   },
+   "observed_day15_share": 0.20189274447949526,
+   "observed_final_share": 0.20189274447949526,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R3"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "homes 3.1 km from Bryson: Bryson Hesperia Rd, Co Hwy G14, Smith Rd, Copperhead Rd",
+   "community": 13,
+   "road_class": [
+    "S1400",
+    "S1500",
+    "S1740"
+   ],
+   "length_km": 52.027252557905044,
+   "housing_units_served": 64.46514080549917,
+   "median_snap_m": 91.5640193188029,
+   "all_cells": 5645,
+   "in_crop_share": 0.44180690876882195,
+   "burnable_cells": 4619,
+   "area_ha": 415.71,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 10,
+    "expected_affected_ha": 103.53299713134766,
+    "share_above_pth": 0.2500541242693224
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 10,
+    "expected_affected_ha": 74.11302185058594,
+    "share_above_pth": 0.17709460922277548
+   },
+   "observed_day15_share": 0.06300064949123187,
+   "observed_final_share": 0.06300064949123187,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R4"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "homes 4.5 km from Pleyto: Co Hwy G14, Interlake Rd, Smith Rd, Lynch Canyon Rd",
+   "community": 9,
+   "road_class": [
+    "S1400",
+    "S1740"
+   ],
+   "length_km": 31.060310473642947,
+   "housing_units_served": 20.29978231790863,
+   "median_snap_m": 215.69551986772296,
+   "all_cells": 3441,
+   "in_crop_share": 0.5164196454519036,
+   "burnable_cells": 2810,
+   "area_ha": 252.89999999999998,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 10,
+    "expected_affected_ha": 69.587646484375,
+    "share_above_pth": 0.2782918149466192
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 10,
+    "expected_affected_ha": 39.200496673583984,
+    "share_above_pth": 0.15516014234875444
+   },
+   "observed_day15_share": 0.042704626334519574,
+   "observed_final_share": 0.042704626334519574,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R5"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "Oak Shores CDP: Oak Shores Dr, Bee Rock Rd, Co Hwy G14, Tierra Redonda Rd",
+   "community": 144,
+   "road_class": [
+    "S1400",
+    "S1500"
+   ],
+   "length_km": 39.52603002166538,
+   "housing_units_served": 634.0000000000002,
+   "median_snap_m": 23.736486165536462,
+   "all_cells": 4083,
+   "in_crop_share": 0.6260102865540044,
+   "burnable_cells": 2627,
+   "area_ha": 236.42999999999998,
+   "raw": {
+    "max_affected": 0.9999932050704956,
+    "arrival_day": 11,
+    "expected_affected_ha": 2.2166340351104736,
+    "share_above_pth": 0.007993909402360106
+   },
+   "crop": {
+    "max_affected": 0.9999932050704956,
+    "arrival_day": 11,
+    "expected_affected_ha": 2.2166340351104736,
+    "share_above_pth": 0.007993909402360106
+   },
+   "observed_day15_share": 0.014845831747240197,
+   "observed_final_share": 0.014845831747240197,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R6"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "access roads of dispersed homes",
+   "communities": 64,
+   "area_ha": 1470.78,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 284.7277526855469,
+    "share_above_pth": 0.19477420144413168
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 242.03616333007812,
+    "share_above_pth": 0.1654020315750826
+   },
+   "observed_day15_share": 0.1420266797209644,
+   "observed_final_share": 0.1420266797209644,
+   "label": "R7",
+   "burnable_cells": 16342
+  },
+  {
+   "kind": "water facility",
+   "name": "water facility (OSM way 705285488)",
+   "osm": "way/705285488",
+   "all_cells": 4,
+   "in_crop_share": 1.0,
+   "burnable_cells": 4,
+   "area_ha": 0.36,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 2,
+    "expected_affected_ha": 0.3599996864795685,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 2,
+    "expected_affected_ha": 0.3599996864795685,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 1.0,
+   "observed_final_share": 1.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I1"
+  },
+  {
+   "kind": "airfield or heliport",
+   "name": "airfield or heliport (OSM way 195793125)",
+   "osm": "way/195793125",
+   "all_cells": 6,
+   "in_crop_share": 1.0,
+   "burnable_cells": 1,
+   "area_ha": 0.09,
+   "raw": {
+    "max_affected": 0.830459475517273,
+    "arrival_day": 2,
+    "expected_affected_ha": 0.07474135607481003,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 0.830459475517273,
+    "arrival_day": 2,
+    "expected_affected_ha": 0.07474135607481003,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 1.0,
+   "observed_final_share": 1.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I2"
+  },
+  {
+   "kind": "historic structure or attraction",
+   "name": "South Shore Nacimiento Lake",
+   "osm": "node/4013479231",
+   "all_cells": 6,
+   "in_crop_share": 1.0,
+   "burnable_cells": 6,
+   "area_ha": 0.54,
+   "raw": {
+    "max_affected": 0.6914274096488953,
+    "arrival_day": 3,
+    "expected_affected_ha": 0.20434483885765076,
+    "share_above_pth": 0.16666666666666666
+   },
+   "crop": {
+    "max_affected": 0.6914274096488953,
+    "arrival_day": 3,
+    "expected_affected_ha": 0.20434483885765076,
+    "share_above_pth": 0.16666666666666666
+   },
+   "observed_day15_share": 1.0,
+   "observed_final_share": 1.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I3"
+  },
+  {
+   "kind": "communication tower",
+   "name": "communication tower (OSM node 2647023388)",
+   "osm": "node/2647023388",
+   "all_cells": 6,
+   "in_crop_share": 1.0,
+   "burnable_cells": 6,
+   "area_ha": 0.54,
+   "raw": {
+    "max_affected": 0.9999998807907104,
+    "arrival_day": 5,
+    "expected_affected_ha": 0.5372437238693237,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 0.9999998807907104,
+    "arrival_day": 5,
+    "expected_affected_ha": 0.5372437238693237,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 1.0,
+   "observed_final_share": 1.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I4"
+  },
+  {
+   "kind": "communication tower",
+   "name": "Rocky Butte Repeater Site",
+   "osm": "node/2647023386",
+   "all_cells": 5,
+   "in_crop_share": 1.0,
+   "burnable_cells": 5,
+   "area_ha": 0.44999999999999996,
+   "raw": {
+    "max_affected": 0.998690128326416,
+    "arrival_day": 5,
+    "expected_affected_ha": 0.34075161814689636,
+    "share_above_pth": 0.8
+   },
+   "crop": {
+    "max_affected": 0.998690128326416,
+    "arrival_day": 5,
+    "expected_affected_ha": 0.34075161814689636,
+    "share_above_pth": 0.8
+   },
+   "observed_day15_share": 1.0,
+   "observed_final_share": 1.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I5"
+  },
+  {
+   "kind": "historic structure or attraction",
+   "name": "Nacimiento Grizzly Bend",
+   "osm": "node/4013479229",
+   "all_cells": 6,
+   "in_crop_share": 1.0,
+   "burnable_cells": 6,
+   "area_ha": 0.54,
+   "raw": {
+    "max_affected": 0.9999581575393677,
+    "arrival_day": 7,
+    "expected_affected_ha": 0.49083784222602844,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 0.9999581575393677,
+    "arrival_day": 7,
+    "expected_affected_ha": 0.49083784222602844,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 1.0,
+   "observed_final_share": 1.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I6"
+  }
+ ]
+}

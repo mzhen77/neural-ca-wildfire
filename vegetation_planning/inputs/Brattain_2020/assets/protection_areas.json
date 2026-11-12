@@ -1,0 +1,561 @@
+{
+ "fire": "Brattain_2020",
+ "pth": 0.5,
+ "listed_min_structures": 10,
+ "areas": [
+  {
+   "kind": "homes",
+   "name": "Paisley city",
+   "community": 38,
+   "census_place": true,
+   "structures": 240,
+   "housing_units": 134.0,
+   "population": 249.99999999999997,
+   "threatened_structures": {
+    "raw": 179,
+    "crop": 179
+   },
+   "threatened_housing_units": {
+    "raw": 99.19464149504195,
+    "crop": 99.19464149504195
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    -44968.76476051714,
+    519321.5156897244
+   ],
+   "all_cells": 719,
+   "in_crop_share": 1.0,
+   "burnable_cells": 382,
+   "area_ha": 34.379999999999995,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 32.320987701416016,
+    "share_above_pth": 0.9397905759162304
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 32.320987701416016,
+    "share_above_pth": 0.9397905759162304
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H1"
+  },
+  {
+   "kind": "homes",
+   "name": "homes 1.3 km from Paisley",
+   "community": 4,
+   "census_place": false,
+   "structures": 17,
+   "housing_units": 13.842105263157901,
+   "population": 9.315789473684212,
+   "threatened_structures": {
+    "raw": 17,
+    "crop": 17
+   },
+   "threatened_housing_units": {
+    "raw": 13.842105263157901,
+    "crop": 13.842105263157901
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    -43876.51061901602,
+    518558.1766462381
+   ],
+   "all_cells": 97,
+   "in_crop_share": 1.0,
+   "burnable_cells": 55,
+   "area_ha": 4.95,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 4.860000133514404,
+    "share_above_pth": 0.9818181818181818
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 4.860000133514404,
+    "share_above_pth": 0.9818181818181818
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H2"
+  },
+  {
+   "kind": "homes",
+   "name": "dispersed homes",
+   "communities": 30,
+   "area_ha": 45.089999999999996,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 42.980194091796875,
+    "share_above_pth": 0.9560878243512974
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 34.72141647338867,
+    "share_above_pth": 0.7704590818363274
+   },
+   "observed_day15_share": 0.041916167664670656,
+   "observed_final_share": 0.041916167664670656,
+   "structures": 117.0,
+   "housing_units": 57.59795228340465,
+   "population": 92.89211213855403,
+   "threatened_structures": {
+    "raw": 115,
+    "crop": 90
+   },
+   "threatened_housing_units": {
+    "raw": 57.41537771782918,
+    "crop": 51.36088618983356
+   },
+   "label": "H3",
+   "burnable_cells": 501
+  },
+  {
+   "kind": "arterial",
+   "name": "State Hwy 31 / Fremont Hwy / West St",
+   "road_class": [
+    "S1200"
+   ],
+   "length_km": 39.252520830760815,
+   "all_cells": 4350,
+   "in_crop_share": 0.48873563218390803,
+   "burnable_cells": 2448,
+   "area_ha": 220.32,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 6,
+    "expected_affected_ha": 188.40171813964844,
+    "share_above_pth": 0.8553921568627451
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 6,
+    "expected_affected_ha": 106.59207153320312,
+    "share_above_pth": 0.4840686274509804
+   },
+   "observed_day15_share": 0.003676470588235294,
+   "observed_final_share": 0.003676470588235294,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R1"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "Paisley city: River Rd, Green St, Blue St, Main St",
+   "community": 38,
+   "road_class": [
+    "S1400",
+    "S1730",
+    "S1740"
+   ],
+   "length_km": 8.29759178793164,
+   "housing_units_served": 134.0,
+   "median_snap_m": 32.48727112298796,
+   "all_cells": 853,
+   "in_crop_share": 1.0,
+   "burnable_cells": 358,
+   "area_ha": 32.22,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 29.69780921936035,
+    "share_above_pth": 0.9217877094972067
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 29.69780921936035,
+    "share_above_pth": 0.9217877094972067
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R2"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "homes 1.3 km from Paisley: Lovers Ln",
+   "community": 4,
+   "road_class": [
+    "S1400"
+   ],
+   "length_km": 1.5654670707096687,
+   "housing_units_served": 13.842105263157901,
+   "median_snap_m": 23.570449778949705,
+   "all_cells": 175,
+   "in_crop_share": 1.0,
+   "burnable_cells": 97,
+   "area_ha": 8.73,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 8.640000343322754,
+    "share_above_pth": 0.9896907216494846
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 8.640000343322754,
+    "share_above_pth": 0.9896907216494846
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R3"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "access roads of dispersed homes",
+   "communities": 33,
+   "area_ha": 811.89,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 474.7066955566406,
+    "share_above_pth": 0.5869637512470901
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 442.88128662109375,
+    "share_above_pth": 0.547943686952666
+   },
+   "observed_day15_share": 0.2977496951557477,
+   "observed_final_share": 0.2977496951557477,
+   "label": "R4",
+   "burnable_cells": 9021
+  },
+  {
+   "kind": "campground",
+   "name": "Marster Spring Campground",
+   "osm": "way/333460925",
+   "all_cells": 6,
+   "in_crop_share": 1.0,
+   "burnable_cells": 2,
+   "area_ha": 0.18,
+   "raw": {
+    "max_affected": 0.9999998211860657,
+    "arrival_day": 5,
+    "expected_affected_ha": 0.17646314203739166,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 0.9999998211860657,
+    "arrival_day": 5,
+    "expected_affected_ha": 0.17646314203739166,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 1.0,
+   "observed_final_share": 1.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I1"
+  },
+  {
+   "kind": "campground",
+   "name": "Jones Crossing Forest Camp",
+   "osm": "way/333460924",
+   "all_cells": 6,
+   "in_crop_share": 1.0,
+   "burnable_cells": 4,
+   "area_ha": 0.36,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 9,
+    "expected_affected_ha": 0.35888975858688354,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 9,
+    "expected_affected_ha": 0.35888975858688354,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I2"
+  },
+  {
+   "kind": "communication tower",
+   "name": "communication tower (OSM node 12771139503)",
+   "osm": "node/12771139503",
+   "all_cells": 6,
+   "in_crop_share": 1.0,
+   "burnable_cells": 6,
+   "area_ha": 0.54,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.5239846706390381,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.5239846706390381,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I3"
+  },
+  {
+   "kind": "airfield or heliport",
+   "name": "Paisley State Airport",
+   "osm": "node/387981379",
+   "all_cells": 5,
+   "in_crop_share": 1.0,
+   "burnable_cells": 5,
+   "area_ha": 0.44999999999999996,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.45000001788139343,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.45000001788139343,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I4"
+  },
+  {
+   "kind": "substation",
+   "name": "substation (OSM way 1379200375)",
+   "osm": "way/1379200375",
+   "all_cells": 7,
+   "in_crop_share": 1.0,
+   "burnable_cells": 5,
+   "area_ha": 0.44999999999999996,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.45000001788139343,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.45000001788139343,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I5"
+  },
+  {
+   "kind": "communication tower",
+   "name": "Lakeview RCAG",
+   "osm": "node/14114141357",
+   "all_cells": 7,
+   "in_crop_share": 0.0,
+   "burnable_cells": 4,
+   "area_ha": 0.36,
+   "raw": {
+    "max_affected": 0.995495080947876,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.33352768421173096,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 0.0,
+    "arrival_day": null,
+    "expected_affected_ha": 0.0,
+    "share_above_pth": 0.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": false
+   },
+   "label": "I6"
+  },
+  {
+   "kind": "airfield or heliport",
+   "name": "airfield or heliport (OSM way 1266672124)",
+   "osm": "way/1266672124",
+   "all_cells": 7,
+   "in_crop_share": 1.0,
+   "burnable_cells": 3,
+   "area_ha": 0.27,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.27000001072883606,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.27000001072883606,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I7"
+  },
+  {
+   "kind": "power plant",
+   "name": "Paisley Geothermal Generating Plant",
+   "osm": "way/1379200292",
+   "all_cells": 6,
+   "in_crop_share": 1.0,
+   "burnable_cells": 2,
+   "area_ha": 0.18,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.18000000715255737,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.18000000715255737,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I8"
+  },
+  {
+   "kind": "substation",
+   "name": "substation (OSM way 1492875486)",
+   "osm": "way/1492875486",
+   "all_cells": 4,
+   "in_crop_share": 1.0,
+   "burnable_cells": 1,
+   "area_ha": 0.09,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.09000000357627869,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.09000000357627869,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I9"
+  },
+  {
+   "kind": "communication tower",
+   "name": "communication tower (OSM node 12771139541)",
+   "osm": "node/12771139541",
+   "all_cells": 5,
+   "in_crop_share": 0.0,
+   "burnable_cells": 2,
+   "area_ha": 0.18,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 14,
+    "expected_affected_ha": 0.18000000715255737,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 0.0,
+    "arrival_day": null,
+    "expected_affected_ha": 0.0,
+    "share_above_pth": 0.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": false
+   },
+   "label": "I10"
+  },
+  {
+   "kind": "dam",
+   "name": "dam (OSM node 3408702187)",
+   "osm": "node/3408702187",
+   "all_cells": 6,
+   "in_crop_share": 1.0,
+   "burnable_cells": 2,
+   "area_ha": 0.18,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 14,
+    "expected_affected_ha": 0.16913998126983643,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 14,
+    "expected_affected_ha": 0.16913998126983643,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I11"
+  }
+ ]
+}

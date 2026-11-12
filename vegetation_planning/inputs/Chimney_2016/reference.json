@@ -1,0 +1,33 @@
+{
+  "fire": "Chimney_2016",
+  "checks": {
+    "untreated": {
+      "seconds": 7.5234414340229705,
+      "affected_protected_area_ha": 1663.549757887154,
+      "original_core_affected_ha": 345.7687411576397
+    },
+    "strongest": {
+      "seconds": 0.8888258590595797,
+      "affected_protected_area_ha": 813.4445322167979,
+      "original_core_affected_ha": 194.40506367662672
+    }
+  },
+  "area_limit_ha": 854.1167588276379,
+  "strongest_affected_area_ha": 813.4445322167979,
+  "reference_cost_USD2025": 49005264.019339405,
+  "full_grid_reference_max_error": 0.0,
+  "preparation_seconds": 44.775446235900745,
+  "checkpoint": "control/results/stable_refit_gpu_v1/Chimney_2016/candidates/best_loss/best_loss.eqx",
+  "checkpoint_sha256": "8a028e8c8c7bf789ae62ce52bd9180f6198a2948e310c8821bd85f94709559d0",
+  "reference_definition": "Strongest allowed whole-polygon program at every retained management polygon. Excluded cells remain untreated. This is a feasible reference, not a certified minimum of affected area.",
+  "hashes": {
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/initial_plan.npz": "40372562baa2eabd57a7be9e4e9f56d181ce7bb732f8cfac17995cdbe52dc14d",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/protection_masks.npz": "d977b2d414319d298bdfd6fefc0067b2b17e4afdb82ad20c9eb79256a4893ed5",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/cost_fields.npz": "78902dd6d26fb1fcc4af1b3d4573959cae5e4a3b0023a2c8851c9d8b7665dfce",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/candidate_operations.npz": "bb73886a6bec961c61959a6eda659124ad63c2351e731c57decf1e4af6ac6c7f",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/planning/fixed_maps.npz": "a962cb3dc989292d6757397d22dd446a062fe1d5a973c853596ce25f0602e1f5",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/planning/protocol.json": "65562d7998ace10fd4f5ce6c0fd4147ebea3eba46bb05ff08a12a4715aa4bca4",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/operational_units.npz": "825da54fafbcaa0ceffa335b7f98b83813738dbbc1a93b184bf9a6565e91db99",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/operational_protocol.json": "c5278e7b975fc8c28f45545d6e7cfbacd89208ad13518a4a552eed0fb820daf1"
+  }
+}

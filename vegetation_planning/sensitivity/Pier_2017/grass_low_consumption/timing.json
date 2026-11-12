@@ -1,0 +1,7 @@
+{
+  "phase1_total_seconds": 1188.254183003999,
+  "phase1_search_seconds": 1153.4969958000001,
+  "phase2_search_seconds": 1801.8931691329926,
+  "total_seconds": 2990.1478908520075,
+  "phase2_stop": "Complete unchanged sweep"
+}

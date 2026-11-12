@@ -54,8 +54,12 @@ The reproduction instructions below describe the original publication.
 Check out `main` to reproduce its original ignition arithmetic. On this
 branch, the notebooks still default to the original pooled checkpoint. To
 use a selected refit, point its `events_model` entry to the corresponding
-`result_saved/stable_refit/<Event>` folder. This branch adds no vegetation
-optimization code or third-party asset data.
+`result_saved/stable_refit/<Event>` folder.
+
+The folder [vegetation_planning/](vegetation_planning/) holds the planning inputs
+and saved plans of that study, with scripts that regenerate the fire-model inputs
+and rebuild the protected regions. It contains no vegetation optimization code
+and no electrical-infrastructure data.
 
 ---
 

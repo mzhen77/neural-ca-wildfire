@@ -1,0 +1,232 @@
+{
+  "fire": "Chimney_2016",
+  "window": [
+    0,
+    890,
+    0,
+    986
+  ],
+  "shape": [
+    890,
+    986
+  ],
+  "full_grid_shape": [
+    890,
+    986
+  ],
+  "window_rule": "Full available fire-data grid",
+  "regions": [
+    {
+      "label": "H1",
+      "kind": "homes",
+      "name": "Cal-Shasta, Ranchos Del Lago, Running Deer Ranch",
+      "cells": 1389,
+      "cells_in_grid": 1111
+    },
+    {
+      "label": "H2",
+      "kind": "homes",
+      "name": "homes 3.1 km from Bryson",
+      "cells": 747,
+      "cells_in_grid": 747
+    },
+    {
+      "label": "H3",
+      "kind": "homes",
+      "name": "homes 4.5 km from Pleyto",
+      "cells": 208,
+      "cells_in_grid": 208
+    },
+    {
+      "label": "H4",
+      "kind": "homes",
+      "name": "dispersed homes",
+      "cells": 247,
+      "cells_in_grid": 247
+    },
+    {
+      "label": "R1",
+      "kind": "evacuation route",
+      "name": "Cal-Shasta, Ranchos Del Lago, Running Deer Ranch: Gage Irving Rd, Chimney Rock Rd, Cypress Mountain Dr, Aluffo Rd",
+      "cells": 3275,
+      "cells_in_grid": 1989
+    },
+    {
+      "label": "R2",
+      "kind": "evacuation route",
+      "name": "Tri Counties: Gage Irving Rd, Chimney Rock Rd, Cypress Mountain Dr, Allen Rd",
+      "cells": 1255,
+      "cells_in_grid": 460
+    },
+    {
+      "label": "R3",
+      "kind": "evacuation route",
+      "name": "Christmas Cove: Lynch Canyon Rd, Co Hwy G14, Lakeview Rd",
+      "cells": 951,
+      "cells_in_grid": 708
+    },
+    {
+      "label": "R4",
+      "kind": "evacuation route",
+      "name": "homes 3.1 km from Bryson: Bryson Hesperia Rd, Co Hwy G14, Smith Rd, Copperhead Rd",
+      "cells": 4619,
+      "cells_in_grid": 3930
+    },
+    {
+      "label": "R5",
+      "kind": "evacuation route",
+      "name": "homes 4.5 km from Pleyto: Co Hwy G14, Interlake Rd, Smith Rd, Lynch Canyon Rd",
+      "cells": 2810,
+      "cells_in_grid": 2566
+    },
+    {
+      "label": "R6",
+      "kind": "evacuation route",
+      "name": "Oak Shores CDP: Oak Shores Dr, Bee Rock Rd, Co Hwy G14, Tierra Redonda Rd",
+      "cells": 2627,
+      "cells_in_grid": 1547
+    },
+    {
+      "label": "R7",
+      "kind": "evacuation route",
+      "name": "access roads of dispersed homes",
+      "cells": 16342,
+      "cells_in_grid": 11776
+    },
+    {
+      "label": "I1",
+      "kind": "water facility",
+      "name": "water facility (OSM way 705285488)",
+      "cells": 4,
+      "cells_in_grid": 4
+    },
+    {
+      "label": "I2",
+      "kind": "airfield or heliport",
+      "name": "airfield or heliport (OSM way 195793125)",
+      "cells": 1,
+      "cells_in_grid": 1
+    },
+    {
+      "label": "I3",
+      "kind": "historic structure or attraction",
+      "name": "South Shore Nacimiento Lake",
+      "cells": 6,
+      "cells_in_grid": 6
+    },
+    {
+      "label": "I4",
+      "kind": "communication tower",
+      "name": "communication tower (OSM node 2647023388)",
+      "cells": 6,
+      "cells_in_grid": 6
+    },
+    {
+      "label": "I5",
+      "kind": "communication tower",
+      "name": "Rocky Butte Repeater Site",
+      "cells": 5,
+      "cells_in_grid": 5
+    },
+    {
+      "label": "I6",
+      "kind": "historic structure or attraction",
+      "name": "Nacimiento Grizzly Bend",
+      "cells": 6,
+      "cells_in_grid": 6
+    }
+  ],
+  "weight_inside_grid": 0.8583341342685749,
+  "q": [
+    1.0,
+    0.5098360655737705,
+    0.4246520874751491
+  ],
+  "costs_USD_ha": [
+    0.0,
+    740,
+    3310
+  ],
+  "cost_basis": "Central Sierra FFS, 2004-2005 USD per ha (evidence file)",
+  "budget_USD": 1456825.05,
+  "budget_rule": "burning cost of 5% of the burnable, initially unburned planning grid",
+  "eligible_burn_cells": 51591,
+  "eligible_combined_cells": 0,
+  "access": {
+    "bounds_3310": [
+      -111848.07914497,
+      -265950.0,
+      -82287.86567524,
+      -239261.98133026
+    ],
+    "source_counts": {
+      "streams": 8093,
+      "water_areas": 27,
+      "waterbodies": 96,
+      "protected": 6,
+      "roadless": 0
+    },
+    "usfs_roads_used": 1,
+    "entries": 37
+  },
+  "provenance": {
+    "checkpoint": "control/results/stable_refit_gpu_v1/Chimney_2016/candidates/best_loss",
+    "dates": [
+      "2016-08-13",
+      "2016-08-14",
+      "2016-08-15",
+      "2016-08-16",
+      "2016-08-17",
+      "2016-08-18",
+      "2016-08-19",
+      "2016-08-20",
+      "2016-08-21",
+      "2016-08-22",
+      "2016-08-23",
+      "2016-08-24",
+      "2016-08-25",
+      "2016-08-26",
+      "2016-08-27"
+    ],
+    "window": [
+      54,
+      757,
+      162,
+      819
+    ],
+    "origin_frame": 0,
+    "initial_rule": "first map above Pth",
+    "burn_duration": 10.0,
+    "steps_per_day": 50,
+    "alignment": {
+      "crop": [
+        166,
+        723,
+        166,
+        819
+      ],
+      "raw_shape": [
+        890,
+        986
+      ],
+      "elevation_range": [
+        52.0,
+        1092.0
+      ],
+      "max_cnn_map_difference_inside_crop": 0.0,
+      "cells_with_missing_wind_set_calm": 31458
+    },
+    "objective": "equal-weight protection loss, mean affected fraction over days 1 to T",
+    "derivative": "exact reverse-mode derivative of the forward forecast, through the burning carry"
+  },
+  "seconds": 121.82240669601015,
+  "accepted_checkpoint": "control/results/stable_refit_gpu_v1/Chimney_2016/candidates/best_loss/best_loss.eqx",
+  "checkpoint_sha256": "8a028e8c8c7bf789ae62ce52bd9180f6198a2948e310c8821bd85f94709559d0",
+  "previous_forecast_diagnostics": {
+    "untreated_protection_loss": 0.2812291919768152,
+    "untreated_protection_loss_full_grid": 0.28122919324072115,
+    "max_affected_difference_full_grid": 1.949339811901929e-05,
+    "untreated_additional_ha": 18027.22706140159
+  },
+  "protection_band_m": 150.0
+}

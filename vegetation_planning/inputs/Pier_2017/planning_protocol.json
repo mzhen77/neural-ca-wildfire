@@ -1,0 +1,288 @@
+{
+  "fire": "Pier_2017",
+  "window": [
+    0,
+    846,
+    0,
+    873
+  ],
+  "shape": [
+    846,
+    873
+  ],
+  "full_grid_shape": [
+    846,
+    873
+  ],
+  "window_rule": "Full available fire-data grid",
+  "regions": [
+    {
+      "label": "H1",
+      "kind": "homes",
+      "name": "homes 3.9 km from Springville",
+      "cells": 389,
+      "cells_in_grid": 389
+    },
+    {
+      "label": "H2",
+      "kind": "homes",
+      "name": "Sequoia Crest CDP",
+      "cells": 292,
+      "cells_in_grid": 292
+    },
+    {
+      "label": "H3",
+      "kind": "homes",
+      "name": "homes 4.5 km from Springville",
+      "cells": 551,
+      "cells_in_grid": 551
+    },
+    {
+      "label": "H4",
+      "kind": "homes",
+      "name": "Springville CDP",
+      "cells": 1632,
+      "cells_in_grid": 1632
+    },
+    {
+      "label": "H5",
+      "kind": "homes",
+      "name": "homes 2.6 km from Coy Flat",
+      "cells": 61,
+      "cells_in_grid": 61
+    },
+    {
+      "label": "H6",
+      "kind": "homes",
+      "name": "homes 4.6 km from Springville",
+      "cells": 2368,
+      "cells_in_grid": 2368
+    },
+    {
+      "label": "H7",
+      "kind": "homes",
+      "name": "homes 2.4 km from Springville",
+      "cells": 109,
+      "cells_in_grid": 109
+    },
+    {
+      "label": "H8",
+      "kind": "homes",
+      "name": "Soda Springs",
+      "cells": 449,
+      "cells_in_grid": 408
+    },
+    {
+      "label": "H9",
+      "kind": "homes",
+      "name": "dispersed homes",
+      "cells": 401,
+      "cells_in_grid": 401
+    },
+    {
+      "label": "R1",
+      "kind": "arterial",
+      "name": "State Rte 190 / Hwy 190 / State Hwy 190",
+      "cells": 3189,
+      "cells_in_grid": 2306
+    },
+    {
+      "label": "R2",
+      "kind": "evacuation route",
+      "name": "homes 3.9 km from Springville: Mountain Road 189, Cow Mountain Rd",
+      "cells": 290,
+      "cells_in_grid": 290
+    },
+    {
+      "label": "R3",
+      "kind": "evacuation route",
+      "name": "Sequoia Crest CDP: Redwood Dr, Alder Dr, Ponderosa Dr, Forest Rte 20S03",
+      "cells": 1573,
+      "cells_in_grid": 1521
+    },
+    {
+      "label": "R4",
+      "kind": "evacuation route",
+      "name": "Springville CDP: Co Rd J28, Tule River Dr, Bogart Dr, Mountain Road 189",
+      "cells": 1116,
+      "cells_in_grid": 1116
+    },
+    {
+      "label": "R5",
+      "kind": "evacuation route",
+      "name": "Soda Springs: Forest Rte 21S94, Co Rte M127, Indian Svc Rd, Indian Reservation Dr",
+      "cells": 4811,
+      "cells_in_grid": 3443
+    },
+    {
+      "label": "R6",
+      "kind": "evacuation route",
+      "name": "homes 2.3 km from Camp Nelson: Redwood Dr, Forest Rte 20S11, Pine View Dr, Rey Vista Dr",
+      "cells": 731,
+      "cells_in_grid": 500
+    },
+    {
+      "label": "R7",
+      "kind": "evacuation route",
+      "name": "homes 4.5 km from Springville: Co Rte 220, Balch Park Rd",
+      "cells": 415,
+      "cells_in_grid": 415
+    },
+    {
+      "label": "R8",
+      "kind": "evacuation route",
+      "name": "homes 2.6 km from Coy Flat: Forest Rte 21S94, Linder Dr, Coy Flat Rd, Smith Dr",
+      "cells": 945,
+      "cells_in_grid": 945
+    },
+    {
+      "label": "R9",
+      "kind": "evacuation route",
+      "name": "Pierpoint CDP: McComber Dr, Mariposa Dr, John Lewis Dr, Sunset Dr",
+      "cells": 198,
+      "cells_in_grid": 198
+    },
+    {
+      "label": "R10",
+      "kind": "evacuation route",
+      "name": "homes 2.4 km from Springville: Globe Dr, Maranatha Ct, Rainbow Ranch Ct, Mountain Road 172A",
+      "cells": 151,
+      "cells_in_grid": 151
+    },
+    {
+      "label": "R11",
+      "kind": "evacuation route",
+      "name": "homes 4.6 km from Springville: Mountain Road 172A, Mustang Dr, Mountain Road 161, Pleasant Oak Dr",
+      "cells": 1921,
+      "cells_in_grid": 1921
+    },
+    {
+      "label": "R12",
+      "kind": "evacuation route",
+      "name": "access roads of dispersed homes",
+      "cells": 8838,
+      "cells_in_grid": 7385
+    },
+    {
+      "label": "I1",
+      "kind": "power plant",
+      "name": "Lower Tule River Power Plant",
+      "cells": 3,
+      "cells_in_grid": 3
+    },
+    {
+      "label": "I2",
+      "kind": "substation",
+      "name": "substation (OSM way 1007932630)",
+      "cells": 3,
+      "cells_in_grid": 3
+    },
+    {
+      "label": "I3",
+      "kind": "airfield or heliport",
+      "name": "Sequoia Ranch Airport",
+      "cells": 6,
+      "cells_in_grid": 6
+    },
+    {
+      "label": "I4",
+      "kind": "campground",
+      "name": "Wishon Campground",
+      "cells": 7,
+      "cells_in_grid": 7
+    }
+  ],
+  "weight_inside_grid": 0.9533592503624574,
+  "q": [
+    1.0,
+    0.5098360655737705,
+    0.4246520874751491
+  ],
+  "costs_USD_ha": [
+    0.0,
+    740,
+    3310
+  ],
+  "cost_basis": "Central Sierra FFS, 2004-2005 USD per ha (evidence file)",
+  "budget_USD": 1387041.57,
+  "budget_rule": "burning cost of 5% of the burnable, initially unburned planning grid",
+  "eligible_burn_cells": 78962,
+  "eligible_combined_cells": 11149,
+  "access": {
+    "bounds_3310": [
+      103110.53384913,
+      -222390.0,
+      129300.0,
+      -197014.57312988
+    ],
+    "source_counts": {
+      "streams": 2772,
+      "water_areas": 0,
+      "waterbodies": 228,
+      "protected": 5,
+      "roadless": 3
+    },
+    "usfs_roads_used": 86,
+    "entries": 4371
+  },
+  "provenance": {
+    "checkpoint": "control/results/stable_refit_gpu_v1/Pier_2017/candidates/best_loss",
+    "dates": [
+      "2017-08-29",
+      "2017-08-30",
+      "2017-08-31",
+      "2017-09-01",
+      "2017-09-02",
+      "2017-09-03",
+      "2017-09-04",
+      "2017-09-05",
+      "2017-09-06",
+      "2017-09-07",
+      "2017-09-08",
+      "2017-09-09",
+      "2017-09-10",
+      "2017-09-11",
+      "2017-09-12"
+    ],
+    "window": [
+      116,
+      731,
+      0,
+      729
+    ],
+    "origin_frame": 0,
+    "initial_rule": "first map above Pth",
+    "burn_duration": 10.0,
+    "steps_per_day": 50,
+    "alignment": {
+      "crop": [
+        0,
+        679,
+        0,
+        706
+      ],
+      "raw_shape": [
+        846,
+        873
+      ],
+      "elevation_range": [
+        223.0,
+        2330.0
+      ],
+      "max_cnn_map_difference_inside_crop": 0.0,
+      "cells_with_missing_wind_set_calm": 0
+    },
+    "objective": "equal-weight protection loss, mean affected fraction over days 1 to T",
+    "derivative": "exact reverse-mode derivative of the forward forecast, through the burning carry"
+  },
+  "seconds": 71.30247086600866,
+  "accepted_checkpoint": "control/results/stable_refit_gpu_v1/Pier_2017/candidates/best_loss/best_loss.eqx",
+  "checkpoint_sha256": "b1d518e70201d6c8dc4d06084b248f8a297a12f2f23012b0a956582b1e7c811e",
+  "previous_forecast_diagnostics": {
+    "untreated_protection_loss": 0.13057135899684155,
+    "untreated_protection_loss_full_grid": 0.1305713589406312,
+    "max_affected_difference_full_grid": 0.00013122359271855455,
+    "untreated_additional_ha": 11600.05062052362
+  },
+  "protection_band_m": 150.0
+}

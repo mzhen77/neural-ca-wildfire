@@ -1,0 +1,22 @@
+{
+  "fire": "Chimney_2016",
+  "phase1_removal": {
+    "computation_seconds": 707.7201479270589,
+    "setup_seconds": 40.74376597185619,
+    "total_seconds": 748.463913898915,
+    "source_log": "control/results/regional_polygon_protection_v1/Chimney_2016/progress.jsonl",
+    "event": 967
+  },
+  "phase2_sequential_integer": {
+    "computation_seconds": 751.553087614011,
+    "setup_seconds": 0.00046909006778150797,
+    "total_seconds": 751.5535567040788,
+    "source_log": "control/results/regional_polygon_protection_v1/Chimney_2016/progress.jsonl",
+    "event": 1876,
+    "stop_reason": "Complete unchanged sweep"
+  },
+  "benchmark_time_limit_seconds": 1500.0174706029939,
+  "timing_basis": "Instrumented elapsed time from study construction, including model setup, JIT compilation, validation, search and final stage reports. Python import time and idle time between processes are excluded.",
+  "interrupted_phase2_excluded": false,
+  "budget_rule": "The benchmark receives the combined completed-phase time, including setup and compilation under the same timing convention. Failed or interrupted attempts are excluded."
+}

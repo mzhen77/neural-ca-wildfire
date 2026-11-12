@@ -1,0 +1,118 @@
+{
+  "Pier_2017": {
+    "seconds": 1662.6718293399317,
+    "minutes": 27.711197155665527,
+    "target_cost_USD2025": 22771359.159014806,
+    "reference_cost_USD2025": 115380990.32423756,
+    "phase1": {
+      "seconds": 1143.7309644119814,
+      "event": 1426,
+      "cost_USD2025": 22935295.651983507,
+      "origin_seconds": 0.0
+    },
+    "phase2": {
+      "seconds": 518.9408649279503,
+      "event": 534,
+      "cost_USD2025": 22771359.159014806,
+      "origin_seconds": 0.0
+    },
+    "previous_budget_seconds": 2813.545809232979,
+    "rule": "Sum of elapsed times to the final retained strict cost improvement in each phase. A phase with no improvement contributes zero. Setup before an improving phase is included. Time spent after its final improvement is excluded.",
+    "interpretation": "Retrospective time to the observed final costs, not a convergence certificate or a prospective stopping rule.",
+    "source_logs": [
+      "control/results/regional_polygon_protection_v1/Pier_2017/progress_before_phase2_restart.jsonl",
+      "control/results/regional_polygon_protection_v1/Pier_2017/phase2_restart/progress.jsonl"
+    ],
+    "source_sha256": [
+      "c8df0111aa4b9b46e58bf143fb2e1282bd2d40248d1e3710b51338302eabc0e2",
+      "00172960a996fda550c7af313f9155d950256088746ee4c69fe0e2c6e395dd16"
+    ]
+  },
+  "Brattain_2020": {
+    "seconds": 5658.727233145968,
+    "minutes": 94.3121205524328,
+    "target_cost_USD2025": 11961574.53424425,
+    "reference_cost_USD2025": 104390140.1235736,
+    "phase1": {
+      "seconds": 2765.7143741499167,
+      "event": 2662,
+      "cost_USD2025": 12447263.645710766,
+      "origin_seconds": 0.0
+    },
+    "phase2": {
+      "seconds": 2893.0128589960514,
+      "event": 5540,
+      "cost_USD2025": 11961574.53424425,
+      "origin_seconds": 2769.576639767969
+    },
+    "previous_budget_seconds": 6374.334449916962,
+    "rule": "Sum of elapsed times to the final retained strict cost improvement in each phase. A phase with no improvement contributes zero. Setup before an improving phase is included. Time spent after its final improvement is excluded.",
+    "interpretation": "Retrospective time to the observed final costs, not a convergence certificate or a prospective stopping rule.",
+    "source_logs": [
+      "control/results/regional_polygon_protection_v1/Brattain_2020/progress.jsonl",
+      "control/results/regional_polygon_protection_v1/Brattain_2020/progress.jsonl"
+    ],
+    "source_sha256": [
+      "087ca839e67f187badee058bc64dbb0923705a2775d114333e4db1d76e7ffdb6",
+      "087ca839e67f187badee058bc64dbb0923705a2775d114333e4db1d76e7ffdb6"
+    ]
+  },
+  "Chimney_2016": {
+    "seconds": 737.4212610869436,
+    "minutes": 12.290354351449059,
+    "target_cost_USD2025": 9883922.815729,
+    "reference_cost_USD2025": 49005264.0193394,
+    "phase1": {
+      "seconds": 737.4212610869436,
+      "event": 948,
+      "cost_USD2025": 9883922.815729,
+      "origin_seconds": 0.0
+    },
+    "phase2": {
+      "seconds": 0.0,
+      "event": null,
+      "cost_USD2025": 9883922.815729,
+      "origin_seconds": 748.463913898915
+    },
+    "previous_budget_seconds": 1500.0174706029939,
+    "rule": "Sum of elapsed times to the final retained strict cost improvement in each phase. A phase with no improvement contributes zero. Setup before an improving phase is included. Time spent after its final improvement is excluded.",
+    "interpretation": "Retrospective time to the observed final costs, not a convergence certificate or a prospective stopping rule.",
+    "source_logs": [
+      "control/results/regional_polygon_protection_v1/Chimney_2016/progress.jsonl",
+      "control/results/regional_polygon_protection_v1/Chimney_2016/progress.jsonl"
+    ],
+    "source_sha256": [
+      "d796a9e934515b9684ad2cb1b26816bd36f7aa2c2a63b81b797710c216085abd",
+      "d796a9e934515b9684ad2cb1b26816bd36f7aa2c2a63b81b797710c216085abd"
+    ]
+  },
+  "Ferguson_2018": {
+    "seconds": 6060.576049411902,
+    "minutes": 101.0096008235317,
+    "target_cost_USD2025": 43823097.11927822,
+    "reference_cost_USD2025": 217900988.51083648,
+    "phase1": {
+      "seconds": 2860.179305096972,
+      "event": 1974,
+      "cost_USD2025": 44198155.68905175,
+      "origin_seconds": 0.0
+    },
+    "phase2": {
+      "seconds": 3200.3967443149304,
+      "event": 5049,
+      "cost_USD2025": 43823097.11927822,
+      "origin_seconds": 2865.512942819041
+    },
+    "previous_budget_seconds": 6472.179515760043,
+    "rule": "Sum of elapsed times to the final retained strict cost improvement in each phase. A phase with no improvement contributes zero. Setup before an improving phase is included. Time spent after its final improvement is excluded.",
+    "interpretation": "Retrospective time to the observed final costs, not a convergence certificate or a prospective stopping rule.",
+    "source_logs": [
+      "control/results/regional_polygon_protection_v1/Ferguson_2018/progress.jsonl",
+      "control/results/regional_polygon_protection_v1/Ferguson_2018/progress.jsonl"
+    ],
+    "source_sha256": [
+      "236cea407dae936f7cab8406e8c72bddb761524283af47861814eaf2a0315f66",
+      "236cea407dae936f7cab8406e8c72bddb761524283af47861814eaf2a0315f66"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "source": "control/results/electrical_150m_spatial_v1/Pier_2017/inputs",
+  "policy": {
+    "minimum_area_ha": 20.0,
+    "mechanical_patch_minimum_area_ha": 20.0,
+    "cell_area_ha": 0.09,
+    "partition_order": "Delineate connected mechanically eligible patches meeting the area floor first. Partition remaining burn-eligible vegetation afterwards. This preserves feasible mechanical units when constructing the common management polygons.",
+    "source": "https://research.fs.usda.gov/download/treesearch/44888.pdf",
+    "source_location": "Chung et al. (2013), Table 4, printed page 1125, minimum treatment cluster 20 ha",
+    "scope": "A literature-based research scenario transferred from the OptFuels example. It is not a local operating standard or an empirically established universal minimum. The same floor for mechanical patches is a conservative study assumption.",
+    "boundary_source": "https://www.openspace.org/sites/default/files/5%20-%20Prescribed%20Fire%20PLan.pdf",
+    "boundary_source_location": "Section 5.4.1: operational burn units, existing infrastructure where feasible, and multiple vegetation types where access/topography constrain single-type units",
+    "access": "Every polygon must be connected through eligible land to an open USFS road or a mapped TIGER primary, secondary or local road. This is a mapped route screening assumption. TIGER records establish geometry, not permission or condition. Road permission, walking difficulty, holding capacity, site ownership and entry timing still require field review.",
+    "boundaries": "Mapped road cells separate compartments before subdivision. Other boundaries follow hard eligibility exclusions or generated shared cell edges. Generated edges require control-line design and review.",
+    "programs": "Whole polygons select no treatment or a linked set of the existing vegetation-specific histories. A third choice adds mechanically eligible forest patches that meet the area floor. Existing fuel responses and entry-specific operation costs are retained. Linking the histories is a decision restriction and does not synchronize their intervention dates.",
+    "cost_scope": "Retain the recorded per-hectare operation costs. New mobilization and control-line cost terms are not inferred without a supported basis."
+  },
+  "minimum_cells": 223,
+  "statistics": {
+    "eligible_cells": 632978,
+    "without_mapped_access_cells": 24485,
+    "undersized_compartment_cells": 34791,
+    "retained_cells": 573702,
+    "polygons": 2235,
+    "minimum_cells": 223,
+    "minimum_area_ha": 20.07,
+    "median_area_ha": 20.07,
+    "maximum_area_ha": 53.73,
+    "mechanical_program_polygons": 38,
+    "reference_treated_components": 71,
+    "original_eligible_ha": 56968.02,
+    "retained_eligible_ha": 51633.18,
+    "original_cellwise_cost": 134538655.89291415,
+    "reference_cost_USD2025": 115380990.32423756
+  },
+  "additional_road_sources": [
+    {
+      "path": "control/results/protection_areas_v1/Pier_2017/sources/roads_primary.json",
+      "source": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/2",
+      "records": 0,
+      "sha256": "5a543f257e9f1dd380bc3df7d9930cf56d05632c51914fd811c69648d3c1f2eb"
+    },
+    {
+      "path": "control/results/protection_areas_v1/Pier_2017/sources/roads_secondary.json",
+      "source": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/6",
+      "records": 44,
+      "sha256": "04f06a8d6d2659cbb07855cf22c68b3b3982d26e7aa92b1cfec8f630d2f0dd49"
+    },
+    {
+      "path": "control/results/protection_areas_v1/Pier_2017/sources/roads_local.json",
+      "source": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/8",
+      "records": 1221,
+      "sha256": "f55fd46f498e613d7f66b94ae11b2818c665ff7478eb9478a5f3008c110139de"
+    }
+  ],
+  "guarantee": "Every selected treated component contains an entire connected polygon and has at least the minimum area. Choices cannot remove cells inside a selected polygon.",
+  "reference_status": "Geometry prepared. Recompute the full CA reference before optimization."
+}

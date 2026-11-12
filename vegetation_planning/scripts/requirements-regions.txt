@@ -1,0 +1,5 @@
+# Extra packages for collect_electrical_network.py and build_protected_regions.py
+shapely==2.1.2
+pyproj==3.7.2
+requests==2.32.5
+scipy==1.17.0

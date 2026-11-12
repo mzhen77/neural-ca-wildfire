@@ -1,0 +1,22 @@
+{
+  "fire": "Brattain_2020",
+  "phase1_removal": {
+    "computation_seconds": 2723.204240796971,
+    "setup_seconds": 46.37239897099789,
+    "total_seconds": 2769.576639767969,
+    "source_log": "control/results/regional_polygon_protection_v1/Brattain_2020/progress.jsonl",
+    "event": 2663
+  },
+  "phase2_sequential_integer": {
+    "computation_seconds": 3604.6966532130027,
+    "setup_seconds": 0.06115693598985672,
+    "total_seconds": 3604.7578101489926,
+    "source_log": "control/results/regional_polygon_protection_v1/Brattain_2020/progress.jsonl",
+    "event": 6260,
+    "stop_reason": "Optimization time allowance reached"
+  },
+  "benchmark_time_limit_seconds": 6374.334449916962,
+  "timing_basis": "Instrumented elapsed time from study construction, including model setup, JIT compilation, validation, search and final stage reports. Python import time and idle time between processes are excluded.",
+  "interrupted_phase2_excluded": false,
+  "budget_rule": "The benchmark receives the combined completed-phase time, including setup and compilation under the same timing convention. Failed or interrupted attempts are excluded."
+}

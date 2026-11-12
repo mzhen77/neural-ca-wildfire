@@ -1,0 +1,192 @@
+Reproducibility record: regional vegetation-treatment study
+
+This record accompanies the Environmental Modelling & Software manuscript.
+It preserves execution details removed from the narrative. The manuscript's
+model, treatment responses, algorithms and comparison rules are unchanged.
+The four-fire results remain unchanged. The additional Pier sensitivity study
+is described in item 8 below.
+
+1. Result and source records
+
+The main study is recorded under:
+  control/results/regional_polygon_protection_v1/
+Its per-fire protocol.json files identify the model checkpoint and input hashes.
+Saved plans, regional bounds, logs and timing records describe the completed
+runs. Pier's completed Phase 2 is in its phase2_restart subdirectory.
+The journal folder's regional_results_provenance.json and
+regional_benchmark_provenance.json trace the reported costs and times.
+
+Main implementation:
+  control/experiments/run_regional_polygon_study.py
+  control/src/edmd_control/regional_protection.py
+  control/src/edmd_control/spatial_unit_blocks.py
+  control/src/edmd_control/spatial_integer_search.py
+  control/experiments/benchmark_regional_polygons.py
+  control/src/edmd_control/regional_benchmarks.py
+
+The source archive reproduces the manuscript. Numerical reproduction also
+requires the experiment code, data, checkpoints and saved protocols. The public
+repository URL and archived release identifier remain to be supplied before
+submission. No public release is asserted by this record.
+
+2. Spatial representation and execution
+
+The minimum treatment area is 20 ha. With 30 m cells of area 0.09 ha, the
+integer threshold is 223 cells, or 20.07 ha. Mechanical-treatment patches use
+the same threshold.
+
+Planning uses the full available data grids. For example, Pier uses 846 x 873
+cells. Its published-procedure IoU replay used a 679 x 706 domain. The model
+accuracy assessment and vegetation-planning domain must not be conflated.
+The planning windows and masks are recorded in:
+  control/results/management_polygon_two_stage_v1/<fire>/inputs/planning/protocol.json
+
+CNN parameter maps are evaluated in float32. CA propagation uses float64.
+The runs use the GPU workstation with an NVIDIA RTX 4090 and Intel Core
+i9-14900KF processor. Forecast batches contain four candidates, or two on
+Ferguson, under a 20 GB GPU-memory ceiling. HiGHS uses at most 20 CPU threads.
+
+Phase 1 can evaluate small removal groups speculatively in batches. Every
+acceptance uses a full forecast for the current plan. An accepted removal
+invalidates all stored forecasts based on the preceding plan. Phase 2 similarly
+reuses exact single-change forecasts only while the current plan is unchanged.
+
+A fixed absolute tolerance of 1e-8 ha is used for each regional bound. It does
+not accumulate across accepted changes. Potentially feasible batched results
+receive scalar verification before retention. Final plans receive full replay.
+
+3. Search settings
+
+All fires use the settings in algorithm_settings.tex. Phase 2 starts with
+Delta = 16, halves it after a block without an accepted change (minimum 1),
+and doubles it when an accepted change reaches the limit (maximum 128).
+The eight HiGHS proposals share one two-second allowance per block.
+
+Seed 73 determines the fixed block permutation and benchmark random draws.
+The original randomized block order remains in use. The separate limited Pier
+CA-guided ordering experiment did not alter the manuscript's results.
+
+Annealing uses four chains. Move sizes 1, 2, 4, 8 and 16 are equally likely.
+Each replacement program is sampled uniformly from the other eligible choices.
+The initial temperature gives a median positive sampled cost increase an
+acceptance probability of 0.8. Geometric cooling reduces the temperature by
+1,000 over the allowance. Regional infeasibility causes rejection.
+
+NSGA-II uses pymoo with a population of 32 categorical assignments. Uniform
+crossover has probability 0.9. Mutation changes one eligible polygon on average
+per offspring. It stops at the time allowance, at 100,000 generations, or after
+50 consecutive generations with an identical population. Feasible plans take
+precedence over infeasible plans. The retained answer is the least-cost feasible
+plan, not an arbitrary member of the Pareto population.
+
+DPV tests groups of at most 128 replacements and subdivides rejected groups.
+Spread-path placement compares up to eight candidate replacements per selection.
+The eight-neighbor propagation graph is a separate model assumption, described
+in the manuscript.
+
+4. Time accounting
+
+The per-fire allowance is the sum of the elapsed times to the final cost
+improvement in the two phases. A phase without improvement contributes zero.
+The shorter comparison uses Phase 1's time to its lowest cost. These are
+retrospectively selected allowances, as stated in the paper.
+
+Model setup and JIT compilation are charged. Path methods also receive their
+measured rate-preparation charge when stored rate fields are reused. Final
+verification and reporting are recorded separately from timed search.
+Pending evaluations and verification can finish after a nominal deadline.
+The completed benchmark runs exceed their allowances by at most 10.8 s.
+At the strict deadline, Ferguson DPV costs $43.012M. The strict-deadline
+comparison preserves the reported rankings.
+
+If Phase 2's deadline occurs within a block, it retains the least-cost feasible
+candidate already verified, even if the block has not completed. It does not
+promote an unverified integer proposal to the final answer.
+
+5. Supporting STE experiment
+
+The two Pier checks minimize final affected area over the protected union.
+They have no monetary penalty or regional bounds. They use the same polygons
+and programs as the main study and start from either the strongest reference
+or no treatment.
+
+Adam uses learning rate 0.1 and seed 73. Initial logits put the selected choice
+near a decision boundary. Objective scaling assigns the reference a value of
+10. Hard assignments use the largest eligible logit. The backward calculation
+uses the masked softmax derivative and includes CA propagation through burning
+cells.
+
+The reference-start run completed 363 updates. Its best result was at update 9:
+240.247 ha versus the 240.581 ha reference. The untreated-start run completed
+719 updates. Its best result was at update 612: 244.481 ha. Both runs were
+stopped manually before the planned 3,000 updates. These were limited empirical
+checks, not convergence certificates or proofs of reference optimality.
+
+6. Treatment-response diagnostic
+
+The uniform-landscape diagnostic used eight Pier fuel classes and three wind
+speeds. Each 15-day forecast started from a straight front. The affected-
+probability contour at 0.5 defined the measured front position. A speed estimate
+required at least 20 position samples and an advance beyond 30 cells.
+Only four of the 24 untreated cases met the measurement criteria, and none of
+the corresponding treated cases did. Failure of these criteria is not evidence
+that every remaining case had zero spread. The experiment did not calibrate the
+mapping from residual fuel mass to the learned CA coefficient.
+
+7. Manuscript generation
+
+prepare_tables.py generates the journal table and progress-figure captions
+while checking that numerical tabular contents match the source report.
+build.sh builds manuscript.pdf. package_sources.py creates the flat submission
+archive, including this record and algorithm_settings.tex.
+
+8. Pier sensitivity study
+
+Configuration and source evidence:
+  control/configs/vegetation_sensitivity_pier_v1.json
+Preparation, sequential GPU queue and live summaries:
+  control/experiments/run_vegetation_sensitivity.py
+Results:
+  control/results/vegetation_sensitivity_pier_v1/
+
+The six scenarios separately change grass consumption (two endpoint pairs),
+shrub residual mass (0.17 or 0.5), or band width (100 or 200 m). They preserve
+the nominal four-fire study. Repeated baseline GPU forecasts reproduce its
+saved Pier histories exactly. Each changed response is applied to the
+vegetation-specific operation within each existing whole-polygon program.
+The scenario changes neither the checkpoint nor the CNN input maps.
+
+The grass endpoints come from CARB's October 16, 2025 inventory webinar,
+slide 62. They are inventory assumptions rather than measured uncertainty
+limits. The 0.17 shrub response is a measured site mean from Hardy et al.,
+Table 3. The 0.5 response is a broader scenario motivated by Green's Figure 1
+caption. It is not an estimated Pier response or a confidence interval.
+
+All scenarios use the same assets and polygon inventory. Bands use Euclidean
+cell-centre distance on the 30 m grid. Thirteen of Pier's 308 asset features
+reach the simulation boundary under each tested band, so their surroundings
+are represented only within the available domain. Each scenario recomputes
+all reference bounds with no percentage slack. The nominal selected plan is
+replayed before reoptimization, allowing changes in its protection to be
+distinguished from changes after the planner adapts.
+
+Phase 1 completes its ordered removal pass. Phase 2 has the existing 3,600 s
+allowance and can terminate on an unchanged sweep. The queue runs one GPU
+process at a time and preserves saved source hashes. The nominal baseline
+results are reused after their exact replay check. These runs are scenario
+comparisons and do not repeat the four literature benchmarks.
+
+All six scenarios completed and satisfy every regional bound. Every Phase 2
+run terminated after a complete unchanged sweep. comparison.csv records both
+phases, and nominal_replay.json supplies the nominal row. Run the journal's
+prepare_sensitivity_table.py to generate sensitivity_results.tex and its source
+hashes in sensitivity_provenance.json.
+
+The 100 m run required recovery after final verification used a separately
+compiled history forecast. Differences of order 1e-13 ha crossed the 1e-8 ha
+feasibility tolerance. Final verification now uses the identical compiled
+scalar forecast used for acceptance and independently checks saved histories.
+Five repeated scalar GPU forecasts passed for the retained 100 m plan. The
+assignment and tolerance were unchanged. The saved diagnostic is
+band_100m/scalar_verification.json. Failed events and recovery records remain
+in the logs. timing.json excludes recovery diagnostics and idle time.

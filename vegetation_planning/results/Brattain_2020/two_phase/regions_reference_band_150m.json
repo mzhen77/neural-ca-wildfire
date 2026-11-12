@@ -1,0 +1,296 @@
+{
+ "fire": "Brattain_2020",
+ "band_m": 150,
+ "note": "Nominal study",
+ "hash_rule": "SHA-256 of the boolean raster in row-major order, one byte per cell",
+ "regions": [
+  {
+   "index": 0,
+   "sha256": "9e3b701627c3fa79ce9d96680698c5b3cd8f0bb8d6eb6fe4348ebdd376e97af5",
+   "cells": 1859,
+   "limit_ha": 59.04609015105362
+  },
+  {
+   "index": 1,
+   "sha256": "2b5640f7fb963a54579f607fd8e35a402563db424fb5dac836022cb970db1b9c",
+   "cells": 619,
+   "limit_ha": 13.387144283991727
+  },
+  {
+   "index": 2,
+   "sha256": "67fdc7e950704e3d5288aa6c4549b8ab5b0fadacea5ea8f4c72884c13e42d27f",
+   "cells": 6014,
+   "limit_ha": 152.30982519004857
+  },
+  {
+   "index": 3,
+   "sha256": "04132f376e461b5e1daffba2247083845f12630c11ef0c949e4314c2f3937fde",
+   "cells": 16910,
+   "limit_ha": 314.7362357019602
+  },
+  {
+   "index": 4,
+   "sha256": "f17064f9191825b98c2b5577d85aa4216b54705833108d837ea09394fd802b3d",
+   "cells": 2576,
+   "limit_ha": 84.34394983397522
+  },
+  {
+   "index": 5,
+   "sha256": "607e8d738284373fcfbd4931544a01c8acf9dc63f747deb08e8d08a24b55b0a1",
+   "cells": 641,
+   "limit_ha": 15.262079603495888
+  },
+  {
+   "index": 6,
+   "sha256": "3fff5f8a451445e32aef0384aa801937cb78d37ef964e794b65a925e7ed119f6",
+   "cells": 48287,
+   "limit_ha": 1090.1254062848104
+  },
+  {
+   "index": 7,
+   "sha256": "9e841f1d20b84497acbba944c6e9e995803e53f22f515f8f0fd6ab8db4ce8553",
+   "cells": 92,
+   "limit_ha": 4.5887307490248395
+  },
+  {
+   "index": 8,
+   "sha256": "38be89ef52ce6a8ada6287058482fad148b9b3d4cf811e1aef019803d723b027",
+   "cells": 108,
+   "limit_ha": 3.7429145394085133
+  },
+  {
+   "index": 9,
+   "sha256": "321564000bb026b476ae5b58a7930f30f57f5eaaa9216ba2d148a243cf1f17c7",
+   "cells": 117,
+   "limit_ha": 7.4315218233272065
+  },
+  {
+   "index": 10,
+   "sha256": "f334a170f2ff915b6f3f5380ce387dfd66dc164e0fc9179193a38d0f25d1c1f2",
+   "cells": 112,
+   "limit_ha": 0.0
+  },
+  {
+   "index": 11,
+   "sha256": "fa8b5b2e377ee44c3ecacfbb326ffb703bc2604ac501d0adccce3ff4e7da9c35",
+   "cells": 118,
+   "limit_ha": 4.95
+  },
+  {
+   "index": 12,
+   "sha256": "6082f18f232c0cdc6a1fd6c7785c03efb18805b118b93dd2fd22bb00f6d20c1e",
+   "cells": 110,
+   "limit_ha": 0.022660515704168747
+  },
+  {
+   "index": 13,
+   "sha256": "0c385e99d03ef012ca74dfb1448cb4b032c65aabe1a68008ae53d4de676ec08d",
+   "cells": 106,
+   "limit_ha": 0.0
+  },
+  {
+   "index": 14,
+   "sha256": "1bb10a675992b2414a0fb2813294bf2ae39f9297967d48e2ee83763d221ee5d5",
+   "cells": 104,
+   "limit_ha": 4.409999999998577
+  },
+  {
+   "index": 15,
+   "sha256": "6a378cda3c4c18766042bc01a7036630faf26e00d442155c40984b1c73677602",
+   "cells": 81,
+   "limit_ha": 2.61
+  },
+  {
+   "index": 16,
+   "sha256": "9d50075ff298e78705cb780b7ec56b3557f1d45b863456146e0c4e13988532fd",
+   "cells": 96,
+   "limit_ha": 0.0
+  },
+  {
+   "index": 17,
+   "sha256": "31870dbdda3a716b79d1256046f405b43e46c9ba65dc92146e6397baa97417ab",
+   "cells": 92,
+   "limit_ha": 1.9522125011612612
+  },
+  {
+   "index": 18,
+   "sha256": "3a0252150308e8ccca8843067bce72b9a642ee81fcaf4e77d3b58866fb5ca072",
+   "cells": 176,
+   "limit_ha": 7.649697540643632
+  },
+  {
+   "index": 19,
+   "sha256": "f8da2a5cac2b5e2a2e7beeb3dd91ee767020fed5b0db30432eaa1e4ccb1613f8",
+   "cells": 130,
+   "limit_ha": 5.31
+  },
+  {
+   "index": 20,
+   "sha256": "83b84ee9d27cfc1e3c99d80abbdb23741b67c2045df996c67549cb3b44c0944d",
+   "cells": 134,
+   "limit_ha": 5.489999999998577
+  },
+  {
+   "index": 21,
+   "sha256": "1cc97fc9d66a46bbdb849c0c5aa8d02a31709277c186bacc716dcad27ad01101",
+   "cells": 6641,
+   "limit_ha": 134.72944810383808
+  }
+ ],
+ "assets": [
+  {
+   "id": "H1",
+   "kind": "homes",
+   "constraint": 0,
+   "core_cells": 382,
+   "core_sha256": "fa0ddda2363fa155e6473ea0d23df5b4da19d24ce1ecdf50510f90f1f0462e94"
+  },
+  {
+   "id": "H2",
+   "kind": "homes",
+   "constraint": 1,
+   "core_cells": 55,
+   "core_sha256": "0eacb4fd792744f01236c134d1b77d905827e5dd18e26ba881ddea034415c1a2"
+  },
+  {
+   "id": "H3",
+   "kind": "homes",
+   "constraint": 2,
+   "core_cells": 501,
+   "core_sha256": "723aede341dd139e008b7f1aba0433bcd102096f4428e79e9d28cba09468e7a8"
+  },
+  {
+   "id": "R1",
+   "kind": "arterial",
+   "constraint": 3,
+   "core_cells": 2448,
+   "core_sha256": "be7c3b468b4440bac1b29d73c74b17ff05a347a617a99b5162b13179bc9971ad"
+  },
+  {
+   "id": "R2",
+   "kind": "evacuation route",
+   "constraint": 4,
+   "core_cells": 358,
+   "core_sha256": "329539a3be8fbc5e65464e4318b19005cfa3980882b0e23be6f12d257c740581"
+  },
+  {
+   "id": "R3",
+   "kind": "evacuation route",
+   "constraint": 5,
+   "core_cells": 97,
+   "core_sha256": "c7b4f7ce15cbb76ff96c2be3a1b006980e7729c15134feac8de8bad5f6216efe"
+  },
+  {
+   "id": "R4",
+   "kind": "evacuation route",
+   "constraint": 6,
+   "core_cells": 9021,
+   "core_sha256": "eb4315fa18af0530e5dad8844722588489843d0fafe86ad94cdf8e1a77d68bb2"
+  },
+  {
+   "id": "I1",
+   "kind": "campground",
+   "constraint": 7,
+   "core_cells": 2,
+   "core_sha256": "41c93a064861243d12a2d6ba515833ced1e0a1ec19a2946b5523322260ecb7d7"
+  },
+  {
+   "id": "I2",
+   "kind": "campground",
+   "constraint": 8,
+   "core_cells": 4,
+   "core_sha256": "43cde2ba3fca053775274756efb93941222ae40c79746a7d3d882ef35f1b6f5a"
+  },
+  {
+   "id": "I3",
+   "kind": "communication tower",
+   "constraint": 9,
+   "core_cells": 6,
+   "core_sha256": "3d67bb120e91d65692e9c16f57428fc6b9e6db16a3cf10c52a2e49bb54c43b18"
+  },
+  {
+   "id": "I4",
+   "kind": "airfield or heliport",
+   "constraint": 10,
+   "core_cells": 5,
+   "core_sha256": "eb2676b7039371b5360799452aafec5cb6ffd44db57d4804444fb08b9f64f6ff"
+  },
+  {
+   "id": "I5",
+   "kind": "substation",
+   "constraint": 11,
+   "core_cells": 5,
+   "core_sha256": "6e99af61a3b46189a219ec81a08fc2cdb789ba04ef7ea03eecaf2b04b040d2a1"
+  },
+  {
+   "id": "I6",
+   "kind": "communication tower",
+   "constraint": 12,
+   "core_cells": 4,
+   "core_sha256": "e273d5f3d72846ba54f7c2c163138005e0f03ae3df8dd5147d29dc12bf908b48"
+  },
+  {
+   "id": "I7",
+   "kind": "airfield or heliport",
+   "constraint": 13,
+   "core_cells": 3,
+   "core_sha256": "b92fafadfd0875fc072a8f7012f67aa7a9bba52bbb4ba06772817ac25e9daf7b"
+  },
+  {
+   "id": "I8",
+   "kind": "power plant",
+   "constraint": 14,
+   "core_cells": 2,
+   "core_sha256": "b289c2059cb711db4d016081fa14dd39568f16b1119a447de9519ec2e0b84744"
+  },
+  {
+   "id": "I9",
+   "kind": "substation",
+   "constraint": 15,
+   "core_cells": 1,
+   "core_sha256": "25f48bd07f23016fb32089762c59ae378b203bebb97067dd6590f985c7a9ed98"
+  },
+  {
+   "id": "I10",
+   "kind": "communication tower",
+   "constraint": 16,
+   "core_cells": 2,
+   "core_sha256": "759f69d1c9e35bf9c507faae1f58aaea9f6e6f6286ccf9183f64881d6414e4e1"
+  },
+  {
+   "id": "I11",
+   "kind": "dam",
+   "constraint": 17,
+   "core_cells": 2,
+   "core_sha256": "f26b9d0f9e4c77f55f436fd404cfbc0170f277dde468fd284cbb9455e931b206"
+  },
+  {
+   "id": "E:osm/way/1379200292",
+   "kind": "facility",
+   "constraint": 18,
+   "core_cells": 14,
+   "core_sha256": "1e65234bdb3d645e5d01510caa6d021f5b3c1c1224c124aa53fcc60648395258"
+  },
+  {
+   "id": "E:osm/way/1379200375",
+   "kind": "facility",
+   "constraint": 19,
+   "core_cells": 7,
+   "core_sha256": "f46b70ff0c7d2a2e4989693ba173efbd9eaa183476b9a048bf6cab8b769eecad"
+  },
+  {
+   "id": "E:osm/way/1492875486",
+   "kind": "facility",
+   "constraint": 20,
+   "core_cells": 6,
+   "core_sha256": "fe2dbbc72feee622fe4856881e1d5492f7e10ca7b724bd2291a4a066f5d8b793"
+  },
+  {
+   "id": "E:oregon_lines/2744",
+   "kind": "line",
+   "constraint": 21,
+   "core_cells": 683,
+   "core_sha256": "f69a24debc5372683be2e1079a04aae3d5fc805e4ca9d733ea4426e7a73ed699"
+  }
+ ]
+}

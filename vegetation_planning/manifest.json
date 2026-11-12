@@ -1,0 +1,1346 @@
+[
+ {
+  "path": "inputs/Pier_2017/candidate_operations.npz",
+  "source": "control/results/management_polygons_v3/Pier_2017/inputs/candidate_operations.npz",
+  "source_sha256": "6e224f688a96cee332a8bdf17d7e3352339645ae145cd264b5c1a387cfc9f4c4",
+  "bytes": 977849,
+  "sha256": "43f5b8ac8aa75219a5f7c25fccaa61998e2bfbb3d1ea718ab3468e44372b178c",
+  "change": "arrays removed: protected_regions"
+ },
+ {
+  "path": "inputs/Pier_2017/cost_fields.npz",
+  "source": "control/results/management_polygons_v3/Pier_2017/inputs/cost_fields.npz",
+  "source_sha256": "91e1a37351077401b40e5629760074bea0a0cd1e9f242738e52e5b877061090c",
+  "bytes": 460033,
+  "sha256": "91e1a37351077401b40e5629760074bea0a0cd1e9f242738e52e5b877061090c",
+  "change": null
+ },
+ {
+  "path": "inputs/Pier_2017/operational_units.npz",
+  "source": "control/results/management_polygons_v3/Pier_2017/inputs/operational_units.npz",
+  "source_sha256": "7c6bbaa817bccf9edf817f41ea848151a8f37e714b79c5925f8d51fcfa33f616",
+  "bytes": 421866,
+  "sha256": "7c6bbaa817bccf9edf817f41ea848151a8f37e714b79c5925f8d51fcfa33f616",
+  "change": null
+ },
+ {
+  "path": "inputs/Pier_2017/operational_protocol.json",
+  "source": "control/results/management_polygons_v3/Pier_2017/inputs/operational_protocol.json",
+  "source_sha256": "0a3af3e7080dc8c509f90f179b19d24f7b53fcc268e2820761facecf8ceae188",
+  "bytes": 4149,
+  "sha256": "97efd8acc40a8f167dc445c5c3e1e7c9a0c607fa19f02f4676a4a38a8a770aff",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Pier_2017/reference.json",
+  "source": "control/results/management_polygons_v3/Pier_2017/inputs/reference.json",
+  "source_sha256": "26d550db333bff027f90f613bd857e678961a1378817cdab8b6e8af2f08f9d4b",
+  "bytes": 2252,
+  "sha256": "ee81db9e49687b24e0345af23e635bf7cd230d9aab2c08e7b6c125509c980dfe",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Pier_2017/planning_protocol.json",
+  "source": "control/results/management_polygons_v3/Pier_2017/inputs/planning/protocol.json",
+  "source_sha256": "dfe878752351d4d121f8b7ecb8aa484b2ba423419f934fcc7b0881a183df88be",
+  "bytes": 6958,
+  "sha256": "f14c19d13e5e05bc0bbfa3380b56cf1a2f2abf8fac6ff77ee96443800296a0db",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Pier_2017/georeferencing.json",
+  "source": "control/results/treatment_inputs_v1/Pier_2017/georeferencing.json",
+  "source_sha256": "4bea601f7569b6488023807cd9ee66567f689ee879a431b6ded45a089d17c895",
+  "bytes": 717,
+  "sha256": "bd624e2820a1da973cbd9d8408f6f3832cdf79032a82b97323b0a28ad28558a3",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Pier_2017/assets/protection_areas.json",
+  "source": "control/results/protection_areas_v1/Pier_2017/protection_areas.json",
+  "source_sha256": "651afb93210d86f3c0ff437201db2a3adf660e1d70af664beeb878ddf30b8350",
+  "bytes": 22368,
+  "sha256": "651afb93210d86f3c0ff437201db2a3adf660e1d70af664beeb878ddf30b8350",
+  "change": null
+ },
+ {
+  "path": "inputs/Pier_2017/assets/protection_area_cells.npz",
+  "source": "control/results/protection_areas_v1/Pier_2017/protection_area_cells.npz",
+  "source_sha256": "fbaead23b372ae87e66ccb510d024d321bdc1db6aea52ce04829bf1259b83dbb",
+  "bytes": 53143,
+  "sha256": "fbaead23b372ae87e66ccb510d024d321bdc1db6aea52ce04829bf1259b83dbb",
+  "change": null
+ },
+ {
+  "path": "results/Pier_2017/two_phase/protocol.json",
+  "source": "control/results/regional_polygon_protection_v1/Pier_2017/protocol.json",
+  "source_sha256": "58940cd6de1af6b6eae144cf8f65cb180d77d0dea4abe1e0666c4f1e061eb4a5",
+  "bytes": 2967,
+  "sha256": "9d31f1c3be9d48bdc0f0c51f24c91c16ea84e23cbacf76eedc93c709f3400ac2",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "results/Pier_2017/two_phase/reference.npz",
+  "source": "control/results/regional_polygon_protection_v1/Pier_2017/reference.npz",
+  "source_sha256": "e2effd1a71f85efc464efd4579409289af54c8ad1f1694d19b3488b5ec490b61",
+  "bytes": 133727,
+  "sha256": "2dae343078f3b2d97db125f9f529a8ee35a599569eb2a9dfb0d9d0f95d94489c",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "results/Pier_2017/two_phase/screened_plan.npz",
+  "source": "control/results/regional_polygon_protection_v1/Pier_2017/screened_plan.npz",
+  "source_sha256": "f16343127027f31ff7b2bafbccd2687c2bf256620a6642c660017b6658d0fd5f",
+  "bytes": 33485,
+  "sha256": "7a6f6856a646b371fc895cdce88feee1a06eb3cae416b7233939c829aabc71a9",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "results/Pier_2017/two_phase/removal_order.npz",
+  "source": "control/results/regional_polygon_protection_v1/Pier_2017/removal_order.npz",
+  "source_sha256": "70b656b43502e65a2aae19595eb8405d8c90a109d6c9ba22178624d49711fb06",
+  "bytes": 10388,
+  "sha256": "70b656b43502e65a2aae19595eb8405d8c90a109d6c9ba22178624d49711fb06",
+  "change": null
+ },
+ {
+  "path": "results/Pier_2017/two_phase/timing.json",
+  "source": "control/results/regional_polygon_protection_v1/Pier_2017/timing.json",
+  "source_sha256": "dbbdf0ebf32c8ea09c2c03da05d7804382b3727d167f29ef50482c4c1ea557e5",
+  "bytes": 1155,
+  "sha256": "f672b7dd93a1f676aff5c2f10c626ec199160819f0f7a40c84c594ba2d6d3afa",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "results/Pier_2017/two_phase/optimized_plan.npz",
+  "source": "control/results/regional_polygon_protection_v1/Pier_2017/phase2_restart/optimized_plan.npz",
+  "source_sha256": "10afd012b3ee57e10ac5224ab64a4125a875f4330fdca1c32bbd4f13d0353d01",
+  "bytes": 33241,
+  "sha256": "015a25235dcd6cae4e7e6515282c955ee087a6cbcc3403d54f1167a13701c98f",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "results/Pier_2017/two_phase/status.json",
+  "source": "control/results/regional_polygon_protection_v1/Pier_2017/phase2_restart/status.json",
+  "source_sha256": "7e16e1714f8054513a5d2d8312db62a322fd43259fe2c09828529647c7d4e811",
+  "bytes": 437,
+  "sha256": "7e16e1714f8054513a5d2d8312db62a322fd43259fe2c09828529647c7d4e811",
+  "change": null
+ },
+ {
+  "path": "results/Pier_2017/benchmarks/annealing/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/annealing/best_plan.npz",
+  "source_sha256": "49af3e578c9fc9dc3e3162c6bd6c1eb117bb39a33ed5c63f5c0b08293e8078ec",
+  "bytes": 112829,
+  "sha256": "49af3e578c9fc9dc3e3162c6bd6c1eb117bb39a33ed5c63f5c0b08293e8078ec",
+  "change": null
+ },
+ {
+  "path": "results/Pier_2017/benchmarks/annealing/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/annealing/completion.json",
+  "source_sha256": "d68e505c5851e66237c5792792f236ae379438733c41f6fc1b3ec3f75780b972",
+  "bytes": 869,
+  "sha256": "d68e505c5851e66237c5792792f236ae379438733c41f6fc1b3ec3f75780b972",
+  "change": null
+ },
+ {
+  "path": "results/Pier_2017/benchmarks/nsga2/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/nsga2/best_plan.npz",
+  "source_sha256": "709004ed3f13663ecee9fdda0f433e23f8ce13e80c573839ba00258ae22b4c0a",
+  "bytes": 128125,
+  "sha256": "709004ed3f13663ecee9fdda0f433e23f8ce13e80c573839ba00258ae22b4c0a",
+  "change": null
+ },
+ {
+  "path": "results/Pier_2017/benchmarks/nsga2/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/nsga2/completion.json",
+  "source_sha256": "ca1e76d1ea4cec4bb365d221dccea5b3c32c5346a3aecd1b85311a29116576da",
+  "bytes": 867,
+  "sha256": "ca1e76d1ea4cec4bb365d221dccea5b3c32c5346a3aecd1b85311a29116576da",
+  "change": null
+ },
+ {
+  "path": "results/Pier_2017/benchmarks/dpv/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/dpv/best_plan.npz",
+  "source_sha256": "119c8bdfed021d8b06530033eddb5c0d997fbe4e3b75344b79d64137a7ad7051",
+  "bytes": 73069,
+  "sha256": "119c8bdfed021d8b06530033eddb5c0d997fbe4e3b75344b79d64137a7ad7051",
+  "change": null
+ },
+ {
+  "path": "results/Pier_2017/benchmarks/dpv/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/dpv/completion.json",
+  "source_sha256": "09b306bac42f1275acf54c37ddf47bf30769ad5597c58a0ceb59a15369649bde",
+  "bytes": 877,
+  "sha256": "09b306bac42f1275acf54c37ddf47bf30769ad5597c58a0ceb59a15369649bde",
+  "change": null
+ },
+ {
+  "path": "results/Pier_2017/benchmarks/path_delay/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/path_delay/best_plan.npz",
+  "source_sha256": "a0203f55fa2716594e5c5f4bf0219eaf6b85eb265cd62bf20d55ffb71f5311ca",
+  "bytes": 128413,
+  "sha256": "a0203f55fa2716594e5c5f4bf0219eaf6b85eb265cd62bf20d55ffb71f5311ca",
+  "change": null
+ },
+ {
+  "path": "results/Pier_2017/benchmarks/path_delay/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/path_delay/completion.json",
+  "source_sha256": "5502a65fd1e12f8f157a2b6958ea8a28796fa6fb2768d36022deee128efc2f34",
+  "bytes": 888,
+  "sha256": "5502a65fd1e12f8f157a2b6958ea8a28796fa6fb2768d36022deee128efc2f34",
+  "change": null
+ },
+ {
+  "path": "inputs/Brattain_2020/candidate_operations.npz",
+  "source": "control/results/management_polygons_v3/Brattain_2020/inputs/candidate_operations.npz",
+  "source_sha256": "b4d543cfeea71063523cf813e0e14fd11b5c8f2f5e8d5f5b5c0302dcce6e9715",
+  "bytes": 1310559,
+  "sha256": "576c256cd13ffddb2519c1c6022d89f3cf5618add7708a84e6d30e986c15f672",
+  "change": "arrays removed: protected_regions"
+ },
+ {
+  "path": "inputs/Brattain_2020/cost_fields.npz",
+  "source": "control/results/management_polygons_v3/Brattain_2020/inputs/cost_fields.npz",
+  "source_sha256": "b15cfa5ae488553645f6d0ee100d6e071801fe623e02311bfbc731d933a9c34a",
+  "bytes": 631986,
+  "sha256": "b15cfa5ae488553645f6d0ee100d6e071801fe623e02311bfbc731d933a9c34a",
+  "change": null
+ },
+ {
+  "path": "inputs/Brattain_2020/operational_units.npz",
+  "source": "control/results/management_polygons_v3/Brattain_2020/inputs/operational_units.npz",
+  "source_sha256": "a5ffe56f6d15f2f6197a7fd3e8aaf2a2fb4d3a586c8c4cb258f9b6be3b00729e",
+  "bytes": 582983,
+  "sha256": "a5ffe56f6d15f2f6197a7fd3e8aaf2a2fb4d3a586c8c4cb258f9b6be3b00729e",
+  "change": null
+ },
+ {
+  "path": "inputs/Brattain_2020/operational_protocol.json",
+  "source": "control/results/management_polygons_v3/Brattain_2020/inputs/operational_protocol.json",
+  "source_sha256": "3d7878e8552a0aac7b1070a690a78566138f37046125e7c011436331c28f4f27",
+  "bytes": 4163,
+  "sha256": "557ba702f65e4c11f4f9d436205959c922ee01e777c2c0c3aaa45c2216567ad0",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Brattain_2020/reference.json",
+  "source": "control/results/management_polygons_v3/Brattain_2020/inputs/reference.json",
+  "source_sha256": "caa8f4f60875933d4cb259b82c36e532631cdffc998c919f0ba43838cabb9c42",
+  "bytes": 2360,
+  "sha256": "ade5e529fcf82d51e5980dc6a76418866bb177dc98bfa5a3a468ce3ce6063c8b",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Brattain_2020/planning_protocol.json",
+  "source": "control/results/management_polygons_v3/Brattain_2020/inputs/planning/protocol.json",
+  "source_sha256": "c28a397aedd8805bbdde323853d3d3b9a2cdead0a6e9e0e4e3433db28e79084f",
+  "bytes": 5458,
+  "sha256": "c5f0547140acdfdd20d69fe7a53ebe19c74740a89d553e6b5f0c9ec41720f58f",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Brattain_2020/georeferencing.json",
+  "source": "control/results/treatment_inputs_v1/Brattain_2020/georeferencing.json",
+  "source_sha256": "bcd7c9e639f3601981f84c6ad090488fa61ad30699ce9f95ae1bba2d282c5e56",
+  "bytes": 734,
+  "sha256": "66256cf34e62a0401d0888e01da22f8911945828ebd101d87485a0ce3bec2b92",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Brattain_2020/assets/protection_areas.json",
+  "source": "control/results/protection_areas_v1/Brattain_2020/protection_areas.json",
+  "source_sha256": "5bc84e00755491ead0674bba8a08f35aa3ddff10933c37dc5eb0c33a7eedf6c5",
+  "bytes": 12873,
+  "sha256": "5bc84e00755491ead0674bba8a08f35aa3ddff10933c37dc5eb0c33a7eedf6c5",
+  "change": null
+ },
+ {
+  "path": "inputs/Brattain_2020/assets/protection_area_cells.npz",
+  "source": "control/results/protection_areas_v1/Brattain_2020/protection_area_cells.npz",
+  "source_sha256": "d64e46335229d516066055ca85a5a5132c97a44aee6439d691840907d15aff52",
+  "bytes": 23822,
+  "sha256": "d64e46335229d516066055ca85a5a5132c97a44aee6439d691840907d15aff52",
+  "change": null
+ },
+ {
+  "path": "results/Brattain_2020/two_phase/protocol.json",
+  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/protocol.json",
+  "source_sha256": "b05b884fbfcc9e394f34db2b24a30a5cc84cac7c830b8f1dba4a523d2f1eeca2",
+  "bytes": 3139,
+  "sha256": "33b9c4fe0dc485862ba57364ac81b81033a1063e54984f3b533f426c251ab845",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "results/Brattain_2020/two_phase/reference.npz",
+  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/reference.npz",
+  "source_sha256": "b1af5c91d6ca367399d53a4b74899314e23269ffd5f244a6c3177147678cd7c4",
+  "bytes": 171161,
+  "sha256": "a1f201d90052ccd2ddc071931eb349eea4077b77e577fc5c28e53dee233ff9e9",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "results/Brattain_2020/two_phase/screened_plan.npz",
+  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/screened_plan.npz",
+  "source_sha256": "3c70c59a9e8983feab05bf0c63317c018a88d908bb29a355a9917474e0152118",
+  "bytes": 55543,
+  "sha256": "0752f416b0d72ecd646904adf1b2293aa45824d9b1c564d6de5dd471407c06c7",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "results/Brattain_2020/two_phase/removal_order.npz",
+  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/removal_order.npz",
+  "source_sha256": "13102e9d7b16c1f4dc5e4f3753f22d7a70cab13050c1011065879523fc530944",
+  "bytes": 14436,
+  "sha256": "13102e9d7b16c1f4dc5e4f3753f22d7a70cab13050c1011065879523fc530944",
+  "change": null
+ },
+ {
+  "path": "results/Brattain_2020/two_phase/timing.json",
+  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/timing.json",
+  "source_sha256": "91465b7944600c4f7f4fa6672d1bac3b0489462740bb8bfcac3b70b8da379a95",
+  "bytes": 1142,
+  "sha256": "d98f3becb49673d2038a3d809c96ff3bd9129afbd79864fd1f0cb996b556d670",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "results/Brattain_2020/two_phase/optimized_plan.npz",
+  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/optimized_plan.npz",
+  "source_sha256": "e6647977d44db9c41063f105836e45b3c927abbb5069c6faeb25a93d5242790c",
+  "bytes": 55113,
+  "sha256": "fdba377766520c22bd182cea9145096b5c8571ad0a85d3ff525a64b96cdb1886",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "results/Brattain_2020/two_phase/status.json",
+  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/status.json",
+  "source_sha256": "dde02ac36f3460906bd51b0fc8c5041e960ccda70bbcb50f99d7ce2cd0f04eff",
+  "bytes": 435,
+  "sha256": "dde02ac36f3460906bd51b0fc8c5041e960ccda70bbcb50f99d7ce2cd0f04eff",
+  "change": null
+ },
+ {
+  "path": "results/Brattain_2020/benchmarks/annealing/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/annealing/best_plan.npz",
+  "source_sha256": "588ff9005a21aed9c0358b1fe7869b1a717fe457112e7e9495dddf2022039b39",
+  "bytes": 136480,
+  "sha256": "588ff9005a21aed9c0358b1fe7869b1a717fe457112e7e9495dddf2022039b39",
+  "change": null
+ },
+ {
+  "path": "results/Brattain_2020/benchmarks/annealing/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/annealing/completion.json",
+  "source_sha256": "979433af2af3b44475debf76ce78535c767caa566443f35de10d3eb6abdac01f",
+  "bytes": 869,
+  "sha256": "979433af2af3b44475debf76ce78535c767caa566443f35de10d3eb6abdac01f",
+  "change": null
+ },
+ {
+  "path": "results/Brattain_2020/benchmarks/nsga2/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/nsga2/best_plan.npz",
+  "source_sha256": "673ac6d071519f0fbc1ada180793ed925420533208b3bcf897a14d5ad6240d84",
+  "bytes": 159410,
+  "sha256": "673ac6d071519f0fbc1ada180793ed925420533208b3bcf897a14d5ad6240d84",
+  "change": null
+ },
+ {
+  "path": "results/Brattain_2020/benchmarks/nsga2/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/nsga2/completion.json",
+  "source_sha256": "0b6478bac3feded431389be49dee35646e75f29755767dc14e58a13f49f1377b",
+  "bytes": 866,
+  "sha256": "0b6478bac3feded431389be49dee35646e75f29755767dc14e58a13f49f1377b",
+  "change": null
+ },
+ {
+  "path": "results/Brattain_2020/benchmarks/dpv/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/dpv/best_plan.npz",
+  "source_sha256": "a44837317526e6a49a57fa4ec53cf06070a53278cde94a02d24cedd1085e826f",
+  "bytes": 62897,
+  "sha256": "a44837317526e6a49a57fa4ec53cf06070a53278cde94a02d24cedd1085e826f",
+  "change": null
+ },
+ {
+  "path": "results/Brattain_2020/benchmarks/dpv/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/dpv/completion.json",
+  "source_sha256": "f3c2b1f7b433736cb996d203fbcbf9030220e36e3d047b1adb5be80ce5559f86",
+  "bytes": 893,
+  "sha256": "f3c2b1f7b433736cb996d203fbcbf9030220e36e3d047b1adb5be80ce5559f86",
+  "change": null
+ },
+ {
+  "path": "results/Brattain_2020/benchmarks/path_delay/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/path_delay/best_plan.npz",
+  "source_sha256": "6baaacb14b3d2fc5650145a24576544f07ca57782be1a7347eae4a66099424b2",
+  "bytes": 155457,
+  "sha256": "6baaacb14b3d2fc5650145a24576544f07ca57782be1a7347eae4a66099424b2",
+  "change": null
+ },
+ {
+  "path": "results/Brattain_2020/benchmarks/path_delay/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/path_delay/completion.json",
+  "source_sha256": "f70485891a8094daf44c3d30394c240930eb022c5ae03effa3623500b5052440",
+  "bytes": 885,
+  "sha256": "f70485891a8094daf44c3d30394c240930eb022c5ae03effa3623500b5052440",
+  "change": null
+ },
+ {
+  "path": "inputs/Chimney_2016/candidate_operations.npz",
+  "source": "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/candidate_operations.npz",
+  "source_sha256": "bb73886a6bec961c61959a6eda659124ad63c2351e731c57decf1e4af6ac6c7f",
+  "bytes": 1190288,
+  "sha256": "5938e7df771023e9904ba614db1c619821046be36cda66f828385b853764337f",
+  "change": "arrays removed: protected_regions"
+ },
+ {
+  "path": "inputs/Chimney_2016/cost_fields.npz",
+  "source": "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/cost_fields.npz",
+  "source_sha256": "78902dd6d26fb1fcc4af1b3d4573959cae5e4a3b0023a2c8851c9d8b7665dfce",
+  "bytes": 591437,
+  "sha256": "78902dd6d26fb1fcc4af1b3d4573959cae5e4a3b0023a2c8851c9d8b7665dfce",
+  "change": null
+ },
+ {
+  "path": "inputs/Chimney_2016/operational_units.npz",
+  "source": "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/operational_units.npz",
+  "source_sha256": "825da54fafbcaa0ceffa335b7f98b83813738dbbc1a93b184bf9a6565e91db99",
+  "bytes": 461196,
+  "sha256": "825da54fafbcaa0ceffa335b7f98b83813738dbbc1a93b184bf9a6565e91db99",
+  "change": null
+ },
+ {
+  "path": "inputs/Chimney_2016/operational_protocol.json",
+  "source": "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/operational_protocol.json",
+  "source_sha256": "c5278e7b975fc8c28f45545d6e7cfbacd89208ad13518a4a552eed0fb820daf1",
+  "bytes": 4187,
+  "sha256": "4f8199fefd3271532b412da68d3b084aff56d718b835cd1ab3a1af1ef4554fa4",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Chimney_2016/reference.json",
+  "source": "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/reference.json",
+  "source_sha256": "9493d68fbb9c1172e2a03b522a412a0205e7f2fef6688be40253dd87262f5cc7",
+  "bytes": 2354,
+  "sha256": "8af84eb8b43487533e627d6631236d898f30cefe99ecfb33d79dc39a9a28d73e",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Chimney_2016/planning_protocol.json",
+  "source": "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/planning/protocol.json",
+  "source_sha256": "65562d7998ace10fd4f5ce6c0fd4147ebea3eba46bb05ff08a12a4715aa4bca4",
+  "bytes": 5696,
+  "sha256": "754ac59430b65455f130a8d4df55e173879b1a2c337a1c5bbc8ba7e9d3ff5f12",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Chimney_2016/georeferencing.json",
+  "source": "control/results/treatment_inputs_v1/Chimney_2016/georeferencing.json",
+  "source_sha256": "5615784285b9e6f318782d1e6f25a3e649fd8c50d6832ca8cbf2094414233cb4",
+  "bytes": 736,
+  "sha256": "2491f8adf6934e9b32047998c95625cb64912aaf5678bb1ab9f8b34d43ab90de",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Chimney_2016/assets/protection_areas.json",
+  "source": "control/results/protection_areas_v1/Chimney_2016/protection_areas.json",
+  "source_sha256": "a2afd33b7eafcf7933d193766f3d25ab74b7ac50a0ae47ea49305788156fbf46",
+  "bytes": 14268,
+  "sha256": "a2afd33b7eafcf7933d193766f3d25ab74b7ac50a0ae47ea49305788156fbf46",
+  "change": null
+ },
+ {
+  "path": "inputs/Chimney_2016/assets/protection_area_cells.npz",
+  "source": "control/results/protection_areas_v1/Chimney_2016/protection_area_cells.npz",
+  "source_sha256": "93a800d7f225c83d52f5788de63f3207eafddb2ccdaa8fc6ca60a8656387c34e",
+  "bytes": 54465,
+  "sha256": "93a800d7f225c83d52f5788de63f3207eafddb2ccdaa8fc6ca60a8656387c34e",
+  "change": null
+ },
+ {
+  "path": "results/Chimney_2016/two_phase/protocol.json",
+  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/protocol.json",
+  "source_sha256": "7ace5e9af121131c0d862a9fc706fa148a8f0ecce189cdadbd2e92dd70c079ea",
+  "bytes": 3136,
+  "sha256": "131bebd5106ca7c9e9873f038c1e8290288a86e42e07f054c5f86d1fec36e8e7",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "results/Chimney_2016/two_phase/reference.npz",
+  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/reference.npz",
+  "source_sha256": "c06052d09a6099520d9ba3a31d572c4391fba85fe0c4aeff4a871525be715389",
+  "bytes": 150881,
+  "sha256": "ab613b2b0cf85b290837d65453dc57c0f8d26bf6126ee26f980301e499f9e291",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "results/Chimney_2016/two_phase/screened_plan.npz",
+  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/screened_plan.npz",
+  "source_sha256": "37cbc9e01f3a20f46cc52810b0ded8cfe1cab14bc331233d64584d7fdc520d52",
+  "bytes": 35241,
+  "sha256": "eb8c9621c7bf733a0dc364dba9e17b0b7b1f4c1f7e53e914532adfdc2d4c975b",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "results/Chimney_2016/two_phase/removal_order.npz",
+  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/removal_order.npz",
+  "source_sha256": "69b61de52d5f6ec1af0699a31b4295c3c33ae1f7e344406a85b4411c729618e6",
+  "bytes": 13404,
+  "sha256": "69b61de52d5f6ec1af0699a31b4295c3c33ae1f7e344406a85b4411c729618e6",
+  "change": null
+ },
+ {
+  "path": "results/Chimney_2016/two_phase/timing.json",
+  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/timing.json",
+  "source_sha256": "a34a387c91d6dd34a295ddb87b4a390554a016e72ca3d67ee1676ef07280de8a",
+  "bytes": 1127,
+  "sha256": "6870d8e6ff618e72169ff60040539dd3e13573093c1e5199f6f3fdb7e8cea921",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "results/Chimney_2016/two_phase/optimized_plan.npz",
+  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/optimized_plan.npz",
+  "source_sha256": "37cbc9e01f3a20f46cc52810b0ded8cfe1cab14bc331233d64584d7fdc520d52",
+  "bytes": 35241,
+  "sha256": "eb8c9621c7bf733a0dc364dba9e17b0b7b1f4c1f7e53e914532adfdc2d4c975b",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "results/Chimney_2016/two_phase/status.json",
+  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/status.json",
+  "source_sha256": "77b5157241fd1312573f59c64d9f9ecd9eb8287c612af2bdcd96469911420e72",
+  "bytes": 433,
+  "sha256": "77b5157241fd1312573f59c64d9f9ecd9eb8287c612af2bdcd96469911420e72",
+  "change": null
+ },
+ {
+  "path": "results/Chimney_2016/benchmarks/annealing/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/annealing/best_plan.npz",
+  "source_sha256": "379faa4e0880471b3981e86517c28631d6ec4bb2db2a5cc35f001aec48183d36",
+  "bytes": 131256,
+  "sha256": "379faa4e0880471b3981e86517c28631d6ec4bb2db2a5cc35f001aec48183d36",
+  "change": null
+ },
+ {
+  "path": "results/Chimney_2016/benchmarks/annealing/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/annealing/completion.json",
+  "source_sha256": "f9f8970eb82432dc916c41f17f0e315285b723beaf0a816cfd3fb7f38e9d58ae",
+  "bytes": 865,
+  "sha256": "f9f8970eb82432dc916c41f17f0e315285b723beaf0a816cfd3fb7f38e9d58ae",
+  "change": null
+ },
+ {
+  "path": "results/Chimney_2016/benchmarks/nsga2/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/nsga2/best_plan.npz",
+  "source_sha256": "8ddca33dde4e3fd6995b5256699475e97a74951b9f23470921dc756400c70d84",
+  "bytes": 144983,
+  "sha256": "8ddca33dde4e3fd6995b5256699475e97a74951b9f23470921dc756400c70d84",
+  "change": null
+ },
+ {
+  "path": "results/Chimney_2016/benchmarks/nsga2/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/nsga2/completion.json",
+  "source_sha256": "dbb045f919eae086054003c272189566d6a5bb317fb5ad0acdfb259f8d2c0970",
+  "bytes": 858,
+  "sha256": "dbb045f919eae086054003c272189566d6a5bb317fb5ad0acdfb259f8d2c0970",
+  "change": null
+ },
+ {
+  "path": "results/Chimney_2016/benchmarks/dpv/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/dpv/best_plan.npz",
+  "source_sha256": "852fdcacbe3493b3fb88108cf904f0e7d43dc9abdbb56ce28092848493008d47",
+  "bytes": 125608,
+  "sha256": "852fdcacbe3493b3fb88108cf904f0e7d43dc9abdbb56ce28092848493008d47",
+  "change": null
+ },
+ {
+  "path": "results/Chimney_2016/benchmarks/dpv/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/dpv/completion.json",
+  "source_sha256": "751581dd9d23e7e0ba783ebff58c87589064d01ef744e19459c1773dd005abc5",
+  "bytes": 868,
+  "sha256": "751581dd9d23e7e0ba783ebff58c87589064d01ef744e19459c1773dd005abc5",
+  "change": null
+ },
+ {
+  "path": "results/Chimney_2016/benchmarks/path_delay/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/path_delay/best_plan.npz",
+  "source_sha256": "722781e8edfaf7e4d513260e7d3e69570e0a1f7b67202ef61264fd5ccc58cbc4",
+  "bytes": 145334,
+  "sha256": "722781e8edfaf7e4d513260e7d3e69570e0a1f7b67202ef61264fd5ccc58cbc4",
+  "change": null
+ },
+ {
+  "path": "results/Chimney_2016/benchmarks/path_delay/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/path_delay/completion.json",
+  "source_sha256": "d7b8eb94e295302445fbfbc342943e8c8919186df3cc5a053cc67e8daa194772",
+  "bytes": 881,
+  "sha256": "d7b8eb94e295302445fbfbc342943e8c8919186df3cc5a053cc67e8daa194772",
+  "change": null
+ },
+ {
+  "path": "inputs/Ferguson_2018/candidate_operations.npz",
+  "source": "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/candidate_operations.npz",
+  "source_sha256": "fdf3080c3ab7263dbceebb4c3748e4f5d7635be1d323daee0b2d1c86d1ddb9f5",
+  "bytes": 2135624,
+  "sha256": "cb3b14e9abde0a29e6162f6cce895e8da3652cffd63b0beecf37669f36c9b012",
+  "change": "arrays removed: protected_regions"
+ },
+ {
+  "path": "inputs/Ferguson_2018/cost_fields.npz",
+  "source": "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/cost_fields.npz",
+  "source_sha256": "b6f23f0613bc131e991ad975fe58479168ad63e386cce96540b1c93619868f36",
+  "bytes": 964877,
+  "sha256": "b6f23f0613bc131e991ad975fe58479168ad63e386cce96540b1c93619868f36",
+  "change": null
+ },
+ {
+  "path": "inputs/Ferguson_2018/operational_units.npz",
+  "source": "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/operational_units.npz",
+  "source_sha256": "84b3f6a1f75b788ed865a04312c548f9180ae4c2268b25204fd481595171bf96",
+  "bytes": 868856,
+  "sha256": "84b3f6a1f75b788ed865a04312c548f9180ae4c2268b25204fd481595171bf96",
+  "change": null
+ },
+ {
+  "path": "inputs/Ferguson_2018/operational_protocol.json",
+  "source": "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/operational_protocol.json",
+  "source_sha256": "a080a87c8d4311034476718e69d551ee10bbe75af5e866341379adabbeff552e",
+  "bytes": 4206,
+  "sha256": "a5b74f75b1841fbecd703e86ba73001f2412d89fbf6787eb7ec03fa61c7b2673",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Ferguson_2018/reference.json",
+  "source": "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/reference.json",
+  "source_sha256": "d3c693a1bf2e0a9c6189ab0fdac9b99b8396439d180cbe04f954ca1c72e8fab1",
+  "bytes": 2360,
+  "sha256": "5698b78b30f8dfd5b679ed1fb2797ec5872976fad021b575bed55edd9469cc8b",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Ferguson_2018/planning_protocol.json",
+  "source": "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/planning/protocol.json",
+  "source_sha256": "46fb87a904cc3bfc481c20ffa3c3fb24f64aa88e00ef8166592d2aba5ab02e25",
+  "bytes": 7253,
+  "sha256": "9c6244d2cd9e0fd4404dc6cd2dc6f07710b5bf3b5ae0d2dd2126dff804653198",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Ferguson_2018/georeferencing.json",
+  "source": "control/results/treatment_inputs_v1/Ferguson_2018/georeferencing.json",
+  "source_sha256": "d53993328456538f01022582753d18ea7cf4e6afd9020d2f7124aa6cfc712bc1",
+  "bytes": 723,
+  "sha256": "6ed2baeace763c61b02643b540546304dcb3c2160e963ca81086c9ab9816e0fe",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "inputs/Ferguson_2018/assets/protection_areas.json",
+  "source": "control/results/protection_areas_v1/Ferguson_2018/protection_areas.json",
+  "source_sha256": "626cd5f458410b315499349dc0b29a46543d5e28ee134b24f3e24a09bafa68ee",
+  "bytes": 25005,
+  "sha256": "626cd5f458410b315499349dc0b29a46543d5e28ee134b24f3e24a09bafa68ee",
+  "change": null
+ },
+ {
+  "path": "inputs/Ferguson_2018/assets/protection_area_cells.npz",
+  "source": "control/results/protection_areas_v1/Ferguson_2018/protection_area_cells.npz",
+  "source_sha256": "666e4669477a59dae9e47f9c6555bc08a6c2097812ee58fb58b6586e46db34ed",
+  "bytes": 95008,
+  "sha256": "666e4669477a59dae9e47f9c6555bc08a6c2097812ee58fb58b6586e46db34ed",
+  "change": null
+ },
+ {
+  "path": "results/Ferguson_2018/two_phase/protocol.json",
+  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/protocol.json",
+  "source_sha256": "6857cdcc795a7ade5d491d32eac67c7e40cdf4406c5578a1ab4c625cfa1432f8",
+  "bytes": 3141,
+  "sha256": "7470c7e4dad040f48da466038a23fd0bbf744b75a93deaaeac850ef55433556c",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "results/Ferguson_2018/two_phase/reference.npz",
+  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/reference.npz",
+  "source_sha256": "756549a049fb7049dc32c15cd966d5d5ac3ed752a958fa89705f1b6183e54307",
+  "bytes": 277075,
+  "sha256": "20052f839116f47ce128cea43e5b29a4dd26ff8c964c0821ae2ac1b7c247a94d",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "results/Ferguson_2018/two_phase/screened_plan.npz",
+  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/screened_plan.npz",
+  "source_sha256": "1d9043d82eb2051186a27ed45a99dc854413bdad4507e0ca0fe4c06a0c68af38",
+  "bytes": 86959,
+  "sha256": "f8bfd402e3c8d46ecdb62c787703a0a7b2ffd732f438d39e860e227952726814",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "results/Ferguson_2018/two_phase/removal_order.npz",
+  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/removal_order.npz",
+  "source_sha256": "8d638d82cbcbdfeea180747eed9a63b597cf3c2cc49bcd7672c32b72c81df577",
+  "bytes": 22365,
+  "sha256": "8d638d82cbcbdfeea180747eed9a63b597cf3c2cc49bcd7672c32b72c81df577",
+  "change": null
+ },
+ {
+  "path": "results/Ferguson_2018/two_phase/timing.json",
+  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/timing.json",
+  "source_sha256": "abf5aaafdbade62c894815b8624ed4e3394106c1fa9d6de0a9c404c83f88485f",
+  "bytes": 1144,
+  "sha256": "195bb69c97969b1c81bcd99e769136b2b3f08da29c0ade7adb994669f50d2c47",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "results/Ferguson_2018/two_phase/optimized_plan.npz",
+  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/optimized_plan.npz",
+  "source_sha256": "b03c41eb72d5c985ebc8f1d072def79558bc9df780b5b0a58252937fa9819de5",
+  "bytes": 86755,
+  "sha256": "ac319e10b8072c0f64628a6bab4ec7a1dba424753be389b287d85fee572b5fde",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "results/Ferguson_2018/two_phase/status.json",
+  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/status.json",
+  "source_sha256": "f79d5ef681c2d7df07a26572b21e48c09404a60340c8780e239774a6708f081c",
+  "bytes": 434,
+  "sha256": "f79d5ef681c2d7df07a26572b21e48c09404a60340c8780e239774a6708f081c",
+  "change": null
+ },
+ {
+  "path": "results/Ferguson_2018/benchmarks/annealing/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/annealing/best_plan.npz",
+  "source_sha256": "eb66fa1490f57ab56e9fd5059c3cff19e3ddb09dddadee7dcb37e08e7948dd8e",
+  "bytes": 224818,
+  "sha256": "eb66fa1490f57ab56e9fd5059c3cff19e3ddb09dddadee7dcb37e08e7948dd8e",
+  "change": null
+ },
+ {
+  "path": "results/Ferguson_2018/benchmarks/annealing/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/annealing/completion.json",
+  "source_sha256": "765e7fac3a2079f253cb8586c2da19716f837eaa763448887179b0481aefc508",
+  "bytes": 873,
+  "sha256": "765e7fac3a2079f253cb8586c2da19716f837eaa763448887179b0481aefc508",
+  "change": null
+ },
+ {
+  "path": "results/Ferguson_2018/benchmarks/nsga2/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/nsga2/best_plan.npz",
+  "source_sha256": "d0669f7e72dc5b60c95382d70ed784dba39057807510f4e83f042cb165562c44",
+  "bytes": 259738,
+  "sha256": "d0669f7e72dc5b60c95382d70ed784dba39057807510f4e83f042cb165562c44",
+  "change": null
+ },
+ {
+  "path": "results/Ferguson_2018/benchmarks/nsga2/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/nsga2/completion.json",
+  "source_sha256": "e94490e144b648b12bc73f1a10a386e2c93bced6de73249acc1f1458b854046f",
+  "bytes": 864,
+  "sha256": "e94490e144b648b12bc73f1a10a386e2c93bced6de73249acc1f1458b854046f",
+  "change": null
+ },
+ {
+  "path": "results/Ferguson_2018/benchmarks/dpv/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/dpv/best_plan.npz",
+  "source_sha256": "5debfb22330742a55575c9f7755978c76fc6fa11c45b3b527aae915ce0567f55",
+  "bytes": 92434,
+  "sha256": "5debfb22330742a55575c9f7755978c76fc6fa11c45b3b527aae915ce0567f55",
+  "change": null
+ },
+ {
+  "path": "results/Ferguson_2018/benchmarks/dpv/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/dpv/completion.json",
+  "source_sha256": "8dde409aaff85859656970b48e5c0afc8705fcca9050c7b373168da097bc2e89",
+  "bytes": 890,
+  "sha256": "8dde409aaff85859656970b48e5c0afc8705fcca9050c7b373168da097bc2e89",
+  "change": null
+ },
+ {
+  "path": "results/Ferguson_2018/benchmarks/path_delay/best_plan.npz",
+  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/path_delay/best_plan.npz",
+  "source_sha256": "794adfa3cddd6494893d4dfea227802e070acac7bb4bd0b1d7cf15caeaf1ad51",
+  "bytes": 254512,
+  "sha256": "794adfa3cddd6494893d4dfea227802e070acac7bb4bd0b1d7cf15caeaf1ad51",
+  "change": null
+ },
+ {
+  "path": "results/Ferguson_2018/benchmarks/path_delay/completion.json",
+  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/path_delay/completion.json",
+  "source_sha256": "c419c424d8f21557a930e2119c4bef6d807bd737b4c76790203004f257a3f1f3",
+  "bytes": 887,
+  "sha256": "c419c424d8f21557a930e2119c4bef6d807bd737b4c76790203004f257a3f1f3",
+  "change": null
+ },
+ {
+  "path": "results/summary/benchmark_time_limits.json",
+  "source": "control/results/regional_polygon_protection_v1/benchmark_time_limits.json",
+  "source_sha256": "12072275b5026a1765d031ab6c3b887ec70a8d7f74e3088a31f5847e2d4f2a34",
+  "bytes": 730,
+  "sha256": "b8dfaed7a25145f8850a3905c86f4440dfbdedfc60481809a81056eda8817e0e",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "results/summary/benchmark_time_to_best.json",
+  "source": "control/results/regional_polygon_protection_v1/benchmark_time_to_best.json",
+  "source_sha256": "7f573f77859013d1fe30f4370c6f6ef49fea9c1a35545cfc97436393d7643d0d",
+  "bytes": 5193,
+  "sha256": "d1546373ec385dcec834c5a534bf78dd9a99c107c7ce5c4471eb1ba60d0366c0",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "results/summary/regional_results_provenance.json",
+  "source": "control/docs/vegetation_management_ca/environmental_modelling_software/regional_results_provenance.json",
+  "source_sha256": "b5e7d68c13f54c19a9d7dfc07bac94948e3775411cb3be6ad884050d176bcdd5",
+  "bytes": 10504,
+  "sha256": "b5e7d68c13f54c19a9d7dfc07bac94948e3775411cb3be6ad884050d176bcdd5",
+  "change": null
+ },
+ {
+  "path": "results/summary/regional_benchmark_provenance.json",
+  "source": "control/docs/vegetation_management_ca/environmental_modelling_software/regional_benchmark_provenance.json",
+  "source_sha256": "e257ec4cdd034be4e56bbceceff0d2c50e9e0822841afb44413c9df883eca0b5",
+  "bytes": 14175,
+  "sha256": "e257ec4cdd034be4e56bbceceff0d2c50e9e0822841afb44413c9df883eca0b5",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/protocol.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/protocol.json",
+  "source_sha256": "4f620dfb17d4098ab082a2f8102d083fecd1516f8084b5da1472c2a921da24ad",
+  "bytes": 3612,
+  "sha256": "4f620dfb17d4098ab082a2f8102d083fecd1516f8084b5da1472c2a921da24ad",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/comparison.csv",
+  "source": "control/results/vegetation_sensitivity_pier_v1/comparison.csv",
+  "source_sha256": "1875f2eebd8c9ab4b529fee84e9a701baaecee8c016b4db1431287d3bee987c3",
+  "bytes": 2396,
+  "sha256": "1875f2eebd8c9ab4b529fee84e9a701baaecee8c016b4db1431287d3bee987c3",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/nominal_replay.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/nominal_replay.json",
+  "source_sha256": "f7cdfadbff25d18313509275da42e803afa78754614a852d5c7f8ef81a564f2e",
+  "bytes": 354,
+  "sha256": "f7cdfadbff25d18313509275da42e803afa78754614a852d5c7f8ef81a564f2e",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_high_consumption/sensitivity.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_high_consumption/inputs/sensitivity.json",
+  "source_sha256": "629dd83508e13f05337466b5d39a190c9e377af9ab7b69cdc5d5fdd6ad15e6e7",
+  "bytes": 1028,
+  "sha256": "629dd83508e13f05337466b5d39a190c9e377af9ab7b69cdc5d5fdd6ad15e6e7",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_high_consumption/candidate_operations.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_high_consumption/inputs/candidate_operations.npz",
+  "source_sha256": "031d8c59de0712637637d06e003a1e23ab9f509c298a973b47b8eec972816764",
+  "bytes": 979828,
+  "sha256": "377d3903dcafd1b7556f3b7dff97461b5bb9beda78ee6a22d0254f02913d31a0",
+  "change": "arrays removed: protected_regions"
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_high_consumption/timing.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_high_consumption/timing.json",
+  "source_sha256": "c178833883fcd128e7bc11d66457ecf32f939f84d68468cf966246c5ff1e7fb2",
+  "bytes": 226,
+  "sha256": "c178833883fcd128e7bc11d66457ecf32f939f84d68468cf966246c5ff1e7fb2",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_high_consumption/protocol.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_high_consumption/run/protocol.json",
+  "source_sha256": "5c641ca2ed61cf479ae723cce7be40bb6636601bea748354689c8af3458aa680",
+  "bytes": 2858,
+  "sha256": "34924baed2bf6422b39ecf1b8683d7d698e876190fd69285e9bb8b67186e67e3",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_high_consumption/reference.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_high_consumption/run/reference.npz",
+  "source_sha256": "747a90d0771a3e9fd368dffdd6bfe55628d4fd4731dbb52924d18265cd546db5",
+  "bytes": 133997,
+  "sha256": "f197b893ae08855fe1a43e369e4b252289ce563a603e6d3f7bf40a722ca43b37",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_high_consumption/screened_plan.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_high_consumption/run/screened_plan.npz",
+  "source_sha256": "5db843689a2461561d352fe295b687d18b490876eaa61919a13b17c7624acf72",
+  "bytes": 34805,
+  "sha256": "c8263ddd6d06f86f2b2a36219a4f09e380d5a00421af735b9d789e78d32e202a",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_high_consumption/optimized_plan.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_high_consumption/run/optimized_plan.npz",
+  "source_sha256": "5db843689a2461561d352fe295b687d18b490876eaa61919a13b17c7624acf72",
+  "bytes": 34805,
+  "sha256": "c8263ddd6d06f86f2b2a36219a4f09e380d5a00421af735b9d789e78d32e202a",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_low_consumption/sensitivity.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_low_consumption/inputs/sensitivity.json",
+  "source_sha256": "8feaf7b2fdcdb434c9526f2cbf862d30a97681149544487ceff65d98bfd1e387",
+  "bytes": 1009,
+  "sha256": "8feaf7b2fdcdb434c9526f2cbf862d30a97681149544487ceff65d98bfd1e387",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_low_consumption/candidate_operations.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_low_consumption/inputs/candidate_operations.npz",
+  "source_sha256": "c0f4f1eb4dec15f70926a801ef6b35d956d0d52925d30549cf931fc255e305b6",
+  "bytes": 980069,
+  "sha256": "6fbbe9a20fc64015315b86222b39c72eae9bfab80525781c76ec9261d38accad",
+  "change": "arrays removed: protected_regions"
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_low_consumption/timing.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_low_consumption/timing.json",
+  "source_sha256": "2cf5ea9b58b3a940c4aadfe447c0a053d4dfe544b811e498ddfc6191f6118567",
+  "bytes": 226,
+  "sha256": "2cf5ea9b58b3a940c4aadfe447c0a053d4dfe544b811e498ddfc6191f6118567",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_low_consumption/protocol.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_low_consumption/run/protocol.json",
+  "source_sha256": "c5a6118eedff817547128e8493d6ac218d356d2ba4bb4e40ab1f14ca883174cb",
+  "bytes": 2851,
+  "sha256": "10a821e71d67f07148ffbfb82234e75a6c5912a154d5f08e5b7b2557d7742530",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_low_consumption/reference.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_low_consumption/run/reference.npz",
+  "source_sha256": "265957aaf62c68a7c1e427191d4675d5c9bd633ef7485a41b04e59f0e1479f5a",
+  "bytes": 134171,
+  "sha256": "6117cabf83b54ddd3e559f372f7d3c83d3f48caf5ff24918440583e5e95421eb",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_low_consumption/screened_plan.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_low_consumption/run/screened_plan.npz",
+  "source_sha256": "1cf502c6aacd6da3be4b4100fbf4af4606d2020d3075b5dad9a85516d80da91b",
+  "bytes": 36146,
+  "sha256": "594719060c726af98fea3c5d6b20d2e427c69284f110a40083f799b56e59f3dd",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_low_consumption/optimized_plan.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_low_consumption/run/optimized_plan.npz",
+  "source_sha256": "b1b22300b6264f8fa38670f8cbb33cda5c88c94b3dc3ed44ce0d882a581dd414",
+  "bytes": 36100,
+  "sha256": "434b6aafc3fdc8cfd2ebd6194890aa3b2010aab56b9869ca3c922a327fbd5fdd",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_017/sensitivity.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/inputs/sensitivity.json",
+  "source_sha256": "393ca09e56ce66087c83dddda9e94b937a3af3ede3336e32132c4793196c0973",
+  "bytes": 958,
+  "sha256": "393ca09e56ce66087c83dddda9e94b937a3af3ede3336e32132c4793196c0973",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_017/candidate_operations.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/inputs/candidate_operations.npz",
+  "source_sha256": "13c2fb0402bd391f9ad8d7b96d91c58c60adef8c5c44bd54de608a1581985a60",
+  "bytes": 967924,
+  "sha256": "9454717a461c51245a1c59d65e84b45084f2164e00beacc26185af4fe352b4be",
+  "change": "arrays removed: protected_regions"
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_017/timing.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/timing.json",
+  "source_sha256": "8dce06679a678ca54478095ee007f4b2a37ad318715d96c0895bbd8b6bea6837",
+  "bytes": 226,
+  "sha256": "8dce06679a678ca54478095ee007f4b2a37ad318715d96c0895bbd8b6bea6837",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_017/protocol.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/run/protocol.json",
+  "source_sha256": "e575fb775f7fa03b229c7b0a1f4698ca28ed4a1db636c6a284f8386e871f363a",
+  "bytes": 2830,
+  "sha256": "65f0dfb9f5b9ff660d213499b51e4e95c3f764e8df027f9a75fa865f9ce16e1b",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_017/reference.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/run/reference.npz",
+  "source_sha256": "a33bbbdc3ca243ce4b413605565910ef981e118d238241e8dfa1769e8527244e",
+  "bytes": 133705,
+  "sha256": "d12955416005411118e0d0fed4220169e8e97838a603b53d06e066997f61040b",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_017/screened_plan.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/run/screened_plan.npz",
+  "source_sha256": "08b95d37fed7080a231692c0be0e521defe98eab099bfadd46efc282319c75c3",
+  "bytes": 32277,
+  "sha256": "a5238b2b9a6f95fb60391ddceacec8d07e3317bf43b4bdf02e3019edb5b35195",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_017/optimized_plan.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/run/optimized_plan.npz",
+  "source_sha256": "6b0a350f4e8c1ad870001c601b6959e30e90b8bb625dd678ab43c94376937bef",
+  "bytes": 32190,
+  "sha256": "40193a029e34a33111f6f58c99a8affbf3bb6d157319b2df1b25fca5e432e3dc",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_050/sensitivity.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_050/inputs/sensitivity.json",
+  "source_sha256": "b9cc91309c53f75896f4c91004d0c7a39caf33ee10be12bd63b2e46df4d793f9",
+  "bytes": 1035,
+  "sha256": "b9cc91309c53f75896f4c91004d0c7a39caf33ee10be12bd63b2e46df4d793f9",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_050/candidate_operations.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_050/inputs/candidate_operations.npz",
+  "source_sha256": "3afb1e702146322d48262beba95f5608e62cbda03bc6b219f25e143a068cd81c",
+  "bytes": 969104,
+  "sha256": "7f350faf38ec15460843a705a8bf4346297576463ed3edc928bac8f6e9869708",
+  "change": "arrays removed: protected_regions"
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_050/timing.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_050/timing.json",
+  "source_sha256": "1667d719bb4332661bee4a127e6a017c9c0d5f1ce52a936e047b548933bc743c",
+  "bytes": 225,
+  "sha256": "1667d719bb4332661bee4a127e6a017c9c0d5f1ce52a936e047b548933bc743c",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_050/protocol.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_050/run/protocol.json",
+  "source_sha256": "836a4239ed6f4bcdecc737f83cb850461c7a54ba8f2eaffcedeec8f9ebeea126",
+  "bytes": 2830,
+  "sha256": "880ac7014a75af90fc3b18eecb7f0d0bb958162c292aa00ee7cf8816cd8c0a98",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_050/reference.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_050/run/reference.npz",
+  "source_sha256": "d5c934411ce118d24234545e0d09543ea6b3e5dcd2a31b433f6d3462a3961172",
+  "bytes": 134005,
+  "sha256": "00584e428312a03a58b1ab4219d5ae3a06946398207f0a793d68c28a8fef83ab",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_050/screened_plan.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_050/run/screened_plan.npz",
+  "source_sha256": "35f62ca32572d7a25bf6b2d3b53b78860c7727a93292b95150ef5b529814635d",
+  "bytes": 36918,
+  "sha256": "95e062a7bcfb921823e4bee83a0b4ab4e5e56a14da933b7385c37f98239f3e04",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_050/optimized_plan.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_050/run/optimized_plan.npz",
+  "source_sha256": "30b2daf9ea4517643d630c2c10f7faa9a831137fd4086a7c5e33798ff91f4352",
+  "bytes": 36493,
+  "sha256": "9e1bb0195c459a0c6a4f502d09d668caa71df66e05e86cf7105b0f37ffae94ce",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_100m/sensitivity.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_100m/inputs/sensitivity.json",
+  "source_sha256": "e75ae708700fae9b921e379b5e399c7b728ecfc119e11a82060f927abfa27503",
+  "bytes": 867,
+  "sha256": "e75ae708700fae9b921e379b5e399c7b728ecfc119e11a82060f927abfa27503",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_100m/timing.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_100m/timing.json",
+  "source_sha256": "9fc47e477a4a2de89377a280a9272ae828262324c34c6f8ac530be14f62c7943",
+  "bytes": 252,
+  "sha256": "9fc47e477a4a2de89377a280a9272ae828262324c34c6f8ac530be14f62c7943",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_100m/protocol.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_100m/run/protocol.json",
+  "source_sha256": "02ac4b5ea5eb22310ea831e5a19d9b3abea9314c240ba928eec081bf22325291",
+  "bytes": 2929,
+  "sha256": "9a96c2bacf9d1ad35861c4354b57503318f93c79c8d56a6a2420e56117c52655",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_100m/reference.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_100m/run/reference.npz",
+  "source_sha256": "005efeab240d0155148e09bf8dbfa85f72b5d117bf8986ee7f98f92b86b5de72",
+  "bytes": 133691,
+  "sha256": "f407f22d4e417c01a9e286240adc517ec045772cb8d2481f8e01d4652e1ecb11",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_100m/screened_plan.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_100m/run/screened_plan.npz",
+  "source_sha256": "a0d8c7bb36ba4858e372f1f8fa10dd96a498c74aeccbc3b3f1d4782e71cb3f31",
+  "bytes": 33196,
+  "sha256": "f8139ae9e0eedc5c4ca4c83beb0044b439c81d1706b5d1713d3d7a0b03e5bfba",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_100m/optimized_plan.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_100m/run/optimized_plan.npz",
+  "source_sha256": "3d70e8834862c283b8549f3d0e144a5751606ee02ac2d9a52905dcf93bc7b870",
+  "bytes": 33078,
+  "sha256": "fd7ff25515553388f4a6ff2db283c1cd71c78b3ebb4fa2507fdaf6927b81cdb6",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_200m/sensitivity.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_200m/inputs/sensitivity.json",
+  "source_sha256": "678cb06020f0c5843c16c76687dcafea80681db4680f920b93ca3a981b4c6494",
+  "bytes": 865,
+  "sha256": "678cb06020f0c5843c16c76687dcafea80681db4680f920b93ca3a981b4c6494",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_200m/timing.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_200m/timing.json",
+  "source_sha256": "aef1c2edd3b0990c42d38f79dccdf0677989553e4257f04ea0048fcc64c69f86",
+  "bytes": 296,
+  "sha256": "aef1c2edd3b0990c42d38f79dccdf0677989553e4257f04ea0048fcc64c69f86",
+  "change": null
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_200m/protocol.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_200m/run/protocol.json",
+  "source_sha256": "5e18f0da89ca505d28bbcb0a392ab2292903ffd28756aa19e39eefa67abc4800",
+  "bytes": 2767,
+  "sha256": "dafe61a293b442e0e0acda018e8c230534a59d9b2e42f653234954d94ed74d8c",
+  "change": "local path prefixes removed"
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_200m/reference.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_200m/run/reference.npz",
+  "source_sha256": "6951ed16c7162beb260c7ade6684d46e1d5be886e10654c63619d6bc3a5f1948",
+  "bytes": 133758,
+  "sha256": "ffaad2cd502ac9d84b182f321f8649ff730813c6a79c5686e09c4a163e905499",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_200m/screened_plan.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_200m/run/screened_plan.npz",
+  "source_sha256": "3a6bb2f275e765045ef0c7114bd9334f7d425fa28048fe4de0cedf6c4f46ae8c",
+  "bytes": 33766,
+  "sha256": "61a8c89b573066c18fc297b0edea156b37463b0ec61ef80bbaa51b3e1f41ac3d",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_200m/optimized_plan.npz",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_200m/run/optimized_plan.npz",
+  "source_sha256": "8e8728c87c062c7129dba3b2eee6332446b1d8097604c65d4a450a1b4058b1ac",
+  "bytes": 33537,
+  "sha256": "e024061ae7ccabefdca7ef0e1c011c51dae9367cbbce9091dbd2bdbe621fc7c3",
+  "change": "arrays removed: fuel, unburned_history"
+ },
+ {
+  "path": "configs/fbfm40_parameters.yaml",
+  "source": "control/configs/fbfm40_parameters.yaml",
+  "source_sha256": "de369807d317eb2bf7f42af596bed1b39f2ea4848ac26e0eef08579e28a154b5",
+  "bytes": 11625,
+  "sha256": "de369807d317eb2bf7f42af596bed1b39f2ea4848ac26e0eef08579e28a154b5",
+  "change": null
+ },
+ {
+  "path": "configs/vegetation_sensitivity_pier_v1.json",
+  "source": "control/configs/vegetation_sensitivity_pier_v1.json",
+  "source_sha256": "4f620dfb17d4098ab082a2f8102d083fecd1516f8084b5da1472c2a921da24ad",
+  "bytes": 3612,
+  "sha256": "4f620dfb17d4098ab082a2f8102d083fecd1516f8084b5da1472c2a921da24ad",
+  "change": null
+ },
+ {
+  "path": "docs/reproducibility.txt",
+  "source": "control/docs/vegetation_management_ca/environmental_modelling_software/reproducibility.txt",
+  "source_sha256": "b019ebbc7b0b6b83a701d370d7bc04937ce563155f9ad281a1f3885bb753cf67",
+  "bytes": 10379,
+  "sha256": "b019ebbc7b0b6b83a701d370d7bc04937ce563155f9ad281a1f3885bb753cf67",
+  "change": null
+ },
+ {
+  "path": "docs/algorithm_settings.tex",
+  "source": "control/docs/vegetation_management_ca/environmental_modelling_software/algorithm_settings.tex",
+  "source_sha256": "86b003ff05d57380f34e6692e11d661cdf5e9f93f946b2069bea58ee4b2a4866",
+  "bytes": 1102,
+  "sha256": "86b003ff05d57380f34e6692e11d661cdf5e9f93f946b2069bea58ee4b2a4866",
+  "change": null
+ },
+ {
+  "path": "scripts/prepare_fire_model.py",
+  "source": "control/docs/vegetation_management_ca/environmental_modelling_software/data_package/branch/scripts/prepare_fire_model.py",
+  "source_sha256": "b060f370ac27609b96d5df31f4c5f5b4ff2093a1c43cc50d4fe40dcb74ade53b",
+  "bytes": 8491,
+  "sha256": "b060f370ac27609b96d5df31f4c5f5b4ff2093a1c43cc50d4fe40dcb74ade53b",
+  "change": null
+ },
+ {
+  "path": "scripts/collect_electrical_network.py",
+  "source": "control/docs/vegetation_management_ca/environmental_modelling_software/data_package/branch/scripts/collect_electrical_network.py",
+  "source_sha256": "fd64f760fc58187914c3448fdd85b25d8159e61e67bea18ace30cdc79decac8a",
+  "bytes": 8845,
+  "sha256": "fd64f760fc58187914c3448fdd85b25d8159e61e67bea18ace30cdc79decac8a",
+  "change": null
+ },
+ {
+  "path": "scripts/build_protected_regions.py",
+  "source": "control/docs/vegetation_management_ca/environmental_modelling_software/data_package/branch/scripts/build_protected_regions.py",
+  "source_sha256": "187de1435587fc4d529a520ff9212cdbda1c2fec9f636907bc7fd4ba59b6c7f6",
+  "bytes": 15937,
+  "sha256": "187de1435587fc4d529a520ff9212cdbda1c2fec9f636907bc7fd4ba59b6c7f6",
+  "change": null
+ },
+ {
+  "path": "scripts/requirements-regions.txt",
+  "source": "control/docs/vegetation_management_ca/environmental_modelling_software/data_package/branch/scripts/requirements-regions.txt",
+  "source_sha256": "d9179c14391e35c6ef86344d3803163cf305f112f9b384544434963a32bffc77",
+  "bytes": 142,
+  "sha256": "d9179c14391e35c6ef86344d3803163cf305f112f9b384544434963a32bffc77",
+  "change": null
+ },
+ {
+  "path": "README.md",
+  "source": "control/docs/vegetation_management_ca/environmental_modelling_software/data_package/branch/README.md",
+  "source_sha256": "724a1d8f184b785605e22905a6edd57ab491948c7546cfcc88a5b2f187137b8d",
+  "bytes": 12776,
+  "sha256": "724a1d8f184b785605e22905a6edd57ab491948c7546cfcc88a5b2f187137b8d",
+  "change": null
+ },
+ {
+  "path": "inputs/Pier_2017/exposure.npz",
+  "source": "control/results/management_polygons_v3/Pier_2017/inputs/forecasts.npz",
+  "source_sha256": "06c9d73a9dd98ca160bbf9b38c477df9ab4e73b2494e8fbf6c783e6a15a1e523",
+  "bytes": 2479414,
+  "sha256": "4137f3129a7cf5db2bc54dab5739e4ffd898939b45b02b2e62164d55d4c9ea49",
+  "change": "derived: exposure-test inputs from the study forecast"
+ },
+ {
+  "path": "results/Pier_2017/two_phase/regions_reference_band_150m.json",
+  "source": "control/results/regional_polygon_protection_v1/Pier_2017/constraints.npz",
+  "source_sha256": "6a57b8b4904033360690809cc9a5ec3ba0160b4180f26595ae5e68c3e5518d0f",
+  "bytes": 101800,
+  "sha256": "9efefdc1a33886c8c09f986ba47666292cc12e3407dd5de9d0de6d027e209a6d",
+  "change": "derived table: hashes, cell counts and bounds only"
+ },
+ {
+  "path": "inputs/Brattain_2020/exposure.npz",
+  "source": "control/results/management_polygons_v3/Brattain_2020/inputs/forecasts.npz",
+  "source_sha256": "36bca8df78db0facf41f109269be4f92eaf38fbbe894d12fa54393c226a14593",
+  "bytes": 3341387,
+  "sha256": "1c985b86622fd7da3e887280edbf7470f5eea85fc57892a19ad91b6a14a37272",
+  "change": "derived: exposure-test inputs from the study forecast"
+ },
+ {
+  "path": "results/Brattain_2020/two_phase/regions_reference_band_150m.json",
+  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/constraints.npz",
+  "source_sha256": "6b16a9074eb13878c03348ae8535c42482582ec17c48a76948eca858d6f93613",
+  "bytes": 7506,
+  "sha256": "2a7be199f9c9433e6da93b480229aa457f6c1e3beba04e8c9d1aa659fbe15426",
+  "change": "derived table: hashes, cell counts and bounds only"
+ },
+ {
+  "path": "inputs/Chimney_2016/exposure.npz",
+  "source": "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/forecasts.npz",
+  "source_sha256": "69c0a88e01d1e4707155151d6ec5550a9b43168f36460e7d62797adec85e9314",
+  "bytes": 1609738,
+  "sha256": "940e916306e177c47b146f16ab168d2bf6f67817b6cebe2a7c1be1a4d7016e9e",
+  "change": "derived: exposure-test inputs from the study forecast"
+ },
+ {
+  "path": "results/Chimney_2016/two_phase/regions_reference_band_150m.json",
+  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/constraints.npz",
+  "source_sha256": "7d34461e8a97da940e3e94ac7e889457d92b9f754508ab2f6e4b75d22b679aa4",
+  "bytes": 73687,
+  "sha256": "28ce6403ff810d45bd1b2a582d1e92c0e450503ca3e20a7eaea12a032049202d",
+  "change": "derived table: hashes, cell counts and bounds only"
+ },
+ {
+  "path": "inputs/Ferguson_2018/exposure.npz",
+  "source": "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/forecasts.npz",
+  "source_sha256": "363d66ebb1e2f6fca7d4dbc86d3ce9b39058b23e50c4e543931d6aa03847c741",
+  "bytes": 3146762,
+  "sha256": "8e30417d72854041726c603e81567f4ec868f6109ee7746caffe55c6876bc373",
+  "change": "derived: exposure-test inputs from the study forecast"
+ },
+ {
+  "path": "results/Ferguson_2018/two_phase/regions_reference_band_150m.json",
+  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/constraints.npz",
+  "source_sha256": "b78ac6efc1a95c7e50f39680daefba956f3bdff17c6872405639ec0860c462c3",
+  "bytes": 87583,
+  "sha256": "6872f197ba1dd345d3d7e7361e7ff90368ff75556361da45db372f0473474094",
+  "change": "derived table: hashes, cell counts and bounds only"
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_high_consumption/regions_reference.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_high_consumption/run/constraints.npz",
+  "source_sha256": "9c85bc4f542c4b1b7638a74a6de1b0018e7ed4d8bda0acc6e36c67730bf5f1e2",
+  "bytes": 102111,
+  "sha256": "fcf7583f671c4769db4a476b0a924041cb9eb650d9ef6ce0a1da9083c43c3170",
+  "change": "derived table: hashes, cell counts and bounds only"
+ },
+ {
+  "path": "sensitivity/Pier_2017/grass_low_consumption/regions_reference.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/grass_low_consumption/run/constraints.npz",
+  "source_sha256": "a7830f1b9defceca509d2821785d4c305d1ce373fdf98647ca47c29499fd1bad",
+  "bytes": 102258,
+  "sha256": "ebea7a727fc5b9fabb8393c95ce252b26002a3a44222511c6933d1977c5cc313",
+  "change": "derived table: hashes, cell counts and bounds only"
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_017/regions_reference.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/run/constraints.npz",
+  "source_sha256": "ef518caecfb067f328b999fc7e38d5920a2a556c6ce8535b69af8f4e9c0820f4",
+  "bytes": 101806,
+  "sha256": "e8b1cc7ed7d82517411f09fafd44b129f52d85bd44b90f82fbb79b9add959a89",
+  "change": "derived table: hashes, cell counts and bounds only"
+ },
+ {
+  "path": "sensitivity/Pier_2017/shrub_residual_050/regions_reference.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_050/run/constraints.npz",
+  "source_sha256": "dca85d3feb0483207dcf592d9db97987a95224029259e0b78f029347c7ad6975",
+  "bytes": 102093,
+  "sha256": "80138c32490ea7955591ad32b81c5d52aa630c371dd0b78ab70b599a1a9b303d",
+  "change": "derived table: hashes, cell counts and bounds only"
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_100m/regions_reference.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_100m/run/constraints.npz",
+  "source_sha256": "c4f8b5bd8328c0737ba29e0f3c687fac05025c53aef8bb887ac23050246815fa",
+  "bytes": 101610,
+  "sha256": "5b5b7ac8ea9cdefe0314125c811f3c802b7d6e0b1daf2cf9da55a956222a6910",
+  "change": "derived table: hashes, cell counts and bounds only"
+ },
+ {
+  "path": "results/Pier_2017/two_phase/regions_reference_band_100m.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_100m/run/constraints.npz",
+  "source_sha256": "c4f8b5bd8328c0737ba29e0f3c687fac05025c53aef8bb887ac23050246815fa",
+  "bytes": 101610,
+  "sha256": "5b5b7ac8ea9cdefe0314125c811f3c802b7d6e0b1daf2cf9da55a956222a6910",
+  "change": "derived table: hashes, cell counts and bounds only"
+ },
+ {
+  "path": "sensitivity/Pier_2017/band_200m/regions_reference.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_200m/run/constraints.npz",
+  "source_sha256": "a7db03016ccd20890c46c32e075814dba5a92621f412fb0224298307a7324145",
+  "bytes": 101899,
+  "sha256": "0fbf82ebdfc4f176022110877f76a9cf734319a59152fa26becb70d45ba93083",
+  "change": "derived table: hashes, cell counts and bounds only"
+ },
+ {
+  "path": "results/Pier_2017/two_phase/regions_reference_band_200m.json",
+  "source": "control/results/vegetation_sensitivity_pier_v1/band_200m/run/constraints.npz",
+  "source_sha256": "a7db03016ccd20890c46c32e075814dba5a92621f412fb0224298307a7324145",
+  "bytes": 101899,
+  "sha256": "0fbf82ebdfc4f176022110877f76a9cf734319a59152fa26becb70d45ba93083",
+  "change": "derived table: hashes, cell counts and bounds only"
+ }
+]

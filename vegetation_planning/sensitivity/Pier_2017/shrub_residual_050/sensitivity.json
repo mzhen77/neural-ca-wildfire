@@ -1,0 +1,26 @@
+{
+  "scenario": {
+    "name": "shrub_residual_050",
+    "band_m": 150,
+    "shrub_residual": 0.5,
+    "source": "green1982",
+    "description": "Test 50% remaining biomass, motivated by the description of retained green chaparral biomass on north exposures. This is a broader transfer scenario, not a measured Pier response."
+  },
+  "assets": 308,
+  "constraints": 304,
+  "assets_with_band_reaching_domain_edge": 13,
+  "band_domain_rule": "Euclidean cell-centre distance in metres, intersected with the fixed full data grid",
+  "changed_program_cell_entries": 327836,
+  "q_values_on_changed_entries": [
+    0.5
+  ],
+  "reference_union_ha": 317.9263276376568,
+  "reference_core_ha": 55.98221694716426,
+  "untreated_union_ha": 1803.2204245394894,
+  "untreated_core_ha": 386.1916499154982,
+  "nominal_plan_union_ha": 437.57385108073186,
+  "nominal_plan_core_ha": 84.75477246944436,
+  "nominal_plan_violated_regions": 105,
+  "nominal_plan_max_excess_ha": 59.57358454975741,
+  "nominal_plan_core_change_from_nominal_ha": 42.9105786391573
+}

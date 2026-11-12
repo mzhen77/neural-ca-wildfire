@@ -1,0 +1,36 @@
+{
+  "fire": "Chimney_2016",
+  "input_root": "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs",
+  "model_checkpoint": "control/results/stable_refit_gpu_v1/Chimney_2016/candidates/best_loss/best_loss.eqx",
+  "model_checkpoint_sha256": "8a028e8c8c7bf789ae62ce52bd9180f6198a2948e310c8821bd85f94709559d0",
+  "definition": "One constraint per asset together with its 150 m band. Identical masks share a constraint.",
+  "bounds": "Each bound equals the strongest whole-polygon plan outcome, with no percentage slack.",
+  "numerical_absolute_tolerance_ha": 1e-08,
+  "assets": 253,
+  "constraints": 152,
+  "stage1": "Outside-in grouped removal with full forecasts, bisection of rejected groups, one complete pass.",
+  "stage2": "Cyclic overlapping spatial blocks, linearized constraints for every region, full-forecast acceptance.",
+  "local_model": "Exact single-prescription differences for every buffered asset. Sum these effects in each MILP. Full CA replay checks interactions and all regional bounds.",
+  "optimization_seconds": 3600.0,
+  "batch_size": 4,
+  "seed": 73,
+  "screened_start_plan": null,
+  "screened_start_sha256": null,
+  "stage2_stopping": "Time allowance or complete unchanged sweep with all cheaper single changes tested.",
+  "input_hashes": {
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/initial_plan.npz": "40372562baa2eabd57a7be9e4e9f56d181ce7bb732f8cfac17995cdbe52dc14d",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/protection_masks.npz": "d977b2d414319d298bdfd6fefc0067b2b17e4afdb82ad20c9eb79256a4893ed5",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/cost_fields.npz": "78902dd6d26fb1fcc4af1b3d4573959cae5e4a3b0023a2c8851c9d8b7665dfce",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/candidate_operations.npz": "bb73886a6bec961c61959a6eda659124ad63c2351e731c57decf1e4af6ac6c7f",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/planning/fixed_maps.npz": "a962cb3dc989292d6757397d22dd446a062fe1d5a973c853596ce25f0602e1f5",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/planning/protocol.json": "65562d7998ace10fd4f5ce6c0fd4147ebea3eba46bb05ff08a12a4715aa4bca4",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/operational_units.npz": "825da54fafbcaa0ceffa335b7f98b83813738dbbc1a93b184bf9a6565e91db99",
+    "control/results/management_polygon_two_stage_v1/Chimney_2016/inputs/operational_protocol.json": "c5278e7b975fc8c28f45545d6e7cfbacd89208ad13518a4a552eed0fb820daf1"
+  },
+  "source_hashes": {
+    "control/experiments/run_regional_polygon_study.py": "de92898b7f43f3d8e1dc0ab80fe4e1d5904a2cc168b83b17cbde200e698136a9",
+    "control/src/edmd_control/regional_protection.py": "cd76693d0b0b020fd3d16826c9c0b7574bba8b8a4d43bd44dba708738e4f9630",
+    "control/src/edmd_control/spatial_integer_search.py": "1cec620b7d945510a4178c243f778519423ea2116f4f18ad8cb5798c074a7666",
+    "control/src/edmd_control/precision_log_protection_adjoint.py": "cf222f837e7fb6c776145206a79b08c2dd291b1ee992779c9630bb6ac9f1bc2a"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "fire": "Brattain_2020",
+  "input_root": "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs",
+  "model_checkpoint": "control/results/stable_refit_paper_iou_v1/Brattain_2020/selected/best_loss.eqx",
+  "model_checkpoint_sha256": "737a89abb9a19bf38373e577f4a0459096b9a3ba0f8146dea5fdab444964d0f8",
+  "definition": "One constraint per asset together with its 150 m band. Identical masks share a constraint.",
+  "bounds": "Each bound equals the strongest whole-polygon plan outcome, with no percentage slack.",
+  "numerical_absolute_tolerance_ha": 1e-08,
+  "assets": 22,
+  "constraints": 22,
+  "stage1": "Outside-in grouped removal with full forecasts, bisection of rejected groups, one complete pass.",
+  "stage2": "Cyclic overlapping spatial blocks, linearized constraints for every region, full-forecast acceptance.",
+  "local_model": "Exact single-prescription differences for every buffered asset. Sum these effects in each MILP. Full CA replay checks interactions and all regional bounds.",
+  "optimization_seconds": 3600.0,
+  "batch_size": 4,
+  "seed": 73,
+  "screened_start_plan": null,
+  "screened_start_sha256": null,
+  "stage2_stopping": "Time allowance or complete unchanged sweep with all cheaper single changes tested.",
+  "input_hashes": {
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/initial_plan.npz": "3bf35c565ecdb51f3ede45325a9aeb237721f5981374772ba8451d250983fc52",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/protection_masks.npz": "30fd16a28b4d3189c7f666b4cb85b59da49e6c656f2c823d0cd9abad7c086844",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/cost_fields.npz": "b15cfa5ae488553645f6d0ee100d6e071801fe623e02311bfbc731d933a9c34a",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/candidate_operations.npz": "b4d543cfeea71063523cf813e0e14fd11b5c8f2f5e8d5f5b5c0302dcce6e9715",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/planning/fixed_maps.npz": "8cc1f80c42df4ddf3e460b1dc185191e50eb5f0dda8657a34222c4dc9f7338a0",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/planning/protocol.json": "c28a397aedd8805bbdde323853d3d3b9a2cdead0a6e9e0e4e3433db28e79084f",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/operational_units.npz": "a5ffe56f6d15f2f6197a7fd3e8aaf2a2fb4d3a586c8c4cb258f9b6be3b00729e",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/operational_protocol.json": "3d7878e8552a0aac7b1070a690a78566138f37046125e7c011436331c28f4f27"
+  },
+  "source_hashes": {
+    "control/experiments/run_regional_polygon_study.py": "de92898b7f43f3d8e1dc0ab80fe4e1d5904a2cc168b83b17cbde200e698136a9",
+    "control/src/edmd_control/regional_protection.py": "cd76693d0b0b020fd3d16826c9c0b7574bba8b8a4d43bd44dba708738e4f9630",
+    "control/src/edmd_control/spatial_integer_search.py": "1cec620b7d945510a4178c243f778519423ea2116f4f18ad8cb5798c074a7666",
+    "control/src/edmd_control/precision_log_protection_adjoint.py": "cf222f837e7fb6c776145206a79b08c2dd291b1ee992779c9630bb6ac9f1bc2a"
+  }
+}

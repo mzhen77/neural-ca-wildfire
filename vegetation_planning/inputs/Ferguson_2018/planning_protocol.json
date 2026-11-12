@@ -1,0 +1,309 @@
+{
+  "fire": "Ferguson_2018",
+  "window": [
+    0,
+    1316,
+    0,
+    1155
+  ],
+  "shape": [
+    1316,
+    1155
+  ],
+  "full_grid_shape": [
+    1316,
+    1155
+  ],
+  "window_rule": "Full available fire-data grid",
+  "regions": [
+    {
+      "label": "H1",
+      "kind": "homes",
+      "name": "Incline",
+      "cells": 105,
+      "cells_in_grid": 105
+    },
+    {
+      "label": "H2",
+      "kind": "homes",
+      "name": "Jerseydale",
+      "cells": 750,
+      "cells_in_grid": 750
+    },
+    {
+      "label": "H3",
+      "kind": "homes",
+      "name": "homes 2.3 km from Darrah",
+      "cells": 233,
+      "cells_in_grid": 233
+    },
+    {
+      "label": "H4",
+      "kind": "homes",
+      "name": "Midpines CDP",
+      "cells": 3947,
+      "cells_in_grid": 2983
+    },
+    {
+      "label": "H5",
+      "kind": "homes",
+      "name": "Darrah, Elliott Corner",
+      "cells": 7208,
+      "cells_in_grid": 2195
+    },
+    {
+      "label": "H6",
+      "kind": "homes",
+      "name": "homes 4.6 km from Bootjack",
+      "cells": 2491,
+      "cells_in_grid": 1414
+    },
+    {
+      "label": "H7",
+      "kind": "homes",
+      "name": "Yosemite West",
+      "cells": 365,
+      "cells_in_grid": 365
+    },
+    {
+      "label": "H8",
+      "kind": "homes",
+      "name": "homes 1.4 km from Yosemite West",
+      "cells": 7,
+      "cells_in_grid": 7
+    },
+    {
+      "label": "H9",
+      "kind": "homes",
+      "name": "homes 3.0 km from Darrah",
+      "cells": 368,
+      "cells_in_grid": 368
+    },
+    {
+      "label": "H10",
+      "kind": "homes",
+      "name": "El Portal CDP",
+      "cells": 218,
+      "cells_in_grid": 218
+    },
+    {
+      "label": "H11",
+      "kind": "homes",
+      "name": "dispersed homes",
+      "cells": 176,
+      "cells_in_grid": 176
+    },
+    {
+      "label": "R1",
+      "kind": "evacuation route",
+      "name": "Jerseydale: Hites Cove Trl, Hites Cove Rd, Scott Rd, Best Rd",
+      "cells": 3360,
+      "cells_in_grid": 3360
+    },
+    {
+      "label": "R2",
+      "kind": "arterial",
+      "name": "State Rte 140 / Yosemite All-Year140 Hwy / El Portal Rd",
+      "cells": 4553,
+      "cells_in_grid": 3072
+    },
+    {
+      "label": "R3",
+      "kind": "evacuation route",
+      "name": "Incline: Incline Rd, Hites Mine Rd, Sugar Pine Rd, Incline House Dr",
+      "cells": 243,
+      "cells_in_grid": 243
+    },
+    {
+      "label": "R4",
+      "kind": "evacuation route",
+      "name": "El Portal CDP: Foresta Rd, Incline Rd, Barium Mine Rd, Rancheria Flat Rd",
+      "cells": 302,
+      "cells_in_grid": 302
+    },
+    {
+      "label": "R5",
+      "kind": "evacuation route",
+      "name": "Yosemite West: Yosemite Park Way, Henness Ridge Dr, Henness Ridge Rd, Henness Cir",
+      "cells": 732,
+      "cells_in_grid": 732
+    },
+    {
+      "label": "R6",
+      "kind": "evacuation route",
+      "name": "homes 2.3 km from Darrah: Darrah Rd, Jerseydale Rd, Wild Dove Ln",
+      "cells": 1228,
+      "cells_in_grid": 907
+    },
+    {
+      "label": "R7",
+      "kind": "evacuation route",
+      "name": "Midpines CDP: E Whitlock Rd, Colorado Rd, Sherlock Rd, Oak Rd",
+      "cells": 8461,
+      "cells_in_grid": 5746
+    },
+    {
+      "label": "R8",
+      "kind": "evacuation route",
+      "name": "homes 4.6 km from Bootjack: Allred Rd, Silva Rd, Triangle Rd, Carleton Rd",
+      "cells": 4935,
+      "cells_in_grid": 2474
+    },
+    {
+      "label": "R9",
+      "kind": "arterial",
+      "name": "State Rte 41 / Wawona Rd / Glacier Point Rd",
+      "cells": 3735,
+      "cells_in_grid": 2068
+    },
+    {
+      "label": "R10",
+      "kind": "arterial",
+      "name": "State Hwy 120 / Tioga Rd / Big Oak Flat Rd",
+      "cells": 1891,
+      "cells_in_grid": 954
+    },
+    {
+      "label": "R11",
+      "kind": "evacuation route",
+      "name": "homes 3.0 km from Darrah: Triangle Rd, Cole Rd, Silva Rd, Seely's Off Ramp",
+      "cells": 1659,
+      "cells_in_grid": 1173
+    },
+    {
+      "label": "R12",
+      "kind": "arterial",
+      "name": "Old Yosemite Rd",
+      "cells": 92,
+      "cells_in_grid": 90
+    },
+    {
+      "label": "R13",
+      "kind": "evacuation route",
+      "name": "access roads of dispersed homes",
+      "cells": 8227,
+      "cells_in_grid": 8097
+    },
+    {
+      "label": "I1",
+      "kind": "substation",
+      "name": "substation (OSM way 1275887344)",
+      "cells": 3,
+      "cells_in_grid": 3
+    },
+    {
+      "label": "I2",
+      "kind": "airfield or heliport",
+      "name": "airfield or heliport (OSM way 1257226782)",
+      "cells": 4,
+      "cells_in_grid": 4
+    },
+    {
+      "label": "I3",
+      "kind": "campground",
+      "name": "Jerseydale Campground",
+      "cells": 6,
+      "cells_in_grid": 6
+    },
+    {
+      "label": "I4",
+      "kind": "fire station",
+      "name": "Jerseydale Fire Station",
+      "cells": 5,
+      "cells_in_grid": 5
+    }
+  ],
+  "weight_inside_grid": 0.8553346632367947,
+  "q": [
+    1.0,
+    0.5098360655737705,
+    0.4246520874751491
+  ],
+  "costs_USD_ha": [
+    0.0,
+    740,
+    3310
+  ],
+  "cost_basis": "Central Sierra FFS, 2004-2005 USD per ha (evidence file)",
+  "budget_USD": 2851538.94,
+  "budget_rule": "burning cost of 5% of the burnable, initially unburned planning grid",
+  "eligible_burn_cells": 118447,
+  "eligible_combined_cells": 28771,
+  "access": {
+    "bounds_3310": [
+      -207.45224964,
+      -62220.0,
+      34440.0,
+      -22755.60888348
+    ],
+    "source_counts": {
+      "streams": 30775,
+      "water_areas": 9,
+      "waterbodies": 268,
+      "protected": 13,
+      "roadless": 3
+    },
+    "usfs_roads_used": 358,
+    "entries": 10448
+  },
+  "provenance": {
+    "checkpoint": "control/results/stable_refit_paper_iou_v1/Ferguson_2018/selected",
+    "dates": [
+      "2018-07-13",
+      "2018-07-14",
+      "2018-07-15",
+      "2018-07-16",
+      "2018-07-17",
+      "2018-07-18",
+      "2018-07-19",
+      "2018-07-20",
+      "2018-07-21",
+      "2018-07-22",
+      "2018-07-23",
+      "2018-07-24",
+      "2018-07-25",
+      "2018-07-26",
+      "2018-07-27"
+    ],
+    "window": [
+      161,
+      1156,
+      93,
+      986
+    ],
+    "origin_frame": 0,
+    "initial_rule": "first map above Pth",
+    "burn_duration": 10.0,
+    "steps_per_day": 50,
+    "alignment": {
+      "crop": [
+        166,
+        1149,
+        166,
+        988
+      ],
+      "raw_shape": [
+        1316,
+        1155
+      ],
+      "elevation_range": [
+        362.0,
+        2536.0
+      ],
+      "max_cnn_map_difference_inside_crop": 0.0,
+      "cells_with_missing_wind_set_calm": 0
+    },
+    "objective": "equal-weight protection loss, mean affected fraction over days 1 to T",
+    "derivative": "exact reverse-mode derivative of the forward forecast, through the burning carry"
+  },
+  "seconds": 462.25178862700704,
+  "accepted_checkpoint": "control/results/stable_refit_paper_iou_v1/Ferguson_2018/selected/best_loss.eqx",
+  "checkpoint_sha256": "16c8250f76de7aea1a158d66606748989b005f7c2b767fc19674774e4caf187b",
+  "previous_forecast_diagnostics": {
+    "untreated_protection_loss": 0.09003006550618252,
+    "untreated_protection_loss_full_grid": 0.09003006595247946,
+    "max_affected_difference_full_grid": 0.005249407078192325,
+    "untreated_additional_ha": 39698.19198523755
+  },
+  "protection_band_m": 150.0
+}

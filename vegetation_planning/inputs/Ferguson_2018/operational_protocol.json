@@ -1,0 +1,58 @@
+{
+  "source": "control/results/management_polygon_two_stage_v1/cell_inputs/Ferguson_2018/inputs",
+  "policy": {
+    "minimum_area_ha": 20.0,
+    "mechanical_patch_minimum_area_ha": 20.0,
+    "cell_area_ha": 0.09,
+    "partition_order": "Delineate connected mechanically eligible patches meeting the area floor first. Partition remaining burn-eligible vegetation afterwards. This preserves feasible mechanical units when constructing the common management polygons.",
+    "source": "https://research.fs.usda.gov/download/treesearch/44888.pdf",
+    "source_location": "Chung et al. (2013), Table 4, printed page 1125, minimum treatment cluster 20 ha",
+    "scope": "A literature-based research scenario transferred from the OptFuels example. It is not a local operating standard or an empirically established universal minimum. The same floor for mechanical patches is a conservative study assumption.",
+    "boundary_source": "https://www.openspace.org/sites/default/files/5%20-%20Prescribed%20Fire%20PLan.pdf",
+    "boundary_source_location": "Section 5.4.1: operational burn units, existing infrastructure where feasible, and multiple vegetation types where access/topography constrain single-type units",
+    "access": "Every polygon must be connected through eligible land to an open USFS road or a mapped TIGER primary, secondary or local road. This is a mapped route screening assumption. TIGER records establish geometry, not permission or condition. Road permission, walking difficulty, holding capacity, site ownership and entry timing still require field review.",
+    "boundaries": "Mapped road cells separate compartments before subdivision. Other boundaries follow hard eligibility exclusions or generated shared cell edges. Generated edges require control-line design and review.",
+    "programs": "Whole polygons select no treatment or a linked set of the existing vegetation-specific histories. A third choice adds mechanically eligible forest patches that meet the area floor. Existing fuel responses and entry-specific operation costs are retained. Linking the histories is a decision restriction and does not synchronize their intervention dates.",
+    "cost_scope": "Retain the recorded per-hectare operation costs. New mobilization and control-line cost terms are not inferred without a supported basis."
+  },
+  "minimum_cells": 223,
+  "statistics": {
+    "eligible_cells": 1178770,
+    "without_mapped_access_cells": 86768,
+    "undersized_compartment_cells": 185779,
+    "retained_cells": 906223,
+    "polygons": 3267,
+    "minimum_cells": 223,
+    "minimum_area_ha": 20.07,
+    "median_area_ha": 21.15,
+    "maximum_area_ha": 71.36999999999999,
+    "mechanical_program_polygons": 22,
+    "reference_treated_components": 353,
+    "original_eligible_ha": 106089.3,
+    "retained_eligible_ha": 81560.06999999999,
+    "original_cellwise_cost": 302926260.22183716,
+    "reference_cost_USD2025": 217900988.51083648
+  },
+  "additional_road_sources": [
+    {
+      "path": "control/results/protection_areas_v1/Ferguson_2018/sources/roads_primary.json",
+      "source": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/2",
+      "records": 0,
+      "sha256": "facbef6aa68d2c152e5add17b4996d399db0094d062400a84bedf4d13de89b03"
+    },
+    {
+      "path": "control/results/protection_areas_v1/Ferguson_2018/sources/roads_secondary.json",
+      "source": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/6",
+      "records": 77,
+      "sha256": "79751a261c813e7d6fbcdbc330d00d5d1f4c07c03f7847749351b11bbad52268"
+    },
+    {
+      "path": "control/results/protection_areas_v1/Ferguson_2018/sources/roads_local.json",
+      "source": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/8",
+      "records": 3959,
+      "sha256": "942966f278b0f844fe9c6d59da51a6cbb982679bf7774bdbeda0f42555a4401e"
+    }
+  ],
+  "guarantee": "Every selected treated component contains an entire connected polygon and has at least the minimum area. Choices cannot remove cells inside a selected polygon.",
+  "reference_status": "Geometry prepared. Recompute the full CA reference before optimization."
+}

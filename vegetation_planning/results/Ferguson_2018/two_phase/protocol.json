@@ -1,0 +1,36 @@
+{
+  "fire": "Ferguson_2018",
+  "input_root": "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs",
+  "model_checkpoint": "control/results/stable_refit_paper_iou_v1/Ferguson_2018/selected/best_loss.eqx",
+  "model_checkpoint_sha256": "16c8250f76de7aea1a158d66606748989b005f7c2b767fc19674774e4caf187b",
+  "definition": "One constraint per asset together with its 150 m band. Identical masks share a constraint.",
+  "bounds": "Each bound equals the strongest whole-polygon plan outcome, with no percentage slack.",
+  "numerical_absolute_tolerance_ha": 1e-08,
+  "assets": 295,
+  "constraints": 194,
+  "stage1": "Outside-in grouped removal with full forecasts, bisection of rejected groups, one complete pass.",
+  "stage2": "Cyclic overlapping spatial blocks, linearized constraints for every region, full-forecast acceptance.",
+  "local_model": "Exact single-prescription differences for every buffered asset. Sum these effects in each MILP. Full CA replay checks interactions and all regional bounds.",
+  "optimization_seconds": 3600.0,
+  "batch_size": 2,
+  "seed": 73,
+  "screened_start_plan": null,
+  "screened_start_sha256": null,
+  "stage2_stopping": "Time allowance or complete unchanged sweep with all cheaper single changes tested.",
+  "input_hashes": {
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/initial_plan.npz": "a161c058d96716d533eb819cb0e3b008270b5c02766aaf8b455e0793c1b7ab4d",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/protection_masks.npz": "6dd46d60c458d1ef49c366c0852b1c22bda79b4c2c484e36d7573b83735a8bfa",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/cost_fields.npz": "b6f23f0613bc131e991ad975fe58479168ad63e386cce96540b1c93619868f36",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/candidate_operations.npz": "fdf3080c3ab7263dbceebb4c3748e4f5d7635be1d323daee0b2d1c86d1ddb9f5",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/planning/fixed_maps.npz": "70ed6bfab977ad909b659cc9edc7ec3a1f3e71723a3db14ba9495d409f6f0e93",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/planning/protocol.json": "46fb87a904cc3bfc481c20ffa3c3fb24f64aa88e00ef8166592d2aba5ab02e25",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/operational_units.npz": "84b3f6a1f75b788ed865a04312c548f9180ae4c2268b25204fd481595171bf96",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/operational_protocol.json": "a080a87c8d4311034476718e69d551ee10bbe75af5e866341379adabbeff552e"
+  },
+  "source_hashes": {
+    "control/experiments/run_regional_polygon_study.py": "de92898b7f43f3d8e1dc0ab80fe4e1d5904a2cc168b83b17cbde200e698136a9",
+    "control/src/edmd_control/regional_protection.py": "cd76693d0b0b020fd3d16826c9c0b7574bba8b8a4d43bd44dba708738e4f9630",
+    "control/src/edmd_control/spatial_integer_search.py": "1cec620b7d945510a4178c243f778519423ea2116f4f18ad8cb5798c074a7666",
+    "control/src/edmd_control/precision_log_protection_adjoint.py": "cf222f837e7fb6c776145206a79b08c2dd291b1ee992779c9630bb6ac9f1bc2a"
+  }
+}

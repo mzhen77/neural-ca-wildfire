@@ -1,0 +1,35 @@
+{
+  "crs": "EPSG:3310",
+  "bounds": [
+    -62547.85166377,
+    494790.0,
+    -32307.86567524,
+    527318.07283558
+  ],
+  "height": 1085,
+  "width": 1008,
+  "declared_resolution_m": 30,
+  "notebook_sha256": "13a85fa71ff732b4a6208fca9e0813ff2236d4910931c0b46e2df18722ca22b2",
+  "source": "fire/data/data_hdf5.ipynb",
+  "crop": [
+    166,
+    918,
+    166,
+    842
+  ],
+  "crop_bounds": [
+    -57567.85397121446,
+    499796.62503552245,
+    -37287.86336779554,
+    522341.4275906894
+  ],
+  "pixel_size_from_bounds_m": [
+    29.999986099732144,
+    29.979790631870948
+  ],
+  "registration": "provisional north-up bounds-to-shape affine",
+  "full_grid_edge_discrepancy_from_30m_m": [
+    0.014011469997058157,
+    21.927164420019835
+  ]
+}

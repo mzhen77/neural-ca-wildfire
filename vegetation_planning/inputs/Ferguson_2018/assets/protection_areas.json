@@ -1,0 +1,1034 @@
+{
+ "fire": "Ferguson_2018",
+ "pth": 0.5,
+ "listed_min_structures": 10,
+ "areas": [
+  {
+   "kind": "homes",
+   "name": "Incline",
+   "community": 6,
+   "census_place": false,
+   "structures": 35,
+   "housing_units": 23.577352472089288,
+   "population": 55.78229665071763,
+   "threatened_structures": {
+    "raw": 7,
+    "crop": 7
+   },
+   "threatened_housing_units": {
+    "raw": 2.5757575757575712,
+    "crop": 2.5757575757575712
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    13382.8602082362,
+    -39407.6540208065
+   ],
+   "all_cells": 191,
+   "in_crop_share": 1.0,
+   "burnable_cells": 105,
+   "area_ha": 9.45,
+   "raw": {
+    "max_affected": 0.9999957084655762,
+    "arrival_day": 3,
+    "expected_affected_ha": 1.9151911735534668,
+    "share_above_pth": 0.2
+   },
+   "crop": {
+    "max_affected": 0.9999957084655762,
+    "arrival_day": 3,
+    "expected_affected_ha": 1.9151911735534668,
+    "share_above_pth": 0.2
+   },
+   "observed_day15_share": 0.18095238095238095,
+   "observed_final_share": 0.18095238095238095,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H1"
+  },
+  {
+   "kind": "homes",
+   "name": "Jerseydale",
+   "community": 7,
+   "census_place": false,
+   "structures": 137,
+   "housing_units": 156.79795918367353,
+   "population": 223.34149659863948,
+   "threatened_structures": {
+    "raw": 10,
+    "crop": 10
+   },
+   "threatened_housing_units": {
+    "raw": 13.639455782312945,
+    "crop": 13.639455782312945
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    13061.592943537651,
+    -48137.38298383931
+   ],
+   "all_cells": 814,
+   "in_crop_share": 1.0,
+   "burnable_cells": 750,
+   "area_ha": 67.5,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 5,
+    "expected_affected_ha": 2.020559787750244,
+    "share_above_pth": 0.02666666666666667
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 5,
+    "expected_affected_ha": 2.020559787750244,
+    "share_above_pth": 0.02666666666666667
+   },
+   "observed_day15_share": 0.04,
+   "observed_final_share": 0.04,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H2"
+  },
+  {
+   "kind": "homes",
+   "name": "homes 2.3 km from Darrah",
+   "community": 5,
+   "census_place": false,
+   "structures": 36,
+   "housing_units": 26.52631578947372,
+   "population": 44.92105263157899,
+   "threatened_structures": {
+    "raw": 17,
+    "crop": 17
+   },
+   "threatened_housing_units": {
+    "raw": 13.188596491228083,
+    "crop": 13.188596491228083
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    14705.9228194675,
+    -53080.201671425195
+   ],
+   "all_cells": 244,
+   "in_crop_share": 1.0,
+   "burnable_cells": 233,
+   "area_ha": 20.97,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 7.856501579284668,
+    "share_above_pth": 0.3605150214592275
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 7.856501579284668,
+    "share_above_pth": 0.3605150214592275
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H3"
+  },
+  {
+   "kind": "homes",
+   "name": "Midpines CDP",
+   "community": 110,
+   "census_place": true,
+   "structures": 736,
+   "housing_units": 594.817760982238,
+   "population": 1138.7846481326474,
+   "threatened_structures": {
+    "raw": 13,
+    "crop": 11
+   },
+   "threatened_housing_units": {
+    "raw": 9.959049959049954,
+    "crop": 8.56511056511056
+   },
+   "census_points_without_footprint": 5,
+   "centroid_3310": [
+    4514.779510553325,
+    -52050.23535224534
+   ],
+   "all_cells": 4528,
+   "in_crop_share": 0.4465547703180212,
+   "burnable_cells": 3947,
+   "area_ha": 355.22999999999996,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 3.6398913860321045,
+    "share_above_pth": 0.009880922219407144
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 3.4376516342163086,
+    "share_above_pth": 0.009374208259437548
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H4"
+  },
+  {
+   "kind": "homes",
+   "name": "Darrah, Elliott Corner",
+   "community": 2,
+   "census_place": false,
+   "structures": 1464,
+   "housing_units": 875.1587251901026,
+   "population": 1657.1042598506383,
+   "threatened_structures": {
+    "raw": 2,
+    "crop": 2
+   },
+   "threatened_housing_units": {
+    "raw": 1.4078947368421073,
+    "crop": 1.4078947368421073
+   },
+   "census_points_without_footprint": 2,
+   "centroid_3310": [
+    15714.612580602028,
+    -58382.30932033794
+   ],
+   "all_cells": 8709,
+   "in_crop_share": 0.24606728671489264,
+   "burnable_cells": 7208,
+   "area_ha": 648.72,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 0.7945401072502136,
+    "share_above_pth": 0.0012486126526082132
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 0.7945401072502136,
+    "share_above_pth": 0.0012486126526082132
+   },
+   "observed_day15_share": 0.0009711431742508325,
+   "observed_final_share": 0.0009711431742508325,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H5"
+  },
+  {
+   "kind": "homes",
+   "name": "homes 4.6 km from Bootjack",
+   "community": 10,
+   "census_place": false,
+   "structures": 428,
+   "housing_units": 284.9716830788261,
+   "population": 556.3713635570781,
+   "threatened_structures": {
+    "raw": 37,
+    "crop": 37
+   },
+   "threatened_housing_units": {
+    "raw": 23.648130238555765,
+    "crop": 23.648130238555765
+   },
+   "census_points_without_footprint": 5,
+   "centroid_3310": [
+    8627.885752262135,
+    -56913.26615466575
+   ],
+   "all_cells": 2822,
+   "in_crop_share": 0.5255138199858257,
+   "burnable_cells": 2491,
+   "area_ha": 224.19,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 15.96832275390625,
+    "share_above_pth": 0.06985146527498996
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 15.96832275390625,
+    "share_above_pth": 0.06985146527498996
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H6"
+  },
+  {
+   "kind": "homes",
+   "name": "Yosemite West",
+   "community": 0,
+   "census_place": false,
+   "structures": 111,
+   "housing_units": 103.13833992094858,
+   "population": 24.818181818181795,
+   "threatened_structures": {
+    "raw": 55,
+    "crop": 55
+   },
+   "threatened_housing_units": {
+    "raw": 58.595938375350144,
+    "crop": 58.595938375350144
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    24645.440214031,
+    -40840.56790904092
+   ],
+   "all_cells": 446,
+   "in_crop_share": 1.0,
+   "burnable_cells": 365,
+   "area_ha": 32.85,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 11.34762191772461,
+    "share_above_pth": 0.33972602739726027
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 11.34762191772461,
+    "share_above_pth": 0.33972602739726027
+   },
+   "observed_day15_share": 0.0027397260273972603,
+   "observed_final_share": 0.0958904109589041,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H7"
+  },
+  {
+   "kind": "homes",
+   "name": "homes 1.4 km from Yosemite West",
+   "community": 56,
+   "census_place": false,
+   "structures": 2,
+   "housing_units": 11.000000000000005,
+   "population": 1.0000000000000004,
+   "threatened_structures": {
+    "raw": 1,
+    "crop": 1
+   },
+   "threatened_housing_units": {
+    "raw": 5.500000000000003,
+    "crop": 5.500000000000003
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    26104.05746528431,
+    -40439.36475090701
+   ],
+   "all_cells": 11,
+   "in_crop_share": 1.0,
+   "burnable_cells": 7,
+   "area_ha": 0.63,
+   "raw": {
+    "max_affected": 0.5355890393257141,
+    "arrival_day": 14,
+    "expected_affected_ha": 0.09027763456106186,
+    "share_above_pth": 0.14285714285714285
+   },
+   "crop": {
+    "max_affected": 0.5355890393257141,
+    "arrival_day": 14,
+    "expected_affected_ha": 0.09027763456106186,
+    "share_above_pth": 0.14285714285714285
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 1.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H8"
+  },
+  {
+   "kind": "homes",
+   "name": "homes 3.0 km from Darrah",
+   "community": 9,
+   "census_place": false,
+   "structures": 69,
+   "housing_units": 41.24242424242426,
+   "population": 83.89898989898994,
+   "threatened_structures": {
+    "raw": 5,
+    "crop": 5
+   },
+   "threatened_housing_units": {
+    "raw": 2.7272727272727293,
+    "crop": 2.7272727272727293
+   },
+   "census_points_without_footprint": 1,
+   "centroid_3310": [
+    11656.021489377155,
+    -56270.29794198417
+   ],
+   "all_cells": 409,
+   "in_crop_share": 1.0,
+   "burnable_cells": 368,
+   "area_ha": 33.12,
+   "raw": {
+    "max_affected": 0.9998428225517273,
+    "arrival_day": 15,
+    "expected_affected_ha": 2.5843749046325684,
+    "share_above_pth": 0.07336956521739131
+   },
+   "crop": {
+    "max_affected": 0.9998428225517273,
+    "arrival_day": 15,
+    "expected_affected_ha": 2.5843749046325684,
+    "share_above_pth": 0.07336956521739131
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H9"
+  },
+  {
+   "kind": "homes",
+   "name": "El Portal CDP",
+   "community": 107,
+   "census_place": true,
+   "structures": 167,
+   "housing_units": 276.0000000000001,
+   "population": 474.00000000000017,
+   "threatened_structures": {
+    "raw": 4,
+    "crop": 4
+   },
+   "threatened_housing_units": {
+    "raw": 6.142857142857144,
+    "crop": 6.142857142857144
+   },
+   "census_points_without_footprint": 8,
+   "centroid_3310": [
+    18331.493362648478,
+    -37972.3626256179
+   ],
+   "all_cells": 485,
+   "in_crop_share": 1.0,
+   "burnable_cells": 218,
+   "area_ha": 19.62,
+   "raw": {
+    "max_affected": 0.993553102016449,
+    "arrival_day": 15,
+    "expected_affected_ha": 0.5929571986198425,
+    "share_above_pth": 0.027522935779816515
+   },
+   "crop": {
+    "max_affected": 0.993553102016449,
+    "arrival_day": 15,
+    "expected_affected_ha": 0.5929571986198425,
+    "share_above_pth": 0.027522935779816515
+   },
+   "observed_day15_share": 0.0045871559633027525,
+   "observed_final_share": 0.03211009174311927,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H10"
+  },
+  {
+   "kind": "homes",
+   "name": "dispersed homes",
+   "communities": 18,
+   "area_ha": 15.84,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 4,
+    "expected_affected_ha": 12.864006042480469,
+    "share_above_pth": 0.8295454545454546
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 4,
+    "expected_affected_ha": 12.864006042480469,
+    "share_above_pth": 0.8295454545454546
+   },
+   "observed_day15_share": 0.375,
+   "observed_final_share": 0.375,
+   "structures": 29.0,
+   "housing_units": 28.707496012759172,
+   "population": 36.13740031897926,
+   "threatened_structures": {
+    "raw": 29,
+    "crop": 29
+   },
+   "threatened_housing_units": {
+    "raw": 28.707496012759172,
+    "crop": 28.707496012759172
+   },
+   "label": "H11",
+   "burnable_cells": 176
+  },
+  {
+   "kind": "evacuation route",
+   "name": "Jerseydale: Hites Cove Trl, Hites Cove Rd, Scott Rd, Best Rd",
+   "community": 7,
+   "road_class": [
+    "S1400",
+    "S1500",
+    "S1740"
+   ],
+   "length_km": 36.2492346280882,
+   "housing_units_served": 156.79795918367353,
+   "median_snap_m": 58.1603754279425,
+   "all_cells": 3956,
+   "in_crop_share": 1.0,
+   "burnable_cells": 3360,
+   "area_ha": 302.4,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 163.76644897460938,
+    "share_above_pth": 0.5449404761904761
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 163.76644897460938,
+    "share_above_pth": 0.5449404761904761
+   },
+   "observed_day15_share": 0.31845238095238093,
+   "observed_final_share": 0.31845238095238093,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R1"
+  },
+  {
+   "kind": "arterial",
+   "name": "State Rte 140 / Yosemite All-Year140 Hwy / El Portal Rd",
+   "road_class": [
+    "S1200"
+   ],
+   "length_km": 85.83579110953666,
+   "all_cells": 9499,
+   "in_crop_share": 0.5457416570165281,
+   "burnable_cells": 4553,
+   "area_ha": 409.77,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 85.23084259033203,
+    "share_above_pth": 0.2115088952339117
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 75.45667266845703,
+    "share_above_pth": 0.18778827146936086
+   },
+   "observed_day15_share": 0.1464968152866242,
+   "observed_final_share": 0.23918295629255437,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R2"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "Incline: Incline Rd, Hites Mine Rd, Sugar Pine Rd, Incline House Dr",
+   "community": 6,
+   "road_class": [
+    "S1400",
+    "S1500",
+    "S1740"
+   ],
+   "length_km": 5.855558013533153,
+   "housing_units_served": 23.577352472089288,
+   "median_snap_m": 40.13832725797562,
+   "all_cells": 634,
+   "in_crop_share": 1.0,
+   "burnable_cells": 243,
+   "area_ha": 21.869999999999997,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 3,
+    "expected_affected_ha": 1.040666103363037,
+    "share_above_pth": 0.04938271604938271
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 3,
+    "expected_affected_ha": 1.040666103363037,
+    "share_above_pth": 0.04938271604938271
+   },
+   "observed_day15_share": 0.04526748971193416,
+   "observed_final_share": 0.04526748971193416,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R3"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "El Portal CDP: Foresta Rd, Incline Rd, Barium Mine Rd, Rancheria Flat Rd",
+   "community": 107,
+   "road_class": [
+    "S1400",
+    "S1640"
+   ],
+   "length_km": 7.601152134354179,
+   "housing_units_served": 276.0000000000001,
+   "median_snap_m": 20.449959098740525,
+   "all_cells": 745,
+   "in_crop_share": 1.0,
+   "burnable_cells": 302,
+   "area_ha": 27.18,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 8,
+    "expected_affected_ha": 1.5393030643463135,
+    "share_above_pth": 0.059602649006622516
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 8,
+    "expected_affected_ha": 1.5393030643463135,
+    "share_above_pth": 0.059602649006622516
+   },
+   "observed_day15_share": 0.029801324503311258,
+   "observed_final_share": 0.033112582781456956,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R4"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "Yosemite West: Yosemite Park Way, Henness Ridge Dr, Henness Ridge Rd, Henness Cir",
+   "community": 0,
+   "road_class": [
+    "S1400",
+    "S1500"
+   ],
+   "length_km": 8.50559135934973,
+   "housing_units_served": 103.13833992094858,
+   "median_snap_m": 27.61153313822527,
+   "all_cells": 868,
+   "in_crop_share": 1.0,
+   "burnable_cells": 732,
+   "area_ha": 65.88,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 32.67546844482422,
+    "share_above_pth": 0.4972677595628415
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 32.67546844482422,
+    "share_above_pth": 0.4972677595628415
+   },
+   "observed_day15_share": 0.045081967213114756,
+   "observed_final_share": 0.3128415300546448,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R5"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "homes 2.3 km from Darrah: Darrah Rd, Jerseydale Rd, Wild Dove Ln",
+   "community": 5,
+   "road_class": [
+    "S1400"
+   ],
+   "length_km": 15.97824495316176,
+   "housing_units_served": 26.52631578947372,
+   "median_snap_m": 75.26442347665412,
+   "all_cells": 1747,
+   "in_crop_share": 0.6353749284487693,
+   "burnable_cells": 1228,
+   "area_ha": 110.52,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 22.78304100036621,
+    "share_above_pth": 0.2011400651465798
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 12,
+    "expected_affected_ha": 22.78304100036621,
+    "share_above_pth": 0.2011400651465798
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R6"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "Midpines CDP: E Whitlock Rd, Colorado Rd, Sherlock Rd, Oak Rd",
+   "community": 110,
+   "road_class": [
+    "S1400",
+    "S1500",
+    "S1740"
+   ],
+   "length_km": 89.74787550599098,
+   "housing_units_served": 594.817760982238,
+   "median_snap_m": 60.22074752598935,
+   "all_cells": 9691,
+   "in_crop_share": 0.3763285522649881,
+   "burnable_cells": 8461,
+   "area_ha": 761.49,
+   "raw": {
+    "max_affected": 0.9999279379844666,
+    "arrival_day": 12,
+    "expected_affected_ha": 7.107022285461426,
+    "share_above_pth": 0.008391443091833116
+   },
+   "crop": {
+    "max_affected": 0.9999279379844666,
+    "arrival_day": 12,
+    "expected_affected_ha": 5.841404914855957,
+    "share_above_pth": 0.006973171019973998
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R7"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "homes 4.6 km from Bootjack: Allred Rd, Silva Rd, Triangle Rd, Carleton Rd",
+   "community": 10,
+   "road_class": [
+    "S1400",
+    "S1500",
+    "S1640",
+    "S1740"
+   ],
+   "length_km": 56.58095304622535,
+   "housing_units_served": 284.9716830788261,
+   "median_snap_m": 65.97003141734308,
+   "all_cells": 6084,
+   "in_crop_share": 0.4904667981591059,
+   "burnable_cells": 4935,
+   "area_ha": 444.15,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 33.182071685791016,
+    "share_above_pth": 0.07274569402228977
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 33.182071685791016,
+    "share_above_pth": 0.07274569402228977
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R8"
+  },
+  {
+   "kind": "arterial",
+   "name": "State Rte 41 / Wawona Rd / Glacier Point Rd",
+   "road_class": [
+    "S1200"
+   ],
+   "length_km": 48.10232265941491,
+   "all_cells": 5339,
+   "in_crop_share": 0.5551601423487544,
+   "burnable_cells": 3735,
+   "area_ha": 336.15,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 21.059152603149414,
+    "share_above_pth": 0.060508701472556894
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 21.059152603149414,
+    "share_above_pth": 0.060508701472556894
+   },
+   "observed_day15_share": 0.000535475234270415,
+   "observed_final_share": 0.16492637215528783,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R9"
+  },
+  {
+   "kind": "arterial",
+   "name": "State Hwy 120 / Tioga Rd / Big Oak Flat Rd",
+   "road_class": [
+    "S1200"
+   ],
+   "length_km": 28.20530506281773,
+   "all_cells": 3142,
+   "in_crop_share": 0.49172501591343093,
+   "burnable_cells": 1891,
+   "area_ha": 170.19,
+   "raw": {
+    "max_affected": 0.9998822212219238,
+    "arrival_day": 14,
+    "expected_affected_ha": 2.822880268096924,
+    "share_above_pth": 0.014806980433632998
+   },
+   "crop": {
+    "max_affected": 0.9998822212219238,
+    "arrival_day": 14,
+    "expected_affected_ha": 2.8075525760650635,
+    "share_above_pth": 0.015335801163405606
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.023268112109994712,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R10"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "homes 3.0 km from Darrah: Triangle Rd, Cole Rd, Silva Rd, Seely's Off Ramp",
+   "community": 9,
+   "road_class": [
+    "S1400",
+    "S1500",
+    "S1640",
+    "S1740"
+   ],
+   "length_km": 19.439789453772622,
+   "housing_units_served": 41.24242424242426,
+   "median_snap_m": 55.62933163717216,
+   "all_cells": 2106,
+   "in_crop_share": 0.7160493827160493,
+   "burnable_cells": 1659,
+   "area_ha": 149.31,
+   "raw": {
+    "max_affected": 0.9999997019767761,
+    "arrival_day": 15,
+    "expected_affected_ha": 3.9462294578552246,
+    "share_above_pth": 0.02591922845087402
+   },
+   "crop": {
+    "max_affected": 0.9999997019767761,
+    "arrival_day": 15,
+    "expected_affected_ha": 3.9462294578552246,
+    "share_above_pth": 0.02591922845087402
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R11"
+  },
+  {
+   "kind": "arterial",
+   "name": "Old Yosemite Rd",
+   "road_class": [
+    "S1200"
+   ],
+   "length_km": 1.2698208710048102,
+   "all_cells": 147,
+   "in_crop_share": 0.4897959183673469,
+   "burnable_cells": 92,
+   "area_ha": 8.28,
+   "raw": {
+    "max_affected": 0.9974097609519958,
+    "arrival_day": 15,
+    "expected_affected_ha": 0.6850540637969971,
+    "share_above_pth": 0.07608695652173914
+   },
+   "crop": {
+    "max_affected": 0.9940968751907349,
+    "arrival_day": 15,
+    "expected_affected_ha": 0.5729967355728149,
+    "share_above_pth": 0.07608695652173914
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.14130434782608695,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R12"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "access roads of dispersed homes",
+   "communities": 22,
+   "area_ha": 740.43,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 402.6975402832031,
+    "share_above_pth": 0.5489242737328309
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 401.62115478515625,
+    "share_above_pth": 0.5473441108545035
+   },
+   "observed_day15_share": 0.30545763947976173,
+   "observed_final_share": 0.35164701592317976,
+   "label": "R13",
+   "burnable_cells": 8227
+  },
+  {
+   "kind": "substation",
+   "name": "substation (OSM way 1275887344)",
+   "osm": "way/1275887344",
+   "all_cells": 5,
+   "in_crop_share": 1.0,
+   "burnable_cells": 3,
+   "area_ha": 0.27,
+   "raw": {
+    "max_affected": 0.9995080828666687,
+    "arrival_day": 4,
+    "expected_affected_ha": 0.16371217370033264,
+    "share_above_pth": 0.6666666666666666
+   },
+   "crop": {
+    "max_affected": 0.9995080828666687,
+    "arrival_day": 4,
+    "expected_affected_ha": 0.16371217370033264,
+    "share_above_pth": 0.6666666666666666
+   },
+   "observed_day15_share": 0.3333333333333333,
+   "observed_final_share": 0.3333333333333333,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I1"
+  },
+  {
+   "kind": "airfield or heliport",
+   "name": "airfield or heliport (OSM way 1257226782)",
+   "osm": "way/1257226782",
+   "all_cells": 4,
+   "in_crop_share": 1.0,
+   "burnable_cells": 4,
+   "area_ha": 0.36,
+   "raw": {
+    "max_affected": 0.5996439456939697,
+    "arrival_day": 11,
+    "expected_affected_ha": 0.13447348773479462,
+    "share_above_pth": 0.5
+   },
+   "crop": {
+    "max_affected": 0.5996439456939697,
+    "arrival_day": 11,
+    "expected_affected_ha": 0.13447348773479462,
+    "share_above_pth": 0.5
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I2"
+  },
+  {
+   "kind": "campground",
+   "name": "Jerseydale Campground",
+   "osm": "way/1035804152",
+   "all_cells": 6,
+   "in_crop_share": 1.0,
+   "burnable_cells": 6,
+   "area_ha": 0.54,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.5230039358139038,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.5230039358139038,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I3"
+  },
+  {
+   "kind": "fire station",
+   "name": "Jerseydale Fire Station",
+   "osm": "way/1035804131",
+   "all_cells": 7,
+   "in_crop_share": 1.0,
+   "burnable_cells": 5,
+   "area_ha": 0.44999999999999996,
+   "raw": {
+    "max_affected": 0.9121453166007996,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.28710702061653137,
+    "share_above_pth": 0.6
+   },
+   "crop": {
+    "max_affected": 0.9121453166007996,
+    "arrival_day": 13,
+    "expected_affected_ha": 0.28710702061653137,
+    "share_above_pth": 0.6
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I4"
+  }
+ ]
+}

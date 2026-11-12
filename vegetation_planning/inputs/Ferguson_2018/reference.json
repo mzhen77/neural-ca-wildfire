@@ -1,0 +1,33 @@
+{
+  "fire": "Ferguson_2018",
+  "checks": {
+    "untreated": {
+      "seconds": 12.280998794012703,
+      "affected_protected_area_ha": 3323.7105964230973,
+      "original_core_affected_ha": 584.8112698117261
+    },
+    "strongest": {
+      "seconds": 1.5110957049764693,
+      "affected_protected_area_ha": 2012.8066461543337,
+      "original_core_affected_ha": 373.9009482320102
+    }
+  },
+  "area_limit_ha": 2113.4469784620505,
+  "strongest_affected_area_ha": 2012.8066461543337,
+  "reference_cost_USD2025": 217900988.51083604,
+  "full_grid_reference_max_error": 0.0,
+  "preparation_seconds": 76.97173438291065,
+  "checkpoint": "control/results/stable_refit_paper_iou_v1/Ferguson_2018/selected/best_loss.eqx",
+  "checkpoint_sha256": "16c8250f76de7aea1a158d66606748989b005f7c2b767fc19674774e4caf187b",
+  "reference_definition": "Strongest allowed whole-polygon program at every retained management polygon. Excluded cells remain untreated. This is a feasible reference, not a certified minimum of affected area.",
+  "hashes": {
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/initial_plan.npz": "a161c058d96716d533eb819cb0e3b008270b5c02766aaf8b455e0793c1b7ab4d",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/protection_masks.npz": "6dd46d60c458d1ef49c366c0852b1c22bda79b4c2c484e36d7573b83735a8bfa",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/cost_fields.npz": "b6f23f0613bc131e991ad975fe58479168ad63e386cce96540b1c93619868f36",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/candidate_operations.npz": "fdf3080c3ab7263dbceebb4c3748e4f5d7635be1d323daee0b2d1c86d1ddb9f5",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/planning/fixed_maps.npz": "70ed6bfab977ad909b659cc9edc7ec3a1f3e71723a3db14ba9495d409f6f0e93",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/planning/protocol.json": "46fb87a904cc3bfc481c20ffa3c3fb24f64aa88e00ef8166592d2aba5ab02e25",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/operational_units.npz": "84b3f6a1f75b788ed865a04312c548f9180ae4c2268b25204fd481595171bf96",
+    "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/operational_protocol.json": "a080a87c8d4311034476718e69d551ee10bbe75af5e866341379adabbeff552e"
+  }
+}

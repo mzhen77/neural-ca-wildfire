@@ -1,0 +1,22 @@
+{
+  "Pier_2017": {
+    "seconds": 2813.545809232979,
+    "minutes": 46.892430153882984,
+    "source": "control/results/regional_polygon_protection_v1/Pier_2017/timing.json"
+  },
+  "Brattain_2020": {
+    "seconds": 6374.334449916962,
+    "minutes": 106.23890749861603,
+    "source": "control/results/regional_polygon_protection_v1/Brattain_2020/timing.json"
+  },
+  "Chimney_2016": {
+    "seconds": 1500.0174706029939,
+    "minutes": 25.000291176716566,
+    "source": "control/results/regional_polygon_protection_v1/Chimney_2016/timing.json"
+  },
+  "Ferguson_2018": {
+    "seconds": 6472.179515760043,
+    "minutes": 107.86965859600072,
+    "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/timing.json"
+  }
+}

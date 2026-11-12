@@ -1,0 +1,22 @@
+{
+  "fire": "Pier_2017",
+  "phase1_removal": {
+    "computation_seconds": 1119.7339603559813,
+    "setup_seconds": 36.582508536055684,
+    "total_seconds": 1156.316468892037,
+    "source_log": "control/results/regional_polygon_protection_v1/Pier_2017/progress_before_phase2_restart.jsonl",
+    "event": 1445
+  },
+  "phase2_sequential_integer": {
+    "computation_seconds": 1619.6914086469915,
+    "setup_seconds": 37.53793169395067,
+    "total_seconds": 1657.2293403409421,
+    "source_log": "control/results/regional_polygon_protection_v1/Pier_2017/phase2_restart/progress.jsonl",
+    "event": 1816,
+    "stop_reason": "Complete unchanged sweep"
+  },
+  "benchmark_time_limit_seconds": 2813.545809232979,
+  "timing_basis": "Instrumented elapsed time from study construction, including model setup, JIT compilation, validation, search and final stage reports. Python import time and idle time between processes are excluded.",
+  "interrupted_phase2_excluded": true,
+  "budget_rule": "The benchmark receives the combined completed-phase time, including setup and compilation under the same timing convention. Failed or interrupted attempts are excluded."
+}

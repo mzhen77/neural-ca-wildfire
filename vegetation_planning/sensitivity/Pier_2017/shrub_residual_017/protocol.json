@@ -1,0 +1,34 @@
+{
+  "fire": "Pier_2017",
+  "input_root": "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/inputs",
+  "model_checkpoint": "control/results/stable_refit_gpu_v1/Pier_2017/candidates/best_loss/best_loss.eqx",
+  "model_checkpoint_sha256": "b1d518e70201d6c8dc4d06084b248f8a297a12f2f23012b0a956582b1e7c811e",
+  "definition": "One constraint per asset together with its 150 m band. Identical masks share a constraint.",
+  "bounds": "Each bound equals the strongest whole-polygon plan outcome, with no percentage slack.",
+  "numerical_absolute_tolerance_ha": 1e-08,
+  "assets": 308,
+  "constraints": 304,
+  "stage1": "Outside-in grouped removal with full forecasts, bisection of rejected groups, one complete pass.",
+  "stage2": "Cyclic overlapping spatial blocks, linearized constraints for every region, full-forecast acceptance.",
+  "local_model": "Exact single-prescription differences for every buffered asset. Sum these effects in each MILP. Full CA replay checks interactions and all regional bounds.",
+  "optimization_seconds": 3600.0,
+  "batch_size": 4,
+  "seed": 73,
+  "screened_start_plan": null,
+  "screened_start_sha256": null,
+  "stage2_stopping": "Time allowance or complete unchanged sweep with all cheaper single changes tested.",
+  "input_hashes": {
+    "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/inputs/candidate_operations.npz": "13c2fb0402bd391f9ad8d7b96d91c58c60adef8c5c44bd54de608a1581985a60",
+    "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/inputs/initial_plan.npz": "5df6f2e097a21fb8c05f7d507aeb3f57f0b4567f3797be803c038c79121058a0",
+    "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/inputs/protection_masks.npz": "6eb5116dc6657cb25f4dc08e1d9b4a8d7a6f5bd622d43d780950b4ee6a366d9c",
+    "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/inputs/cost_fields.npz": "91e1a37351077401b40e5629760074bea0a0cd1e9f242738e52e5b877061090c",
+    "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/inputs/operational_units.npz": "7c6bbaa817bccf9edf817f41ea848151a8f37e714b79c5925f8d51fcfa33f616",
+    "control/results/vegetation_sensitivity_pier_v1/shrub_residual_017/inputs/planning/fixed_maps.npz": "470c4d12fa4da312358446c12dc1bd0e5156b3589e4a2bfee099da7089a20a1a"
+  },
+  "source_hashes": {
+    "control/experiments/run_regional_polygon_study.py": "e21a66c70a7493d255c19ccd47563f9af35b76ecb3078a44baa22500f20ec30b",
+    "control/src/edmd_control/regional_protection.py": "cd76693d0b0b020fd3d16826c9c0b7574bba8b8a4d43bd44dba708738e4f9630",
+    "control/src/edmd_control/spatial_integer_search.py": "1cec620b7d945510a4178c243f778519423ea2116f4f18ad8cb5798c074a7666",
+    "control/src/edmd_control/precision_log_protection_adjoint.py": "cf222f837e7fb6c776145206a79b08c2dd291b1ee992779c9630bb6ac9f1bc2a"
+  }
+}

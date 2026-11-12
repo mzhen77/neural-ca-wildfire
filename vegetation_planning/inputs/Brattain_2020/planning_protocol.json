@@ -1,0 +1,239 @@
+{
+  "fire": "Brattain_2020",
+  "window": [
+    0,
+    1085,
+    0,
+    1008
+  ],
+  "shape": [
+    1085,
+    1008
+  ],
+  "full_grid_shape": [
+    1085,
+    1008
+  ],
+  "window_rule": "Full available fire-data grid",
+  "regions": [
+    {
+      "label": "H1",
+      "kind": "homes",
+      "name": "Paisley city",
+      "cells": 382,
+      "cells_in_grid": 382
+    },
+    {
+      "label": "H2",
+      "kind": "homes",
+      "name": "homes 1.3 km from Paisley",
+      "cells": 55,
+      "cells_in_grid": 55
+    },
+    {
+      "label": "H3",
+      "kind": "homes",
+      "name": "dispersed homes",
+      "cells": 501,
+      "cells_in_grid": 501
+    },
+    {
+      "label": "R1",
+      "kind": "arterial",
+      "name": "State Hwy 31 / Fremont Hwy / West St",
+      "cells": 2448,
+      "cells_in_grid": 2448
+    },
+    {
+      "label": "R2",
+      "kind": "evacuation route",
+      "name": "Paisley city: River Rd, Green St, Blue St, Main St",
+      "cells": 358,
+      "cells_in_grid": 358
+    },
+    {
+      "label": "R3",
+      "kind": "evacuation route",
+      "name": "homes 1.3 km from Paisley: Lovers Ln",
+      "cells": 97,
+      "cells_in_grid": 97
+    },
+    {
+      "label": "R4",
+      "kind": "evacuation route",
+      "name": "access roads of dispersed homes",
+      "cells": 9021,
+      "cells_in_grid": 9021
+    },
+    {
+      "label": "I1",
+      "kind": "campground",
+      "name": "Marster Spring Campground",
+      "cells": 2,
+      "cells_in_grid": 2
+    },
+    {
+      "label": "I2",
+      "kind": "campground",
+      "name": "Jones Crossing Forest Camp",
+      "cells": 4,
+      "cells_in_grid": 4
+    },
+    {
+      "label": "I3",
+      "kind": "communication tower",
+      "name": "communication tower (OSM node 12771139503)",
+      "cells": 6,
+      "cells_in_grid": 6
+    },
+    {
+      "label": "I4",
+      "kind": "airfield or heliport",
+      "name": "Paisley State Airport",
+      "cells": 5,
+      "cells_in_grid": 5
+    },
+    {
+      "label": "I5",
+      "kind": "substation",
+      "name": "substation (OSM way 1379200375)",
+      "cells": 5,
+      "cells_in_grid": 5
+    },
+    {
+      "label": "I6",
+      "kind": "communication tower",
+      "name": "Lakeview RCAG",
+      "cells": 4,
+      "cells_in_grid": 4
+    },
+    {
+      "label": "I7",
+      "kind": "airfield or heliport",
+      "name": "airfield or heliport (OSM way 1266672124)",
+      "cells": 3,
+      "cells_in_grid": 3
+    },
+    {
+      "label": "I8",
+      "kind": "power plant",
+      "name": "Paisley Geothermal Generating Plant",
+      "cells": 2,
+      "cells_in_grid": 2
+    },
+    {
+      "label": "I9",
+      "kind": "substation",
+      "name": "substation (OSM way 1492875486)",
+      "cells": 1,
+      "cells_in_grid": 1
+    },
+    {
+      "label": "I10",
+      "kind": "communication tower",
+      "name": "communication tower (OSM node 12771139541)",
+      "cells": 2,
+      "cells_in_grid": 2
+    },
+    {
+      "label": "I11",
+      "kind": "dam",
+      "name": "dam (OSM node 3408702187)",
+      "cells": 2,
+      "cells_in_grid": 2
+    }
+  ],
+  "weight_inside_grid": 1.0,
+  "q": [
+    1.0,
+    0.5098360655737705,
+    0.4246520874751491
+  ],
+  "costs_USD_ha": [
+    0.0,
+    740,
+    3310
+  ],
+  "cost_basis": "Central Sierra FFS, 2004-2005 USD per ha (evidence file)",
+  "budget_USD": 3239663.7600000002,
+  "budget_rule": "burning cost of 5% of the burnable, initially unburned planning grid",
+  "eligible_burn_cells": 183206,
+  "eligible_combined_cells": 50868,
+  "access": {
+    "bounds_3310": [
+      -62547.85166377,
+      494790.0,
+      -32307.86567524,
+      527318.07283558
+    ],
+    "source_counts": {
+      "streams": 2113,
+      "water_areas": 0,
+      "waterbodies": 0,
+      "protected": 4,
+      "roadless": 3
+    },
+    "usfs_roads_used": 121,
+    "entries": 11343
+  },
+  "provenance": {
+    "checkpoint": "control/results/stable_refit_paper_iou_v1/Brattain_2020/selected",
+    "dates": [
+      "2020-09-07",
+      "2020-09-08",
+      "2020-09-09",
+      "2020-09-10",
+      "2020-09-11",
+      "2020-09-12",
+      "2020-09-13",
+      "2020-09-14",
+      "2020-09-15",
+      "2020-09-16",
+      "2020-09-17",
+      "2020-09-18",
+      "2020-09-19",
+      "2020-09-20",
+      "2020-09-21"
+    ],
+    "window": [
+      0,
+      1085,
+      0,
+      1008
+    ],
+    "origin_frame": 0,
+    "initial_rule": "first map above Pth",
+    "burn_duration": 10.0,
+    "steps_per_day": 50,
+    "alignment": {
+      "crop": [
+        166,
+        918,
+        166,
+        842
+      ],
+      "raw_shape": [
+        1085,
+        1008
+      ],
+      "elevation_range": [
+        1290.0,
+        2269.0
+      ],
+      "max_cnn_map_difference_inside_crop": 0.0,
+      "cells_with_missing_wind_set_calm": 0
+    },
+    "objective": "equal-weight protection loss, mean affected fraction over days 1 to T",
+    "derivative": "exact reverse-mode derivative of the forward forecast, through the burning carry"
+  },
+  "seconds": 116.19297234999249,
+  "accepted_checkpoint": "control/results/stable_refit_paper_iou_v1/Brattain_2020/selected/best_loss.eqx",
+  "checkpoint_sha256": "737a89abb9a19bf38373e577f4a0459096b9a3ba0f8146dea5fdab444964d0f8",
+  "previous_forecast_diagnostics": {
+    "untreated_protection_loss": 0.22444609147914554,
+    "untreated_protection_loss_full_grid": 0.2244460919455872,
+    "max_affected_difference_full_grid": 2.9802315393290257e-08,
+    "untreated_additional_ha": 35211.84353254158
+  },
+  "protection_band_m": 150.0
+}

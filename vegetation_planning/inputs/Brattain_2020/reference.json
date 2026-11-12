@@ -1,0 +1,33 @@
+{
+  "fire": "Brattain_2020",
+  "checks": {
+    "untreated": {
+      "seconds": 9.574348467984237,
+      "affected_protected_area_ha": 3714.140718922214,
+      "original_core_affected_ha": 792.4090142411923
+    },
+    "strongest": {
+      "seconds": 1.1955270959297195,
+      "affected_protected_area_ha": 1436.6761995979164,
+      "original_core_affected_ha": 358.20190114221634
+    }
+  },
+  "area_limit_ha": 1508.5100095778123,
+  "strongest_affected_area_ha": 1436.6761995979164,
+  "reference_cost_USD2025": 104390140.12357348,
+  "full_grid_reference_max_error": 0.0,
+  "preparation_seconds": 54.403870969079435,
+  "checkpoint": "control/results/stable_refit_paper_iou_v1/Brattain_2020/selected/best_loss.eqx",
+  "checkpoint_sha256": "737a89abb9a19bf38373e577f4a0459096b9a3ba0f8146dea5fdab444964d0f8",
+  "reference_definition": "Strongest allowed whole-polygon program at every retained management polygon. Excluded cells remain untreated. This is a feasible reference, not a certified minimum of affected area.",
+  "hashes": {
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/initial_plan.npz": "3bf35c565ecdb51f3ede45325a9aeb237721f5981374772ba8451d250983fc52",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/protection_masks.npz": "30fd16a28b4d3189c7f666b4cb85b59da49e6c656f2c823d0cd9abad7c086844",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/cost_fields.npz": "b15cfa5ae488553645f6d0ee100d6e071801fe623e02311bfbc731d933a9c34a",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/candidate_operations.npz": "b4d543cfeea71063523cf813e0e14fd11b5c8f2f5e8d5f5b5c0302dcce6e9715",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/planning/fixed_maps.npz": "8cc1f80c42df4ddf3e460b1dc185191e50eb5f0dda8657a34222c4dc9f7338a0",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/planning/protocol.json": "c28a397aedd8805bbdde323853d3d3b9a2cdead0a6e9e0e4e3433db28e79084f",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/operational_units.npz": "a5ffe56f6d15f2f6197a7fd3e8aaf2a2fb4d3a586c8c4cb258f9b6be3b00729e",
+    "control/results/management_polygon_two_stage_v1/Brattain_2020/inputs/operational_protocol.json": "3d7878e8552a0aac7b1070a690a78566138f37046125e7c011436331c28f4f27"
+  }
+}

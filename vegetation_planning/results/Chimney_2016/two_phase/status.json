@@ -1,0 +1,15 @@
+{
+  "event": 1877,
+  "kind": "complete",
+  "phase": "sequential_optimization",
+  "pid": 869335,
+  "elapsed_seconds": 1500.0184978359612,
+  "forward_evaluations": 3220,
+  "region_gradient_evaluations": 0,
+  "retained_cost_USD2025": 9883922.815729,
+  "cost_reduction_percent": 79.83089569351485,
+  "region_count": 152,
+  "violated_region_count": 0,
+  "max_constraint_excess_ha": 9.543782653054222e-09,
+  "all_regions_feasible": true
+}

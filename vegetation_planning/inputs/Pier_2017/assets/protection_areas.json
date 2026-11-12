@@ -1,0 +1,912 @@
+{
+ "fire": "Pier_2017",
+ "pth": 0.5,
+ "listed_min_structures": 10,
+ "areas": [
+  {
+   "kind": "homes",
+   "name": "homes 3.9 km from Springville",
+   "community": 4,
+   "census_place": false,
+   "structures": 84,
+   "housing_units": 42.57672634271096,
+   "population": 74.4889173060528,
+   "threatened_structures": {
+    "raw": 41,
+    "crop": 41
+   },
+   "threatened_housing_units": {
+    "raw": 19.630567642076564,
+    "crop": 19.630567642076564
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    110077.65287327788,
+    -208668.41990478375
+   ],
+   "all_cells": 475,
+   "in_crop_share": 1.0,
+   "burnable_cells": 389,
+   "area_ha": 35.01,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 3,
+    "expected_affected_ha": 13.56789493560791,
+    "share_above_pth": 0.37789203084832906
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 3,
+    "expected_affected_ha": 13.56789493560791,
+    "share_above_pth": 0.37789203084832906
+   },
+   "observed_day15_share": 0.12082262210796915,
+   "observed_final_share": 0.12082262210796915,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H1"
+  },
+  {
+   "kind": "homes",
+   "name": "Sequoia Crest CDP",
+   "community": 94,
+   "census_place": true,
+   "structures": 58,
+   "housing_units": 94.99999999999999,
+   "population": 9.999999999999991,
+   "threatened_structures": {
+    "raw": 10,
+    "crop": 10
+   },
+   "threatened_housing_units": {
+    "raw": 13.91666666666667,
+    "crop": 13.91666666666667
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    122902.73448182797,
+    -202672.1003608711
+   ],
+   "all_cells": 309,
+   "in_crop_share": 1.0,
+   "burnable_cells": 292,
+   "area_ha": 26.279999999999998,
+   "raw": {
+    "max_affected": 0.9997552633285522,
+    "arrival_day": 4,
+    "expected_affected_ha": 3.5670294761657715,
+    "share_above_pth": 0.1232876712328767
+   },
+   "crop": {
+    "max_affected": 0.9997552633285522,
+    "arrival_day": 4,
+    "expected_affected_ha": 3.5670294761657715,
+    "share_above_pth": 0.1232876712328767
+   },
+   "observed_day15_share": 0.05821917808219178,
+   "observed_final_share": 0.05821917808219178,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H2"
+  },
+  {
+   "kind": "homes",
+   "name": "homes 4.5 km from Springville",
+   "community": 11,
+   "census_place": false,
+   "structures": 109,
+   "housing_units": 45.79826543357268,
+   "population": 100.26103711755121,
+   "threatened_structures": {
+    "raw": 23,
+    "crop": 23
+   },
+   "threatened_housing_units": {
+    "raw": 8.649298824353117,
+    "crop": 8.649298824353117
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    107756.3921814325,
+    -204706.51441520939
+   ],
+   "all_cells": 673,
+   "in_crop_share": 1.0,
+   "burnable_cells": 551,
+   "area_ha": 49.589999999999996,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 6,
+    "expected_affected_ha": 7.668066501617432,
+    "share_above_pth": 0.15063520871143377
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 6,
+    "expected_affected_ha": 7.668066501617432,
+    "share_above_pth": 0.15063520871143377
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H3"
+  },
+  {
+   "kind": "homes",
+   "name": "Springville CDP",
+   "community": 95,
+   "census_place": true,
+   "structures": 697,
+   "housing_units": 495.52156144179656,
+   "population": 887.0282930773812,
+   "threatened_structures": {
+    "raw": 144,
+    "crop": 144
+   },
+   "threatened_housing_units": {
+    "raw": 93.4355103438782,
+    "crop": 93.4355103438782
+   },
+   "census_points_without_footprint": 1,
+   "centroid_3310": [
+    105916.48569464384,
+    -209600.15018579885
+   ],
+   "all_cells": 2581,
+   "in_crop_share": 1.0,
+   "burnable_cells": 1632,
+   "area_ha": 146.88,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 8,
+    "expected_affected_ha": 41.77887725830078,
+    "share_above_pth": 0.27941176470588236
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 8,
+    "expected_affected_ha": 41.77887725830078,
+    "share_above_pth": 0.27941176470588236
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H4"
+  },
+  {
+   "kind": "homes",
+   "name": "homes 2.6 km from Coy Flat",
+   "community": 20,
+   "census_place": false,
+   "structures": 11,
+   "housing_units": 10.68515552114984,
+   "population": 0.09589841146963643,
+   "threatened_structures": {
+    "raw": 6,
+    "crop": 6
+   },
+   "threatened_housing_units": {
+    "raw": 4.8000000000000105,
+    "crop": 4.8000000000000105
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    122531.68389032298,
+    -210914.0103956117
+   ],
+   "all_cells": 62,
+   "in_crop_share": 1.0,
+   "burnable_cells": 61,
+   "area_ha": 5.49,
+   "raw": {
+    "max_affected": 0.9976412057876587,
+    "arrival_day": 8,
+    "expected_affected_ha": 1.5231173038482666,
+    "share_above_pth": 0.21311475409836064
+   },
+   "crop": {
+    "max_affected": 0.9976412057876587,
+    "arrival_day": 8,
+    "expected_affected_ha": 1.5231173038482666,
+    "share_above_pth": 0.21311475409836064
+   },
+   "observed_day15_share": 0.26229508196721313,
+   "observed_final_share": 0.26229508196721313,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H5"
+  },
+  {
+   "kind": "homes",
+   "name": "homes 4.6 km from Springville",
+   "community": 12,
+   "census_place": false,
+   "structures": 656,
+   "housing_units": 447.2075389442049,
+   "population": 1049.3180468185997,
+   "threatened_structures": {
+    "raw": 14,
+    "crop": 14
+   },
+   "threatened_housing_units": {
+    "raw": 9.410983981693349,
+    "crop": 9.410983981693349
+   },
+   "census_points_without_footprint": 2,
+   "centroid_3310": [
+    104546.88716787501,
+    -213298.0761188455
+   ],
+   "all_cells": 3562,
+   "in_crop_share": 1.0,
+   "burnable_cells": 2368,
+   "area_ha": 213.12,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 4.328684329986572,
+    "share_above_pth": 0.020692567567567568
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 4.328684329986572,
+    "share_above_pth": 0.020692567567567568
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H6"
+  },
+  {
+   "kind": "homes",
+   "name": "homes 2.4 km from Springville",
+   "community": 13,
+   "census_place": false,
+   "structures": 36,
+   "housing_units": 22.104062722736984,
+   "population": 47.829413162271294,
+   "threatened_structures": {
+    "raw": 8,
+    "crop": 8
+   },
+   "threatened_housing_units": {
+    "raw": 4.618674269422662,
+    "crop": 4.618674269422662
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    106134.80512615462,
+    -211384.7037990383
+   ],
+   "all_cells": 189,
+   "in_crop_share": 1.0,
+   "burnable_cells": 109,
+   "area_ha": 9.81,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 2.0539541244506836,
+    "share_above_pth": 0.2018348623853211
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 2.0539541244506836,
+    "share_above_pth": 0.2018348623853211
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "H7"
+  },
+  {
+   "kind": "homes",
+   "name": "Soda Springs",
+   "community": 3,
+   "census_place": false,
+   "structures": 75,
+   "housing_units": 48.509003651279315,
+   "population": 176.90945727623935,
+   "threatened_structures": {
+    "raw": 8,
+    "crop": 0
+   },
+   "threatened_housing_units": {
+    "raw": 5.157894736842097,
+    "crop": 0.0
+   },
+   "census_points_without_footprint": 0,
+   "centroid_3310": [
+    112595.54415750384,
+    -218456.29651885745
+   ],
+   "all_cells": 513,
+   "in_crop_share": 0.0,
+   "burnable_cells": 449,
+   "area_ha": 40.41,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 15,
+    "expected_affected_ha": 1.5720056295394897,
+    "share_above_pth": 0.0334075723830735
+   },
+   "crop": {
+    "max_affected": 0.0,
+    "arrival_day": null,
+    "expected_affected_ha": 0.0,
+    "share_above_pth": 0.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": false
+   },
+   "label": "H8"
+  },
+  {
+   "kind": "homes",
+   "name": "dispersed homes",
+   "communities": 14,
+   "area_ha": 36.089999999999996,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 2,
+    "expected_affected_ha": 23.822309494018555,
+    "share_above_pth": 0.6807980049875312
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 2,
+    "expected_affected_ha": 23.29153823852539,
+    "share_above_pth": 0.6658354114713217
+   },
+   "observed_day15_share": 0.1371571072319202,
+   "observed_final_share": 0.1371571072319202,
+   "structures": 83.0,
+   "housing_units": 29.02981610047226,
+   "population": 48.61329706930783,
+   "threatened_structures": {
+    "raw": 72,
+    "crop": 71
+   },
+   "threatened_housing_units": {
+    "raw": 26.40942908793967,
+    "crop": 25.71644663179932
+   },
+   "label": "H9",
+   "burnable_cells": 401
+  },
+  {
+   "kind": "arterial",
+   "name": "State Rte 190 / Hwy 190 / State Hwy 190",
+   "road_class": [
+    "S1200"
+   ],
+   "length_km": 56.54924119058815,
+   "all_cells": 6146,
+   "in_crop_share": 0.8250894890986007,
+   "burnable_cells": 3189,
+   "area_ha": 287.01,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 44.473777770996094,
+    "share_above_pth": 0.15647538413295703
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 1,
+    "expected_affected_ha": 44.473777770996094,
+    "share_above_pth": 0.15647538413295703
+   },
+   "observed_day15_share": 0.18846033239259957,
+   "observed_final_share": 0.18846033239259957,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R1"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "homes 3.9 km from Springville: Mountain Road 189, Cow Mountain Rd",
+   "community": 4,
+   "road_class": [
+    "S1400"
+   ],
+   "length_km": 3.69039962759542,
+   "housing_units_served": 42.57672634271096,
+   "median_snap_m": 60.56862639125414,
+   "all_cells": 410,
+   "in_crop_share": 1.0,
+   "burnable_cells": 290,
+   "area_ha": 26.099999999999998,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 3,
+    "expected_affected_ha": 11.539161682128906,
+    "share_above_pth": 0.4482758620689655
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 3,
+    "expected_affected_ha": 11.539161682128906,
+    "share_above_pth": 0.4482758620689655
+   },
+   "observed_day15_share": 0.13448275862068965,
+   "observed_final_share": 0.13448275862068965,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R2"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "Sequoia Crest CDP: Redwood Dr, Alder Dr, Ponderosa Dr, Forest Rte 20S03",
+   "community": 94,
+   "road_class": [
+    "S1400",
+    "S1640",
+    "S1740"
+   ],
+   "length_km": 16.40369891882592,
+   "housing_units_served": 94.99999999999999,
+   "median_snap_m": 28.170228376755897,
+   "all_cells": 1680,
+   "in_crop_share": 0.8047619047619048,
+   "burnable_cells": 1573,
+   "area_ha": 141.57,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 4,
+    "expected_affected_ha": 30.82769203186035,
+    "share_above_pth": 0.21169739351557534
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 4,
+    "expected_affected_ha": 30.82769203186035,
+    "share_above_pth": 0.21169739351557534
+   },
+   "observed_day15_share": 0.1729179910998093,
+   "observed_final_share": 0.1729179910998093,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R3"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "Springville CDP: Co Rd J28, Tule River Dr, Bogart Dr, Mountain Road 189",
+   "community": 95,
+   "road_class": [
+    "S1400",
+    "S1730",
+    "S1740"
+   ],
+   "length_km": 18.370391454960423,
+   "housing_units_served": 495.52156144179656,
+   "median_snap_m": 39.883283775085886,
+   "all_cells": 2095,
+   "in_crop_share": 1.0,
+   "burnable_cells": 1116,
+   "area_ha": 100.44,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 4,
+    "expected_affected_ha": 17.901933670043945,
+    "share_above_pth": 0.16666666666666666
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 4,
+    "expected_affected_ha": 17.901933670043945,
+    "share_above_pth": 0.16666666666666666
+   },
+   "observed_day15_share": 0.0017921146953405018,
+   "observed_final_share": 0.0017921146953405018,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R4"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "Soda Springs: Forest Rte 21S94, Co Rte M127, Indian Svc Rd, Indian Reservation Dr",
+   "community": 3,
+   "road_class": [
+    "S1400"
+   ],
+   "length_km": 50.84103439207965,
+   "housing_units_served": 48.509003651279315,
+   "median_snap_m": 68.14514939889698,
+   "all_cells": 5466,
+   "in_crop_share": 0.3739480424442005,
+   "burnable_cells": 4811,
+   "area_ha": 432.99,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 6,
+    "expected_affected_ha": 41.16096878051758,
+    "share_above_pth": 0.09706921637913116
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 6,
+    "expected_affected_ha": 40.516361236572266,
+    "share_above_pth": 0.09582207441280399
+   },
+   "observed_day15_share": 0.1791727291623363,
+   "observed_final_share": 0.1791727291623363,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R5"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "homes 2.3 km from Camp Nelson: Redwood Dr, Forest Rte 20S11, Pine View Dr, Rey Vista Dr",
+   "community": 1,
+   "road_class": [
+    "S1400"
+   ],
+   "length_km": 7.781996390086223,
+   "housing_units_served": 40.128805636839786,
+   "median_snap_m": 38.22154303888622,
+   "all_cells": 827,
+   "in_crop_share": 0.34099153567110035,
+   "burnable_cells": 731,
+   "area_ha": 65.78999999999999,
+   "raw": {
+    "max_affected": 0.989522397518158,
+    "arrival_day": 6,
+    "expected_affected_ha": 3.9411516189575195,
+    "share_above_pth": 0.05471956224350205
+   },
+   "crop": {
+    "max_affected": 0.989522397518158,
+    "arrival_day": 6,
+    "expected_affected_ha": 3.9411516189575195,
+    "share_above_pth": 0.05471956224350205
+   },
+   "observed_day15_share": 0.09165526675786594,
+   "observed_final_share": 0.09165526675786594,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R6"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "homes 4.5 km from Springville: Co Rte 220, Balch Park Rd",
+   "community": 11,
+   "road_class": [
+    "S1400",
+    "S1740"
+   ],
+   "length_km": 4.35172964841505,
+   "housing_units_served": 45.79826543357268,
+   "median_snap_m": 70.35787883747912,
+   "all_cells": 515,
+   "in_crop_share": 1.0,
+   "burnable_cells": 415,
+   "area_ha": 37.35,
+   "raw": {
+    "max_affected": 0.9998354911804199,
+    "arrival_day": 6,
+    "expected_affected_ha": 1.7408958673477173,
+    "share_above_pth": 0.04578313253012048
+   },
+   "crop": {
+    "max_affected": 0.9998354911804199,
+    "arrival_day": 6,
+    "expected_affected_ha": 1.7408958673477173,
+    "share_above_pth": 0.04578313253012048
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R7"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "homes 2.6 km from Coy Flat: Forest Rte 21S94, Linder Dr, Coy Flat Rd, Smith Dr",
+   "community": 20,
+   "road_class": [
+    "S1400"
+   ],
+   "length_km": 9.522455906367535,
+   "housing_units_served": 10.68515552114984,
+   "median_snap_m": 120.30581125170434,
+   "all_cells": 1027,
+   "in_crop_share": 0.7692307692307693,
+   "burnable_cells": 945,
+   "area_ha": 85.05,
+   "raw": {
+    "max_affected": 0.9999425411224365,
+    "arrival_day": 7,
+    "expected_affected_ha": 8.052994728088379,
+    "share_above_pth": 0.07724867724867725
+   },
+   "crop": {
+    "max_affected": 0.9999425411224365,
+    "arrival_day": 7,
+    "expected_affected_ha": 8.066122055053711,
+    "share_above_pth": 0.07724867724867725
+   },
+   "observed_day15_share": 0.19788359788359788,
+   "observed_final_share": 0.19788359788359788,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R8"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "Pierpoint CDP: McComber Dr, Mariposa Dr, John Lewis Dr, Sunset Dr",
+   "community": 93,
+   "road_class": [
+    "S1400"
+   ],
+   "length_km": 2.898810560175043,
+   "housing_units_served": 82.99999999999996,
+   "median_snap_m": 31.38153232591032,
+   "all_cells": 316,
+   "in_crop_share": 1.0,
+   "burnable_cells": 198,
+   "area_ha": 17.82,
+   "raw": {
+    "max_affected": 0.7116551399230957,
+    "arrival_day": 12,
+    "expected_affected_ha": 0.21055200695991516,
+    "share_above_pth": 0.005050505050505051
+   },
+   "crop": {
+    "max_affected": 0.7116551399230957,
+    "arrival_day": 12,
+    "expected_affected_ha": 0.21055200695991516,
+    "share_above_pth": 0.005050505050505051
+   },
+   "observed_day15_share": 0.010101010101010102,
+   "observed_final_share": 0.010101010101010102,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R9"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "homes 2.4 km from Springville: Globe Dr, Maranatha Ct, Rainbow Ranch Ct, Mountain Road 172A",
+   "community": 13,
+   "road_class": [
+    "S1400",
+    "S1740"
+   ],
+   "length_km": 1.531019347899209,
+   "housing_units_served": 22.104062722736984,
+   "median_snap_m": 29.81632511222697,
+   "all_cells": 212,
+   "in_crop_share": 1.0,
+   "burnable_cells": 151,
+   "area_ha": 13.59,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 3.384537696838379,
+    "share_above_pth": 0.2251655629139073
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 3.384537696838379,
+    "share_above_pth": 0.2251655629139073
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R10"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "homes 4.6 km from Springville: Mountain Road 172A, Mustang Dr, Mountain Road 161, Pleasant Oak Dr",
+   "community": 12,
+   "road_class": [
+    "S1400",
+    "S1740"
+   ],
+   "length_km": 29.795906129962596,
+   "housing_units_served": 447.2075389442049,
+   "median_snap_m": 51.15849271620123,
+   "all_cells": 3189,
+   "in_crop_share": 1.0,
+   "burnable_cells": 1921,
+   "area_ha": 172.89,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 2.5135655403137207,
+    "share_above_pth": 0.01353461738677772
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 13,
+    "expected_affected_ha": 2.5135655403137207,
+    "share_above_pth": 0.01353461738677772
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "R11"
+  },
+  {
+   "kind": "evacuation route",
+   "name": "access roads of dispersed homes",
+   "communities": 25,
+   "area_ha": 795.42,
+   "raw": {
+    "max_affected": 1.0,
+    "arrival_day": 4,
+    "expected_affected_ha": 127.46893310546875,
+    "share_above_pth": 0.1603303914912876
+   },
+   "crop": {
+    "max_affected": 1.0,
+    "arrival_day": 4,
+    "expected_affected_ha": 126.94243621826172,
+    "share_above_pth": 0.15965150486535415
+   },
+   "observed_day15_share": 0.16542204118578863,
+   "observed_final_share": 0.17040054310930075,
+   "label": "R12",
+   "burnable_cells": 8838
+  },
+  {
+   "kind": "power plant",
+   "name": "Lower Tule River Power Plant",
+   "osm": "way/1007932634",
+   "all_cells": 5,
+   "in_crop_share": 1.0,
+   "burnable_cells": 3,
+   "area_ha": 0.27,
+   "raw": {
+    "max_affected": 0.9316360354423523,
+    "arrival_day": 5,
+    "expected_affected_ha": 0.236822247505188,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 0.9316360354423523,
+    "arrival_day": 5,
+    "expected_affected_ha": 0.236822247505188,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 1.0,
+   "observed_final_share": 1.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I1"
+  },
+  {
+   "kind": "substation",
+   "name": "substation (OSM way 1007932630)",
+   "osm": "way/1007932630",
+   "all_cells": 5,
+   "in_crop_share": 1.0,
+   "burnable_cells": 3,
+   "area_ha": 0.27,
+   "raw": {
+    "max_affected": 0.8727784752845764,
+    "arrival_day": 5,
+    "expected_affected_ha": 0.20161211490631104,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 0.8727784752845764,
+    "arrival_day": 5,
+    "expected_affected_ha": 0.20161211490631104,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 1.0,
+   "observed_final_share": 1.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I2"
+  },
+  {
+   "kind": "airfield or heliport",
+   "name": "Sequoia Ranch Airport",
+   "osm": "way/44581357",
+   "all_cells": 6,
+   "in_crop_share": 1.0,
+   "burnable_cells": 6,
+   "area_ha": 0.54,
+   "raw": {
+    "max_affected": 0.9515323638916016,
+    "arrival_day": 9,
+    "expected_affected_ha": 0.45280295610427856,
+    "share_above_pth": 1.0
+   },
+   "crop": {
+    "max_affected": 0.9515323638916016,
+    "arrival_day": 9,
+    "expected_affected_ha": 0.45280295610427856,
+    "share_above_pth": 1.0
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I3"
+  },
+  {
+   "kind": "campground",
+   "name": "Wishon Campground",
+   "osm": "way/963791764",
+   "all_cells": 7,
+   "in_crop_share": 1.0,
+   "burnable_cells": 7,
+   "area_ha": 0.63,
+   "raw": {
+    "max_affected": 0.6225437521934509,
+    "arrival_day": 10,
+    "expected_affected_ha": 0.12664006650447845,
+    "share_above_pth": 0.14285714285714285
+   },
+   "crop": {
+    "max_affected": 0.6225437521934509,
+    "arrival_day": 10,
+    "expected_affected_ha": 0.12664006650447845,
+    "share_above_pth": 0.14285714285714285
+   },
+   "observed_day15_share": 0.0,
+   "observed_final_share": 0.0,
+   "threatened": {
+    "raw": true,
+    "crop": true
+   },
+   "label": "I4"
+  }
+ ]
+}
