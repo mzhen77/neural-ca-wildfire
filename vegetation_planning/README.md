@@ -5,13 +5,9 @@ This folder accompanies the manuscript
 > I. Matei, M. Zhenirovskyy, H. Y. Wong. *Model-based vegetation treatment planning with
 > asset-specific wildfire protection constraints.* Submitted to Environmental Modelling & Software.
 
-It holds what the study adds to this repository for the four fires of the paper (Pier 2017,
-Brattain 2020, Chimney 2016, Ferguson 2018): the management polygons, treatment programs and
-costs, the named assets, the saved plans, and three scripts. The scripts regenerate the
-fire-model inputs with the fine-tuned checkpoints of this branch and rebuild the protected
-regions. The planner code is not included. It will be released when the paper is accepted.
+It holds what the study adds to this repository for the four fires of the paper (Pier 2017, Brattain 2020, Chimney 2016, Ferguson 2018): the management polygons, treatment programs and costs, the named assets, the saved plans, and three scripts. The scripts regenerate the fire-model inputs with the fine-tuned checkpoints of this branch and rebuild the protected regions. The planner code is not included. It will be shared upon request for review purposed or when the paper is accepted.
 
-**Contact:** Ion Matei, Fujitsu Research of America, imatei@fujitsu.com.
+**Contact:** Ion Matei, imatei@fujitsu.com.
 
 ## Quick start
 
@@ -35,15 +31,7 @@ All outputs go to `vegetation_planning/generated/<fire>/`, which git ignores.
 | `band_150m/assets.json` | identifier, name, kind and region index of every asset |
 | `band_150m/comparison.json` | agreement of the rebuilt regions with the paper's regions |
 
-**Hardware.** The study ran on an NVIDIA RTX 4090 GPU. On that hardware the script reproduces
-the study's parameter maps and both forecasts of all four fires exactly, in about four minutes.
-It runs each fire in its own process, because a process that has already handled another grid
-can evaluate the CNN with different float32 rounding. Other hardware can give slightly
-different maps, and the forecast amplifies the difference. A CPU run for Pier gave maps within
-about 1e-4 of the study's maps in relative terms, and a day-15 affected area 0.4% to 0.5%
-lower. The saved plans meet the study's bounds under the study's forecasts. If your forecasts
-differ, recompute the reference bounds from them. The protected regions do not depend on the
-hardware, because the exposure test reads the study's forecast from
+**Hardware.** The study ran on an NVIDIA RTX 4090 GPU. On that hardware the script reproduces the study's parameter maps and both forecasts of all four fires exactly, in about four minutes. It runs each fire in its own process, because a process that has already handled another grid can evaluate the CNN with different float32 rounding. Other hardware can give slightly different maps, and the forecast amplifies the difference. The saved plans meet the study's bounds under the study's forecasts. If your forecasts differ, recompute the reference bounds from them. The protected regions do not depend on the hardware, because the exposure test reads the study's forecast from
 `inputs/<fire>/exposure.npz`.
 
 ## Layout
@@ -135,11 +123,7 @@ Both expressions were checked against every saved plan when this folder was asse
 
 ## Protected regions
 
-The paper protects named assets (settlements, roads, facilities) and electrical assets
-(power lines and electrical facilities). This folder ships the named assets. It does **not**
-ship the electrical layers or anything that encodes their geometry, because several source
-services restrict redistribution. Most regions derive from electrical features, so the region
-masks and asset tables are not shipped either. Instead:
+The paper protects named assets (settlements, roads, facilities) and electrical assets (power lines and electrical facilities). This folder ships the named assets. It does **not** ship the electrical layers or anything that encodes their geometry, because several source services restrict redistribution. Most regions derive from electrical features, so the region masks and asset tables are not shipped either. Instead:
 
 - `scripts/collect_electrical_network.py` queries the public services used in the paper.
   Check the terms of each service before you download.
@@ -149,16 +133,9 @@ masks and asset tables are not shipped either. Instead:
   count and bound of every region of the paper, and the hash and cell count of every asset
   core. It holds no geometry, names or voltages.
 
-When the rebuilt regions equal the paper's regions, the script orders them as in the paper
-and assigns the paper's bounds. The entries of `affected_regions_ha` and `limits_ha` in every
-saved plan then refer to the rows of `masks`. Otherwise the script keeps its own order,
-recomputes the bounds from `generated/<fire>/forecasts.npz`, and lists the differences in
-`comparison.json`.
+When the rebuilt regions equal the paper's regions, the script orders them as in the paper and assigns the paper's bounds. The entries of `affected_regions_ha` and `limits_ha` in every saved plan then refer to the rows of `masks`. Otherwise the script keeps its own order, recomputes the bounds from `generated/<fire>/forecasts.npz`, and lists the differences in `comparison.json`.
 
-**Snapshot.** The paper used downloads from 2026-11-03. The utility layers describe current
-infrastructure and change over time, so a later download can differ. Run with the authors'
-cached downloads, the script reproduced all regions, asset cores and bounds of the four fires
-exactly, and also Pier's 100 m and 200 m regions (`--fire Pier_2017 --band 100`).
+**Snapshot.** The paper used downloads from 2026-11-03. The utility layers describe current infrastructure and change over time, so a later download can differ. Run with the authors' cached downloads, the script reproduced all regions, asset cores and bounds of the four fires exactly, and also Pier's 100 m and 200 m regions (`--fire Pier_2017 --band 100`).
 
 ## Results
 
