@@ -1,0 +1,80 @@
+data:
+  base_dir: data/data_real
+  train_events:
+    Brattain_2020:
+      days:
+      - 0
+      - 10
+      y1: 166
+      y2: 918
+      x1: 166
+      x2: 842
+  test_events: null
+  static_files:
+    elevation: ELEV2020.npy
+    slope: SLPD2020.npy
+    aspect: ASP2020.npy
+    canopy_bulk_density: 230CBD.npy
+    canopy_cover: 230CC.npy
+    canopy_height: 230CH.npy
+    fuel_model: 230FBFM40.npy
+  dynamic_files:
+    wind_u: u_component_of_wind_10m.npy
+    wind_v: v_component_of_wind_10m.npy
+  target_file: fire.npy
+preprocessing:
+  nodata_value: -9999
+  canopy_norm: global
+  canopy_max: 100
+  density_max: 45
+  canopy_height_max: 550
+  wind_speed_max: 10.0
+  fbfm_num_classes: 203
+  fbfm_embedding_dim: 4
+  fbfm_non_burnable:
+  - 91
+  - 99
+model:
+  kernel_size: 7
+  branch_out_channels: 32
+  n_ca_params: 6
+  cnn_in_channels: 13
+  burn_duration: 10
+  dropout_rate: 0
+  seed: 42
+training:
+  epochs: 13630
+  lr: 0.0001
+  save_all_loss: loss.csv
+  grad_clip_norm: 1.0
+  steps_per_day: 50
+  optimizer: adamw
+  weight_decay: 0.001
+  bce_weight: 0.5
+  mse_weight: 0.1
+  area_weight: 0.5
+  frontier_weight: 10.0
+  iou_weight: 4.0
+  mse_pool_window: 3
+  Pth: 0.5
+  bce_epsilon: 1.0e-07
+  use_remat: false
+  print_interval: 10
+  patience: 1000
+  start_save_epoch: 200
+  grad_clip:
+    per_element:
+    - -5.0
+    - 5.0
+output:
+  out_dir: result/prob_nn
+  best_loss_file: best_loss.eqx
+  best_iou_file: best_iou.eqx
+  config_file: prob_nn.yaml
+  log_file: training.log
+notes:
+  ignition: -expm1(-h) via stable_poisson_ignition
+  restart: restored from the snapshot
+  start: resume of Brattain_2020_restart_1693 at restart epoch 4313
+  restart_epochs: 17943
+  snapshots_every: 1000

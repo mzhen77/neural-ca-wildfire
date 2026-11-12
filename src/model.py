@@ -229,7 +229,7 @@ class WildfireCA:
         gamma = jnp.clip(alpha_gamma * fuel_factor, 0.0, 100.0)
 
         exp_arg = jnp.clip(-gamma * total_lambda, -50.0, 50.0)
-        p_ignite = 1.0 - jnp.exp(exp_arg)
+        p_ignite = -jnp.expm1(exp_arg)  # Preserve small ignition probabilities.
         return jnp.clip(p_ignite, 0.0, 1.0)
 
     @staticmethod

@@ -90,6 +90,23 @@ class TestMSCNNParameterGenerator:
 
 
 class TestWildfireCA:
+    def test_small_ignition_probability(self):
+        """A single weak source must retain its positive Poisson probability."""
+        import math
+
+        zero = jnp.zeros((3, 3), dtype=jnp.float32)
+        one = jnp.ones_like(zero)
+        intensity = zero.at[1, 0].set(1e-9)
+        params = dict(p_base=one, fuel_factor=one, alpha_gamma=one,
+                      alpha_w1=zero, alpha_w2=zero, alpha_s=zero)
+        probability = WildfireCA.compute_ignition_probability(
+            intensity, params, zero, zero, zero, zero)
+        assert float(probability[1, 1]) == pytest.approx(
+            -math.expm1(-1e-9), rel=1e-6, abs=0)
+        empty = WildfireCA.compute_ignition_probability(
+            zero, params, zero, zero, zero, zero)
+        assert jnp.all(empty == 0)
+
     def test_compute_wind_factor_shape(self, small_grid, tiny_config):
         H, W = small_grid['H'], small_grid['W']
         alpha_w1 = jnp.ones((H, W)) * 0.5

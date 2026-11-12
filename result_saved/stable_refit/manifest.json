@@ -1,0 +1,64 @@
+{
+  "ignition": "-expm1(-hazard), with the existing exponent and probability bounds",
+  "upstream_commit": "10e401666f2d88912515c31de2f70fec7a70f3a2",
+  "selection_note": "Mean daily IoU uses the published procedure and informed selection; these are not independent test scores. Brattain was accepted below its reproduced published IoU of 0.692711.",
+  "scope": "Four selected per-event CNNs used by the vegetation-management manuscript. Stable long-horizon fuel derivatives require the separate vegetation optimizer; the training burning-state stop_gradient is unchanged.",
+  "models": {
+    "Brattain_2020": {
+      "checkpoint": "Brattain_2020/best_loss.eqx",
+      "config": "Brattain_2020/config.yaml",
+      "selection": "Restart epoch 8750",
+      "paper_mean_iou": 0.6729642485886316,
+      "parameter_count": 36018,
+      "steps_per_day": 50,
+      "burn_duration": 10,
+      "sha256": {
+        "best_loss.eqx": "737a89abb9a19bf38373e577f4a0459096b9a3ba0f8146dea5fdab444964d0f8",
+        "config.yaml": "51804eb3f0c583211c16132bd387a315938da4b53bc194004390046d77a696eb"
+      },
+      "source_config_sha256": "da67c73b528439178c6156061820f1f6bd681454be0dab7adc7edaeb3de11fb2",
+      "config_path_adjustment": "data.base_dir made relative to the repository root"
+    },
+    "Chimney_2016": {
+      "checkpoint": "Chimney_2016/best_loss.eqx",
+      "config": "Chimney_2016/config.yaml",
+      "selection": "Best training loss candidate",
+      "paper_mean_iou": 0.8577652231010613,
+      "parameter_count": 36018,
+      "steps_per_day": 50,
+      "burn_duration": 10,
+      "sha256": {
+        "best_loss.eqx": "8a028e8c8c7bf789ae62ce52bd9180f6198a2948e310c8821bd85f94709559d0",
+        "config.yaml": "4aee83c5940484d758484eb5ce9edbc193ecb2589cf17e3725e38c43453f7858"
+      }
+    },
+    "Ferguson_2018": {
+      "checkpoint": "Ferguson_2018/best_loss.eqx",
+      "config": "Ferguson_2018/config.yaml",
+      "selection": "Restart epoch 5200",
+      "paper_mean_iou": 0.637350284350879,
+      "parameter_count": 36018,
+      "steps_per_day": 50,
+      "burn_duration": 10,
+      "sha256": {
+        "best_loss.eqx": "16c8250f76de7aea1a158d66606748989b005f7c2b767fc19674774e4caf187b",
+        "config.yaml": "a84065e07fc34031bb6906bae9c9f629b2e6a825c670dc9e84d2c894ff8f40ba"
+      },
+      "source_config_sha256": "18bf401a4400d4aaefc5c53040d4ce405cc8088654551f75126c78535dc8154a",
+      "config_path_adjustment": "data.base_dir made relative to the repository root"
+    },
+    "Pier_2017": {
+      "checkpoint": "Pier_2017/best_loss.eqx",
+      "config": "Pier_2017/config.yaml",
+      "selection": "Best training loss candidate",
+      "paper_mean_iou": 0.7410171930966472,
+      "parameter_count": 36018,
+      "steps_per_day": 50,
+      "burn_duration": 10,
+      "sha256": {
+        "best_loss.eqx": "b1d518e70201d6c8dc4d06084b248f8a297a12f2f23012b0a956582b1e7c811e",
+        "config.yaml": "8782e6933173dcf8aceafbebfc950a006304eeb4e795ca1413a07102d2e36c5b"
+      }
+    }
+  }
+}

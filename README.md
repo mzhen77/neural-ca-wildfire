@@ -4,6 +4,59 @@ CNN-parameterized probabilistic Cellular Automaton for wildfire spread predictio
 
 A Multi-Scale CNN produces per-cell parameter maps for a 3-state probabilistic CA (`p_unburned`, `p_burning`, `p_burned`). The CA simulates fire spread over real LANDFIRE/ERA5 inputs for six historical fires: Bear 2020, Brattain 2020, Buck 2017, Chimney 2016, Ferguson 2018, Pier 2017.
 
+## Stable-ignition vegetation-study branch
+
+This branch evaluates ignition with `-expm1(-hazard)` to avoid cancellation
+in `1 - exp(-hazard)`. It includes the four fine-tuned per-event checkpoints
+selected for *Model-based vegetation treatment planning with asset-specific
+wildfire protection constraints* in [result_saved/stable_refit/](result_saved/stable_refit/).
+
+| Fire | Selected model | Mean daily IoU |
+| --- | --- | ---: |
+| Brattain 2020 | Restart epoch 8,750 | 0.672964 |
+| Chimney 2016 | Best training loss candidate | 0.857765 |
+| Ferguson 2018 | Restart epoch 5,200 | 0.637350 |
+| Pier 2017 | Best training loss candidate | 0.741017 |
+
+These scores use the published evaluation procedure and informed model
+selection. Brattain was accepted below its reproduced published score of
+0.692711. The [manifest](result_saved/stable_refit/manifest.json) records
+checkpoint and configuration hashes. Each folder uses the existing loader's
+`best_loss.eqx` filename, regardless of its selection criterion. The configs
+retain the source-run settings, with local data paths made relative to the
+repository root. They specify the model and preprocessing,
+but do not encode the full fine-tuning continuation history.
+
+To load a selected model from the repository root:
+
+```python
+import sys
+from pathlib import Path
+import equinox as eqx
+import jax
+sys.path.insert(0, "src")
+from model import WildfireModel
+from utils import load_config
+
+folder = Path("result_saved/stable_refit/Pier_2017")
+config = load_config(str(folder / "config.yaml"))
+model = WildfireModel(config, jax.random.PRNGKey(42))
+model = eqx.tree_deserialise_leaves(folder / "best_loss.eqx", model)
+model = eqx.tree_inference(model, True)
+```
+
+The vegetation study's long-horizon fuel gradients use a separate signed-log
+derivative implementation. This branch retains the training model's existing
+`stop_gradient` on burning-state inputs. The ignition change alone does not
+provide those optimization derivatives.
+
+The reproduction instructions below describe the original publication.
+Check out `main` to reproduce its original ignition arithmetic. On this
+branch, the notebooks still default to the original pooled checkpoint. To
+use a selected refit, point its `events_model` entry to the corresponding
+`result_saved/stable_refit/<Event>` folder. This branch adds no vegetation
+optimization code or third-party asset data.
+
 ---
 
 ## 1. Setup
