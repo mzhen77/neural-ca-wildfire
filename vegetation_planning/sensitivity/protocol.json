@@ -1,0 +1,69 @@
+{
+  "fires": [
+    "Pier_2017",
+    "Chimney_2016",
+    "Brattain_2020",
+    "Ferguson_2018"
+  ],
+  "scenarios": [
+    {
+      "name": "grass_high_consumption",
+      "band_m": 150,
+      "grass_consumption": [
+        0.95,
+        1.0
+      ],
+      "source": "carb2025",
+      "description": "Consume 95% of herbaceous and 100% of one-hour dead load in GR classes."
+    },
+    {
+      "name": "grass_low_consumption",
+      "band_m": 150,
+      "grass_consumption": [
+        0.8,
+        0.9
+      ],
+      "source": "carb2025",
+      "description": "Consume 80% of herbaceous and 90% of one-hour dead load in GR classes."
+    },
+    {
+      "name": "shrub_residual_017",
+      "band_m": 150,
+      "shrub_residual": 0.17,
+      "source": "hardy1996",
+      "description": "Transfer the 83% consumption measured at the ceanothus site to the existing GS/SH treatment cells."
+    },
+    {
+      "name": "shrub_residual_050",
+      "band_m": 150,
+      "shrub_residual": 0.5,
+      "source": "green1982",
+      "description": "Test 50% remaining biomass, motivated by the description of retained green chaparral biomass on north exposures. This is a broader transfer scenario, not a measured Pier response."
+    }
+  ],
+  "sources": {
+    "carb2025": {
+      "url": "https://ww2.arb.ca.gov/sites/default/files/2025-10/CARB%20Fire%20Inventory%20Updates%20Public%20Webinar%202025-10-16.pdf",
+      "title": "California Wildfire & Prescribed Fire Emission Inventory: Updates to Methodology & Data Sources",
+      "date": "2025-10-16",
+      "location": "Slide 62 (PDF page 63), Broadcast Burn: Consumption Assumptions",
+      "supports": "Inventory assumptions at fuel moistures 12 to 16%: herbaceous consumption 80 to 95%, one-hour fuel consumption 90 to 100%. These are inventory assumptions, not a field-estimated uncertainty distribution."
+    },
+    "hardy1996": {
+      "url": "https://www.fs.usda.gov/pnw/pubs/pnw_rp486.pdf",
+      "doi": "10.2737/PNW-RP-486",
+      "location": "Table 3, printed page 15",
+      "supports": "Consumed biomass fractions 0.75 to 0.83 across standing chaparral sites. The 0.83 site was dominated by ceanothus. Site means do not establish species-specific responses for Pier."
+    },
+    "green1982": {
+      "url": "https://www.fs.usda.gov/psw/publications/documents/psw_gtr058/psw_gtr058_6a_green.pdf",
+      "location": "Figure 1 caption, printed page 465",
+      "supports": "Unburned green fuel may comprise half or more of chaparral biomass on north exposures. This motivates a 0.5 scenario, not a confidence bound."
+    }
+  },
+  "plans": "Fixed nominal strongest-treatment reference, two-phase plan and DPV-ordered removal plan. Assignments and costs remain unchanged.",
+  "protection": "Original asset cores, 150 m bands and nominal per-asset bounds stay fixed in every scenario.",
+  "computations": "Reuse completed Pier and Chimney replays. Run missing Brattain and Ferguson forecasts on GPU. No optimization.",
+  "numerical_feasibility_tolerance_ha": 1e-08,
+  "interpretation": "Transferred treatment-response scenarios, not calibrated confidence intervals. The strongest-treatment reference is a comparator, not a proven optimum."
+}

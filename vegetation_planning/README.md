@@ -39,11 +39,12 @@ All outputs go to `vegetation_planning/generated/<fire>/`, which git ignores.
 ```
 inputs/<fire>/                 polygons, programs, costs, named assets, georeferencing
 results/<fire>/two_phase/      reference, Phase 1 and Phase 2 plans, region reference table, timings
-results/<fire>/benchmarks/     final plans of the four benchmark methods
+results/<fire>/dpv_ordered_removal/   final plan of DPV-ordered removal, our variant of Phase 1
+results/<fire>/benchmarks/     final plans of the three literature benchmarks
 results/summary/               cost and time summaries behind the paper's tables
-sensitivity/Pier_2017/         six sensitivity scenarios: changed programs and resulting plans
+sensitivity/                   fixed-plan sensitivity of three plans on the four fires
 scripts/                       fire-model inputs, electrical download, protected regions
-configs/                       FBFM40 fuel loads and the sensitivity configuration
+configs/                       FBFM40 fuel loads
 docs/                          reproducibility record and the algorithm-settings table
 manifest.json                  original path and hash of every file
 ```
@@ -152,19 +153,39 @@ the final plan of the paper). Each plan file holds
 | `cost_USD2025` | scalar | plan cost |
 
 The folder also holds the Phase 1 polygon order (`removal_order.npz`), run times, final status
-and the run protocol. `results/<fire>/benchmarks/<method>/` holds the final plan and the
-completion record of `annealing`, `nsga2`, `dpv` (downstream protection value) and
-`path_delay` (spread-path placement). `results/summary/` holds the values behind the paper's
-cost, area, time and benchmark tables.
+and the run protocol.
 
-## Sensitivity study (`sensitivity/Pier_2017/`)
+`results/<fire>/dpv_ordered_removal/` holds the final plan and the completion record of
+DPV-ordered removal. This is our variant of Phase 1: it applies the grouped removal in an order
+derived from the downstream protection value. The paper's benchmark tables and the files in
+`results/summary/` list it under the key `dpv`.
+
+`results/<fire>/benchmarks/<method>/` holds the final plan and the completion record of the
+three literature benchmarks: `annealing`, `nsga2` and `path_delay` (spread-path placement).
+`results/summary/` holds the values behind the paper's cost, area, time, benchmark and
+sensitivity tables.
+
+## Sensitivity study (`sensitivity/`)
+
+The study replays three fixed plans of every fire under changed treatment responses. The plans
+are the strongest-treatment reference, the final two-phase plan and the DPV-ordered removal
+plan. Their assignments, costs, protected regions and nominal bounds stay fixed, and no
+optimization is performed.
 
 Scenarios: `grass_high_consumption` (95% and 100%), `grass_low_consumption` (80% and 90%),
-`shrub_residual_017`, `shrub_residual_050`, `band_100m` and `band_200m`. Each folder holds the
-scenario definition with the replay of the nominal plan, the scenario's reference, Phase 1 and
-Phase 2 plans, and its region hashes and bounds. The four treatment-response scenarios also
-hold their own `candidate_operations.npz`. `comparison.csv` holds the values behind the paper's
-sensitivity table.
+`shrub_residual_017` and `shrub_residual_050`.
+
+| File | Content |
+|---|---|
+| `protocol.json` | scenario definitions and their sources |
+| `summary.json`, `comparison.csv` | the 60 comparisons behind the paper's sensitivity table |
+| `<fire>/<scenario>/multipliers.npz` | array `multipliers` (3, H, W): residual fuel multiplier of every program under the scenario |
+| `<fire>/assets_reference_two_phase.csv` | affected area of every asset under the reference and two-phase plans |
+| `<fire>/assets_dpv_ordered_removal.csv` | the same for the DPV-ordered removal plan |
+
+In these files the plan labels are `reference`, `optimized` (the final two-phase plan) and
+`dpv` (DPV-ordered removal). To replay a scenario, use its `multipliers.npz` in place of the
+array `multipliers` of `inputs/<fire>/candidate_operations.npz`, and keep the plan assignment.
 
 ## Notes for independent implementations
 

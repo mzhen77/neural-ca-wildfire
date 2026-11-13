@@ -1,0 +1,111 @@
+fire,scenario,plan,asset_id,asset_name,asset_kind,constraint,affected_core_ha,change_from_nominal_core_ha,affected_asset_and_band_ha,nominal_bound_ha,exceeds_nominal_bound
+Brattain_2020,nominal,dpv,H1,Paisley city,homes,0,18.24608005934813,0.0,59.04609015107524,59.04609015105362,False
+Brattain_2020,nominal,dpv,H2,homes 1.3 km from Paisley,homes,1,1.286269345372213,0.0,13.38714428399742,13.387144283991727,False
+Brattain_2020,nominal,dpv,H3,dispersed homes,homes,2,18.057638584663746,0.0,152.30975454913198,152.30982519004857,False
+Brattain_2020,nominal,dpv,R1,State Hwy 31 / Fremont Hwy / West St,arterial,3,68.25138361637573,0.0,314.550527816738,314.7362357019602,False
+Brattain_2020,nominal,dpv,R2,"Paisley city: River Rd, Green St, Blue St, Main St",evacuation route,4,19.989203252718216,0.0,84.34394983399213,84.34394983397522,False
+Brattain_2020,nominal,dpv,R3,homes 1.3 km from Paisley: Lovers Ln,evacuation route,5,3.9107079001420364,0.0,15.262079603501405,15.262079603495888,False
+Brattain_2020,nominal,dpv,R4,access roads of dispersed homes,evacuation route,6,264.0892809764905,0.0,1089.422485292742,1090.1254062848104,False
+Brattain_2020,nominal,dpv,I1,Marster Spring Campground,campground,7,0.17999999967382035,0.0,4.588469867264458,4.5887307490248395,False
+Brattain_2020,nominal,dpv,I2,Jones Crossing Forest Camp,campground,8,0.3599760075507837,0.0,3.7412126930224803,3.7429145394085133,False
+Brattain_2020,nominal,dpv,I3,communication tower (OSM node 12771139503),communication tower,9,0.2038268254716773,0.0,7.431521823328334,7.4315218233272065,False
+Brattain_2020,nominal,dpv,I4,Paisley State Airport,airfield or heliport,10,0.0,0.0,0.0,0.0,False
+Brattain_2020,nominal,dpv,I5,substation (OSM way 1379200375),substation,11,0.44999999999999996,0.0,4.95,4.95,False
+Brattain_2020,nominal,dpv,I6,Lakeview RCAG,communication tower,12,6.123373076514227e-06,0.0,0.022660515706712674,0.022660515704168747,False
+Brattain_2020,nominal,dpv,I7,airfield or heliport (OSM way 1266672124),airfield or heliport,13,0.0,0.0,0.0,0.0,False
+Brattain_2020,nominal,dpv,I8,Paisley Geothermal Generating Plant,power plant,14,0.18,0.0,4.409999999998577,4.409999999998577,False
+Brattain_2020,nominal,dpv,I9,substation (OSM way 1492875486),substation,15,0.09,0.0,2.61,2.61,False
+Brattain_2020,nominal,dpv,I10,communication tower (OSM node 12771139541),communication tower,16,0.0,0.0,1.1204037697609692e-13,0.0,False
+Brattain_2020,nominal,dpv,I11,dam (OSM node 3408702187),dam,17,0.17504881276309434,0.0,1.9522125011690161,1.9522125011612612,False
+Brattain_2020,nominal,dpv,E:osm/way/1379200292,Paisley Geothermal Generating Plant,facility,18,1.26,0.0,7.649697540643634,7.649697540643632,False
+Brattain_2020,nominal,dpv,E:osm/way/1379200375,substation,facility,19,0.54,0.0,5.31,5.31,False
+Brattain_2020,nominal,dpv,E:osm/way/1492875486,substation,facility,20,0.54,0.0,5.489999999998577,5.489999999998577,False
+Brattain_2020,nominal,dpv,E:oregon_lines/2744,oregon_lines,line,21,16.65665881633529,0.0,134.6214063426017,134.72944810383808,False
+Brattain_2020,grass_high_consumption,dpv,H1,Paisley city,homes,0,31.507732631420055,13.261652572071924,105.07328622710895,59.04609015105362,True
+Brattain_2020,grass_high_consumption,dpv,H2,homes 1.3 km from Paisley,homes,1,4.652903351873512,3.366634006501299,39.16386052216806,13.387144283991727,True
+Brattain_2020,grass_high_consumption,dpv,H3,dispersed homes,homes,2,27.83716518408951,9.779526599425765,254.75876655430133,152.30982519004857,True
+Brattain_2020,grass_high_consumption,dpv,R1,State Hwy 31 / Fremont Hwy / West St,arterial,3,125.82252593788166,57.57114232150593,637.9973967920713,314.7362357019602,True
+Brattain_2020,grass_high_consumption,dpv,R2,"Paisley city: River Rd, Green St, Blue St, Main St",evacuation route,4,29.228231253773263,9.239028001055047,146.02541952581907,84.34394983397522,True
+Brattain_2020,grass_high_consumption,dpv,R3,homes 1.3 km from Paisley: Lovers Ln,evacuation route,5,7.996153258968731,4.085445358826695,39.15407375614027,15.262079603495888,True
+Brattain_2020,grass_high_consumption,dpv,R4,access roads of dispersed homes,evacuation route,6,328.719024447071,64.62974347058048,1449.4028592538862,1090.1254062848104,True
+Brattain_2020,grass_high_consumption,dpv,I1,Marster Spring Campground,campground,7,0.17999999967595984,2.1394830351795235e-12,4.588443844191452,4.5887307490248395,False
+Brattain_2020,grass_high_consumption,dpv,I2,Jones Crossing Forest Camp,campground,8,0.3599757356746408,-2.7187614287660367e-07,3.7365593846403637,3.7429145394085133,False
+Brattain_2020,grass_high_consumption,dpv,I3,communication tower (OSM node 12771139503),communication tower,9,0.2041419313236878,0.0003151058520104999,7.870380348194617,7.4315218233272065,True
+Brattain_2020,grass_high_consumption,dpv,I4,Paisley State Airport,airfield or heliport,10,1.1093823302998906e-07,1.1093823302998906e-07,0.01427751425376262,0.0,True
+Brattain_2020,grass_high_consumption,dpv,I5,substation (OSM way 1379200375),substation,11,0.44999999999999996,0.0,7.638698304055954,4.95,True
+Brattain_2020,grass_high_consumption,dpv,I6,Lakeview RCAG,communication tower,12,6.866986669096242e-06,7.436135925820151e-07,0.023732010316385263,0.022660515704168747,True
+Brattain_2020,grass_high_consumption,dpv,I7,airfield or heliport (OSM way 1266672124),airfield or heliport,13,0.004065390779557315,0.004065390779557315,0.8612680308657494,0.0,True
+Brattain_2020,grass_high_consumption,dpv,I8,Paisley Geothermal Generating Plant,power plant,14,0.18,0.0,5.939390017828256,4.409999999998577,True
+Brattain_2020,grass_high_consumption,dpv,I9,substation (OSM way 1492875486),substation,15,0.09,0.0,3.9599077492905974,2.61,True
+Brattain_2020,grass_high_consumption,dpv,I10,communication tower (OSM node 12771139541),communication tower,16,0.17994453331400215,0.17994453331400215,4.244657905406658,0.0,True
+Brattain_2020,grass_high_consumption,dpv,I11,dam (OSM node 3408702187),dam,17,0.17999582009839082,0.004947007335296488,2.7557025366612975,1.9522125011612612,True
+Brattain_2020,grass_high_consumption,dpv,E:osm/way/1379200292,Paisley Geothermal Generating Plant,facility,18,1.26,0.0,10.519815426507586,7.649697540643632,True
+Brattain_2020,grass_high_consumption,dpv,E:osm/way/1379200375,substation,facility,19,0.63,0.08999999999999997,8.532261640678305,5.31,True
+Brattain_2020,grass_high_consumption,dpv,E:osm/way/1492875486,substation,facility,20,0.54,0.0,7.559299437060137,5.489999999998577,True
+Brattain_2020,grass_high_consumption,dpv,E:oregon_lines/2744,oregon_lines,line,21,25.050779719595543,8.394120903260252,202.37435213852405,134.72944810383808,True
+Brattain_2020,grass_low_consumption,dpv,H1,Paisley city,homes,0,32.151126451108105,13.905046391759974,109.87266861273476,59.04609015105362,True
+Brattain_2020,grass_low_consumption,dpv,H2,homes 1.3 km from Paisley,homes,1,4.845210943389564,3.5589415980173507,45.713040395052715,13.387144283991727,True
+Brattain_2020,grass_low_consumption,dpv,H3,dispersed homes,homes,2,29.970232117168077,11.912593532504332,281.2315854659246,152.30982519004857,True
+Brattain_2020,grass_low_consumption,dpv,R1,State Hwy 31 / Fremont Hwy / West St,arterial,3,136.43982818853198,68.18844457215624,721.7619326605686,314.7362357019602,True
+Brattain_2020,grass_low_consumption,dpv,R2,"Paisley city: River Rd, Green St, Blue St, Main St",evacuation route,4,29.503461894892908,9.514258642174692,152.51278670373048,84.34394983397522,True
+Brattain_2020,grass_low_consumption,dpv,R3,homes 1.3 km from Paisley: Lovers Ln,evacuation route,5,8.620757785808744,4.710049885666708,45.76572932194211,15.262079603495888,True
+Brattain_2020,grass_low_consumption,dpv,R4,access roads of dispersed homes,evacuation route,6,364.00830362120496,99.91902264471446,1615.308592564015,1090.1254062848104,True
+Brattain_2020,grass_low_consumption,dpv,I1,Marster Spring Campground,campground,7,0.17999999970270508,2.888472794282393e-11,4.588446785412606,4.5887307490248395,False
+Brattain_2020,grass_low_consumption,dpv,I2,Jones Crossing Forest Camp,campground,8,0.3599762279989411,2.204481573953032e-07,3.733365196272463,3.7429145394085133,False
+Brattain_2020,grass_low_consumption,dpv,I3,communication tower (OSM node 12771139503),communication tower,9,0.20483888056675,0.0010120550950727114,8.022623807325605,7.4315218233272065,True
+Brattain_2020,grass_low_consumption,dpv,I4,Paisley State Airport,airfield or heliport,10,2.7779959929619124e-06,2.7779959929619124e-06,0.10294476588827574,0.0,True
+Brattain_2020,grass_low_consumption,dpv,I5,substation (OSM way 1379200375),substation,11,0.44999999999999996,0.0,7.649999999999828,4.95,True
+Brattain_2020,grass_low_consumption,dpv,I6,Lakeview RCAG,communication tower,12,8.48691021489989e-06,2.3635371383856627e-06,0.025986985904486004,0.022660515704168747,True
+Brattain_2020,grass_low_consumption,dpv,I7,airfield or heliport (OSM way 1266672124),airfield or heliport,13,0.034854763253115005,0.034854763253115005,1.1606167193158146,0.0,True
+Brattain_2020,grass_low_consumption,dpv,I8,Paisley Geothermal Generating Plant,power plant,14,0.18,0.0,5.939999999999967,4.409999999998577,True
+Brattain_2020,grass_low_consumption,dpv,I9,substation (OSM way 1492875486),substation,15,0.09,0.0,3.96,2.61,True
+Brattain_2020,grass_low_consumption,dpv,I10,communication tower (OSM node 12771139541),communication tower,16,0.1799574845071822,0.1799574845071822,4.378670145060993,0.0,True
+Brattain_2020,grass_low_consumption,dpv,I11,dam (OSM node 3408702187),dam,17,0.17999671139394835,0.004947898630854014,2.8787769197060835,1.9522125011612612,True
+Brattain_2020,grass_low_consumption,dpv,E:osm/way/1379200292,Paisley Geothermal Generating Plant,facility,18,1.26,0.0,10.52985674495043,7.649697540643632,True
+Brattain_2020,grass_low_consumption,dpv,E:osm/way/1379200375,substation,facility,19,0.63,0.08999999999999997,8.549999999999828,5.31,True
+Brattain_2020,grass_low_consumption,dpv,E:osm/way/1492875486,substation,facility,20,0.54,0.0,7.559999999999967,5.489999999998577,True
+Brattain_2020,grass_low_consumption,dpv,E:oregon_lines/2744,oregon_lines,line,21,29.783232887553424,13.126574071218133,247.67176015357165,134.72944810383808,True
+Brattain_2020,shrub_residual_017,dpv,H1,Paisley city,homes,0,17.938353626580945,-0.30772643276718625,51.6903999555315,59.04609015105362,False
+Brattain_2020,shrub_residual_017,dpv,H2,homes 1.3 km from Paisley,homes,1,1.1895340743004403,-0.0967352710717726,12.565586001301522,13.387144283991727,False
+Brattain_2020,shrub_residual_017,dpv,H3,dispersed homes,homes,2,15.114456502204158,-2.943182082459588,123.48019265762755,152.30982519004857,False
+Brattain_2020,shrub_residual_017,dpv,R1,State Hwy 31 / Fremont Hwy / West St,arterial,3,41.90719635898668,-26.344187257389052,201.224862359534,314.7362357019602,False
+Brattain_2020,shrub_residual_017,dpv,R2,"Paisley city: River Rd, Green St, Blue St, Main St",evacuation route,4,19.41866382428392,-0.5705394284342944,76.72665749888776,84.34394983397522,False
+Brattain_2020,shrub_residual_017,dpv,R3,homes 1.3 km from Paisley: Lovers Ln,evacuation route,5,3.82736644183172,-0.08334145831031625,14.497242133889596,15.262079603495888,False
+Brattain_2020,shrub_residual_017,dpv,R4,access roads of dispersed homes,evacuation route,6,224.37902893388414,-39.710252042606356,902.097195447265,1090.1254062848104,False
+Brattain_2020,shrub_residual_017,dpv,I1,Marster Spring Campground,campground,7,0.17999962532553593,-3.743482844265067e-07,4.58847625664641,4.5887307490248395,False
+Brattain_2020,shrub_residual_017,dpv,I2,Jones Crossing Forest Camp,campground,8,0.35999767333725896,2.1665786475277837e-05,3.556116686864149,3.7429145394085133,False
+Brattain_2020,shrub_residual_017,dpv,I3,communication tower (OSM node 12771139503),communication tower,9,0.067888601295987,-0.1359382241756903,6.079932320219477,7.4315218233272065,False
+Brattain_2020,shrub_residual_017,dpv,I4,Paisley State Airport,airfield or heliport,10,0.0,0.0,0.0,0.0,False
+Brattain_2020,shrub_residual_017,dpv,I5,substation (OSM way 1379200375),substation,11,0.44999999999999996,0.0,4.949999999697012,4.95,False
+Brattain_2020,shrub_residual_017,dpv,I6,Lakeview RCAG,communication tower,12,2.8507890368345556e-08,-6.0948651861458815e-06,0.0017039010320356884,0.022660515704168747,False
+Brattain_2020,shrub_residual_017,dpv,I7,airfield or heliport (OSM way 1266672124),airfield or heliport,13,0.0,0.0,0.0,0.0,False
+Brattain_2020,shrub_residual_017,dpv,I8,Paisley Geothermal Generating Plant,power plant,14,0.18,0.0,4.409999988887069,4.409999999998577,False
+Brattain_2020,shrub_residual_017,dpv,I9,substation (OSM way 1492875486),substation,15,0.09,0.0,2.61,2.61,False
+Brattain_2020,shrub_residual_017,dpv,I10,communication tower (OSM node 12771139541),communication tower,16,0.0,0.0,0.0,0.0,False
+Brattain_2020,shrub_residual_017,dpv,I11,dam (OSM node 3408702187),dam,17,0.09110424229396445,-0.08394457046912988,0.8416213950995828,1.9522125011612612,False
+Brattain_2020,shrub_residual_017,dpv,E:osm/way/1379200292,Paisley Geothermal Generating Plant,facility,18,1.26,0.0,7.648209001435993,7.649697540643632,False
+Brattain_2020,shrub_residual_017,dpv,E:osm/way/1379200375,substation,facility,19,0.54,0.0,5.309999999694466,5.31,False
+Brattain_2020,shrub_residual_017,dpv,E:osm/way/1492875486,substation,facility,20,0.54,0.0,5.489999988887069,5.489999999998577,False
+Brattain_2020,shrub_residual_017,dpv,E:oregon_lines/2744,oregon_lines,line,21,13.460915514909816,-3.195743301425475,104.90230811402577,134.72944810383808,False
+Brattain_2020,shrub_residual_050,dpv,H1,Paisley city,homes,0,18.494337637379438,0.248257578031307,63.611318286889514,59.04609015105362,True
+Brattain_2020,shrub_residual_050,dpv,H2,homes 1.3 km from Paisley,homes,1,1.5300262400123559,0.24375689464014294,16.659351462429484,13.387144283991727,True
+Brattain_2020,shrub_residual_050,dpv,H3,dispersed homes,homes,2,29.253410583184312,11.195771998520566,249.29402828506156,152.30982519004857,True
+Brattain_2020,shrub_residual_050,dpv,R1,State Hwy 31 / Fremont Hwy / West St,arterial,3,131.0874952673548,62.83611165097906,694.5914981123806,314.7362357019602,True
+Brattain_2020,shrub_residual_050,dpv,R2,"Paisley city: River Rd, Green St, Blue St, Main St",evacuation route,4,20.383167034627895,0.3939637819096795,89.26542121286583,84.34394983397522,True
+Brattain_2020,shrub_residual_050,dpv,R3,homes 1.3 km from Paisley: Lovers Ln,evacuation route,5,4.49999560612657,0.5892877059845332,19.502601514190395,15.262079603495888,True
+Brattain_2020,shrub_residual_050,dpv,R4,access roads of dispersed homes,evacuation route,6,352.7328015811474,88.64352060465689,1537.963090695776,1090.1254062848104,True
+Brattain_2020,shrub_residual_050,dpv,I1,Marster Spring Campground,campground,7,0.17999999999100927,3.171889140229922e-10,4.585254931027452,4.5887307490248395,False
+Brattain_2020,shrub_residual_050,dpv,I2,Jones Crossing Forest Camp,campground,8,0.3599948448448517,1.8837294068041466e-05,4.521279358528912,3.7429145394085133,True
+Brattain_2020,shrub_residual_050,dpv,I3,communication tower (OSM node 12771139503),communication tower,9,0.432805235730991,0.2289784102593137,8.155695274625177,7.4315218233272065,True
+Brattain_2020,shrub_residual_050,dpv,I4,Paisley State Airport,airfield or heliport,10,0.43979580849323346,0.43979580849323346,9.313730037645067,0.0,True
+Brattain_2020,shrub_residual_050,dpv,I5,substation (OSM way 1379200375),substation,11,0.44999999999999996,0.0,4.95,4.95,False
+Brattain_2020,shrub_residual_050,dpv,I6,Lakeview RCAG,communication tower,12,0.02608706731622783,0.026080943943151316,0.565477044296725,0.022660515704168747,True
+Brattain_2020,shrub_residual_050,dpv,I7,airfield or heliport (OSM way 1266672124),airfield or heliport,13,0.2699999982959597,0.2699999982959597,8.098777148590042,0.0,True
+Brattain_2020,shrub_residual_050,dpv,I8,Paisley Geothermal Generating Plant,power plant,14,0.18,0.0,4.4099999999999975,4.409999999998577,False
+Brattain_2020,shrub_residual_050,dpv,I9,substation (OSM way 1492875486),substation,15,0.09,0.0,2.61,2.61,False
+Brattain_2020,shrub_residual_050,dpv,I10,communication tower (OSM node 12771139541),communication tower,16,0.18,0.18,6.380960417502851,0.0,True
+Brattain_2020,shrub_residual_050,dpv,I11,dam (OSM node 3408702187),dam,17,0.179996852052917,0.004948039289822653,2.156576367226699,1.9522125011612612,True
+Brattain_2020,shrub_residual_050,dpv,E:osm/way/1379200292,Paisley Geothermal Generating Plant,facility,18,1.26,0.0,7.649912639884854,7.649697540643632,True
+Brattain_2020,shrub_residual_050,dpv,E:osm/way/1379200375,substation,facility,19,0.54,0.0,5.31,5.31,False
+Brattain_2020,shrub_residual_050,dpv,E:osm/way/1492875486,substation,facility,20,0.54,0.0,5.4899999999999975,5.489999999998577,False
+Brattain_2020,shrub_residual_050,dpv,E:oregon_lines/2744,oregon_lines,line,21,31.28920892411074,14.632550107775447,254.98670118154968,134.72944810383808,True

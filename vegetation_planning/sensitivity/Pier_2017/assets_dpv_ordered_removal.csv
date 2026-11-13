@@ -1,0 +1,1541 @@
+fire,scenario,plan,asset_id,asset_name,asset_kind,constraint,affected_core_ha,change_from_nominal_core_ha,affected_asset_and_band_ha,nominal_bound_ha,exceeds_nominal_bound
+Pier_2017,nominal,dpv,H1,homes 3.9 km from Springville,homes,0,0.4343710840316853,0.0,1.0257574966092657,1.0257574966092657,False
+Pier_2017,nominal,dpv,H2,Sequoia Crest CDP,homes,1,1.8333084499499995e-07,0.0,0.042331604783007286,0.04233160478162365,False
+Pier_2017,nominal,dpv,H3,homes 4.5 km from Springville,homes,2,0.0,0.0,3.6055742391738477e-10,3.6055742391738477e-10,False
+Pier_2017,nominal,dpv,H4,Springville CDP,homes,3,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,H5,homes 2.6 km from Coy Flat,homes,4,2.8854165467739887e-06,0.0,0.2607518052247348,0.26075180522473473,False
+Pier_2017,nominal,dpv,H6,homes 4.6 km from Springville,homes,5,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,H7,homes 2.4 km from Springville,homes,6,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,H8,Soda Springs,homes,7,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,H9,dispersed homes,homes,8,0.5059785419514373,0.0,11.023101369951828,11.023115714786762,False
+Pier_2017,nominal,dpv,R1,State Rte 190 / Hwy 190 / State Hwy 190,arterial,9,13.110557169677605,0.0,94.47367749957121,94.47369051057385,False
+Pier_2017,nominal,dpv,R2,"homes 3.9 km from Springville: Mountain Road 189, Cow Mountain Rd",evacuation route,10,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,R3,"Sequoia Crest CDP: Redwood Dr, Alder Dr, Ponderosa Dr, Forest Rte 20S03",evacuation route,11,10.616759198038775,0.0,38.051847748122526,38.051847748119705,False
+Pier_2017,nominal,dpv,R4,"Springville CDP: Co Rd J28, Tule River Dr, Bogart Dr, Mountain Road 189",evacuation route,12,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,R5,"Soda Springs: Forest Rte 21S94, Co Rte M127, Indian Svc Rd, Indian Reservation Dr",evacuation route,13,9.256641165751342,0.0,28.080742726114902,28.0807427163994,False
+Pier_2017,nominal,dpv,R6,"homes 2.3 km from Camp Nelson: Redwood Dr, Forest Rte 20S11, Pine View Dr, Rey Vista Dr",evacuation route,14,0.191770303561529,0.0,2.6695078630242324,2.66950786302278,False
+Pier_2017,nominal,dpv,R7,"homes 4.5 km from Springville: Co Rte 220, Balch Park Rd",evacuation route,15,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,R8,"homes 2.6 km from Coy Flat: Forest Rte 21S94, Linder Dr, Coy Flat Rd, Smith Dr",evacuation route,16,3.4029480004860167e-07,0.0,0.5206582356050615,0.5206582348344257,False
+Pier_2017,nominal,dpv,R9,"Pierpoint CDP: McComber Dr, Mariposa Dr, John Lewis Dr, Sunset Dr",evacuation route,17,7.644189997271234e-06,0.0,1.5082874858535142,1.5082874858535136,False
+Pier_2017,nominal,dpv,R10,"homes 2.4 km from Springville: Globe Dr, Maranatha Ct, Rainbow Ranch Ct, Mountain Road 172A",evacuation route,18,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,R11,"homes 4.6 km from Springville: Mountain Road 172A, Mustang Dr, Mountain Road 161, Pleasant Oak Dr",evacuation route,19,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,R12,access roads of dispersed homes,evacuation route,20,25.923125998048256,0.0,144.05592354892684,144.0559235389284,False
+Pier_2017,nominal,dpv,I1,Lower Tule River Power Plant,power plant,21,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,I2,substation (OSM way 1007932630),substation,22,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,I3,Sequoia Ranch Airport,airfield or heliport,23,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,I4,Wishon Campground,campground,24,0.04311483720522934,0.0,1.213735119911226,1.2137351199112263,False
+Pier_2017,nominal,dpv,E:osm/way/1007932630,substation,facility,25,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:osm/way/1007932634,Lower Tule River Power Plant,facility,26,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:osm/way/1359980027,minor_line,line,27,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:osm/way/1359980028,minor_line,line,28,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:osm/way/1359980032,minor_line,line,29,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:osm/way/1359980033,minor_line,line,30,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:osm/way/1359980034,minor_line,line,31,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:osm/way/1359980035,minor_line,line,32,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:osm/way/1464874115,minor_line,line,33,0.0,0.0,0.3461903421305595,0.3461903421305595,False
+Pier_2017,nominal,dpv,E:osm/way/1464874381,minor_line,line,34,0.0,0.0,0.3461903421305595,0.3461903421305595,False
+Pier_2017,nominal,dpv,E:osm/way/1464883427,minor_line,line,35,0.0,0.0,0.34619034213055944,0.3461903421305595,False
+Pier_2017,nominal,dpv,E:osm/way/1464891030,minor_line,line,36,0.18994683248196992,0.0,0.9652813626237486,0.9652813626237485,False
+Pier_2017,nominal,dpv,E:osm/way/1464899073,minor_line,line,37,0.07251153580578629,0.0,0.758021474575428,0.7580214745754278,False
+Pier_2017,nominal,dpv,E:osm/way/1465200482,minor_line,line,38,0.16209815848614656,0.0,0.9652813626237484,0.9652813626237485,False
+Pier_2017,nominal,dpv,E:osm/way/1465360956,minor_line,line,39,0.0,0.0,0.0880299462009618,0.0880299462009618,False
+Pier_2017,nominal,dpv,E:osm/way/1465361932,minor_line,line,40,0.0,0.0,1.0029311459325285e-07,1.0029311459325285e-07,False
+Pier_2017,nominal,dpv,E:cec_lines/4039,SCE 66kV,line,41,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:cec_lines/4040,SCE 66kV,line,42,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:cec_lines/4041,SCE 66kV,line,43,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:cec_lines/4043,SCE 66kV,line,44,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:cec_lines/4044,SCE 66kV,line,45,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_1/858,Success,line,46,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52416,Elster,line,47,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52438,Elster,line,48,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52439,Elster,line,49,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52440,Elster,line,50,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52441,Elster,line,51,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52442,Elster,line,52,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52443,Elster,line,53,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52444,Elster,line,54,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52445,Elster,line,55,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52453,Elster,line,56,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52455,Elster,line,57,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52456,Elster,line,58,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52462,Elster,line,59,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52464,Elster,line,60,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52475,Elster,line,61,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52476,Elster,line,62,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52501,Elster,line,63,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52515,Elster,line,64,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52566,Elster,line,65,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52569,Elster,line,66,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52574,Elster,line,67,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52576,Elster,line,68,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52579,Elster,line,69,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52582,Elster,line,70,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52586,Elster,line,71,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52611,Elster,line,72,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52625,Elster,line,73,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52626,Elster,line,74,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52637,Elster,line,75,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52641,Elster,line,76,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52679,Elster,line,77,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52680,Elster,line,78,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52742,Elster,line,79,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52778,Elster,line,80,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52788,Elster,line,81,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52832,Elster,line,82,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52841,Elster,line,83,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52847,Elster,line,84,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52878,Elster,line,85,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52894,Elster,line,86,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52933,Elster,line,87,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52934,Elster,line,88,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52945,Elster,line,89,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52970,Elster,line,90,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/52971,Elster,line,91,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/53008,Elster,line,92,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/53019,Elster,line,93,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/405947,Soda Springs,line,94,0.42003644759724856,0.0,2.278290578731457,2.278293224193013,False
+Pier_2017,nominal,dpv,E:sce_lines_2/405948,Soda Springs,line,95,0.8176891863577044,0.0,6.9020224388980465,6.9020238414414425,False
+Pier_2017,nominal,dpv,E:sce_lines_2/405969,Soda Springs,line,96,0.0,0.0,0.3311784052578092,0.3311784614897189,False
+Pier_2017,nominal,dpv,E:sce_lines_2/405974,Soda Springs,line,97,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/405988,Soda Springs,line,98,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/405989,Soda Springs,line,99,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406001,Soda Springs,line,100,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406002,Soda Springs,line,101,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406006,Soda Springs,line,102,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406008,Soda Springs,line,103,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406017,Soda Springs,line,104,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406018,Soda Springs,line,105,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406020,Soda Springs,line,106,0.03042333701218939,0.0,15.691768812450025,15.691768812450253,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406024,Soda Springs,line,107,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406028,Soda Springs,line,108,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406038,Soda Springs,line,109,0.0,0.0,0.018158305969953017,0.018158305969953017,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406046,Soda Springs,line,110,0.0,0.0,6.052358614283548e-13,6.052358614283548e-13,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406058,Soda Springs,line,111,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406099,Soda Springs,line,112,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406107,Soda Springs,line,113,1.4190397545269045,0.0,16.538484769501974,16.538484769501977,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406108,Soda Springs,line,114,0.0,0.0,0.0001735502105871156,0.0001735502105871156,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406110,Soda Springs,line,115,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406112,Soda Springs,line,116,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406113,Soda Springs,line,117,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406186,Soda Springs,line,118,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406187,Soda Springs,line,119,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406225,Soda Springs,line,120,0.8110317261421616,0.0,21.751292356238235,21.75129235616982,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406243,Soda Springs,line,121,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406269,Soda Springs,line,122,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406274,Soda Springs,line,123,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406280,Soda Springs,line,124,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406281,Soda Springs,line,125,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406290,Soda Springs,line,126,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406297,Soda Springs,line,127,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406300,Soda Springs,line,128,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406305,Soda Springs,line,129,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406312,Soda Springs,line,130,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406317,Soda Springs,line,131,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406324,Soda Springs,line,132,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406326,Soda Springs,line,133,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406327,Soda Springs,line,134,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406339,Soda Springs,line,135,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406340,Soda Springs,line,136,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406346,Soda Springs,line,137,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406347,Soda Springs,line,138,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406353,Soda Springs,line,139,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406361,Soda Springs,line,140,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406387,Soda Springs,line,141,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406389,Soda Springs,line,142,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406395,Soda Springs,line,143,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406403,Soda Springs,line,144,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406404,Soda Springs,line,144,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406407,Soda Springs,line,145,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406418,Soda Springs,line,146,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406419,Soda Springs,line,147,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406432,Soda Springs,line,148,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406438,Soda Springs,line,149,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406439,Soda Springs,line,150,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406441,Soda Springs,line,151,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406447,Soda Springs,line,152,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406450,Soda Springs,line,153,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406451,Soda Springs,line,154,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406455,Soda Springs,line,155,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406457,Soda Springs,line,156,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406475,Soda Springs,line,157,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406479,Soda Springs,line,158,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406481,Soda Springs,line,159,0.07251153580578629,0.0,0.9652813626237486,0.965281362623749,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406482,Soda Springs,line,160,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406490,Soda Springs,line,161,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406502,Soda Springs,line,162,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406503,Soda Springs,line,163,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406509,Soda Springs,line,164,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406517,Soda Springs,line,165,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406526,Soda Springs,line,166,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406549,Soda Springs,line,167,1.638689184346731e-14,0.0,3.69470415462203e-08,3.69470415462203e-08,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406551,Soda Springs,line,168,2.4649738250559495e-10,0.0,1.0534316012593834,1.0534316012593834,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406553,Soda Springs,line,169,0.47957125486823216,0.0,5.919580837368852,5.919580837367411,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406561,Soda Springs,line,170,0.3203813204308157,0.0,8.529219746262793,8.529219746262799,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406565,Soda Springs,line,171,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406574,Soda Springs,line,172,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406575,Soda Springs,line,173,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406576,Soda Springs,line,174,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406578,Soda Springs,line,175,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406590,Soda Springs,line,176,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406592,Soda Springs,line,177,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406596,Soda Springs,line,178,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406600,Soda Springs,line,179,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406602,Soda Springs,line,180,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406604,Soda Springs,line,181,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406605,Soda Springs,line,182,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406614,Soda Springs,line,183,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406616,Soda Springs,line,184,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406621,Soda Springs,line,185,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406623,Soda Springs,line,186,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406624,Soda Springs,line,187,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406625,Soda Springs,line,188,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406626,Soda Springs,line,189,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406641,Soda Springs,line,190,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406642,Soda Springs,line,191,5.743318875149339e-05,0.0,2.281489188609832,2.2814891886098314,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406651,Soda Springs,line,192,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406656,Soda Springs,line,193,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406662,Soda Springs,line,194,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406665,Soda Springs,line,195,0.0013254056737968022,0.0,4.946966439945205,4.9469664399452045,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406671,Soda Springs,line,196,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406677,Soda Springs,line,197,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406683,Soda Springs,line,110,0.0,0.0,6.052358614283548e-13,6.052358614283548e-13,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406684,Soda Springs,line,198,0.0,0.0,0.010580673293491476,0.010580673293491476,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406689,Soda Springs,line,199,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406708,Soda Springs,line,200,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406712,Soda Springs,line,201,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406735,Soda Springs,line,202,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_2/406754,Soda Springs,line,203,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50694,Elster,line,204,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50692,Elster,line,205,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50691,Elster,line,206,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50690,Elster,line,207,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50689,Elster,line,208,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50688,Elster,line,209,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50687,Elster,line,210,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50679,Elster,line,211,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50678,Elster,line,212,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50667,Elster,line,213,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50650,Elster,line,214,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50762,Elster,line,215,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50781,Elster,line,216,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50792,Elster,line,217,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50793,Elster,line,218,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50802,Elster,line,219,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50807,Elster,line,220,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50808,Elster,line,221,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50893,Elster,line,222,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50892,Elster,line,223,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50891,Elster,line,224,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50890,Elster,line,225,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50868,Elster,line,226,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50833,Elster,line,227,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50909,Elster,line,228,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/50935,Elster,line,229,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/51019,Elster,line,230,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/51020,Elster,line,231,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/51040,Elster,line,232,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/51120,Elster,line,233,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/51171,Elster,line,234,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/51155,Elster,line,235,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/51268,Elster,line,236,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/51274,Elster,line,237,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/409974,Soda Springs,line,238,9.592326932761353e-16,0.0,4.7618975262953e-09,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/409975,Soda Springs,line,239,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/409976,Soda Springs,line,240,1.3988810110276973e-16,0.0,3.379508273226861e-10,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/409978,Soda Springs,line,241,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/409985,Soda Springs,line,242,1.4409895776612558e-09,0.0,1.3446348184897871e-08,1.344507641221071e-08,False
+Pier_2017,nominal,dpv,E:sce_lines_3/409987,Soda Springs,line,243,0.05624856805738794,0.0,4.422926080515173,4.422926080515174,False
+Pier_2017,nominal,dpv,E:sce_lines_3/409993,Soda Springs,line,244,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/409995,Soda Springs,line,99,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/409996,Soda Springs,line,245,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/409997,Soda Springs,line,246,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410003,Soda Springs,line,247,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410009,Soda Springs,line,248,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410020,Soda Springs,line,249,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410041,Soda Springs,line,250,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410099,Soda Springs,line,251,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410100,Soda Springs,line,252,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410101,Soda Springs,line,253,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410106,Soda Springs,line,254,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410107,Soda Springs,line,255,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410113,Soda Springs,line,256,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410115,Soda Springs,line,257,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410116,Soda Springs,line,258,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410119,Soda Springs,line,259,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410123,Soda Springs,line,260,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410282,Soda Springs,line,261,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410280,Soda Springs,line,262,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410256,Soda Springs,line,161,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410247,Soda Springs,line,263,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410244,Soda Springs,line,264,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410243,Soda Springs,line,265,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410242,Soda Springs,line,266,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410241,Soda Springs,line,267,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410240,Soda Springs,line,268,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410217,Soda Springs,line,269,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410211,Soda Springs,line,270,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410206,Soda Springs,line,271,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410294,Soda Springs,line,272,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410295,Soda Springs,line,273,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410326,Soda Springs,line,274,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410328,Soda Springs,line,275,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410340,Soda Springs,line,276,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410341,Soda Springs,line,277,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410345,Soda Springs,line,278,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410346,Soda Springs,line,279,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410372,Soda Springs,line,280,7.407044977369992e-12,0.0,9.827737014189707e-09,9.826372385779436e-09,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410383,Soda Springs,line,281,3.2821745321598425e-13,0.0,7.639724552976901e-10,7.628065878950707e-10,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410388,Soda Springs,line,282,5.76104164373703e-12,0.0,6.008624787723349e-09,6.0072916741038536e-09,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410393,Soda Springs,line,283,2.0331547445628926e-09,0.0,2.6849784225957407e-08,2.6848805468882018e-08,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410400,Soda Springs,line,284,4.07044398187395e-12,0.0,2.1891029489129465e-09,2.187822143451257e-09,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410404,Soda Springs,line,285,0.18965782379335744,0.0,2.2551610610312016,2.2551610610312016,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410437,Soda Springs,line,286,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410432,Soda Springs,line,287,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410501,Soda Springs,line,288,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410489,Soda Springs,line,289,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410488,Soda Springs,line,290,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410481,Soda Springs,line,291,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410517,Soda Springs,line,292,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410522,Soda Springs,line,293,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410523,Soda Springs,line,294,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410577,Soda Springs,line,295,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410571,Soda Springs,line,296,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410555,Soda Springs,line,297,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410543,Soda Springs,line,298,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410540,Soda Springs,line,299,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410534,Soda Springs,line,300,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410529,Soda Springs,line,301,1.0391687510491465e-15,0.0,0.004150715962463724,0.004150715962463724,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410611,Soda Springs,line,302,0.0,0.0,0.0,0.0,False
+Pier_2017,nominal,dpv,E:sce_lines_3/410598,Soda Springs,line,303,1.8956836100869623e-13,0.0,7.589920891781787e-10,7.578263916396821e-10,False
+Pier_2017,grass_high_consumption,dpv,H1,homes 3.9 km from Springville,homes,0,0.4461616772386469,0.01179059320696163,1.1180699640035108,1.0257574966092657,True
+Pier_2017,grass_high_consumption,dpv,H2,Sequoia Crest CDP,homes,1,1.8678853782705396e-07,3.4576928320540146e-09,0.04243888798750746,0.04233160478162365,True
+Pier_2017,grass_high_consumption,dpv,H3,homes 4.5 km from Springville,homes,2,0.0,0.0,4.822123101821951e-08,3.6055742391738477e-10,True
+Pier_2017,grass_high_consumption,dpv,H4,Springville CDP,homes,3,7.700258941239515,7.700258941239515,55.19550581150343,0.0,True
+Pier_2017,grass_high_consumption,dpv,H5,homes 2.6 km from Coy Flat,homes,4,3.305975779043235e-06,4.2055923226924654e-07,0.2651831003763012,0.26075180522473473,True
+Pier_2017,grass_high_consumption,dpv,H6,homes 4.6 km from Springville,homes,5,0.0,0.0,5.2093678091424956e-06,0.0,True
+Pier_2017,grass_high_consumption,dpv,H7,homes 2.4 km from Springville,homes,6,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,H8,Soda Springs,homes,7,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,H9,dispersed homes,homes,8,0.505761251546219,-0.00021729040521833998,11.107257984687216,11.023115714786762,True
+Pier_2017,grass_high_consumption,dpv,R1,State Rte 190 / Hwy 190 / State Hwy 190,arterial,9,13.322192935535377,0.21163576585777122,96.10564197110911,94.47369051057385,True
+Pier_2017,grass_high_consumption,dpv,R2,"homes 3.9 km from Springville: Mountain Road 189, Cow Mountain Rd",evacuation route,10,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,R3,"Sequoia Crest CDP: Redwood Dr, Alder Dr, Ponderosa Dr, Forest Rte 20S03",evacuation route,11,10.613720323271814,-0.003038874766961186,38.060961411052446,38.051847748119705,True
+Pier_2017,grass_high_consumption,dpv,R4,"Springville CDP: Co Rd J28, Tule River Dr, Bogart Dr, Mountain Road 189",evacuation route,12,2.458624300215638,2.458624300215638,14.971017304135497,0.0,True
+Pier_2017,grass_high_consumption,dpv,R5,"Soda Springs: Forest Rte 21S94, Co Rte M127, Indian Svc Rd, Indian Reservation Dr",evacuation route,13,9.267301375629856,0.010660209878514237,28.12033839931381,28.0807427163994,True
+Pier_2017,grass_high_consumption,dpv,R6,"homes 2.3 km from Camp Nelson: Redwood Dr, Forest Rte 20S11, Pine View Dr, Rey Vista Dr",evacuation route,14,0.191513238843907,-0.0002570647176219909,2.6739990188091,2.66950786302278,True
+Pier_2017,grass_high_consumption,dpv,R7,"homes 4.5 km from Springville: Co Rte 220, Balch Park Rd",evacuation route,15,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,R8,"homes 2.6 km from Coy Flat: Forest Rte 21S94, Linder Dr, Coy Flat Rd, Smith Dr",evacuation route,16,3.866727743395692e-07,4.637797429096755e-08,0.5321994228390263,0.5206582348344257,True
+Pier_2017,grass_high_consumption,dpv,R9,"Pierpoint CDP: McComber Dr, Mariposa Dr, John Lewis Dr, Sunset Dr",evacuation route,17,0.00027183737222252866,0.0002641931822252574,1.4191277431755018,1.5082874858535136,False
+Pier_2017,grass_high_consumption,dpv,R10,"homes 2.4 km from Springville: Globe Dr, Maranatha Ct, Rainbow Ranch Ct, Mountain Road 172A",evacuation route,18,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,R11,"homes 4.6 km from Springville: Mountain Road 172A, Mustang Dr, Mountain Road 161, Pleasant Oak Dr",evacuation route,19,4.180226165217959e-12,4.180226165217959e-12,0.0016755319425004998,0.0,True
+Pier_2017,grass_high_consumption,dpv,R12,access roads of dispersed homes,evacuation route,20,27.09868860819736,1.175562610149104,148.51382424621758,144.0559235389284,True
+Pier_2017,grass_high_consumption,dpv,I1,Lower Tule River Power Plant,power plant,21,8.79296635503124e-16,8.79296635503124e-16,5.773520361795903e-10,0.0,False
+Pier_2017,grass_high_consumption,dpv,I2,substation (OSM way 1007932630),substation,22,2.7977620220553945e-16,2.7977620220553945e-16,1.886138545348359e-10,0.0,False
+Pier_2017,grass_high_consumption,dpv,I3,Sequoia Ranch Airport,airfield or heliport,23,0.0,0.0,2.298161660974074e-16,0.0,False
+Pier_2017,grass_high_consumption,dpv,I4,Wishon Campground,campground,24,0.043128613416107464,1.3776210878127526e-05,1.2139696533612845,1.2137351199112263,True
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1007932630,substation,facility,25,1.1590728377086634e-15,1.1590728377086634e-15,3.1051099791401525e-09,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1007932634,Lower Tule River Power Plant,facility,26,7.170264382239111e-14,7.170264382239111e-14,1.007133171859742e-08,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1359980027,minor_line,line,27,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1359980028,minor_line,line,28,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1359980032,minor_line,line,29,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1359980033,minor_line,line,30,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1359980034,minor_line,line,31,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1359980035,minor_line,line,32,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1464874115,minor_line,line,33,1.43426615998965e-05,1.43426615998965e-05,0.360989773426299,0.3461903421305595,True
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1464874381,minor_line,line,34,1.4343992425795982e-05,1.4343992425795982e-05,0.360989773426299,0.3461903421305595,True
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1464883427,minor_line,line,35,1.2992063367534e-05,1.2992063367534e-05,0.36098977342514726,0.3461903421305595,True
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1464891030,minor_line,line,36,0.19530025102651824,0.005353418544548322,1.0348466194204435,0.9652813626237485,True
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1464899073,minor_line,line,37,0.07284225491035116,0.00033071910456487774,0.803664762324674,0.7580214745754278,True
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1465200482,minor_line,line,38,0.16740914411944016,0.005310985633293602,1.0317254123579112,0.9652813626237485,True
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1465360956,minor_line,line,39,1.7109810708237915e-08,1.7109810708237915e-08,0.08840526044019155,0.0880299462009618,True
+Pier_2017,grass_high_consumption,dpv,E:osm/way/1465361932,minor_line,line,40,1.3893259942499013e-09,1.3893259942499013e-09,0.00032227261629118266,1.0029311459325285e-07,True
+Pier_2017,grass_high_consumption,dpv,E:cec_lines/4039,SCE 66kV,line,41,4.6023185262811235e-14,4.6023185262811235e-14,3.1218644469532816e-09,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:cec_lines/4040,SCE 66kV,line,42,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:cec_lines/4041,SCE 66kV,line,43,0.0,0.0,1.1089968943167605e-11,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:cec_lines/4043,SCE 66kV,line,44,1.1890488593735426e-14,1.1890488593735426e-14,0.00014232889864230214,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:cec_lines/4044,SCE 66kV,line,45,1.392140648511089,1.392140648511089,11.853943162310587,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_1/858,Success,line,46,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52416,Elster,line,47,0.10319822443596884,0.10319822443596884,2.068185381822467,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52438,Elster,line,48,0.0,0.0,1.1800560528740788e-14,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52439,Elster,line,49,0.0,0.0,1.259492510286009e-13,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52440,Elster,line,50,0.35999999938708205,0.35999999938708205,7.675337984834041,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52441,Elster,line,51,0.012055484953444799,0.012055484953444799,2.683172931987408,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52442,Elster,line,52,1.0148363705786423e-06,1.0148363705786423e-06,0.4329354708577868,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52443,Elster,line,53,0.42126613493482057,0.42126613493482057,5.458864613884285,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52444,Elster,line,54,0.10671075030748085,0.10671075030748085,3.2269262091515283,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52445,Elster,line,55,0.0,0.0,1.6423762350115113e-11,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52453,Elster,line,56,2.436037371822408e-11,2.436037371822408e-11,5.4995245834899005e-06,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52455,Elster,line,57,0.2844300364027835,0.2844300364027835,3.4988192640612588,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52456,Elster,line,58,0.011120536592528648,0.011120536592528648,1.4592912647714473,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52462,Elster,line,59,0.0012733337016698132,0.0012733337016698132,0.9159195422878308,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52464,Elster,line,60,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52475,Elster,line,61,0.0006793781816080113,0.0006793781816080113,0.5978987212360517,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52476,Elster,line,62,0.0012329068169840106,0.0012329068169840106,0.6982671678376255,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52501,Elster,line,63,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52515,Elster,line,64,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52566,Elster,line,65,6.319944567678704e-14,6.319944567678704e-14,2.750609712098839e-07,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52569,Elster,line,66,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52574,Elster,line,67,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52576,Elster,line,68,0.004199675730693191,0.004199675730693191,2.103105975364511,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52579,Elster,line,69,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52582,Elster,line,70,6.732614465931874e-14,6.732614465931874e-14,1.769160054484464e-05,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52586,Elster,line,71,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52611,Elster,line,72,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52625,Elster,line,73,8.293365993949919e-16,8.293365993949919e-16,3.8606925456541314e-09,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52626,Elster,line,74,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52637,Elster,line,75,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52641,Elster,line,76,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52679,Elster,line,77,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52680,Elster,line,78,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52742,Elster,line,79,0.1414282223252059,0.1414282223252059,2.240572119068687,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52778,Elster,line,80,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52788,Elster,line,81,1.5770384997892961e-13,1.5770384997892961e-13,2.7599158866298266e-07,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52832,Elster,line,82,0.0,0.0,2.9861132566644244e-10,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52841,Elster,line,83,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52847,Elster,line,84,9.992007221626408e-18,9.992007221626408e-18,1.0281404787537695e-08,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52878,Elster,line,85,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52894,Elster,line,86,0.4961022859949793,0.4961022859949793,6.2629328486908875,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52933,Elster,line,87,0.0,0.0,7.893685705084862e-16,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52934,Elster,line,88,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52945,Elster,line,89,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52970,Elster,line,90,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/52971,Elster,line,91,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/53008,Elster,line,92,0.0,0.0,3.0539446971289406e-10,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/53019,Elster,line,93,0.0002687636468560972,0.0002687636468560972,0.46230822304158614,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/405947,Soda Springs,line,94,0.4201325374229402,9.608982569164759e-05,2.305774171496198,2.278293224193013,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/405948,Soda Springs,line,95,0.8179907777506799,0.00030159139297547544,6.979498918896383,6.9020238414414425,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/405969,Soda Springs,line,96,2.672725693164679e-07,2.672725693164679e-07,0.5797149580219861,0.3311784614897189,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/405974,Soda Springs,line,97,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/405988,Soda Springs,line,98,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/405989,Soda Springs,line,99,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406001,Soda Springs,line,100,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406002,Soda Springs,line,101,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406006,Soda Springs,line,102,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406008,Soda Springs,line,103,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406017,Soda Springs,line,104,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406018,Soda Springs,line,105,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406020,Soda Springs,line,106,0.030423436632581447,9.962039205710371e-08,15.691826906839223,15.691768812450253,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406024,Soda Springs,line,107,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406028,Soda Springs,line,108,2.7977620220553945e-16,2.7977620220553945e-16,1.8017917158275054e-11,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406038,Soda Springs,line,109,6.848132333203694e-08,6.848132333203694e-08,0.1460358779068061,0.018158305969953017,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406046,Soda Springs,line,110,0.0,0.0,1.5159974375844598e-09,6.052358614283548e-13,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406058,Soda Springs,line,111,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406099,Soda Springs,line,112,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406107,Soda Springs,line,113,1.4190670683849624,2.7313858057986806e-05,16.54203663100688,16.538484769501977,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406108,Soda Springs,line,114,0.0,0.0,0.00017429260534438496,0.0001735502105871156,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406110,Soda Springs,line,115,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406112,Soda Springs,line,116,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406113,Soda Springs,line,117,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406186,Soda Springs,line,118,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406187,Soda Springs,line,119,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406225,Soda Springs,line,120,1.1947605094850318,0.3837287833428702,24.593588687258823,21.75129235616982,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406243,Soda Springs,line,121,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406269,Soda Springs,line,122,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406274,Soda Springs,line,123,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406280,Soda Springs,line,124,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406281,Soda Springs,line,125,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406290,Soda Springs,line,126,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406297,Soda Springs,line,127,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406300,Soda Springs,line,128,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406305,Soda Springs,line,129,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406312,Soda Springs,line,130,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406317,Soda Springs,line,131,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406324,Soda Springs,line,132,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406326,Soda Springs,line,133,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406327,Soda Springs,line,134,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406339,Soda Springs,line,135,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406340,Soda Springs,line,136,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406346,Soda Springs,line,137,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406347,Soda Springs,line,138,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406353,Soda Springs,line,139,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406361,Soda Springs,line,140,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406387,Soda Springs,line,141,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406389,Soda Springs,line,142,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406395,Soda Springs,line,143,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406403,Soda Springs,line,144,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406404,Soda Springs,line,144,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406407,Soda Springs,line,145,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406418,Soda Springs,line,146,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406419,Soda Springs,line,147,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406432,Soda Springs,line,148,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406438,Soda Springs,line,149,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406439,Soda Springs,line,150,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406441,Soda Springs,line,151,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406447,Soda Springs,line,152,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406450,Soda Springs,line,153,0.0,0.0,4.5533576908951545e-14,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406451,Soda Springs,line,154,0.0,0.0,1.3502869752324286e-08,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406455,Soda Springs,line,155,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406457,Soda Springs,line,156,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406475,Soda Springs,line,157,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406479,Soda Springs,line,158,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406481,Soda Springs,line,159,0.07253001486902345,1.8479063237167304e-05,1.028901084210136,0.965281362623749,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406482,Soda Springs,line,160,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406490,Soda Springs,line,161,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406502,Soda Springs,line,162,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406503,Soda Springs,line,163,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406509,Soda Springs,line,164,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406517,Soda Springs,line,165,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406526,Soda Springs,line,166,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406549,Soda Springs,line,167,1.7565948695619227e-14,1.1790568521519168e-15,3.938543294501606e-08,3.69470415462203e-08,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406551,Soda Springs,line,168,6.465970858737791e-10,4.000997033681841e-10,1.053474518353806,1.0534316012593834,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406553,Soda Springs,line,169,0.47799230799661013,-0.0015789468716220223,5.922178246566423,5.919580837367411,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406561,Soda Springs,line,170,0.3229807794449238,0.0025994590141081297,8.769648537617744,8.529219746262799,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406565,Soda Springs,line,171,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406574,Soda Springs,line,172,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406575,Soda Springs,line,173,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406576,Soda Springs,line,174,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406578,Soda Springs,line,175,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406590,Soda Springs,line,176,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406592,Soda Springs,line,177,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406596,Soda Springs,line,178,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406600,Soda Springs,line,179,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406602,Soda Springs,line,180,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406604,Soda Springs,line,181,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406605,Soda Springs,line,182,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406614,Soda Springs,line,183,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406616,Soda Springs,line,184,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406621,Soda Springs,line,185,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406623,Soda Springs,line,186,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406624,Soda Springs,line,187,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406625,Soda Springs,line,188,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406626,Soda Springs,line,189,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406641,Soda Springs,line,190,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406642,Soda Springs,line,191,8.549949520355593e-05,2.8066306452062537e-05,2.281543356104476,2.2814891886098314,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406651,Soda Springs,line,192,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406656,Soda Springs,line,193,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406662,Soda Springs,line,194,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406665,Soda Springs,line,195,0.0013791089230080344,5.370324921123216e-05,4.975216065223216,4.9469664399452045,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406671,Soda Springs,line,196,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406677,Soda Springs,line,197,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406683,Soda Springs,line,110,0.0,0.0,1.5159974375844598e-09,6.052358614283548e-13,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406684,Soda Springs,line,198,4.710641876570775e-12,4.710641876570775e-12,0.02914449713486882,0.010580673293491476,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406689,Soda Springs,line,199,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406708,Soda Springs,line,200,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406712,Soda Springs,line,201,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406735,Soda Springs,line,202,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_2/406754,Soda Springs,line,203,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50694,Elster,line,204,0.0011181233070866315,0.0011181233070866315,0.9854369113684445,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50692,Elster,line,205,2.997602166487923e-17,2.997602166487923e-17,4.783755102044651e-09,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50691,Elster,line,206,7.890264571708271e-08,7.890264571708271e-08,0.0037091883518338875,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50690,Elster,line,207,0.40946658075153886,0.40946658075153886,7.907301350647,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50689,Elster,line,208,1.0201386444586013e-07,1.0201386444586013e-07,0.02619688150753376,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50688,Elster,line,209,8.746673785253733e-10,8.746673785253733e-10,0.0006957025029660157,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50687,Elster,line,210,0.0,0.0,3.629203937371983e-11,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50679,Elster,line,211,0.22738123530784812,0.22738123530784812,3.5139857189293595,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50678,Elster,line,212,0.0,0.0,1.6715898665253803e-11,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50667,Elster,line,213,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50650,Elster,line,214,0.1410341724536077,0.1410341724536077,3.4748496850561046,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50762,Elster,line,215,0.41059081021324295,0.41059081021324295,5.67470779826943,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50781,Elster,line,216,0.0,0.0,4.7022385984973876e-14,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50792,Elster,line,217,6.326938972733842e-14,6.326938972733842e-14,2.751421189683967e-07,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50793,Elster,line,218,7.964327197740317e-11,7.964327197740317e-11,0.0019582008119967288,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50802,Elster,line,219,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50807,Elster,line,220,0.0,0.0,8.093525849517391e-16,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50808,Elster,line,221,0.0,0.0,9.992007221626408e-18,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50893,Elster,line,222,0.0,0.0,9.724081539985717e-12,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50892,Elster,line,223,0.0,0.0,3.6680658510590545e-14,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50891,Elster,line,224,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50890,Elster,line,225,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50868,Elster,line,226,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50833,Elster,line,227,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50909,Elster,line,228,6.221023696184603e-14,6.221023696184603e-14,2.750609712098839e-07,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/50935,Elster,line,229,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/51019,Elster,line,230,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/51020,Elster,line,231,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/51040,Elster,line,232,0.00050701476288317,0.00050701476288317,0.6390359460782813,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/51120,Elster,line,233,0.3762032777904462,0.3762032777904462,5.199751793821551,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/51171,Elster,line,234,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/51155,Elster,line,235,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/51268,Elster,line,236,1.5189825397499133e-10,1.5189825397499133e-10,6.900680087541522e-06,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/51274,Elster,line,237,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/409974,Soda Springs,line,238,1.9924062399923057e-14,1.8964829706646923e-14,3.3295036587777106e-08,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/409975,Soda Springs,line,239,0.0,0.0,6.994405055138486e-17,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/409976,Soda Springs,line,240,3.2374103398069565e-15,3.0975222387041866e-15,3.2791039783486298e-09,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/409978,Soda Springs,line,241,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/409985,Soda Springs,line,242,1.5787714935378005e-09,1.3778191587654475e-10,1.46288216340551e-08,1.344507641221071e-08,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/409987,Soda Springs,line,243,0.056824139353653776,0.0005755712962658352,4.4280461752270535,4.422926080515174,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/409993,Soda Springs,line,244,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/409995,Soda Springs,line,99,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/409996,Soda Springs,line,245,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/409997,Soda Springs,line,246,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410003,Soda Springs,line,247,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410009,Soda Springs,line,248,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410020,Soda Springs,line,249,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410041,Soda Springs,line,250,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410099,Soda Springs,line,251,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410100,Soda Springs,line,252,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410101,Soda Springs,line,253,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410106,Soda Springs,line,254,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410107,Soda Springs,line,255,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410113,Soda Springs,line,256,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410115,Soda Springs,line,257,0.0,0.0,7.993605777301127e-17,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410116,Soda Springs,line,258,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410119,Soda Springs,line,259,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410123,Soda Springs,line,260,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410282,Soda Springs,line,261,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410280,Soda Springs,line,262,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410256,Soda Springs,line,161,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410247,Soda Springs,line,263,2.997602166487923e-17,2.997602166487923e-17,1.8271773114530988e-08,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410244,Soda Springs,line,264,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410243,Soda Springs,line,265,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410242,Soda Springs,line,266,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410241,Soda Springs,line,267,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410240,Soda Springs,line,268,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410217,Soda Springs,line,269,0.0,0.0,7.406184165947848e-10,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410211,Soda Springs,line,270,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410206,Soda Springs,line,271,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410294,Soda Springs,line,272,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410295,Soda Springs,line,273,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410326,Soda Springs,line,274,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410328,Soda Springs,line,275,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410340,Soda Springs,line,276,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410341,Soda Springs,line,277,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410345,Soda Springs,line,278,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410346,Soda Springs,line,279,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410372,Soda Springs,line,280,8.117446714805964e-12,7.104017374359723e-13,1.0766216808066885e-08,9.826372385779436e-09,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410383,Soda Springs,line,281,3.596023478991128e-13,3.1384894683128556e-14,8.371197335321766e-10,7.628065878950707e-10,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410388,Soda Springs,line,282,6.313639611121857e-12,5.52597967384827e-13,6.583064593446153e-09,6.0072916741038536e-09,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410393,Soda Springs,line,283,2.227482228667199e-09,1.9432748410430645e-10,2.8304721556571266e-08,2.6848805468882018e-08,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410400,Soda Springs,line,284,4.460851688037337e-12,3.904077061633874e-13,2.3984317432113044e-09,2.187822143451257e-09,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410404,Soda Springs,line,285,0.18965782342149493,-3.718625130044728e-10,2.255161138779271,2.2551610610312016,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410437,Soda Springs,line,286,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410432,Soda Springs,line,287,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410501,Soda Springs,line,288,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410489,Soda Springs,line,289,1.9984014443252817e-17,1.9984014443252817e-17,1.3503489086907904e-08,0.0,True
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410488,Soda Springs,line,290,0.0,0.0,4.5533576908951545e-14,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410481,Soda Springs,line,291,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410517,Soda Springs,line,292,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410522,Soda Springs,line,293,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410523,Soda Springs,line,294,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410577,Soda Springs,line,295,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410571,Soda Springs,line,296,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410555,Soda Springs,line,297,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410543,Soda Springs,line,298,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410540,Soda Springs,line,299,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410534,Soda Springs,line,300,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410529,Soda Springs,line,301,1.0391687510491465e-15,0.0,0.00411628992358037,0.004150715962463724,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410611,Soda Springs,line,302,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_high_consumption,dpv,E:sce_lines_3/410598,Soda Springs,line,303,2.0769386210872654e-13,1.8125501100030305e-14,8.316630684124248e-10,7.578263916396821e-10,False
+Pier_2017,grass_low_consumption,dpv,H1,homes 3.9 km from Springville,homes,0,0.31599844970559215,-0.11837263432609313,0.9642635729580966,1.0257574966092657,False
+Pier_2017,grass_low_consumption,dpv,H2,Sequoia Crest CDP,homes,1,2.6555178325282647e-07,8.222093825782652e-08,0.04384321796054149,0.04233160478162365,True
+Pier_2017,grass_low_consumption,dpv,H3,homes 4.5 km from Springville,homes,2,5.405176306538806e-13,5.405176306538806e-13,0.0006092591038322126,3.6055742391738477e-10,True
+Pier_2017,grass_low_consumption,dpv,H4,Springville CDP,homes,3,18.89410082530917,18.89410082530917,118.9068010510893,0.0,True
+Pier_2017,grass_low_consumption,dpv,H5,homes 2.6 km from Coy Flat,homes,4,2.4203067871705342e-05,2.1317651324931353e-05,0.34008566516800115,0.26075180522473473,True
+Pier_2017,grass_low_consumption,dpv,H6,homes 4.6 km from Springville,homes,5,4.7718658955753224e-05,4.7718658955753224e-05,2.993981025064659,0.0,True
+Pier_2017,grass_low_consumption,dpv,H7,homes 2.4 km from Springville,homes,6,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,H8,Soda Springs,homes,7,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,H9,dispersed homes,homes,8,1.2467706087659773,0.74079206681454,16.771030745605902,11.023115714786762,True
+Pier_2017,grass_low_consumption,dpv,R1,State Rte 190 / Hwy 190 / State Hwy 190,arterial,9,13.734849033072052,0.624291863394447,104.02008162919358,94.47369051057385,True
+Pier_2017,grass_low_consumption,dpv,R2,"homes 3.9 km from Springville: Mountain Road 189, Cow Mountain Rd",evacuation route,10,1.624700374236454e-14,1.624700374236454e-14,4.249971374825634e-11,0.0,False
+Pier_2017,grass_low_consumption,dpv,R3,"Sequoia Crest CDP: Redwood Dr, Alder Dr, Ponderosa Dr, Forest Rte 20S03",evacuation route,11,10.542514609582398,-0.07424458845637716,38.18100333283846,38.051847748119705,True
+Pier_2017,grass_low_consumption,dpv,R4,"Springville CDP: Co Rd J28, Tule River Dr, Bogart Dr, Mountain Road 189",evacuation route,12,8.389254749692428,8.389254749692428,50.45219828922903,0.0,True
+Pier_2017,grass_low_consumption,dpv,R5,"Soda Springs: Forest Rte 21S94, Co Rte M127, Indian Svc Rd, Indian Reservation Dr",evacuation route,13,9.37717135781362,0.12053019206227766,28.654986400543507,28.0807427163994,True
+Pier_2017,grass_low_consumption,dpv,R6,"homes 2.3 km from Camp Nelson: Redwood Dr, Forest Rte 20S11, Pine View Dr, Rey Vista Dr",evacuation route,14,0.18797977631787416,-0.0037905272436548343,2.7498119246490824,2.66950786302278,True
+Pier_2017,grass_low_consumption,dpv,R7,"homes 4.5 km from Springville: Co Rte 220, Balch Park Rd",evacuation route,15,2.752198469124778e-13,2.752198469124778e-13,3.701239315034854e-13,0.0,False
+Pier_2017,grass_low_consumption,dpv,R8,"homes 2.6 km from Coy Flat: Forest Rte 21S94, Linder Dr, Coy Flat Rd, Smith Dr",evacuation route,16,1.1910153438787763e-06,8.507205438301747e-07,0.6969738116570612,0.5206582348344257,True
+Pier_2017,grass_low_consumption,dpv,R9,"Pierpoint CDP: McComber Dr, Mariposa Dr, John Lewis Dr, Sunset Dr",evacuation route,17,0.00041594082833338095,0.0004082966383361097,1.0058825012669603,1.5082874858535136,False
+Pier_2017,grass_low_consumption,dpv,R10,"homes 2.4 km from Springville: Globe Dr, Maranatha Ct, Rainbow Ranch Ct, Mountain Road 172A",evacuation route,18,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,R11,"homes 4.6 km from Springville: Mountain Road 172A, Mustang Dr, Mountain Road 161, Pleasant Oak Dr",evacuation route,19,2.59518082879695e-05,2.59518082879695e-05,0.3285698820683253,0.0,True
+Pier_2017,grass_low_consumption,dpv,R12,access roads of dispersed homes,evacuation route,20,28.93853470671426,3.015408708666005,165.79434177151168,144.0559235389284,True
+Pier_2017,grass_low_consumption,dpv,I1,Lower Tule River Power Plant,power plant,21,0.0018282965640735837,0.0018282965640735837,0.04000396936821624,0.0,True
+Pier_2017,grass_low_consumption,dpv,I2,substation (OSM way 1007932630),substation,22,0.001202052149096432,0.001202052149096432,0.025132740706933426,0.0,True
+Pier_2017,grass_low_consumption,dpv,I3,Sequoia Ranch Airport,airfield or heliport,23,0.0,0.0,1.6099022115412253e-12,0.0,False
+Pier_2017,grass_low_consumption,dpv,I4,Wishon Campground,campground,24,0.043275638292242596,0.0001608010870132598,1.2172573369393058,1.2137351199112263,True
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1007932630,substation,facility,25,0.0018741999932339803,0.0018741999932339803,0.06441543452987877,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1007932634,Lower Tule River Power Plant,facility,26,0.004769034101306147,0.004769034101306147,0.1143209410609171,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1359980027,minor_line,line,27,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1359980028,minor_line,line,28,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1359980032,minor_line,line,29,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1359980033,minor_line,line,30,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1359980034,minor_line,line,31,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1359980035,minor_line,line,32,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1464874115,minor_line,line,33,6.839464496212533e-05,6.839464496212533e-05,0.24353863249882277,0.3461903421305595,False
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1464874381,minor_line,line,34,7.020376691588947e-05,7.020376691588947e-05,0.2435386333858318,0.3461903421305595,False
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1464883427,minor_line,line,35,5.078013817204074e-05,5.078013817204074e-05,0.24353862266176715,0.3461903421305595,False
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1464891030,minor_line,line,36,0.14331751889349917,-0.04662931358847075,0.835097175049217,0.9652813626237485,False
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1464899073,minor_line,line,37,0.04502970974065466,-0.02748182606513163,0.6440205968282432,0.7580214745754278,False
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1465200482,minor_line,line,38,0.12575968536061216,-0.0363384731255344,0.8263856141001705,0.9652813626237485,False
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1465360956,minor_line,line,39,2.847205655143181e-06,2.847205655143181e-06,0.04935293048255034,0.0880299462009618,False
+Pier_2017,grass_low_consumption,dpv,E:osm/way/1465361932,minor_line,line,40,2.0710031975446073e-06,2.0710031975446073e-06,0.00032923943038325686,1.0029311459325285e-07,True
+Pier_2017,grass_low_consumption,dpv,E:cec_lines/4039,SCE 66kV,line,41,0.002486872636740337,0.002486872636740337,0.0720813270678338,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:cec_lines/4040,SCE 66kV,line,42,6.06514838352723e-15,6.06514838352723e-15,1.9076399959683244e-09,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:cec_lines/4041,SCE 66kV,line,43,0.00017842901365826557,0.00017842901365826557,0.0487560447476699,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:cec_lines/4043,SCE 66kV,line,44,0.000911933031558857,0.000911933031558857,5.324985192759453,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:cec_lines/4044,SCE 66kV,line,45,2.7759104817042775,2.7759104817042775,32.67733725106915,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_1/858,Success,line,46,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52416,Elster,line,47,0.29645317493803924,0.29645317493803924,4.576959813110373,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52438,Elster,line,48,0.5397547109849902,0.5397547109849902,5.092965092893704,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52439,Elster,line,49,0.1746426400685337,0.1746426400685337,3.5576060765563478,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52440,Elster,line,50,0.3599999999389002,0.3599999999389002,9.488027264660783,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52441,Elster,line,51,0.12982801095643612,0.12982801095643612,5.225921780863342,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52442,Elster,line,52,0.019776688591589778,0.019776688591589778,5.34431127494482,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52443,Elster,line,53,0.44916841934443386,0.44916841934443386,8.268601404921284,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52444,Elster,line,54,0.2636557341707049,0.2636557341707049,6.613535013564778,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52445,Elster,line,55,0.013283037577115209,0.013283037577115209,2.437589826416057,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52453,Elster,line,56,0.016254037678743782,0.016254037678743782,4.583566859215849,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52455,Elster,line,57,0.2778238618312167,0.2778238618312167,3.443079765860148,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52456,Elster,line,58,0.04112910092395149,0.04112910092395149,1.493017428961513,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52462,Elster,line,59,2.703282538462127,2.703282538462127,17.73709793215119,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52464,Elster,line,60,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52475,Elster,line,61,0.009692504268481077,0.009692504268481077,0.8393953675317062,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52476,Elster,line,62,0.01122978626171251,0.01122978626171251,0.7944991048509417,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52501,Elster,line,63,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52515,Elster,line,64,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52566,Elster,line,65,0.15497275268187796,0.15497275268187796,2.161328639722702,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52569,Elster,line,66,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52574,Elster,line,67,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52576,Elster,line,68,0.03087642245144778,0.03087642245144778,2.986664721979009,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52579,Elster,line,69,8.674315143265554e-06,8.674315143265554e-06,0.0005463302970017492,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52582,Elster,line,70,7.0255725073375964e-06,7.0255725073375964e-06,0.021513635034647524,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52586,Elster,line,71,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52611,Elster,line,72,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52625,Elster,line,73,0.0445731158743825,0.0445731158743825,1.7897600669010867,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52626,Elster,line,74,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52637,Elster,line,75,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52641,Elster,line,76,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52679,Elster,line,77,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52680,Elster,line,78,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52742,Elster,line,79,0.19943205845260722,0.19943205845260722,4.600116147656827,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52778,Elster,line,80,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52788,Elster,line,81,0.36386147493209214,0.36386147493209214,2.3099199548337106,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52832,Elster,line,82,0.00013849666870011213,0.00013849666870011213,0.0009169783306652457,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52841,Elster,line,83,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52847,Elster,line,84,1.5429925418464218e-06,1.5429925418464218e-06,0.0020951833536850604,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52878,Elster,line,85,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52894,Elster,line,86,0.6456670071369722,0.6456670071369722,9.633123147213459,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52933,Elster,line,87,0.00022144876624563325,0.00022144876624563325,0.0005522371031598649,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52934,Elster,line,88,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52945,Elster,line,89,0.0003695464868492626,0.0003695464868492626,0.8209312896175527,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52970,Elster,line,90,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/52971,Elster,line,91,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/53008,Elster,line,92,7.488822344348111e-07,7.488822344348111e-07,0.0008863685416999667,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/53019,Elster,line,93,0.004111311388625358,0.004111311388625358,0.6288242359453207,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/405947,Soda Springs,line,94,0.4217810993765736,0.001744651779325035,2.450472485147527,2.278293224193013,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/405948,Soda Springs,line,95,0.8191249964740339,0.001435810116329539,7.124219747472125,6.9020238414414425,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/405969,Soda Springs,line,96,0.009062516958249202,0.009062516958249202,1.5558949290453907,0.3311784614897189,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/405974,Soda Springs,line,97,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/405988,Soda Springs,line,98,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/405989,Soda Springs,line,99,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406001,Soda Springs,line,100,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406002,Soda Springs,line,101,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406006,Soda Springs,line,102,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406008,Soda Springs,line,103,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406017,Soda Springs,line,104,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406018,Soda Springs,line,105,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406020,Soda Springs,line,106,0.030424092686991464,7.556748020734472e-07,15.692992179541433,15.691768812450253,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406024,Soda Springs,line,107,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406028,Soda Springs,line,108,0.0012680649565589151,0.0012680649565589151,0.014380316917286525,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406038,Soda Springs,line,109,0.002123171413418219,0.002123171413418219,0.5284739610081336,0.018158305969953017,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406046,Soda Springs,line,110,0.0,0.0,1.6224025263245067e-08,6.052358614283548e-13,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406058,Soda Springs,line,111,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406099,Soda Springs,line,112,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406107,Soda Springs,line,113,1.4193635943557104,0.00032383982880590523,16.556045974098083,16.538484769501977,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406108,Soda Springs,line,114,6.264988527959758e-15,6.264988527959758e-15,0.00017942480783267434,0.0001735502105871156,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406110,Soda Springs,line,115,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406112,Soda Springs,line,116,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406113,Soda Springs,line,117,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406186,Soda Springs,line,118,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406187,Soda Springs,line,119,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406225,Soda Springs,line,120,1.468242342393595,0.6572106162514335,29.34075751692419,21.75129235616982,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406243,Soda Springs,line,121,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406269,Soda Springs,line,122,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406274,Soda Springs,line,123,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406280,Soda Springs,line,124,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406281,Soda Springs,line,125,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406290,Soda Springs,line,126,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406297,Soda Springs,line,127,9.892087149410144e-15,9.892087149410144e-15,2.347118289725003e-09,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406300,Soda Springs,line,128,2.4930058017957888e-14,2.4930058017957888e-14,3.287969896348386e-13,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406305,Soda Springs,line,129,0.0,0.0,2.1392110083340299e-10,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406312,Soda Springs,line,130,6.1817311269862785e-09,6.1817311269862785e-09,0.01167165800487154,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406317,Soda Springs,line,131,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406324,Soda Springs,line,132,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406326,Soda Springs,line,133,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406327,Soda Springs,line,134,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406339,Soda Springs,line,135,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406340,Soda Springs,line,136,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406346,Soda Springs,line,137,2.3081536681957004e-15,2.3081536681957004e-15,1.14180917720752e-09,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406347,Soda Springs,line,138,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406353,Soda Springs,line,139,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406361,Soda Springs,line,140,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406387,Soda Springs,line,141,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406389,Soda Springs,line,142,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406395,Soda Springs,line,143,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406403,Soda Springs,line,144,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406404,Soda Springs,line,144,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406407,Soda Springs,line,145,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406418,Soda Springs,line,146,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406419,Soda Springs,line,147,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406432,Soda Springs,line,148,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406438,Soda Springs,line,149,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406439,Soda Springs,line,150,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406441,Soda Springs,line,151,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406447,Soda Springs,line,152,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406450,Soda Springs,line,153,4.226319294531322e-13,4.226319294531322e-13,1.1628166779464876e-08,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406451,Soda Springs,line,154,3.4548238270204475e-10,3.4548238270204475e-10,8.677654386807232e-06,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406455,Soda Springs,line,155,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406457,Soda Springs,line,156,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406475,Soda Springs,line,157,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406479,Soda Springs,line,158,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406481,Soda Springs,line,159,0.04479799402312655,-0.027713541782659737,0.824841736943563,0.965281362623749,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406482,Soda Springs,line,160,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406490,Soda Springs,line,161,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406502,Soda Springs,line,162,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406503,Soda Springs,line,163,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406509,Soda Springs,line,164,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406517,Soda Springs,line,165,2.1806834608062432e-08,2.1806834608062432e-08,0.011693005133477288,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406526,Soda Springs,line,166,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406549,Soda Springs,line,167,4.6832537847762977e-14,3.044564600429567e-14,9.566540355887554e-08,3.69470415462203e-08,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406551,Soda Springs,line,168,4.770446264013017e-08,4.7457965257624574e-08,1.0538376304052564,1.0534316012593834,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406553,Soda Springs,line,169,0.4583329221503604,-0.021238332717871733,5.976597636577367,5.919580837367411,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406561,Soda Springs,line,170,0.33101138932946667,0.01063006889865098,8.788369563878048,8.529219746262799,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406565,Soda Springs,line,171,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406574,Soda Springs,line,172,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406575,Soda Springs,line,173,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406576,Soda Springs,line,174,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406578,Soda Springs,line,175,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406590,Soda Springs,line,176,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406592,Soda Springs,line,177,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406596,Soda Springs,line,178,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406600,Soda Springs,line,179,0.0008101244027561871,0.0008101244027561871,0.04627122025482227,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406602,Soda Springs,line,180,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406604,Soda Springs,line,181,0.0,0.0,2.1351920231893474e-13,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406605,Soda Springs,line,182,0.0,0.0,3.520184144178984e-14,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406614,Soda Springs,line,183,3.0375701953744282e-15,3.0375701953744282e-15,9.596643479881094e-12,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406616,Soda Springs,line,184,2.8077540292770208e-15,2.8077540292770208e-15,9.623631891386708e-11,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406621,Soda Springs,line,185,8.21095137322203e-06,8.21095137322203e-06,0.019027044473952,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406623,Soda Springs,line,186,0.0,0.0,3.605116205562808e-14,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406624,Soda Springs,line,187,0.0,0.0,2.7061353158330804e-12,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406625,Soda Springs,line,188,2.4398230276112543e-08,2.4398230276112543e-08,0.002435327374700903,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406626,Soda Springs,line,189,0.0,0.0,2.1432855490388647e-13,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406641,Soda Springs,line,190,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406642,Soda Springs,line,191,0.00018936030200609964,0.00013192711325460627,2.2824567389414705,2.2814891886098314,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406651,Soda Springs,line,192,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406656,Soda Springs,line,193,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406662,Soda Springs,line,194,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406665,Soda Springs,line,195,0.002321669581776522,0.00099626390797972,4.962994050794873,4.9469664399452045,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406671,Soda Springs,line,196,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406677,Soda Springs,line,197,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406683,Soda Springs,line,110,0.0,0.0,1.6224025263245067e-08,6.052358614283548e-13,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406684,Soda Springs,line,198,1.0556606688805204e-09,1.0556606688805204e-09,0.07675886632053669,0.010580673293491476,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406689,Soda Springs,line,199,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406708,Soda Springs,line,200,5.909273070869858e-14,5.909273070869858e-14,9.75935332547806e-12,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406712,Soda Springs,line,201,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406735,Soda Springs,line,202,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_2/406754,Soda Springs,line,203,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50694,Elster,line,204,0.1684583319758735,0.1684583319758735,4.896597242396232,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50692,Elster,line,205,0.15056921677631147,0.15056921677631147,4.175190173220513,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50691,Elster,line,206,0.07287511124576442,0.07287511124576442,1.7481413894526234,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50690,Elster,line,207,0.3789119688592809,0.3789119688592809,7.687793595267109,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50689,Elster,line,208,0.33949058026750606,0.33949058026750606,4.92177105103782,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50688,Elster,line,209,0.2789831081959387,0.2789831081959387,5.529887204437845,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50687,Elster,line,210,0.11069003194732234,0.11069003194732234,2.0127721133547185,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50679,Elster,line,211,0.2692559769805299,0.2692559769805299,6.854511558951113,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50678,Elster,line,212,0.0031527198876959103,0.0031527198876959103,2.038766647204472,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50667,Elster,line,213,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50650,Elster,line,214,0.17131358944081368,0.17131358944081368,4.5917438930611985,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50762,Elster,line,215,0.3788274394584274,0.3788274394584274,5.5838087971441945,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50781,Elster,line,216,0.32240644502887916,0.32240644502887916,4.080020397394456,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50792,Elster,line,217,0.16121271780662125,0.16121271780662125,2.5423967017725784,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50793,Elster,line,218,0.35075787164799727,0.35075787164799727,2.636231803798956,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50802,Elster,line,219,1.8185453143360063e-15,1.8185453143360063e-15,5.772919455471203e-08,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50807,Elster,line,220,0.00013829676505965115,0.00013829676505965115,0.000524603041916628,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50808,Elster,line,221,1.0083206169719805e-05,1.0083206169719805e-05,0.0005677823592096442,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50893,Elster,line,222,0.10129408404580856,0.10129408404580856,2.211316485895684,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50892,Elster,line,223,0.1708010382184415,0.1708010382184415,3.943044414320708,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50891,Elster,line,224,5.428101583215827e-08,5.428101583215827e-08,0.006100841131774715,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50890,Elster,line,225,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50868,Elster,line,226,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50833,Elster,line,227,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50909,Elster,line,228,0.08578987960466068,0.08578987960466068,2.1247449644737295,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/50935,Elster,line,229,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/51019,Elster,line,230,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/51020,Elster,line,231,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/51040,Elster,line,232,0.002956389075489777,0.002956389075489777,1.0471312156076658,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/51120,Elster,line,233,0.4560296882077402,0.4560296882077402,8.10394746211942,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/51171,Elster,line,234,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/51155,Elster,line,235,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/51268,Elster,line,236,0.024922169234397926,0.024922169234397926,4.086238654702908,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/51274,Elster,line,237,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/409974,Soda Springs,line,238,6.258784090995562e-10,6.258774498668629e-10,2.485271558439028e-05,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/409975,Soda Springs,line,239,0.0,0.0,3.1055258364887095e-12,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/409976,Soda Springs,line,240,1.821938300228254e-10,1.821936901347243e-10,9.201845745266945e-06,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/409978,Soda Springs,line,241,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/409985,Soda Springs,line,242,7.099881452754531e-09,5.658891875093275e-09,6.110560451633163e-08,1.344507641221071e-08,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/409987,Soda Springs,line,243,0.06584685980840528,0.00959829175101734,4.506461150033817,4.422926080515174,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/409993,Soda Springs,line,244,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/409995,Soda Springs,line,99,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/409996,Soda Springs,line,245,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/409997,Soda Springs,line,246,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410003,Soda Springs,line,247,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410009,Soda Springs,line,248,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410020,Soda Springs,line,249,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410041,Soda Springs,line,250,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410099,Soda Springs,line,251,0.0,0.0,2.8621105485626686e-13,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410100,Soda Springs,line,252,0.0,0.0,4.566347300283269e-14,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410101,Soda Springs,line,253,5.001798975001748e-13,5.001798975001748e-13,9.693096325591454e-12,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410106,Soda Springs,line,254,5.28577182024037e-15,5.28577182024037e-15,4.8731019219871997e-14,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410107,Soda Springs,line,255,2.2881696537524476e-15,2.2881696537524476e-15,3.65507624167094e-14,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410113,Soda Springs,line,256,2.4125601516544748e-12,2.4125601516544748e-12,2.2712506170807777e-07,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410115,Soda Springs,line,257,5.1288973068608353e-14,5.1288973068608353e-14,1.0217491153152735e-09,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410116,Soda Springs,line,258,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410119,Soda Springs,line,259,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410123,Soda Springs,line,260,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410282,Soda Springs,line,261,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410280,Soda Springs,line,262,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410256,Soda Springs,line,161,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410247,Soda Springs,line,263,6.197235524751931e-10,6.197235524751931e-10,9.36659374557891e-06,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410244,Soda Springs,line,264,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410243,Soda Springs,line,265,0.0,0.0,8.193445921733655e-16,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410242,Soda Springs,line,266,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410241,Soda Springs,line,267,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410240,Soda Springs,line,268,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410217,Soda Springs,line,269,5.087160692696102e-12,5.087160692696102e-12,1.2789326759932162e-06,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410211,Soda Springs,line,270,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410206,Soda Springs,line,271,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410294,Soda Springs,line,272,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410295,Soda Springs,line,273,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410326,Soda Springs,line,274,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410328,Soda Springs,line,275,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410340,Soda Springs,line,276,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410341,Soda Springs,line,277,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410345,Soda Springs,line,278,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410346,Soda Springs,line,279,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410372,Soda Springs,line,280,3.660302061447851e-11,2.919597563710852e-11,4.836379916550726e-08,9.826372385779436e-09,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410383,Soda Springs,line,281,1.6223322685249286e-12,1.2941148153089444e-12,3.769267747921745e-09,7.628065878950707e-10,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410388,Soda Springs,line,282,2.8474023139324343e-11,2.2712981495587312e-11,2.960080077052396e-08,6.0072916741038536e-09,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410393,Soda Springs,line,283,1.001367540887088e-08,7.980520664307989e-09,7.999263778368792e-08,2.6848805468882018e-08,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410400,Soda Springs,line,284,2.0118976484795326e-11,1.6048532502921377e-11,1.0786687313357745e-08,2.187822143451257e-09,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410404,Soda Springs,line,285,0.18965781722631034,-6.567047100558554e-09,2.255162736596499,2.2551610610312016,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410437,Soda Springs,line,286,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410432,Soda Springs,line,287,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410501,Soda Springs,line,288,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410489,Soda Springs,line,289,5.323731155915112e-10,5.323731155915112e-10,8.688692238619788e-06,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410488,Soda Springs,line,290,3.8750003206189376e-13,3.8750003206189376e-13,1.1628166779464876e-08,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410481,Soda Springs,line,291,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410517,Soda Springs,line,292,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410522,Soda Springs,line,293,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410523,Soda Springs,line,294,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410577,Soda Springs,line,295,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410571,Soda Springs,line,296,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410555,Soda Springs,line,297,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410543,Soda Springs,line,298,0.00010144082643039121,0.00010144082643039121,0.038506087829813844,0.0,True
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410540,Soda Springs,line,299,0.0,0.0,0.0,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410534,Soda Springs,line,300,0.0,0.0,1.5661971719538314e-12,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410529,Soda Springs,line,301,1.1290968160437842e-15,8.992806499463773e-17,0.00360699120578804,0.004150715962463724,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410611,Soda Springs,line,302,0.0,0.0,1.5831436162017097e-12,0.0,False
+Pier_2017,grass_low_consumption,dpv,E:sce_lines_3/410598,Soda Springs,line,303,9.371303733018976e-13,7.475620122932015e-13,3.744727338217402e-09,7.578263916396821e-10,False
+Pier_2017,shrub_residual_017,dpv,H1,homes 3.9 km from Springville,homes,0,0.4294782336202939,-0.0048928504113913696,1.0206948208619038,1.0257574966092657,False
+Pier_2017,shrub_residual_017,dpv,H2,Sequoia Crest CDP,homes,1,7.686405179341271e-08,-1.0646679320158724e-07,0.024769432414634036,0.04233160478162365,False
+Pier_2017,shrub_residual_017,dpv,H3,homes 4.5 km from Springville,homes,2,0.0,0.0,0.0,3.6055742391738477e-10,False
+Pier_2017,shrub_residual_017,dpv,H4,Springville CDP,homes,3,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,H5,homes 2.6 km from Coy Flat,homes,4,8.467632310327211e-08,-2.8007402236707167e-06,0.10382974970552157,0.26075180522473473,False
+Pier_2017,shrub_residual_017,dpv,H6,homes 4.6 km from Springville,homes,5,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,H7,homes 2.4 km from Springville,homes,6,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,H8,Soda Springs,homes,7,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,H9,dispersed homes,homes,8,0.5230687938457171,0.017090251894279818,10.666034693776563,11.023115714786762,False
+Pier_2017,shrub_residual_017,dpv,R1,State Rte 190 / Hwy 190 / State Hwy 190,arterial,9,13.036955815995146,-0.07360135368245935,93.07949842558301,94.47369051057385,False
+Pier_2017,shrub_residual_017,dpv,R2,"homes 3.9 km from Springville: Mountain Road 189, Cow Mountain Rd",evacuation route,10,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,R3,"Sequoia Crest CDP: Redwood Dr, Alder Dr, Ponderosa Dr, Forest Rte 20S03",evacuation route,11,10.768560468589984,0.15180127055120884,37.3893878007287,38.051847748119705,False
+Pier_2017,shrub_residual_017,dpv,R4,"Springville CDP: Co Rd J28, Tule River Dr, Bogart Dr, Mountain Road 189",evacuation route,12,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,R5,"Soda Springs: Forest Rte 21S94, Co Rte M127, Indian Svc Rd, Indian Reservation Dr",evacuation route,13,8.27352834762349,-0.9831128181278519,25.762243967301746,28.0807427163994,False
+Pier_2017,shrub_residual_017,dpv,R6,"homes 2.3 km from Camp Nelson: Redwood Dr, Forest Rte 20S11, Pine View Dr, Rey Vista Dr",evacuation route,14,0.2024143798943079,0.010644076332778918,2.59988315267275,2.66950786302278,False
+Pier_2017,shrub_residual_017,dpv,R7,"homes 4.5 km from Springville: Co Rte 220, Balch Park Rd",evacuation route,15,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,R8,"homes 2.6 km from Coy Flat: Forest Rte 21S94, Linder Dr, Coy Flat Rd, Smith Dr",evacuation route,16,7.658240515739933e-08,-2.6371239489120235e-07,0.2741431692903034,0.5206582348344257,False
+Pier_2017,shrub_residual_017,dpv,R9,"Pierpoint CDP: McComber Dr, Mariposa Dr, John Lewis Dr, Sunset Dr",evacuation route,17,7.54668176277451e-06,-9.750823449672419e-08,1.5082899832292989,1.5082874858535136,True
+Pier_2017,shrub_residual_017,dpv,R10,"homes 2.4 km from Springville: Globe Dr, Maranatha Ct, Rainbow Ranch Ct, Mountain Road 172A",evacuation route,18,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,R11,"homes 4.6 km from Springville: Mountain Road 172A, Mustang Dr, Mountain Road 161, Pleasant Oak Dr",evacuation route,19,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,R12,access roads of dispersed homes,evacuation route,20,22.528893494933797,-3.394232503114459,129.90443226338843,144.0559235389284,False
+Pier_2017,shrub_residual_017,dpv,I1,Lower Tule River Power Plant,power plant,21,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,I2,substation (OSM way 1007932630),substation,22,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,I3,Sequoia Ranch Airport,airfield or heliport,23,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,I4,Wishon Campground,campground,24,0.04311735324868294,2.5160434536028453e-06,1.2137539736037355,1.2137351199112263,True
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1007932630,substation,facility,25,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1007932634,Lower Tule River Power Plant,facility,26,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1359980027,minor_line,line,27,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1359980028,minor_line,line,28,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1359980032,minor_line,line,29,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1359980033,minor_line,line,30,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1359980034,minor_line,line,31,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1359980035,minor_line,line,32,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1464874115,minor_line,line,33,0.0,0.0,0.34130289884496595,0.3461903421305595,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1464874381,minor_line,line,34,0.0,0.0,0.34130289884496595,0.3461903421305595,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1464883427,minor_line,line,35,0.0,0.0,0.341302898844966,0.3461903421305595,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1464891030,minor_line,line,36,0.18534974943412605,-0.0045970830478438696,0.9601293170927375,0.9652813626237485,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1464899073,minor_line,line,37,0.07240852648339678,-0.00010300932238950511,0.7530105061874948,0.7580214745754278,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1465200482,minor_line,line,38,0.1619864040608117,-0.00011175442533487012,0.9601293170927375,0.9652813626237485,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1465360956,minor_line,line,39,0.0,0.0,0.08316466325193561,0.0880299462009618,False
+Pier_2017,shrub_residual_017,dpv,E:osm/way/1465361932,minor_line,line,40,0.0,0.0,6.889164838597139e-09,1.0029311459325285e-07,False
+Pier_2017,shrub_residual_017,dpv,E:cec_lines/4039,SCE 66kV,line,41,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:cec_lines/4040,SCE 66kV,line,42,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:cec_lines/4041,SCE 66kV,line,43,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:cec_lines/4043,SCE 66kV,line,44,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:cec_lines/4044,SCE 66kV,line,45,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_1/858,Success,line,46,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52416,Elster,line,47,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52438,Elster,line,48,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52439,Elster,line,49,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52440,Elster,line,50,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52441,Elster,line,51,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52442,Elster,line,52,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52443,Elster,line,53,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52444,Elster,line,54,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52445,Elster,line,55,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52453,Elster,line,56,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52455,Elster,line,57,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52456,Elster,line,58,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52462,Elster,line,59,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52464,Elster,line,60,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52475,Elster,line,61,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52476,Elster,line,62,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52501,Elster,line,63,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52515,Elster,line,64,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52566,Elster,line,65,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52569,Elster,line,66,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52574,Elster,line,67,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52576,Elster,line,68,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52579,Elster,line,69,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52582,Elster,line,70,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52586,Elster,line,71,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52611,Elster,line,72,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52625,Elster,line,73,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52626,Elster,line,74,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52637,Elster,line,75,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52641,Elster,line,76,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52679,Elster,line,77,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52680,Elster,line,78,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52742,Elster,line,79,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52778,Elster,line,80,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52788,Elster,line,81,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52832,Elster,line,82,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52841,Elster,line,83,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52847,Elster,line,84,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52878,Elster,line,85,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52894,Elster,line,86,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52933,Elster,line,87,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52934,Elster,line,88,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52945,Elster,line,89,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52970,Elster,line,90,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/52971,Elster,line,91,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/53008,Elster,line,92,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/53019,Elster,line,93,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/405947,Soda Springs,line,94,0.41143321378821457,-0.008603233809033994,2.0957400897392198,2.278293224193013,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/405948,Soda Springs,line,95,0.81532092531034,-0.0023682610473644283,6.53919091477777,6.9020238414414425,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/405969,Soda Springs,line,96,0.0,0.0,0.30275920116115784,0.3311784614897189,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/405974,Soda Springs,line,97,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/405988,Soda Springs,line,98,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/405989,Soda Springs,line,99,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406001,Soda Springs,line,100,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406002,Soda Springs,line,101,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406006,Soda Springs,line,102,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406008,Soda Springs,line,103,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406017,Soda Springs,line,104,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406018,Soda Springs,line,105,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406020,Soda Springs,line,106,0.03022612813205676,-0.00019720888013263077,15.681004933096661,15.691768812450253,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406024,Soda Springs,line,107,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406028,Soda Springs,line,108,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406038,Soda Springs,line,109,0.0,0.0,0.00965384874735143,0.018158305969953017,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406046,Soda Springs,line,110,0.0,0.0,1.635691582180243e-14,6.052358614283548e-13,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406058,Soda Springs,line,111,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406099,Soda Springs,line,112,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406107,Soda Springs,line,113,1.4190341213104862,-5.633216418221565e-06,16.53776699445912,16.538484769501977,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406108,Soda Springs,line,114,0.0,0.0,5.461038270274554e-05,0.0001735502105871156,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406110,Soda Springs,line,115,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406112,Soda Springs,line,116,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406113,Soda Springs,line,117,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406186,Soda Springs,line,118,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406187,Soda Springs,line,119,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406225,Soda Springs,line,120,0.4174135583134379,-0.39361816782872366,13.714071285235246,21.75129235616982,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406243,Soda Springs,line,121,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406269,Soda Springs,line,122,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406274,Soda Springs,line,123,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406280,Soda Springs,line,124,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406281,Soda Springs,line,125,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406290,Soda Springs,line,126,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406297,Soda Springs,line,127,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406300,Soda Springs,line,128,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406305,Soda Springs,line,129,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406312,Soda Springs,line,130,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406317,Soda Springs,line,131,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406324,Soda Springs,line,132,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406326,Soda Springs,line,133,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406327,Soda Springs,line,134,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406339,Soda Springs,line,135,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406340,Soda Springs,line,136,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406346,Soda Springs,line,137,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406347,Soda Springs,line,138,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406353,Soda Springs,line,139,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406361,Soda Springs,line,140,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406387,Soda Springs,line,141,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406389,Soda Springs,line,142,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406395,Soda Springs,line,143,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406403,Soda Springs,line,144,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406404,Soda Springs,line,144,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406407,Soda Springs,line,145,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406418,Soda Springs,line,146,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406419,Soda Springs,line,147,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406432,Soda Springs,line,148,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406438,Soda Springs,line,149,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406439,Soda Springs,line,150,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406441,Soda Springs,line,151,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406447,Soda Springs,line,152,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406450,Soda Springs,line,153,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406451,Soda Springs,line,154,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406455,Soda Springs,line,155,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406457,Soda Springs,line,156,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406475,Soda Springs,line,157,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406479,Soda Springs,line,158,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406481,Soda Springs,line,159,0.07240852648339678,-0.00010300932238950511,0.9601293170927374,0.965281362623749,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406482,Soda Springs,line,160,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406490,Soda Springs,line,161,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406502,Soda Springs,line,162,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406503,Soda Springs,line,163,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406509,Soda Springs,line,164,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406517,Soda Springs,line,165,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406526,Soda Springs,line,166,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406549,Soda Springs,line,167,3.996802888650563e-16,-1.5987211554602254e-14,1.3778651619666958e-09,3.69470415462203e-08,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406551,Soda Springs,line,168,1.0239286418745052e-10,-1.4410451831814443e-10,1.0533785862672813,1.0534316012593834,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406553,Soda Springs,line,169,0.5166893824990075,0.03711812763077538,5.894710413846011,5.919580837367411,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406561,Soda Springs,line,170,0.3203813258699976,5.439181938182713e-09,8.525817763491242,8.529219746262799,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406565,Soda Springs,line,171,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406574,Soda Springs,line,172,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406575,Soda Springs,line,173,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406576,Soda Springs,line,174,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406578,Soda Springs,line,175,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406590,Soda Springs,line,176,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406592,Soda Springs,line,177,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406596,Soda Springs,line,178,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406600,Soda Springs,line,179,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406602,Soda Springs,line,180,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406604,Soda Springs,line,181,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406605,Soda Springs,line,182,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406614,Soda Springs,line,183,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406616,Soda Springs,line,184,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406621,Soda Springs,line,185,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406623,Soda Springs,line,186,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406624,Soda Springs,line,187,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406625,Soda Springs,line,188,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406626,Soda Springs,line,189,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406641,Soda Springs,line,190,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406642,Soda Springs,line,191,3.7000147903462066e-05,-2.0433040848031323e-05,2.281431745543862,2.2814891886098314,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406651,Soda Springs,line,192,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406656,Soda Springs,line,193,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406662,Soda Springs,line,194,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406665,Soda Springs,line,195,0.00019726289574118814,-0.001128142778055614,4.674605861311427,4.9469664399452045,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406671,Soda Springs,line,196,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406677,Soda Springs,line,197,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406683,Soda Springs,line,110,0.0,0.0,1.635691582180243e-14,6.052358614283548e-13,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406684,Soda Springs,line,198,0.0,0.0,0.005821617136153015,0.010580673293491476,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406689,Soda Springs,line,199,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406708,Soda Springs,line,200,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406712,Soda Springs,line,201,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406735,Soda Springs,line,202,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_2/406754,Soda Springs,line,203,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50694,Elster,line,204,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50692,Elster,line,205,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50691,Elster,line,206,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50690,Elster,line,207,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50689,Elster,line,208,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50688,Elster,line,209,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50687,Elster,line,210,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50679,Elster,line,211,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50678,Elster,line,212,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50667,Elster,line,213,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50650,Elster,line,214,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50762,Elster,line,215,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50781,Elster,line,216,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50792,Elster,line,217,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50793,Elster,line,218,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50802,Elster,line,219,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50807,Elster,line,220,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50808,Elster,line,221,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50893,Elster,line,222,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50892,Elster,line,223,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50891,Elster,line,224,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50890,Elster,line,225,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50868,Elster,line,226,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50833,Elster,line,227,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50909,Elster,line,228,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/50935,Elster,line,229,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/51019,Elster,line,230,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/51020,Elster,line,231,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/51040,Elster,line,232,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/51120,Elster,line,233,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/51171,Elster,line,234,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/51155,Elster,line,235,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/51268,Elster,line,236,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/51274,Elster,line,237,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/409974,Soda Springs,line,238,4.996003610813204e-17,-9.092726571680033e-16,5.11478369658036e-10,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/409975,Soda Springs,line,239,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/409976,Soda Springs,line,240,9.992007221626408e-18,-1.298960938811433e-16,2.6848633316589597e-11,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/409978,Soda Springs,line,241,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/409985,Soda Springs,line,242,4.153037913567914e-12,-1.4368365397476879e-09,2.340250193633153e-10,1.344507641221071e-08,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/409987,Soda Springs,line,243,0.04439846523102979,-0.01185010282635815,4.233693168230033,4.422926080515174,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/409993,Soda Springs,line,244,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/409995,Soda Springs,line,99,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/409996,Soda Springs,line,245,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/409997,Soda Springs,line,246,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410003,Soda Springs,line,247,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410009,Soda Springs,line,248,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410020,Soda Springs,line,249,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410041,Soda Springs,line,250,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410099,Soda Springs,line,251,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410100,Soda Springs,line,252,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410101,Soda Springs,line,253,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410106,Soda Springs,line,254,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410107,Soda Springs,line,255,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410113,Soda Springs,line,256,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410115,Soda Springs,line,257,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410116,Soda Springs,line,258,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410119,Soda Springs,line,259,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410123,Soda Springs,line,260,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410282,Soda Springs,line,261,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410280,Soda Springs,line,262,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410256,Soda Springs,line,161,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410247,Soda Springs,line,263,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410244,Soda Springs,line,264,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410243,Soda Springs,line,265,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410242,Soda Springs,line,266,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410241,Soda Springs,line,267,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410240,Soda Springs,line,268,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410217,Soda Springs,line,269,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410211,Soda Springs,line,270,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410206,Soda Springs,line,271,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410294,Soda Springs,line,272,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410295,Soda Springs,line,273,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410326,Soda Springs,line,274,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410328,Soda Springs,line,275,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410340,Soda Springs,line,276,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410341,Soda Springs,line,277,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410345,Soda Springs,line,278,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410346,Soda Springs,line,279,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410372,Soda Springs,line,280,1.9344525981068725e-14,-7.387700451388922e-12,2.982255442596227e-11,9.826372385779436e-09,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410383,Soda Springs,line,281,4.696243394164412e-16,-3.277478288765678e-13,2.1056556498422194e-12,7.628065878950707e-10,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410388,Soda Springs,line,282,1.4838130724115218e-14,-5.746203513012915e-12,1.739750343787705e-11,6.0072916741038536e-09,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410393,Soda Springs,line,283,5.9305860222735875e-12,-2.027224158540619e-09,5.4110176739285975e-09,2.6848805468882018e-08,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410400,Soda Springs,line,284,1.0421663532156343e-14,-4.060022318341793e-12,6.281195563673236e-12,2.187822143451257e-09,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410404,Soda Springs,line,285,0.18965783010665985,6.313302408633703e-09,2.255159728776792,2.2551610610312016,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410437,Soda Springs,line,286,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410432,Soda Springs,line,287,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410501,Soda Springs,line,288,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410489,Soda Springs,line,289,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410488,Soda Springs,line,290,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410481,Soda Springs,line,291,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410517,Soda Springs,line,292,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410522,Soda Springs,line,293,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410523,Soda Springs,line,294,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410577,Soda Springs,line,295,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410571,Soda Springs,line,296,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410555,Soda Springs,line,297,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410543,Soda Springs,line,298,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410540,Soda Springs,line,299,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410534,Soda Springs,line,300,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410529,Soda Springs,line,301,8.593126210598711e-16,-1.7985612998927537e-16,0.005661678734102188,0.004150715962463724,True
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410611,Soda Springs,line,302,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_017,dpv,E:sce_lines_3/410598,Soda Springs,line,303,3.2973623831367146e-16,-1.8923862477038256e-13,2.091706807760829e-12,7.578263916396821e-10,False
+Pier_2017,shrub_residual_050,dpv,H1,homes 3.9 km from Springville,homes,0,0.31501401210765706,-0.11935707192402822,0.7326977701508071,1.0257574966092657,False
+Pier_2017,shrub_residual_050,dpv,H2,Sequoia Crest CDP,homes,1,0.07496621633357922,0.07496603300273423,0.484619444016797,0.04233160478162365,True
+Pier_2017,shrub_residual_050,dpv,H3,homes 4.5 km from Springville,homes,2,2.0965422873480173,2.0965422873480173,7.99841875017884,3.6055742391738477e-10,True
+Pier_2017,shrub_residual_050,dpv,H4,Springville CDP,homes,3,5.42767728207035,5.42767728207035,45.048935261554625,0.0,True
+Pier_2017,shrub_residual_050,dpv,H5,homes 2.6 km from Coy Flat,homes,4,0.003886201807678936,0.003883316391132162,1.1018030327047494,0.26075180522473473,True
+Pier_2017,shrub_residual_050,dpv,H6,homes 4.6 km from Springville,homes,5,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,H7,homes 2.4 km from Springville,homes,6,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,H8,Soda Springs,homes,7,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,H9,dispersed homes,homes,8,5.2282839359294675,4.72230539397803,44.89621255543693,11.023115714786762,True
+Pier_2017,shrub_residual_050,dpv,R1,State Rte 190 / Hwy 190 / State Hwy 190,arterial,9,14.811889320560269,1.7013321508826635,116.66968586398626,94.47369051057385,True
+Pier_2017,shrub_residual_050,dpv,R2,"homes 3.9 km from Springville: Mountain Road 189, Cow Mountain Rd",evacuation route,10,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,R3,"Sequoia Crest CDP: Redwood Dr, Alder Dr, Ponderosa Dr, Forest Rte 20S03",evacuation route,11,9.96285273526624,-0.6539064627725342,42.05931669573926,38.051847748119705,True
+Pier_2017,shrub_residual_050,dpv,R4,"Springville CDP: Co Rd J28, Tule River Dr, Bogart Dr, Mountain Road 189",evacuation route,12,2.7032602639536343,2.7032602639536343,16.809677348271666,0.0,True
+Pier_2017,shrub_residual_050,dpv,R5,"Soda Springs: Forest Rte 21S94, Co Rte M127, Indian Svc Rd, Indian Reservation Dr",evacuation route,13,14.896086230476037,5.639445064724695,52.30277779565401,28.0807427163994,True
+Pier_2017,shrub_residual_050,dpv,R6,"homes 2.3 km from Camp Nelson: Redwood Dr, Forest Rte 20S11, Pine View Dr, Rey Vista Dr",evacuation route,14,0.2587207661844421,0.06695046262291313,4.945512880339325,2.66950786302278,True
+Pier_2017,shrub_residual_050,dpv,R7,"homes 4.5 km from Springville: Co Rte 220, Balch Park Rd",evacuation route,15,1.5586752781800988,1.5586752781800988,5.768812820947183,0.0,True
+Pier_2017,shrub_residual_050,dpv,R8,"homes 2.6 km from Coy Flat: Forest Rte 21S94, Linder Dr, Coy Flat Rd, Smith Dr",evacuation route,16,0.0011950611982673187,0.00119472090346727,2.783981475363426,0.5206582348344257,True
+Pier_2017,shrub_residual_050,dpv,R9,"Pierpoint CDP: McComber Dr, Mariposa Dr, John Lewis Dr, Sunset Dr",evacuation route,17,8.005464513214377e-06,3.6127451594314347e-07,1.5082732079625334,1.5082874858535136,False
+Pier_2017,shrub_residual_050,dpv,R10,"homes 2.4 km from Springville: Globe Dr, Maranatha Ct, Rainbow Ranch Ct, Mountain Road 172A",evacuation route,18,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,R11,"homes 4.6 km from Springville: Mountain Road 172A, Mustang Dr, Mountain Road 161, Pleasant Oak Dr",evacuation route,19,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,R12,access roads of dispersed homes,evacuation route,20,41.87926161170386,15.956135613655604,229.9379488022301,144.0559235389284,True
+Pier_2017,shrub_residual_050,dpv,I1,Lower Tule River Power Plant,power plant,21,2.0197893557671875e-09,2.0197893557671875e-09,3.11145942258817e-05,0.0,True
+Pier_2017,shrub_residual_050,dpv,I2,substation (OSM way 1007932630),substation,22,8.237413551270833e-10,8.237413551270833e-10,1.3228802985333354e-05,0.0,True
+Pier_2017,shrub_residual_050,dpv,I3,Sequoia Ranch Airport,airfield or heliport,23,0.0,0.0,7.542099235247069e-07,0.0,True
+Pier_2017,shrub_residual_050,dpv,I4,Wishon Campground,campground,24,0.043101025750307616,-1.3811454921720812e-05,1.2136323273712997,1.2137351199112263,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1007932630,substation,facility,25,2.3484377242866116e-09,2.3484377242866116e-09,9.286520258015351e-05,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1007932634,Lower Tule River Power Plant,facility,26,1.7036007944337684e-08,1.7036007944337684e-08,0.00022069862514977333,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1359980027,minor_line,line,27,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1359980028,minor_line,line,28,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1359980032,minor_line,line,29,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1359980033,minor_line,line,30,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1359980034,minor_line,line,31,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1359980035,minor_line,line,32,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1464874115,minor_line,line,33,0.0,0.0,0.23949522026404932,0.3461903421305595,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1464874381,minor_line,line,34,0.0,0.0,0.23949522026404932,0.3461903421305595,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1464883427,minor_line,line,35,0.0,0.0,0.23949522026404932,0.3461903421305595,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1464891030,minor_line,line,36,0.14740369596481864,-0.042543136517151275,0.6940945401504565,0.9652813626237485,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1464899073,minor_line,line,37,0.0488983748246647,-0.023613160981121588,0.5681972917720322,0.7580214745754278,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1465200482,minor_line,line,38,0.12390889374273933,-0.038189264743407225,0.6940945401504565,0.9652813626237485,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1465360956,minor_line,line,39,0.0,0.0,0.05775766145193031,0.0880299462009618,False
+Pier_2017,shrub_residual_050,dpv,E:osm/way/1465361932,minor_line,line,40,0.0,0.0,4.6557392999857505e-07,1.0029311459325285e-07,True
+Pier_2017,shrub_residual_050,dpv,E:cec_lines/4039,SCE 66kV,line,41,1.582186983428713e-08,1.582186983428713e-08,8.620205296066663e-05,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:cec_lines/4040,SCE 66kV,line,42,0.0,0.0,5.210789669751747e-09,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:cec_lines/4041,SCE 66kV,line,43,3.564192857917924,3.564192857917924,23.72610585802532,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:cec_lines/4043,SCE 66kV,line,44,0.0,0.0,1.8984813721090176e-16,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:cec_lines/4044,SCE 66kV,line,45,0.0011861105597608423,0.0011861105597608423,0.27385368308455654,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_1/858,Success,line,46,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52416,Elster,line,47,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52438,Elster,line,48,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52439,Elster,line,49,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52440,Elster,line,50,9.992007221626408e-18,9.992007221626408e-18,1.9993610766988466e-10,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52441,Elster,line,51,0.0,0.0,4.0967229608668276e-16,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52442,Elster,line,52,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52443,Elster,line,53,0.0,0.0,6.195044477408373e-15,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52444,Elster,line,54,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52445,Elster,line,55,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52453,Elster,line,56,0.0,0.0,1.9984014443252816e-16,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52455,Elster,line,57,0.005838185047998061,0.005838185047998061,0.44746509906690923,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52456,Elster,line,58,1.3879571634212162e-06,1.3879571634212162e-06,0.06892647215709108,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52462,Elster,line,59,2.891872071808521e-09,2.891872071808521e-09,7.360176451148948e-05,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52464,Elster,line,60,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52475,Elster,line,61,5.819709933962968e-09,5.819709933962968e-09,0.0038784306745674943,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52476,Elster,line,62,2.722301788993242e-08,2.722301788993242e-08,0.008022164498607652,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52501,Elster,line,63,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52515,Elster,line,64,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52566,Elster,line,65,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52569,Elster,line,66,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52574,Elster,line,67,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52576,Elster,line,68,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52579,Elster,line,69,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52582,Elster,line,70,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52586,Elster,line,71,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52611,Elster,line,72,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52625,Elster,line,73,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52626,Elster,line,74,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52637,Elster,line,75,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52641,Elster,line,76,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52679,Elster,line,77,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52680,Elster,line,78,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52742,Elster,line,79,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52778,Elster,line,80,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52788,Elster,line,81,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52832,Elster,line,82,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52841,Elster,line,83,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52847,Elster,line,84,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52878,Elster,line,85,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52894,Elster,line,86,0.0,0.0,1.1290968160437842e-14,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52933,Elster,line,87,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52934,Elster,line,88,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52945,Elster,line,89,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52970,Elster,line,90,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/52971,Elster,line,91,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/53008,Elster,line,92,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/53019,Elster,line,93,2.241959068394195e-09,2.241959068394195e-09,0.0022114162335466958,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/405947,Soda Springs,line,94,0.48251465571441754,0.062478208117168976,3.9317040221456305,2.278293224193013,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/405948,Soda Springs,line,95,0.8207176933872475,0.0030285070295431593,7.576899754946639,6.9020238414414425,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/405969,Soda Springs,line,96,0.0,0.0,1.932277954819395,0.3311784614897189,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/405974,Soda Springs,line,97,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/405988,Soda Springs,line,98,2.2779286409286834e-05,2.2779286409286834e-05,0.6932085067543606,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/405989,Soda Springs,line,99,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406001,Soda Springs,line,100,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406002,Soda Springs,line,101,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406006,Soda Springs,line,102,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406008,Soda Springs,line,103,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406017,Soda Springs,line,104,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406018,Soda Springs,line,105,0.0,0.0,1.298960938811433e-16,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406020,Soda Springs,line,106,0.030945262361594568,0.0005219253494051779,15.713395860002965,15.691768812450253,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406024,Soda Springs,line,107,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406028,Soda Springs,line,108,9.563830627445925e-10,9.563830627445925e-10,2.200125567420885e-06,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406038,Soda Springs,line,109,1.2282341643743422e-08,1.2282341643743422e-08,0.6037341452710938,0.018158305969953017,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406046,Soda Springs,line,110,0.0,0.0,4.0862534356200793e-10,6.052358614283548e-13,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406058,Soda Springs,line,111,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406099,Soda Springs,line,112,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406107,Soda Springs,line,113,1.419083395391051,4.364086414665458e-05,16.541361699040905,16.538484769501977,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406108,Soda Springs,line,114,0.0,0.0,0.0014553219212204303,0.0001735502105871156,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406110,Soda Springs,line,115,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406112,Soda Springs,line,116,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406113,Soda Springs,line,117,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406186,Soda Springs,line,118,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406187,Soda Springs,line,119,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406225,Soda Springs,line,120,2.813329400440905,2.0022976742987435,50.24776464361865,21.75129235616982,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406243,Soda Springs,line,121,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406269,Soda Springs,line,122,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406274,Soda Springs,line,123,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406280,Soda Springs,line,124,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406281,Soda Springs,line,125,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406290,Soda Springs,line,126,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406297,Soda Springs,line,127,0.05659786226368129,0.05659786226368129,2.0909049124592833,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406300,Soda Springs,line,128,0.17042357419069457,0.17042357419069457,2.7270849222855746,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406305,Soda Springs,line,129,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406312,Soda Springs,line,130,0.08970789629572598,0.08970789629572598,3.0672899463531476,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406317,Soda Springs,line,131,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406324,Soda Springs,line,132,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406326,Soda Springs,line,133,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406327,Soda Springs,line,134,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406339,Soda Springs,line,135,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406340,Soda Springs,line,136,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406346,Soda Springs,line,137,0.012463232598920907,0.012463232598920907,1.6789598066122742,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406347,Soda Springs,line,138,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406353,Soda Springs,line,139,0.0,0.0,7.993605777301127e-17,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406361,Soda Springs,line,140,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406387,Soda Springs,line,141,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406389,Soda Springs,line,142,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406395,Soda Springs,line,143,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406403,Soda Springs,line,144,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406404,Soda Springs,line,144,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406407,Soda Springs,line,145,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406418,Soda Springs,line,146,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406419,Soda Springs,line,147,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406432,Soda Springs,line,148,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406438,Soda Springs,line,149,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406439,Soda Springs,line,150,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406441,Soda Springs,line,151,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406447,Soda Springs,line,152,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406450,Soda Springs,line,153,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406451,Soda Springs,line,154,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406455,Soda Springs,line,155,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406457,Soda Springs,line,156,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406475,Soda Springs,line,157,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406479,Soda Springs,line,158,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406481,Soda Springs,line,159,0.0488983748246647,-0.023613160981121588,0.6940945401506251,0.965281362623749,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406482,Soda Springs,line,160,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406490,Soda Springs,line,161,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406502,Soda Springs,line,162,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406503,Soda Springs,line,163,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406509,Soda Springs,line,164,9.992007221626408e-18,9.992007221626408e-18,3.9408476482094554e-14,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406517,Soda Springs,line,165,0.7365906369835081,0.7365906369835081,4.27703631662943,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406526,Soda Springs,line,166,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406549,Soda Springs,line,167,1.622237240539448e-08,1.6222356018502636e-08,0.002126134558359184,3.69470415462203e-08,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406551,Soda Springs,line,168,1.8866001760819983e-09,1.6401027935764034e-09,1.054021458101213,1.0534316012593834,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406553,Soda Springs,line,169,0.775535594280573,0.2959643394123408,8.71767859408249,5.919580837367411,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406561,Soda Springs,line,170,0.32038128958490336,-3.084591232438427e-08,8.541642394690383,8.529219746262799,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406565,Soda Springs,line,171,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406574,Soda Springs,line,172,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406575,Soda Springs,line,173,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406576,Soda Springs,line,174,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406578,Soda Springs,line,175,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406590,Soda Springs,line,176,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406592,Soda Springs,line,177,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406596,Soda Springs,line,178,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406600,Soda Springs,line,179,0.42344947027798524,0.42344947027798524,6.4351140052228315,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406602,Soda Springs,line,180,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406604,Soda Springs,line,181,0.008004274903024721,0.008004274903024721,2.1389597944578767,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406605,Soda Springs,line,182,0.0011802859362697682,0.0011802859362697682,1.465289184091672,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406614,Soda Springs,line,183,0.047218455699612055,0.047218455699612055,3.208096304091685,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406616,Soda Springs,line,184,0.4892527824717006,0.4892527824717006,6.61622243398366,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406621,Soda Springs,line,185,0.2829127364739622,0.2829127364739622,3.6517957056936567,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406623,Soda Springs,line,186,0.0026046333369369977,0.0026046333369369977,1.4699880644113144,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406624,Soda Springs,line,187,0.036212482275187335,0.036212482275187335,1.9487640753537478,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406625,Soda Springs,line,188,0.06136794097458638,0.06136794097458638,6.291678900534996,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406626,Soda Springs,line,189,0.009428622303691951,0.009428622303691951,2.142776701375263,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406641,Soda Springs,line,190,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406642,Soda Springs,line,191,0.0001651467686900332,0.00010771357993853981,2.2821133961786306,2.2814891886098314,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406651,Soda Springs,line,192,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406656,Soda Springs,line,193,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406662,Soda Springs,line,194,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406665,Soda Springs,line,195,0.0048676392965705615,0.0035422336227737593,5.327349895804621,4.9469664399452045,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406671,Soda Springs,line,196,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406677,Soda Springs,line,197,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406683,Soda Springs,line,110,0.0,0.0,4.0862534356200793e-10,6.052358614283548e-13,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406684,Soda Springs,line,198,0.0,0.0,0.022751567902237473,0.010580673293491476,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406689,Soda Springs,line,199,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406708,Soda Springs,line,200,0.16764186915107995,0.16764186915107995,4.26935605314879,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406712,Soda Springs,line,201,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406735,Soda Springs,line,202,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_2/406754,Soda Springs,line,203,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50694,Elster,line,204,0.0,0.0,3.797562264651333e-13,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50692,Elster,line,205,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50691,Elster,line,206,0.0,0.0,6.533157015375934e-11,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50690,Elster,line,207,0.0815456719758791,0.0815456719758791,2.079775335362466,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50689,Elster,line,208,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50688,Elster,line,209,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50687,Elster,line,210,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50679,Elster,line,211,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50678,Elster,line,212,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50667,Elster,line,213,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50650,Elster,line,214,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50762,Elster,line,215,0.1201852033195794,0.1201852033195794,1.0652492888225122,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50781,Elster,line,216,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50792,Elster,line,217,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50793,Elster,line,218,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50802,Elster,line,219,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50807,Elster,line,220,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50808,Elster,line,221,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50893,Elster,line,222,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50892,Elster,line,223,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50891,Elster,line,224,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50890,Elster,line,225,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50868,Elster,line,226,8.861911204860461e-14,8.861911204860461e-14,1.010755984909295e-08,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50833,Elster,line,227,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50909,Elster,line,228,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/50935,Elster,line,229,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/51019,Elster,line,230,0.0,0.0,3.6612912701627915e-12,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/51020,Elster,line,231,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/51040,Elster,line,232,6.0507150526567516e-06,6.0507150526567516e-06,0.22631685808523488,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/51120,Elster,line,233,6.531849061630624e-11,6.531849061630624e-11,5.8917487218979044e-08,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/51171,Elster,line,234,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/51155,Elster,line,235,0.0,0.0,3.6609515419172565e-12,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/51268,Elster,line,236,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/51274,Elster,line,237,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/409974,Soda Springs,line,238,1.4919606019625498e-07,1.4919605923702228e-07,0.0021975832303438346,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/409975,Soda Springs,line,239,0.0,0.0,6.987910250444429e-13,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/409976,Soda Springs,line,240,5.891255416501373e-08,5.891255402512563e-08,0.001195538722065882,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/409978,Soda Springs,line,241,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/409985,Soda Springs,line,242,0.016679578626145792,0.016679577185156214,0.12925865732211797,1.344507641221071e-08,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/409987,Soda Springs,line,243,0.1473457646786409,0.09109719662125297,4.7538974799658815,4.422926080515174,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/409993,Soda Springs,line,244,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/409995,Soda Springs,line,99,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/409996,Soda Springs,line,245,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/409997,Soda Springs,line,246,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410003,Soda Springs,line,247,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410009,Soda Springs,line,248,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410020,Soda Springs,line,249,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410041,Soda Springs,line,250,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410099,Soda Springs,line,251,0.08111612390278568,0.08111612390278568,1.2267391432464432,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410100,Soda Springs,line,252,0.014702472595170959,0.014702472595170959,1.0161092801059195,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410101,Soda Springs,line,253,0.35429204550620114,0.35429204550620114,3.4818841320366025,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410106,Soda Springs,line,254,0.30305654148627803,0.30305654148627803,5.234706655207639,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410107,Soda Springs,line,255,0.20843579113038635,0.20843579113038635,5.083152951627324,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410113,Soda Springs,line,256,0.07128746879503838,0.07128746879503838,2.017329721305628,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410115,Soda Springs,line,257,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410116,Soda Springs,line,258,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410119,Soda Springs,line,259,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410123,Soda Springs,line,260,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410282,Soda Springs,line,261,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410280,Soda Springs,line,262,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410256,Soda Springs,line,161,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410247,Soda Springs,line,263,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410244,Soda Springs,line,264,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410243,Soda Springs,line,265,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410242,Soda Springs,line,266,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410241,Soda Springs,line,267,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410240,Soda Springs,line,268,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410217,Soda Springs,line,269,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410211,Soda Springs,line,270,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410206,Soda Springs,line,271,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410294,Soda Springs,line,272,0.0,0.0,1.5587531265737197e-15,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410295,Soda Springs,line,273,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410326,Soda Springs,line,274,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410328,Soda Springs,line,275,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410340,Soda Springs,line,276,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410341,Soda Springs,line,277,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410345,Soda Springs,line,278,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410346,Soda Springs,line,279,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410372,Soda Springs,line,280,0.00012057815122449188,0.00012057814381744691,0.1058649476537946,9.826372385779436e-09,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410383,Soda Springs,line,281,5.55239672710317e-06,5.552396398885717e-06,0.011324489629732743,7.628065878950707e-10,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410388,Soda Springs,line,282,9.49755575391975e-05,9.497555177815586e-05,0.0669717199019293,6.0072916741038536e-09,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410393,Soda Springs,line,283,0.02186894317760651,0.021868941144451766,0.12886630121793352,2.6848805468882018e-08,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410400,Soda Springs,line,284,6.818955591852749e-05,6.81895518480835e-05,0.028615292295375315,2.187822143451257e-09,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410404,Soda Springs,line,285,0.18965776489024944,-5.890310800227283e-08,2.2551687455080622,2.2551610610312016,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410437,Soda Springs,line,286,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410432,Soda Springs,line,287,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410501,Soda Springs,line,288,0.0,0.0,9.992007221626408e-18,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410489,Soda Springs,line,289,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410488,Soda Springs,line,290,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410481,Soda Springs,line,291,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410517,Soda Springs,line,292,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410522,Soda Springs,line,293,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410523,Soda Springs,line,294,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410577,Soda Springs,line,295,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410571,Soda Springs,line,296,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410555,Soda Springs,line,297,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410543,Soda Springs,line,298,0.05653406750949189,0.05653406750949189,3.3075300563391212,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410540,Soda Springs,line,299,0.0,0.0,0.0,0.0,False
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410534,Soda Springs,line,300,0.01775896454255878,0.01775896454255878,1.4927038434392006,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410529,Soda Springs,line,301,2.342589022763519e-10,2.342578631076009e-10,0.007485844731959596,0.004150715962463724,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410611,Soda Springs,line,302,0.044796179962895026,0.044796179962895026,1.6726497132243625,0.0,True
+Pier_2017,shrub_residual_050,dpv,E:sce_lines_3/410598,Soda Springs,line,303,3.2113668496525082e-06,3.2113666600841473e-06,0.011243684585823444,7.578263916396821e-10,True

@@ -7,8 +7,8 @@
 \toprule
 Method & Settings\\
 \midrule
-Phase 1 and DPV & Removal groups contain at most 128 polygons.\\
-Phase 2 & Initial polygon groups contain at most 256 polygons. Expanded blocks contain at most 512. HiGHS generates up to eight proposals per block within a two-second allowance.\\
+Phase 1 and DPV-ordered removal & The group size is $g=128$ polygons.\\
+Phase 2 & Initial polygon groups contain at most 256 polygons. Expanded blocks contain at most 512. HiGHS generates up to eight proposals per block within a two-second budget.\\
 Annealing & Four chains. Move sizes of 1, 2, 4, 8 or 16 polygons have equal probability. The initial acceptance probability for a median positive cost increase is 0.8. The temperature decreases by a factor of 1,000.\\
 NSGA-II & Population of 32 plans. Crossover probability 0.9. Mutation changes one polygon on average. The limits are 100,000 generations or 50 consecutive generations with an unchanged population.\\
 Spread-path placement & Each selection compares up to eight candidate replacements.\\

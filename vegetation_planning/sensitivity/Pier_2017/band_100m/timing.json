@@ -1,8 +1,0 @@
-{
-  "phase1_total_seconds": 1157.6921989219845,
-  "phase1_search_seconds": null,
-  "phase2_search_seconds": 1382.7146229159844,
-  "total_seconds": 2578.063910163968,
-  "phase2_stop": "Complete unchanged sweep",
-  "recovery_diagnostic_excluded": true
-}

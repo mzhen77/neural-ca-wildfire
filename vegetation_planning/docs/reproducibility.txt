@@ -3,7 +3,7 @@ Reproducibility record: regional vegetation-treatment study
 This record accompanies the Environmental Modelling & Software manuscript.
 It preserves execution details removed from the narrative. The manuscript's
 model, treatment responses, algorithms and comparison rules are unchanged.
-The four-fire results remain unchanged. The additional Pier sensitivity study
+The nominal four-fire optimization results remain unchanged. The fixed-plan sensitivity study
 is described in item 8 below.
 
 1. Result and source records
@@ -25,9 +25,11 @@ Main implementation:
   control/src/edmd_control/regional_benchmarks.py
 
 The source archive reproduces the manuscript. Numerical reproduction also
-requires the experiment code, data, checkpoints and saved protocols. The public
-repository URL and archived release identifier remain to be supplied before
-submission. No public release is asserted by this record.
+requires the experiment code, data, checkpoints and saved protocols. The data,
+checkpoints, saved plans and input scripts are public in the folder
+vegetation_planning on the branch stable-ignition-vegetation-checkpoints of
+  https://github.com/mzhen77/neural-ca-wildfire
+The planner code will be released upon acceptance.
 
 2. Spatial representation and execution
 
@@ -60,7 +62,7 @@ receive scalar verification before retention. Final plans receive full replay.
 All fires use the settings in algorithm_settings.tex. Phase 2 starts with
 Delta = 16, halves it after a block without an accepted change (minimum 1),
 and doubles it when an accepted change reaches the limit (maximum 128).
-The eight HiGHS proposals share one two-second allowance per block.
+The eight HiGHS proposals share one two-second budget per block.
 
 Seed 73 determines the fixed block permutation and benchmark random draws.
 The original randomized block order remains in use. The separate limited Pier
@@ -70,33 +72,34 @@ Annealing uses four chains. Move sizes 1, 2, 4, 8 and 16 are equally likely.
 Each replacement program is sampled uniformly from the other eligible choices.
 The initial temperature gives a median positive sampled cost increase an
 acceptance probability of 0.8. Geometric cooling reduces the temperature by
-1,000 over the allowance. Regional infeasibility causes rejection.
+1,000 over the budget. Regional infeasibility causes rejection.
 
 NSGA-II uses pymoo with a population of 32 categorical assignments. Uniform
 crossover has probability 0.9. Mutation changes one eligible polygon on average
-per offspring. It stops at the time allowance, at 100,000 generations, or after
+per offspring. It stops at the time budget, at 100,000 generations, or after
 50 consecutive generations with an identical population. Feasible plans take
 precedence over infeasible plans. The retained answer is the least-cost feasible
 plan, not an arbitrary member of the Pareto population.
 
-DPV tests groups of at most 128 replacements and subdivides rejected groups.
+DPV-ordered removal, our variant of Phase 1, tests groups of at most 128
+replacements and subdivides rejected groups. Its result files keep the name dpv.
 Spread-path placement compares up to eight candidate replacements per selection.
 The eight-neighbor propagation graph is a separate model assumption, described
 in the manuscript.
 
 4. Time accounting
 
-The per-fire allowance is the sum of the elapsed times to the final cost
+The per-fire budget is the sum of the elapsed times to the final cost
 improvement in the two phases. A phase without improvement contributes zero.
 The shorter comparison uses Phase 1's time to its lowest cost. These are
-retrospectively selected allowances, as stated in the paper.
+retrospectively selected budgets, as stated in the paper.
 
 Model setup and JIT compilation are charged. Path methods also receive their
 measured rate-preparation charge when stored rate fields are reused. Final
 verification and reporting are recorded separately from timed search.
 Pending evaluations and verification can finish after a nominal deadline.
-The completed benchmark runs exceed their allowances by at most 10.8 s.
-At the strict deadline, Ferguson DPV costs $43.012M. The strict-deadline
+The completed benchmark runs exceed their budgets by at most 10.8 s.
+At the strict deadline, DPV-ordered removal on Ferguson costs $43.012M. The strict-deadline
 comparison preserves the reported rankings.
 
 If Phase 2's deadline occurs within a block, it retains the least-cost feasible
@@ -140,53 +143,47 @@ while checking that numerical tabular contents match the source report.
 build.sh builds manuscript.pdf. package_sources.py creates the flat submission
 archive, including this record and algorithm_settings.tex.
 
-8. Pier sensitivity study
+8. Fixed-plan sensitivity on four fires
 
-Configuration and source evidence:
-  control/configs/vegetation_sensitivity_pier_v1.json
-Preparation, sequential GPU queue and live summaries:
-  control/experiments/run_vegetation_sensitivity.py
-Results:
-  control/results/vegetation_sensitivity_pier_v1/
+Protocol and aggregate results:
+  control/results/vegetation_fixed_plan_sensitivity_v1/three_plan_protocol.json
+  control/results/vegetation_fixed_plan_sensitivity_v1/summary_three_plans.json
+  control/results/vegetation_fixed_plan_sensitivity_v1/comparison_three_plans.csv
+Scripts:
+  control/experiments/run_fixed_plan_sensitivity.py
+  control/experiments/run_fixed_plan_dpv_sensitivity.py
 
-The six scenarios separately change grass consumption (two endpoint pairs),
-shrub residual mass (0.17 or 0.5), or band width (100 or 200 m). They preserve
-the nominal four-fire study. Repeated baseline GPU forecasts reproduce its
-saved Pier histories exactly. Each changed response is applied to the
-vegetation-specific operation within each existing whole-polygon program.
-The scenario changes neither the checkpoint nor the CNN input maps.
+Each fire retains three nominal plans: the strongest-treatment reference,
+the final two-phase plan, and the DPV-ordered removal plan reported in the
+benchmark comparison. Their assignments, costs, forecast model, initial fire,
+weather, asset cores, 150 m bands and nominal regional bounds remain fixed.
+The four response scenarios change only grass or shrub treatment multipliers.
+No optimization is performed in this sensitivity assessment.
 
-The grass endpoints come from CARB's October 16, 2025 inventory webinar,
-slide 62. They are inventory assumptions rather than measured uncertainty
-limits. The 0.17 shrub response is a measured site mean from Hardy et al.,
-Table 3. The 0.5 response is a broader scenario motivated by Green's Figure 1
-caption. It is not an estimated Pier response or a confidence interval.
+Grass scenarios consume 95% / 100% or 80% / 90% of herbaceous / one-hour dead
+fuel, respectively. These are endpoints from CARB's October 16, 2025 webinar,
+slide 62. Coarse dead and live woody loads retain their nominal assumptions.
+Shrub residual fractions are 0.17 and 0.50, motivated by Hardy et al., Table 3,
+and Green, Figure 1. These transferred scenarios are not confidence intervals.
+Forest responses remain fixed. Source URLs and assumptions are in the protocol.
 
-All scenarios use the same assets and polygon inventory. Bands use Euclidean
-cell-centre distance on the 30 m grid. Thirteen of Pier's 308 asset features
-reach the simulation boundary under each tested band, so their surroundings
-are represented only within the available domain. Each scenario recomputes
-all reference bounds with no percentage slack. The nominal selected plan is
-replayed before reoptimization, allowing changes in its protection to be
-distinguished from changes after the planner adapts.
+All CA evaluations use the GPU. Saved Pier and Chimney reference/two-phase
+replays are reused. Brattain and Ferguson replays are generated separately.
+The nominal forecasts are checked against saved histories to absolute tolerance
+1e-10. Each DPV plan's cost is checked against the published benchmark table.
+State finiteness, bounds, simplex sum and cumulative-area monotonicity are
+checked on every newly evaluated forecast.
 
-Phase 1 completes its ordered removal pass. Phase 2 has the existing 3,600 s
-allowance and can terminate on an unchanged sweep. The queue runs one GPU
-process at a time and preserves saved source hashes. The nominal baseline
-results are reused after their exact replay check. These runs are scenario
-comparisons and do not repeat the four literature benchmarks.
+The comparison has 60 rows: four fires, three plans, and five response settings
+including nominal. Costs remain constant across settings for each plan.
+Affected asset hectares count overlapping asset cells once. Violations compare
+each unique asset-plus-band constraint against its original nominal bound with
+the established 1e-8 ha numerical tolerance. No scenario-specific reference
+bound replaces the nominal bound. Per-asset details are in each fire's
+assets.csv (reference and two-phase) and dpv/assets.csv. Source hashes identify
+the fixed plans, fuel fields, model maps, masks and scripts.
 
-All six scenarios completed and satisfy every regional bound. Every Phase 2
-run terminated after a complete unchanged sweep. comparison.csv records both
-phases, and nominal_replay.json supplies the nominal row. Run the journal's
-prepare_sensitivity_table.py to generate sensitivity_results.tex and its source
-hashes in sensitivity_provenance.json.
-
-The 100 m run required recovery after final verification used a separately
-compiled history forecast. Differences of order 1e-13 ha crossed the 1e-8 ha
-feasibility tolerance. Final verification now uses the identical compiled
-scalar forecast used for acceptance and independently checks saved histories.
-Five repeated scalar GPU forecasts passed for the retained 100 m plan. The
-assignment and tolerance were unchanged. The saved diagnostic is
-band_100m/scalar_verification.json. Failed events and recovery records remain
-in the logs. timing.json excludes recovery diagnostics and idle time.
+The journal's prepare_sensitivity_table.py generates sensitivity_results.tex
+and sensitivity_provenance.json from the completed three-plan results.
+Earlier reoptimization and band-width experiments remain archived in their
+original results directories and do not supply the revised sensitivity table.
