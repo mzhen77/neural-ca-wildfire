@@ -88,8 +88,11 @@ matched by calendar date. `fire_model.npz` holds
 | `mask` | (H, W) | burnable-fuel indicator `m` |
 | `initial` | (3, H, W) | initial unburned, burning and burned probabilities |
 
-The microstep is Equations (1) to (3) of the paper with `M_gamma = 100`, `M_phi = 100` and
-`M_h = 50`. `WildfireCA.compute_ignition_probability` in `src/model.py` evaluates it. A
+The microstep is given in Section 2.1 of the paper: Equation (1), the ignition probability
+that follows it, and the state update in Equation (2). The code also clips the receiving and
+transmission factors to [0, 100] and the ignition hazard to at most 50. These clips come from
+the original CA-CNN code, and the paper omits them.
+`WildfireCA.compute_ignition_probability` in `src/model.py` evaluates the microstep. A
 treatment field `q` multiplies `fuel_factor` before the call, which applies it at both the
 receiving and the transmitting cell. The function `simulator` in the script is the complete
 forecast.

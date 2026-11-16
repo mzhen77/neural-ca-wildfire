@@ -44,6 +44,9 @@ The planning windows and masks are recorded in:
   control/results/management_polygon_two_stage_v1/<fire>/inputs/planning/protocol.json
 
 CNN parameter maps are evaluated in float32. CA propagation uses float64.
+The CA-CNN implementation clips the receiving and transmission factors to
+[0, 100] and the ignition hazard to at most 50. These numerical safeguards come
+from the published code. The manuscript omits them from Equation (1).
 The runs use the GPU workstation with an NVIDIA RTX 4090 and Intel Core
 i9-14900KF processor. Forecast batches contain four candidates, or two on
 Ferguson, under a 20 GB GPU-memory ceiling. HiGHS uses at most 20 CPU threads.
