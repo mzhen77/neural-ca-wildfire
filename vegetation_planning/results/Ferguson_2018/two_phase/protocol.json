@@ -3,14 +3,14 @@
   "input_root": "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs",
   "model_checkpoint": "control/results/stable_refit_paper_iou_v1/Ferguson_2018/selected/best_loss.eqx",
   "model_checkpoint_sha256": "16c8250f76de7aea1a158d66606748989b005f7c2b767fc19674774e4caf187b",
-  "definition": "One constraint per asset together with its 150 m band. Identical masks share a constraint.",
+  "definition": "One final-day affected-probability bound per cell in the union of assets and their 150 m bands.",
   "bounds": "Each bound equals the strongest whole-polygon plan outcome, with no percentage slack.",
-  "numerical_absolute_tolerance_ha": 1e-08,
+  "numerical_absolute_tolerance_probability": 1e-10,
   "assets": 295,
-  "constraints": 194,
+  "constraints": 209651,
   "stage1": "Outside-in grouped removal with full forecasts, bisection of rejected groups, one complete pass.",
-  "stage2": "Cyclic overlapping spatial blocks, linearized constraints for every region, full-forecast acceptance.",
-  "local_model": "Exact single-prescription differences for every buffered asset. Sum these effects in each MILP. Full CA replay checks interactions and all regional bounds.",
+  "stage2": "Cyclic overlapping spatial blocks, linearized constraints for every protected cell, enforced by row generation, full-forecast acceptance.",
+  "local_model": "Exact single-prescription differences in final affected probability. Constraint generation adds violated cell rows. Every returned proposal passes the full linear model, then full CA verification.",
   "optimization_seconds": 3600.0,
   "batch_size": 2,
   "seed": 73,
@@ -28,8 +28,9 @@
     "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/operational_protocol.json": "a080a87c8d4311034476718e69d551ee10bbe75af5e866341379adabbeff552e"
   },
   "source_hashes": {
-    "control/experiments/run_regional_polygon_study.py": "de92898b7f43f3d8e1dc0ab80fe4e1d5904a2cc168b83b17cbde200e698136a9",
+    "control/experiments/run_cellwise_polygon_study.py": "a03eae7dae0cc897e73be0e4999b84d6ebd30fcf8ba57407017c7e02e4d3d26c",
     "control/src/edmd_control/regional_protection.py": "cd76693d0b0b020fd3d16826c9c0b7574bba8b8a4d43bd44dba708738e4f9630",
+    "control/src/edmd_control/cellwise_integer.py": "68f9bdd8ca1be627c2ccf10dac7416bd06fb988369bdd79a7beda065be69beca",
     "control/src/edmd_control/spatial_integer_search.py": "1cec620b7d945510a4178c243f778519423ea2116f4f18ad8cb5798c074a7666",
     "control/src/edmd_control/precision_log_protection_adjoint.py": "cf222f837e7fb6c776145206a79b08c2dd291b1ee992779c9630bb6ac9f1bc2a"
   }

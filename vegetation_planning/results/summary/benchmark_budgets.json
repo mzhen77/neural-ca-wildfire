@@ -1,0 +1,54 @@
+{
+  "Pier_2017": {
+    "seconds": 1427.783405448019,
+    "phase1_time_to_best_seconds": 1198.5511155379936,
+    "phase2_time_to_best_seconds": 229.23228991002543,
+    "phase1_completed_seconds": 1210.9764903039904,
+    "phase2_completed_seconds": 3603.9130041810567,
+    "target_cost_USD2025": 23323507.011113882,
+    "reference_cost_USD2025": 115380990.32423756,
+    "no_improvement_fallback": false,
+    "source": "control/results/cellwise_protection_v1/main/Pier_2017/progress.jsonl",
+    "source_sha256": "e43a3905ac22877853e82d52be3205c10f21b250a6b2fc9c48f3731ca1a4ae1e",
+    "rule": "Sum of times to the final strict cost improvement in each phase. A phase without improvement contributes zero. If neither improves, use the completed main-run time so all comparators can search."
+  },
+  "Brattain_2020": {
+    "seconds": 5506.683891860943,
+    "phase1_time_to_best_seconds": 2836.187293407973,
+    "phase2_time_to_best_seconds": 2670.49659845297,
+    "phase1_completed_seconds": 2840.8876340439892,
+    "phase2_completed_seconds": 3605.398451423971,
+    "target_cost_USD2025": 15615711.61750687,
+    "reference_cost_USD2025": 104390140.1235736,
+    "no_improvement_fallback": false,
+    "source": "control/results/cellwise_protection_v1/main/Brattain_2020/progress.jsonl",
+    "source_sha256": "4ca0e7c229b3541c3666e4663490789efb2b2ec137464289332c5b6900e3b08c",
+    "rule": "Sum of times to the final strict cost improvement in each phase. A phase without improvement contributes zero. If neither improves, use the completed main-run time so all comparators can search."
+  },
+  "Chimney_2016": {
+    "seconds": 750.2631382769905,
+    "phase1_time_to_best_seconds": 750.2631382769905,
+    "phase2_time_to_best_seconds": 0.0,
+    "phase1_completed_seconds": 762.059830528975,
+    "phase2_completed_seconds": 1507.807302767993,
+    "target_cost_USD2025": 10229319.438990414,
+    "reference_cost_USD2025": 49005264.0193394,
+    "no_improvement_fallback": false,
+    "source": "control/results/cellwise_protection_v1/main/Chimney_2016/progress.jsonl",
+    "source_sha256": "e3f1124a07560e24d8875996db338303ad95c7c73e7bd23c4fcd810f355a64cf",
+    "rule": "Sum of times to the final strict cost improvement in each phase. A phase without improvement contributes zero. If neither improves, use the completed main-run time so all comparators can search."
+  },
+  "Ferguson_2018": {
+    "seconds": 3392.503043061006,
+    "phase1_time_to_best_seconds": 2860.9421997620375,
+    "phase2_time_to_best_seconds": 531.5608432989684,
+    "phase1_completed_seconds": 2868.525171652029,
+    "phase2_completed_seconds": 3607.977405017009,
+    "target_cost_USD2025": 44655648.79496376,
+    "reference_cost_USD2025": 217900988.51083648,
+    "no_improvement_fallback": false,
+    "source": "control/results/cellwise_protection_v1/main/Ferguson_2018/progress.jsonl",
+    "source_sha256": "dac943680a1e1c6b39382892bc0962d47939eebb81f1465d80788eb7d8f294a7",
+    "rule": "Sum of times to the final strict cost improvement in each phase. A phase without improvement contributes zero. If neither improves, use the completed main-run time so all comparators can search."
+  }
+}

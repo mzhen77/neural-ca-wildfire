@@ -1,0 +1,49 @@
+{
+  "methods": {
+    "Published Rothermel": {
+      "state": "complete",
+      "elapsed_seconds": 1427.967392045015,
+      "forecasts": 2968,
+      "completed_groups": 815,
+      "cost_USD2025": 37997401.08053826,
+      "cost_reduction_percent": 67.06788442900344,
+      "all_cells_feasible": true,
+      "max_excess_probability": 8.156308961559944e-11,
+      "protected_cells": 91247,
+      "affected_protected_union_ha": 240.5813024907836,
+      "difference_from_published_cost_USD2025": 0.0,
+      "cost_at_common_group_count_USD2025": 39493501.80323388
+    },
+    "CA paths and CA speeds": {
+      "state": "complete",
+      "elapsed_seconds": 1432.0381421509665,
+      "forecasts": 2856,
+      "completed_groups": 781,
+      "cost_USD2025": 30355518.720392242,
+      "cost_reduction_percent": 73.69105722260767,
+      "all_cells_feasible": true,
+      "max_excess_probability": 9.187695049206468e-11,
+      "protected_cells": 91247,
+      "affected_protected_union_ha": 240.58130249100404,
+      "difference_from_published_cost_USD2025": -7641882.360146016,
+      "cost_at_common_group_count_USD2025": 30355518.720392242
+    },
+    "CA paths and published speeds": {
+      "state": "complete",
+      "elapsed_seconds": 1427.829474825994,
+      "forecasts": 2871,
+      "completed_groups": 773,
+      "cost_USD2025": 35367369.331879035,
+      "cost_reduction_percent": 69.34731689120407,
+      "all_cells_feasible": true,
+      "max_excess_probability": 9.003342515967461e-11,
+      "protected_cells": 91247,
+      "affected_protected_union_ha": 240.58130249086838,
+      "difference_from_published_cost_USD2025": -2630031.7486592233,
+      "cost_at_common_group_count_USD2025": 35367369.331879035
+    }
+  },
+  "common_group_count": 773,
+  "budget_seconds": 1427.783405448019,
+  "reference_cost_USD2025": 115380990.32423756
+}

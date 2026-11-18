@@ -1,9 +1,14 @@
 {
   "fires": [
     "Pier_2017",
-    "Chimney_2016",
     "Brattain_2020",
+    "Chimney_2016",
     "Ferguson_2018"
+  ],
+  "plans": [
+    "reference",
+    "two_phase",
+    "dpv"
   ],
   "scenarios": [
     {
@@ -61,9 +66,16 @@
       "supports": "Unburned green fuel may comprise half or more of chaparral biomass on north exposures. This motivates a 0.5 scenario, not a confidence bound."
     }
   },
-  "plans": "Fixed nominal strongest-treatment reference, two-phase plan and DPV-ordered removal plan. Assignments and costs remain unchanged.",
-  "protection": "Original asset cores, 150 m bands and nominal per-asset bounds stay fixed in every scenario.",
-  "computations": "Reuse completed Pier and Chimney replays. Run missing Brattain and Ferguson forecasts on GPU. No optimization.",
-  "numerical_feasibility_tolerance_ha": 1e-08,
-  "interpretation": "Transferred treatment-response scenarios, not calibrated confidence intervals. The strongest-treatment reference is a comparator, not a proven optimum."
+  "design": "Fixed assignments, costs, nominal cellwise bounds and 150 m bands. GPU forecasts only. No reoptimization.",
+  "numerical_tolerance_probability": 1e-10,
+  "inputs": "control/results/cellwise_protection_v1",
+  "interpretation": "Deterministic response scenarios, not confidence intervals. Compare each optimized plan with the reference under the same response.",
+  "dpv_assignments": {
+    "Pier_2017": "control/results/pier_transmission_dpv_v1/Pier_2017/ca/selected_plan.npz",
+    "Brattain_2020": "control/results/ca_transmission_dpv_v1/Brattain_2020/ca/selected_plan.npz",
+    "Chimney_2016": "control/results/ca_transmission_dpv_v1/Chimney_2016/ca/selected_plan.npz",
+    "Ferguson_2018": "control/results/ca_transmission_dpv_v1/Ferguson_2018/ca/selected_plan.npz"
+  },
+  "reference_and_two_phase_source": "control/results/cellwise_sensitivity_v1/summary.json",
+  "original_summary_sha256": "728bdee52c23d3a8b21f8ebc2582557779d21c402a870814114393dd1d35f754"
 }

@@ -1,22 +1,13 @@
 {
-  "fire": "Ferguson_2018",
-  "phase1_removal": {
-    "computation_seconds": 2792.5270220279926,
-    "setup_seconds": 72.98592079104856,
-    "total_seconds": 2865.512942819041,
-    "source_log": "control/results/regional_polygon_protection_v1/Ferguson_2018/progress.jsonl",
-    "event": 1975
-  },
-  "phase2_sequential_integer": {
-    "computation_seconds": 3606.665996880969,
-    "setup_seconds": 0.0005760600324720144,
-    "total_seconds": 3606.6665729410015,
-    "source_log": "control/results/regional_polygon_protection_v1/Ferguson_2018/progress.jsonl",
-    "event": 5450,
-    "stop_reason": "Optimization time allowance reached"
-  },
-  "benchmark_time_limit_seconds": 6472.179515760043,
-  "timing_basis": "Instrumented elapsed time from study construction, including model setup, JIT compilation, validation, search and final stage reports. Python import time and idle time between processes are excluded.",
-  "interrupted_phase2_excluded": false,
-  "budget_rule": "The benchmark receives the combined completed-phase time, including setup and compilation under the same timing convention. Failed or interrupted attempts are excluded."
+  "seconds": 3392.503043061006,
+  "phase1_time_to_best_seconds": 2860.9421997620375,
+  "phase2_time_to_best_seconds": 531.5608432989684,
+  "phase1_completed_seconds": 2868.525171652029,
+  "phase2_completed_seconds": 3607.977405017009,
+  "target_cost_USD2025": 44655648.79496376,
+  "reference_cost_USD2025": 217900988.51083648,
+  "no_improvement_fallback": false,
+  "source": "control/results/cellwise_protection_v1/main/Ferguson_2018/progress.jsonl",
+  "source_sha256": "dac943680a1e1c6b39382892bc0962d47939eebb81f1465d80788eb7d8f294a7",
+  "rule": "Sum of times to the final strict cost improvement in each phase. A phase without improvement contributes zero. If neither improves, use the completed main-run time so all comparators can search."
 }

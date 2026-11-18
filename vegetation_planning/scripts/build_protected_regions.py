@@ -13,20 +13,23 @@ Steps, as in the paper and its reproducibility record:
      probability reaches 0.5 in one of its cells.
   4. Each asset core is expanded by the band (150 m in the nominal study).
   5. Assets with identical expanded regions share one constraint.
-  6. Each bound equals the reference (strongest-treatment) expected affected area.
+  6. Every cell inside a region is a protected cell with its own constraint. Its
+     limit is the day-15 affected probability under the reference plan, which
+     applies the strongest eligible program to every polygon.
 
 Outputs in generated/<fire>/band_<width>m/:
-  constraints.npz              masks (J,H,W), cores (assets,H,W), limits_ha (J,)
-  assets.json                  id, name, kind and constraint index of every asset
+  constraints.npz              masks (R,H,W), cores (assets,H,W),
+                               protected_flat_indices (J,), limits_probability (J,)
+  assets.json                  id, name, kind and region index of every asset
   protection_masks.npz         union of regions and union of asset cores
   line_and_facility_threat.csv electrical features with their exposure
   comparison.json              agreement with the paper's regions
 
 The exposure test reads inputs/<fire>/exposure.npz, the study's untreated day-15
 forecast, so the regions do not depend on the hardware used to regenerate the
-fire model. Bounds come from the reference table when the regions equal the
-paper's regions. Otherwise they are recomputed from generated/<fire>/forecasts.npz,
-written by prepare_fire_model.py --forecasts.
+fire model. The cell limits are read from generated/<fire>/forecasts.npz, written
+by prepare_fire_model.py --forecasts. The reference table holds a hash of the
+paper's limits, and comparison.json reports whether the limits built here match.
 
 Usage, from the repository root:
     python vegetation_planning/scripts/build_protected_regions.py [--fire Pier_2017] [--band 150]
@@ -198,7 +201,7 @@ def digest(mask):
     return hashlib.sha256(np.ascontiguousarray(mask, bool).tobytes()).hexdigest()
 
 
-def build(fire, band, sources, output):
+def build(fire, band, sources, output, forecasts=None):
     inputs = PLANNING/'inputs'/fire
     grid = Grid(inputs/'georeferencing.json')
     shape = (grid.h, grid.w)
@@ -223,11 +226,11 @@ def build(fire, band, sources, output):
             seen[key] = len(masks); masks.append(mask)
         item['constraint'] = seen[key]; assets.append(item); cores.append(core)
     masks, cores = np.asarray(masks), np.asarray(cores)
-    limits = None
 
-    # Compare with the regions of the paper. Identical sets take the paper's order and bounds.
+    # Compare with the regions of the paper. Identical sets take the paper's order.
     comparison = dict(fire=fire, band_m=band, regions=len(masks), assets=len(assets))
     reference_path = PLANNING/'results'/fire/'two_phase'/(f'regions_reference_band_{band:g}m.json')
+    reference = None
     if reference_path.exists():
         reference = json.loads(reference_path.read_text())
         mine = [digest(m) for m in masks]
@@ -254,24 +257,29 @@ def build(fire, band, sources, output):
             rank = {k: i for i, k in enumerate(wanted)}
             permutation = sorted(range(len(assets)), key=lambda i: rank[assets[i]['id']])
             assets = [assets[i] for i in permutation]; cores = cores[permutation]
-            limits = np.array([r['limit_ha'] for r in reference['regions']])
-            comparison['bounds'] = 'Paper bounds from the reference table'
     else:
         comparison['identical_to_paper'] = None
-    if limits is None:
-        forecasts = PLANNING/'generated'/fire/'forecasts.npz'
-        if forecasts.exists():
-            with np.load(forecasts) as f:
-                reference_final = 1-f['strongest'][-1]
-            limits = np.array([CELL_HA*reference_final[m].sum() for m in masks])
-            comparison['bounds'] = 'Recomputed from generated/<fire>/forecasts.npz for the regions built here'
-        else:
-            limits = np.full(len(masks), np.nan)
-            comparison['bounds'] = 'Not available. Run prepare_fire_model.py --forecasts, then rerun this script'
+
+    # One constraint per protected cell. The limit is the reference affected probability at day 15.
+    protected = np.flatnonzero(masks.any(axis=0).ravel())
+    comparison['protected_cells'] = len(protected)
+    forecasts = forecasts or PLANNING/'generated'/fire/'forecasts.npz'
+    if forecasts.exists():
+        with np.load(forecasts) as f:
+            limits = (1-f['strongest'][-1]).ravel()[protected].astype('<f8')
+        comparison['limits'] = 'Reference affected probability at day 15, from the forecasts file'
+        if reference is not None:
+            comparison['paper_protected_cells'] = reference['protected_cells']
+            comparison['limits_identical_to_paper'] = bool(
+                comparison['identical_to_paper'] and hashlib.sha256(limits.tobytes()).hexdigest() == reference['limits_sha256'])
+    else:
+        limits = np.full(len(protected), np.nan)
+        comparison['limits'] = 'Not available. Run prepare_fire_model.py --forecasts, then rerun this script'
 
     dest = output/fire/f'band_{band:g}m'
     dest.mkdir(parents=True, exist_ok=True)
-    np.savez_compressed(dest/'constraints.npz', masks=masks, cores=cores, limits_ha=limits)
+    np.savez_compressed(dest/'constraints.npz', masks=masks, cores=cores,
+                        protected_flat_indices=protected, limits_probability=limits)
     (dest/'assets.json').write_text(json.dumps(assets, indent=2)+'\n')
     np.savez_compressed(dest/'protection_masks.npz', protected_regions=masks.any(axis=0), combined_core=cores.any(axis=0))
     with (dest/'line_and_facility_threat.csv').open('w') as f:
@@ -286,11 +294,12 @@ if __name__ == '__main__':
     p.add_argument('--fire', action='append', choices=FIRES)
     p.add_argument('--band', type=float, default=150., help='protection band in metres')
     p.add_argument('--sources', type=Path, help='folder with the downloaded electrical layers of one fire')
+    p.add_argument('--forecasts', type=Path, help='forecasts.npz of one fire (default generated/<fire>/forecasts.npz)')
     p.add_argument('--output', type=Path, default=PLANNING/'generated')
     args = p.parse_args()
-    if args.sources and len(args.fire or FIRES) != 1:
-        p.error('--sources applies to one fire')
+    if (args.sources or args.forecasts) and len(args.fire or FIRES) != 1:
+        p.error('--sources and --forecasts apply to one fire')
     for fire in args.fire or FIRES:
         sources = args.sources or PLANNING/'generated'/fire/'electrical_sources'
-        result = build(fire, args.band, sources, args.output)
+        result = build(fire, args.band, sources, args.output, args.forecasts)
         print(json.dumps({k: v for k, v in result.items() if not isinstance(v, list)}), flush=True)

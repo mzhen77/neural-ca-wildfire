@@ -73,31 +73,15 @@
  },
  {
   "path": "results/Pier_2017/two_phase/protocol.json",
-  "source": "control/results/regional_polygon_protection_v1/Pier_2017/protocol.json",
-  "source_sha256": "58940cd6de1af6b6eae144cf8f65cb180d77d0dea4abe1e0666c4f1e061eb4a5",
-  "bytes": 2967,
-  "sha256": "9d31f1c3be9d48bdc0f0c51f24c91c16ea84e23cbacf76eedc93c709f3400ac2",
+  "source": "control/results/cellwise_protection_v1/main/Pier_2017/protocol.json",
+  "source_sha256": "1602b6c45e140e3cac33960b10be57e4354790f140bdc37f8cc6206557a54943",
+  "bytes": 3244,
+  "sha256": "6eea9a1248bd5c3ee3728106b3ecdb343acd5cbf47f079a1205786c669972483",
   "change": "local path prefixes removed"
  },
  {
-  "path": "results/Pier_2017/two_phase/reference.npz",
-  "source": "control/results/regional_polygon_protection_v1/Pier_2017/reference.npz",
-  "source_sha256": "e2effd1a71f85efc464efd4579409289af54c8ad1f1694d19b3488b5ec490b61",
-  "bytes": 133727,
-  "sha256": "2dae343078f3b2d97db125f9f529a8ee35a599569eb2a9dfb0d9d0f95d94489c",
-  "change": "arrays removed: fuel, unburned_history"
- },
- {
-  "path": "results/Pier_2017/two_phase/screened_plan.npz",
-  "source": "control/results/regional_polygon_protection_v1/Pier_2017/screened_plan.npz",
-  "source_sha256": "f16343127027f31ff7b2bafbccd2687c2bf256620a6642c660017b6658d0fd5f",
-  "bytes": 33485,
-  "sha256": "7a6f6856a646b371fc895cdce88feee1a06eb3cae416b7233939c829aabc71a9",
-  "change": "arrays removed: fuel, unburned_history"
- },
- {
   "path": "results/Pier_2017/two_phase/removal_order.npz",
-  "source": "control/results/regional_polygon_protection_v1/Pier_2017/removal_order.npz",
+  "source": "control/results/cellwise_protection_v1/main/Pier_2017/removal_order.npz",
   "source_sha256": "70b656b43502e65a2aae19595eb8405d8c90a109d6c9ba22178624d49711fb06",
   "bytes": 10388,
   "sha256": "70b656b43502e65a2aae19595eb8405d8c90a109d6c9ba22178624d49711fb06",
@@ -105,90 +89,138 @@
  },
  {
   "path": "results/Pier_2017/two_phase/timing.json",
-  "source": "control/results/regional_polygon_protection_v1/Pier_2017/timing.json",
-  "source_sha256": "dbbdf0ebf32c8ea09c2c03da05d7804382b3727d167f29ef50482c4c1ea557e5",
-  "bytes": 1155,
-  "sha256": "f672b7dd93a1f676aff5c2f10c626ec199160819f0f7a40c84c594ba2d6d3afa",
+  "source": "control/results/cellwise_protection_v1/main/Pier_2017/timing.json",
+  "source_sha256": "f3b9936fcdbdc6a4cad3aafbf793c3b7eae0192d5f69e38ec577459e30752651",
+  "bytes": 749,
+  "sha256": "eb3e935d9a315e61c4ddf8e15df6ce43fc114d809970b3120764f8e0f14f8a9c",
   "change": "local path prefixes removed"
  },
  {
-  "path": "results/Pier_2017/two_phase/optimized_plan.npz",
-  "source": "control/results/regional_polygon_protection_v1/Pier_2017/phase2_restart/optimized_plan.npz",
-  "source_sha256": "10afd012b3ee57e10ac5224ab64a4125a875f4330fdca1c32bbd4f13d0353d01",
-  "bytes": 33241,
-  "sha256": "015a25235dcd6cae4e7e6515282c955ee087a6cbcc3403d54f1167a13701c98f",
-  "change": "arrays removed: fuel, unburned_history"
+  "path": "results/Pier_2017/two_phase/status.json",
+  "source": "control/results/cellwise_protection_v1/main/Pier_2017/status.json",
+  "source_sha256": "f3b26d3db6bc47545efe16460358a14c0154aea106ed469f14fe9598b09859e6",
+  "bytes": 435,
+  "sha256": "f3b26d3db6bc47545efe16460358a14c0154aea106ed469f14fe9598b09859e6",
+  "change": null
  },
  {
-  "path": "results/Pier_2017/two_phase/status.json",
-  "source": "control/results/regional_polygon_protection_v1/Pier_2017/phase2_restart/status.json",
-  "source_sha256": "7e16e1714f8054513a5d2d8312db62a322fd43259fe2c09828529647c7d4e811",
-  "bytes": 437,
-  "sha256": "7e16e1714f8054513a5d2d8312db62a322fd43259fe2c09828529647c7d4e811",
+  "path": "results/Pier_2017/two_phase/reference.npz",
+  "source": "control/results/cellwise_protection_v1/main/Pier_2017/reference.npz",
+  "source_sha256": "96b303d950f6a4694b09b8c49cb055d659520b11e2ab06ed212f70d581bbbf91",
+  "bytes": 132457,
+  "sha256": "468f30044ea5ae65d0e4f945bb3d597447705aeab35f3247547dfe3641753cc0",
+  "change": "arrays removed: fuel, unburned_history, affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Pier_2017/two_phase/screened_plan.npz",
+  "source": "control/results/cellwise_protection_v1/main/Pier_2017/screened_plan.npz",
+  "source_sha256": "345f1641ed874c6857c1e4998ba7c9fcbdcbee4cb6acca78c15d8d85b6c43a81",
+  "bytes": 32838,
+  "sha256": "c108fa37338f77c926444c67e457e4d5330aea60b5e0dbcbe2181e35aeee7d54",
+  "change": "arrays removed: fuel, unburned_history, affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Pier_2017/two_phase/optimized_plan.npz",
+  "source": "control/results/cellwise_protection_v1/main/Pier_2017/optimized_plan.npz",
+  "source_sha256": "c534f22e0985b787c67f4ee8ed6648556c4dc63c647d2e620546f8c6d7a9e0c3",
+  "bytes": 32839,
+  "sha256": "a5e202e2d17736f93179af6307c6d2e7e8d4ced26115db340be648b3ac12ab1c",
+  "change": "arrays removed: fuel, unburned_history, affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Pier_2017/dpv_ordered_removal/best_plan.npz",
+  "source": "control/results/pier_transmission_dpv_v1/Pier_2017/ca/best_plan.npz",
+  "source_sha256": "6bddc39a7427b20df7f9fbfa962ab9aca676cd42a877b3b3390b0e05ea06c3df",
+  "bytes": 75442,
+  "sha256": "11afd0b2efd1695639586634b3eda06988f3462e2a7e27abb7718f25660aeb88",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Pier_2017/dpv_ordered_removal/completion.json",
+  "source": "control/results/pier_transmission_dpv_v1/Pier_2017/ca/completion.json",
+  "source_sha256": "ca042d1818d1e94fcfe605c063e4371e492b92ad7cdb98885b942b2fb0d37dc4",
+  "bytes": 870,
+  "sha256": "ca042d1818d1e94fcfe605c063e4371e492b92ad7cdb98885b942b2fb0d37dc4",
   "change": null
  },
  {
   "path": "results/Pier_2017/benchmarks/annealing/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/annealing/best_plan.npz",
-  "source_sha256": "49af3e578c9fc9dc3e3162c6bd6c1eb117bb39a33ed5c63f5c0b08293e8078ec",
-  "bytes": 112829,
-  "sha256": "49af3e578c9fc9dc3e3162c6bd6c1eb117bb39a33ed5c63f5c0b08293e8078ec",
-  "change": null
+  "source": "control/results/cellwise_protection_v1/benchmark/Pier_2017/annealing/best_plan.npz",
+  "source_sha256": "7308acf86463f70b38cd90beac5b27f671a3f8e1c1597f119f5392402883b82c",
+  "bytes": 114056,
+  "sha256": "59a93c7c5843bfcdc88301c190d7ce7547dcf5e0956e73f1d9d26ab4c90f23e0",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
   "path": "results/Pier_2017/benchmarks/annealing/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/annealing/completion.json",
-  "source_sha256": "d68e505c5851e66237c5792792f236ae379438733c41f6fc1b3ec3f75780b972",
-  "bytes": 869,
-  "sha256": "d68e505c5851e66237c5792792f236ae379438733c41f6fc1b3ec3f75780b972",
+  "source": "control/results/cellwise_protection_v1/benchmark/Pier_2017/annealing/completion.json",
+  "source_sha256": "d53a865f9efe205b358c1cae45598c3dc3fac2bebfa0af47d9482358c4f08d25",
+  "bytes": 875,
+  "sha256": "d53a865f9efe205b358c1cae45598c3dc3fac2bebfa0af47d9482358c4f08d25",
   "change": null
  },
  {
   "path": "results/Pier_2017/benchmarks/nsga2/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/nsga2/best_plan.npz",
-  "source_sha256": "709004ed3f13663ecee9fdda0f433e23f8ce13e80c573839ba00258ae22b4c0a",
-  "bytes": 128125,
-  "sha256": "709004ed3f13663ecee9fdda0f433e23f8ce13e80c573839ba00258ae22b4c0a",
-  "change": null
+  "source": "control/results/cellwise_protection_v1/benchmark/Pier_2017/nsga2/best_plan.npz",
+  "source_sha256": "8fef3cb752eb30c28462fe3d579dd10defe2065c7ee42ad78b525648940036c0",
+  "bytes": 129049,
+  "sha256": "592ff562ed47c63125d490679b4fc59c895dddba9f5989734a3c557c09352ecf",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
   "path": "results/Pier_2017/benchmarks/nsga2/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/nsga2/completion.json",
-  "source_sha256": "ca1e76d1ea4cec4bb365d221dccea5b3c32c5346a3aecd1b85311a29116576da",
-  "bytes": 867,
-  "sha256": "ca1e76d1ea4cec4bb365d221dccea5b3c32c5346a3aecd1b85311a29116576da",
+  "source": "control/results/cellwise_protection_v1/benchmark/Pier_2017/nsga2/completion.json",
+  "source_sha256": "207b6050d267e4f7c7e56eea329539ba2d8f6657198d6457f77ef13c8c101213",
+  "bytes": 872,
+  "sha256": "207b6050d267e4f7c7e56eea329539ba2d8f6657198d6457f77ef13c8c101213",
   "change": null
  },
  {
   "path": "results/Pier_2017/benchmarks/path_delay/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/path_delay/best_plan.npz",
-  "source_sha256": "a0203f55fa2716594e5c5f4bf0219eaf6b85eb265cd62bf20d55ffb71f5311ca",
-  "bytes": 128413,
-  "sha256": "a0203f55fa2716594e5c5f4bf0219eaf6b85eb265cd62bf20d55ffb71f5311ca",
-  "change": null
+  "source": "control/results/cellwise_protection_v1/benchmark/Pier_2017/path_delay/best_plan.npz",
+  "source_sha256": "b23ee90e96e8f5d4d12ba385f18cc949d5f528117408ad4b052e378722ca36a1",
+  "bytes": 128091,
+  "sha256": "677acc375b44a92db59a168c6db2da5b2b7605c32025be4bcffc3dd0bea2f947",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
   "path": "results/Pier_2017/benchmarks/path_delay/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/path_delay/completion.json",
-  "source_sha256": "5502a65fd1e12f8f157a2b6958ea8a28796fa6fb2768d36022deee128efc2f34",
-  "bytes": 888,
-  "sha256": "5502a65fd1e12f8f157a2b6958ea8a28796fa6fb2768d36022deee128efc2f34",
+  "source": "control/results/cellwise_protection_v1/benchmark/Pier_2017/path_delay/completion.json",
+  "source_sha256": "1fb7d881469de7007982ae7c938c77bab74ac99c3eb9eec0e12c7b47dd0a9948",
+  "bytes": 897,
+  "sha256": "1fb7d881469de7007982ae7c938c77bab74ac99c3eb9eec0e12c7b47dd0a9948",
   "change": null
  },
  {
-  "path": "results/Pier_2017/dpv_ordered_removal/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/dpv/best_plan.npz",
-  "source_sha256": "119c8bdfed021d8b06530033eddb5c0d997fbe4e3b75344b79d64137a7ad7051",
-  "bytes": 73069,
-  "sha256": "119c8bdfed021d8b06530033eddb5c0d997fbe4e3b75344b79d64137a7ad7051",
+  "path": "results/Pier_2017/dpv_guidance_comparison/rothermel/best_plan.npz",
+  "source": "control/results/cellwise_protection_v1/benchmark/Pier_2017/dpv/best_plan.npz",
+  "source_sha256": "5e823ba6388d7ede89abb4443f6a98f1306c77d7653738b9791732bf1c1793fa",
+  "bytes": 92812,
+  "sha256": "13f0c0e1045214b269c7a192d5483fa10865479b1d55498d2377045d59d7235c",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Pier_2017/dpv_guidance_comparison/rothermel/completion.json",
+  "source": "control/results/cellwise_protection_v1/benchmark/Pier_2017/dpv/completion.json",
+  "source_sha256": "e4801cc2f36a65c0f4d477c21e67bb4e71dc3bbec8fa628a3d22605dc28e0ec3",
+  "bytes": 882,
+  "sha256": "e4801cc2f36a65c0f4d477c21e67bb4e71dc3bbec8fa628a3d22605dc28e0ec3",
   "change": null
  },
  {
-  "path": "results/Pier_2017/dpv_ordered_removal/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Pier_2017/dpv/completion.json",
-  "source_sha256": "09b306bac42f1275acf54c37ddf47bf30769ad5597c58a0ceb59a15369649bde",
-  "bytes": 877,
-  "sha256": "09b306bac42f1275acf54c37ddf47bf30769ad5597c58a0ceb59a15369649bde",
+  "path": "results/Pier_2017/dpv_guidance_comparison/ca_paths_rothermel_speeds/best_plan.npz",
+  "source": "control/results/pier_transmission_dpv_v1/Pier_2017/rothermel/best_plan.npz",
+  "source_sha256": "c93280a866f2dd9b9d67455c720f93e54eea221436fcf5782ba1bf3fb3b04ee8",
+  "bytes": 93457,
+  "sha256": "8241779a8583468a8ef2b352ec37213d1e688fc890a8f11d95339642e72ed4b2",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Pier_2017/dpv_guidance_comparison/ca_paths_rothermel_speeds/completion.json",
+  "source": "control/results/pier_transmission_dpv_v1/Pier_2017/rothermel/completion.json",
+  "source_sha256": "50e3457942a9334068ba5cc76777fde93a2f9cae46a9e72b1cc701de831bc0f9",
+  "bytes": 883,
+  "sha256": "50e3457942a9334068ba5cc76777fde93a2f9cae46a9e72b1cc701de831bc0f9",
   "change": null
  },
  {
@@ -265,31 +297,15 @@
  },
  {
   "path": "results/Brattain_2020/two_phase/protocol.json",
-  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/protocol.json",
-  "source_sha256": "b05b884fbfcc9e394f34db2b24a30a5cc84cac7c830b8f1dba4a523d2f1eeca2",
-  "bytes": 3139,
-  "sha256": "33b9c4fe0dc485862ba57364ac81b81033a1063e54984f3b533f426c251ab845",
+  "source": "control/results/cellwise_protection_v1/main/Brattain_2020/protocol.json",
+  "source_sha256": "4e157dcf5b3c2cc98af33d4d9281d1449cfa02e6139f92ef31512205d9b3ffb2",
+  "bytes": 3353,
+  "sha256": "b3e735946aaebffa56dbc69f803aa8b687e3f3a9c12f667933abc924a6f944a5",
   "change": "local path prefixes removed"
  },
  {
-  "path": "results/Brattain_2020/two_phase/reference.npz",
-  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/reference.npz",
-  "source_sha256": "b1af5c91d6ca367399d53a4b74899314e23269ffd5f244a6c3177147678cd7c4",
-  "bytes": 171161,
-  "sha256": "a1f201d90052ccd2ddc071931eb349eea4077b77e577fc5c28e53dee233ff9e9",
-  "change": "arrays removed: fuel, unburned_history"
- },
- {
-  "path": "results/Brattain_2020/two_phase/screened_plan.npz",
-  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/screened_plan.npz",
-  "source_sha256": "3c70c59a9e8983feab05bf0c63317c018a88d908bb29a355a9917474e0152118",
-  "bytes": 55543,
-  "sha256": "0752f416b0d72ecd646904adf1b2293aa45824d9b1c564d6de5dd471407c06c7",
-  "change": "arrays removed: fuel, unburned_history"
- },
- {
   "path": "results/Brattain_2020/two_phase/removal_order.npz",
-  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/removal_order.npz",
+  "source": "control/results/cellwise_protection_v1/main/Brattain_2020/removal_order.npz",
   "source_sha256": "13102e9d7b16c1f4dc5e4f3753f22d7a70cab13050c1011065879523fc530944",
   "bytes": 14436,
   "sha256": "13102e9d7b16c1f4dc5e4f3753f22d7a70cab13050c1011065879523fc530944",
@@ -297,90 +313,122 @@
  },
  {
   "path": "results/Brattain_2020/two_phase/timing.json",
-  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/timing.json",
-  "source_sha256": "91465b7944600c4f7f4fa6672d1bac3b0489462740bb8bfcac3b70b8da379a95",
-  "bytes": 1142,
-  "sha256": "d98f3becb49673d2038a3d809c96ff3bd9129afbd79864fd1f0cb996b556d670",
+  "source": "control/results/cellwise_protection_v1/main/Brattain_2020/timing.json",
+  "source_sha256": "b48050c9e6f7cc7dc514ee0798718caab2f97ea3ecfd76208aa48eed7b5ded3d",
+  "bytes": 747,
+  "sha256": "c715c11c01a8350b3157ee99c2d823213eecca341ff44c23795fa7c57f4b2823",
   "change": "local path prefixes removed"
  },
  {
-  "path": "results/Brattain_2020/two_phase/optimized_plan.npz",
-  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/optimized_plan.npz",
-  "source_sha256": "e6647977d44db9c41063f105836e45b3c927abbb5069c6faeb25a93d5242790c",
-  "bytes": 55113,
-  "sha256": "fdba377766520c22bd182cea9145096b5c8571ad0a85d3ff525a64b96cdb1886",
-  "change": "arrays removed: fuel, unburned_history"
+  "path": "results/Brattain_2020/two_phase/status.json",
+  "source": "control/results/cellwise_protection_v1/main/Brattain_2020/status.json",
+  "source_sha256": "6f07bf9961d764e303e9f02881cf6b7194fe66ed10784f8e6f224674781734f5",
+  "bytes": 434,
+  "sha256": "6f07bf9961d764e303e9f02881cf6b7194fe66ed10784f8e6f224674781734f5",
+  "change": null
  },
  {
-  "path": "results/Brattain_2020/two_phase/status.json",
-  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/status.json",
-  "source_sha256": "dde02ac36f3460906bd51b0fc8c5041e960ccda70bbcb50f99d7ce2cd0f04eff",
-  "bytes": 435,
-  "sha256": "dde02ac36f3460906bd51b0fc8c5041e960ccda70bbcb50f99d7ce2cd0f04eff",
+  "path": "results/Brattain_2020/two_phase/reference.npz",
+  "source": "control/results/cellwise_protection_v1/main/Brattain_2020/reference.npz",
+  "source_sha256": "ba63f7f3565aa858d75747828d89dbd2b3c12c6c3912904f3d172c04ee551d4f",
+  "bytes": 170441,
+  "sha256": "1d4bd82ea7736dc43f0bd3e8b682b154e7211e64ab302808b40b1b5ffaa1949e",
+  "change": "arrays removed: fuel, unburned_history, affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Brattain_2020/two_phase/screened_plan.npz",
+  "source": "control/results/cellwise_protection_v1/main/Brattain_2020/screened_plan.npz",
+  "source_sha256": "fad11192356abaa0bb9da430339a3acfc981681bf150be23035568ab3e941e93",
+  "bytes": 62067,
+  "sha256": "b9ab0d18bbd0831de3c41add35f92b470c48bd7ccc5b330c1cfe4dd94554e98b",
+  "change": "arrays removed: fuel, unburned_history, affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Brattain_2020/two_phase/optimized_plan.npz",
+  "source": "control/results/cellwise_protection_v1/main/Brattain_2020/optimized_plan.npz",
+  "source_sha256": "fc1b7d89dafbcff9d0c546b2a37ac67dffc7f923a400f6229ff5ff3413225847",
+  "bytes": 62028,
+  "sha256": "1b65388a1b7073a087d392398f4c067f6f9b7cde95a4cb40de996ed239591094",
+  "change": "arrays removed: fuel, unburned_history, affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Brattain_2020/dpv_ordered_removal/best_plan.npz",
+  "source": "control/results/ca_transmission_dpv_v1/Brattain_2020/ca/best_plan.npz",
+  "source_sha256": "63d7e0a3d2a36dc070a31dd91286248b3efa909caa376c5e835d24bb00e472bd",
+  "bytes": 61991,
+  "sha256": "620493415acd05131bfc5f0766bacb0ce03338d94da97551f939b7d1f6eb5d73",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Brattain_2020/dpv_ordered_removal/completion.json",
+  "source": "control/results/ca_transmission_dpv_v1/Brattain_2020/ca/completion.json",
+  "source_sha256": "839c74232faa7515f29fa4a9fcdddc2373db16778d3f6e5dd21aa438560cc98d",
+  "bytes": 882,
+  "sha256": "839c74232faa7515f29fa4a9fcdddc2373db16778d3f6e5dd21aa438560cc98d",
   "change": null
  },
  {
   "path": "results/Brattain_2020/benchmarks/annealing/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/annealing/best_plan.npz",
-  "source_sha256": "588ff9005a21aed9c0358b1fe7869b1a717fe457112e7e9495dddf2022039b39",
-  "bytes": 136480,
-  "sha256": "588ff9005a21aed9c0358b1fe7869b1a717fe457112e7e9495dddf2022039b39",
-  "change": null
+  "source": "control/results/cellwise_protection_v1/benchmark/Brattain_2020/annealing/best_plan.npz",
+  "source_sha256": "925be57687c51912fdd583612858cb07d015da464a0204d8a91a319ec299322b",
+  "bytes": 145296,
+  "sha256": "16b56051f4d769e740de8ca673b495251817dfd9be82e6a5e2f58724d3f499ba",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
   "path": "results/Brattain_2020/benchmarks/annealing/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/annealing/completion.json",
-  "source_sha256": "979433af2af3b44475debf76ce78535c767caa566443f35de10d3eb6abdac01f",
-  "bytes": 869,
-  "sha256": "979433af2af3b44475debf76ce78535c767caa566443f35de10d3eb6abdac01f",
+  "source": "control/results/cellwise_protection_v1/benchmark/Brattain_2020/annealing/completion.json",
+  "source_sha256": "8ad3636a4abb2e64bb6731389d5d48daf66be2535c6bae85eb3980edc1bf1785",
+  "bytes": 876,
+  "sha256": "8ad3636a4abb2e64bb6731389d5d48daf66be2535c6bae85eb3980edc1bf1785",
   "change": null
  },
  {
   "path": "results/Brattain_2020/benchmarks/nsga2/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/nsga2/best_plan.npz",
-  "source_sha256": "673ac6d071519f0fbc1ada180793ed925420533208b3bcf897a14d5ad6240d84",
-  "bytes": 159410,
-  "sha256": "673ac6d071519f0fbc1ada180793ed925420533208b3bcf897a14d5ad6240d84",
-  "change": null
+  "source": "control/results/cellwise_protection_v1/benchmark/Brattain_2020/nsga2/best_plan.npz",
+  "source_sha256": "5d071759c8b4ee982802d3bbc7097c0ef549f9a08f5a7845865bc4055ed3b312",
+  "bytes": 157678,
+  "sha256": "4864bba71a72e3f2b9c4714392971229cbef68586786a4ed44e78bf404bcc472",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
   "path": "results/Brattain_2020/benchmarks/nsga2/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/nsga2/completion.json",
-  "source_sha256": "0b6478bac3feded431389be49dee35646e75f29755767dc14e58a13f49f1377b",
-  "bytes": 866,
-  "sha256": "0b6478bac3feded431389be49dee35646e75f29755767dc14e58a13f49f1377b",
+  "source": "control/results/cellwise_protection_v1/benchmark/Brattain_2020/nsga2/completion.json",
+  "source_sha256": "b86d3cd20303925db463f4026a496055c58ae8f8e5f758284721264906952253",
+  "bytes": 872,
+  "sha256": "b86d3cd20303925db463f4026a496055c58ae8f8e5f758284721264906952253",
   "change": null
  },
  {
   "path": "results/Brattain_2020/benchmarks/path_delay/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/path_delay/best_plan.npz",
-  "source_sha256": "6baaacb14b3d2fc5650145a24576544f07ca57782be1a7347eae4a66099424b2",
-  "bytes": 155457,
-  "sha256": "6baaacb14b3d2fc5650145a24576544f07ca57782be1a7347eae4a66099424b2",
-  "change": null
+  "source": "control/results/cellwise_protection_v1/benchmark/Brattain_2020/path_delay/best_plan.npz",
+  "source_sha256": "62fda4b8b0574eb309ec20f6b70d03dd09cf48d3db9e936c22fcd45161c1f80b",
+  "bytes": 154485,
+  "sha256": "c6ffdd69cc2d88ebeaea9906574b9703bc6e9f049f138bb3900ee2fd53887c3a",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
   "path": "results/Brattain_2020/benchmarks/path_delay/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/path_delay/completion.json",
-  "source_sha256": "f70485891a8094daf44c3d30394c240930eb022c5ae03effa3623500b5052440",
-  "bytes": 885,
-  "sha256": "f70485891a8094daf44c3d30394c240930eb022c5ae03effa3623500b5052440",
+  "source": "control/results/cellwise_protection_v1/benchmark/Brattain_2020/path_delay/completion.json",
+  "source_sha256": "35cec9a13392a4236376eaa1234606b02bd4db2d162e18d7cc928cb91089ac09",
+  "bytes": 896,
+  "sha256": "35cec9a13392a4236376eaa1234606b02bd4db2d162e18d7cc928cb91089ac09",
   "change": null
  },
  {
-  "path": "results/Brattain_2020/dpv_ordered_removal/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/dpv/best_plan.npz",
-  "source_sha256": "a44837317526e6a49a57fa4ec53cf06070a53278cde94a02d24cedd1085e826f",
-  "bytes": 62897,
-  "sha256": "a44837317526e6a49a57fa4ec53cf06070a53278cde94a02d24cedd1085e826f",
-  "change": null
+  "path": "results/Brattain_2020/dpv_guidance_comparison/rothermel/best_plan.npz",
+  "source": "control/results/cellwise_protection_v1/benchmark/Brattain_2020/dpv/best_plan.npz",
+  "source_sha256": "ae3c204608432911a7a1ad9a93c8f23434ab5223d7010fab2f4e1322d79677ab",
+  "bytes": 77419,
+  "sha256": "168e309212cba9480d1eb6df27cae4a9626b10b4999ae6e49b67342c90ec1f3f",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
-  "path": "results/Brattain_2020/dpv_ordered_removal/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Brattain_2020/dpv/completion.json",
-  "source_sha256": "f3c2b1f7b433736cb996d203fbcbf9030220e36e3d047b1adb5be80ce5559f86",
-  "bytes": 893,
-  "sha256": "f3c2b1f7b433736cb996d203fbcbf9030220e36e3d047b1adb5be80ce5559f86",
+  "path": "results/Brattain_2020/dpv_guidance_comparison/rothermel/completion.json",
+  "source": "control/results/cellwise_protection_v1/benchmark/Brattain_2020/dpv/completion.json",
+  "source_sha256": "89d31e6bb1b67d77402012b15a58a96eafd8484c41644c1be37682bfb1100ec6",
+  "bytes": 881,
+  "sha256": "89d31e6bb1b67d77402012b15a58a96eafd8484c41644c1be37682bfb1100ec6",
   "change": null
  },
  {
@@ -457,31 +505,15 @@
  },
  {
   "path": "results/Chimney_2016/two_phase/protocol.json",
-  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/protocol.json",
-  "source_sha256": "7ace5e9af121131c0d862a9fc706fa148a8f0ecce189cdadbd2e92dd70c079ea",
-  "bytes": 3136,
-  "sha256": "131bebd5106ca7c9e9873f038c1e8290288a86e42e07f054c5f86d1fec36e8e7",
+  "source": "control/results/cellwise_protection_v1/main/Chimney_2016/protocol.json",
+  "source_sha256": "b28ca695b7858753b8928cb0b8261b5fcf520221df32ea839e0170dd3a95ac09",
+  "bytes": 3350,
+  "sha256": "92f0c64b395c101da27db2e179bbdbcc3dce78f599b39c3423bc6db10b6f895a",
   "change": "local path prefixes removed"
  },
  {
-  "path": "results/Chimney_2016/two_phase/reference.npz",
-  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/reference.npz",
-  "source_sha256": "c06052d09a6099520d9ba3a31d572c4391fba85fe0c4aeff4a871525be715389",
-  "bytes": 150881,
-  "sha256": "ab613b2b0cf85b290837d65453dc57c0f8d26bf6126ee26f980301e499f9e291",
-  "change": "arrays removed: fuel, unburned_history"
- },
- {
-  "path": "results/Chimney_2016/two_phase/screened_plan.npz",
-  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/screened_plan.npz",
-  "source_sha256": "37cbc9e01f3a20f46cc52810b0ded8cfe1cab14bc331233d64584d7fdc520d52",
-  "bytes": 35241,
-  "sha256": "eb8c9621c7bf733a0dc364dba9e17b0b7b1f4c1f7e53e914532adfdc2d4c975b",
-  "change": "arrays removed: fuel, unburned_history"
- },
- {
   "path": "results/Chimney_2016/two_phase/removal_order.npz",
-  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/removal_order.npz",
+  "source": "control/results/cellwise_protection_v1/main/Chimney_2016/removal_order.npz",
   "source_sha256": "69b61de52d5f6ec1af0699a31b4295c3c33ae1f7e344406a85b4411c729618e6",
   "bytes": 13404,
   "sha256": "69b61de52d5f6ec1af0699a31b4295c3c33ae1f7e344406a85b4411c729618e6",
@@ -489,90 +521,122 @@
  },
  {
   "path": "results/Chimney_2016/two_phase/timing.json",
-  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/timing.json",
-  "source_sha256": "a34a387c91d6dd34a295ddb87b4a390554a016e72ca3d67ee1676ef07280de8a",
-  "bytes": 1127,
-  "sha256": "6870d8e6ff618e72169ff60040539dd3e13573093c1e5199f6f3fdb7e8cea921",
+  "source": "control/results/cellwise_protection_v1/main/Chimney_2016/timing.json",
+  "source_sha256": "248c65c39c905147d3eb170d77c644d2e085034dd89931385cc5f5f654e01577",
+  "bytes": 731,
+  "sha256": "b639f2a08ede7282b409f3ad7b2b4516cbb852984d228816f92ebafa93130385",
   "change": "local path prefixes removed"
  },
  {
-  "path": "results/Chimney_2016/two_phase/optimized_plan.npz",
-  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/optimized_plan.npz",
-  "source_sha256": "37cbc9e01f3a20f46cc52810b0ded8cfe1cab14bc331233d64584d7fdc520d52",
-  "bytes": 35241,
-  "sha256": "eb8c9621c7bf733a0dc364dba9e17b0b7b1f4c1f7e53e914532adfdc2d4c975b",
-  "change": "arrays removed: fuel, unburned_history"
+  "path": "results/Chimney_2016/two_phase/status.json",
+  "source": "control/results/cellwise_protection_v1/main/Chimney_2016/status.json",
+  "source_sha256": "5a022c5b6ac5310c44e503525af97cb18672a5969979448295c8831a80d54dd1",
+  "bytes": 436,
+  "sha256": "5a022c5b6ac5310c44e503525af97cb18672a5969979448295c8831a80d54dd1",
+  "change": null
  },
  {
-  "path": "results/Chimney_2016/two_phase/status.json",
-  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/status.json",
-  "source_sha256": "77b5157241fd1312573f59c64d9f9ecd9eb8287c612af2bdcd96469911420e72",
-  "bytes": 433,
-  "sha256": "77b5157241fd1312573f59c64d9f9ecd9eb8287c612af2bdcd96469911420e72",
+  "path": "results/Chimney_2016/two_phase/reference.npz",
+  "source": "control/results/cellwise_protection_v1/main/Chimney_2016/reference.npz",
+  "source_sha256": "ff159d3362ae338122e1928213ff44e590def10b47d9ae38b16d3b763a4ed545",
+  "bytes": 148159,
+  "sha256": "4c81c17ef0964abc83673ef14da4819d564b277b9556cca0f75fb4d1f66d24ae",
+  "change": "arrays removed: fuel, unburned_history, affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Chimney_2016/two_phase/screened_plan.npz",
+  "source": "control/results/cellwise_protection_v1/main/Chimney_2016/screened_plan.npz",
+  "source_sha256": "ad2a0898586b6d9f9e228c9922b7d5909a0d4251e775961d51d5969906ca1a1b",
+  "bytes": 33663,
+  "sha256": "492378eb5ba5cfb8cf25e29c2017212f3e6ffdd9b16b50c49c94aac6139bb4c7",
+  "change": "arrays removed: fuel, unburned_history, affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Chimney_2016/two_phase/optimized_plan.npz",
+  "source": "control/results/cellwise_protection_v1/main/Chimney_2016/optimized_plan.npz",
+  "source_sha256": "ad2a0898586b6d9f9e228c9922b7d5909a0d4251e775961d51d5969906ca1a1b",
+  "bytes": 33663,
+  "sha256": "492378eb5ba5cfb8cf25e29c2017212f3e6ffdd9b16b50c49c94aac6139bb4c7",
+  "change": "arrays removed: fuel, unburned_history, affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Chimney_2016/dpv_ordered_removal/best_plan.npz",
+  "source": "control/results/ca_transmission_dpv_v1/Chimney_2016/ca/best_plan.npz",
+  "source_sha256": "6b3dc5d1ea1c15e91b5e10670c910b2c80eaec4bddfc11582b671c85827a5f9c",
+  "bytes": 113928,
+  "sha256": "220f8fbe697c7b4c3c27433c4bb383d3a85ca998203830e8fc97661a1bd5ce5c",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Chimney_2016/dpv_ordered_removal/completion.json",
+  "source": "control/results/ca_transmission_dpv_v1/Chimney_2016/ca/completion.json",
+  "source_sha256": "51196ae05a47d5da734b1b7a7b525a58491cdafecf096635a928a104c791c98b",
+  "bytes": 870,
+  "sha256": "51196ae05a47d5da734b1b7a7b525a58491cdafecf096635a928a104c791c98b",
   "change": null
  },
  {
   "path": "results/Chimney_2016/benchmarks/annealing/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/annealing/best_plan.npz",
-  "source_sha256": "379faa4e0880471b3981e86517c28631d6ec4bb2db2a5cc35f001aec48183d36",
-  "bytes": 131256,
-  "sha256": "379faa4e0880471b3981e86517c28631d6ec4bb2db2a5cc35f001aec48183d36",
-  "change": null
+  "source": "control/results/cellwise_protection_v1/benchmark/Chimney_2016/annealing/best_plan.npz",
+  "source_sha256": "fc16466b946ce7d23b28c8ddf65fa02125e614a741d5a00263cd561a87959e7d",
+  "bytes": 128518,
+  "sha256": "0d58cf1f685e6a83528e6ca00d9f4bf1fb04d43fc77b3a41caccc1a263d09171",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
   "path": "results/Chimney_2016/benchmarks/annealing/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/annealing/completion.json",
-  "source_sha256": "f9f8970eb82432dc916c41f17f0e315285b723beaf0a816cfd3fb7f38e9d58ae",
-  "bytes": 865,
-  "sha256": "f9f8970eb82432dc916c41f17f0e315285b723beaf0a816cfd3fb7f38e9d58ae",
+  "source": "control/results/cellwise_protection_v1/benchmark/Chimney_2016/annealing/completion.json",
+  "source_sha256": "118a7c1b0b3bd8f462327dc4fd3a88d3902b086f82efb30c468095ae9260f374",
+  "bytes": 875,
+  "sha256": "118a7c1b0b3bd8f462327dc4fd3a88d3902b086f82efb30c468095ae9260f374",
   "change": null
  },
  {
   "path": "results/Chimney_2016/benchmarks/nsga2/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/nsga2/best_plan.npz",
-  "source_sha256": "8ddca33dde4e3fd6995b5256699475e97a74951b9f23470921dc756400c70d84",
-  "bytes": 144983,
-  "sha256": "8ddca33dde4e3fd6995b5256699475e97a74951b9f23470921dc756400c70d84",
-  "change": null
+  "source": "control/results/cellwise_protection_v1/benchmark/Chimney_2016/nsga2/best_plan.npz",
+  "source_sha256": "b3494a726ba3618300de0866ace37705c00537a6051143789e0c8ca873dba56b",
+  "bytes": 142806,
+  "sha256": "a3bcd2cf5cb1ccb9d3312a78ad7e0d71d356438562be50f354f8e4a5dde3c6e8",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
   "path": "results/Chimney_2016/benchmarks/nsga2/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/nsga2/completion.json",
-  "source_sha256": "dbb045f919eae086054003c272189566d6a5bb317fb5ad0acdfb259f8d2c0970",
-  "bytes": 858,
-  "sha256": "dbb045f919eae086054003c272189566d6a5bb317fb5ad0acdfb259f8d2c0970",
+  "source": "control/results/cellwise_protection_v1/benchmark/Chimney_2016/nsga2/completion.json",
+  "source_sha256": "f7baa2ab8d0a1ca3ed024c3aa39ae4a6c6c581cdc9885bc1702b00f31612a0dc",
+  "bytes": 852,
+  "sha256": "f7baa2ab8d0a1ca3ed024c3aa39ae4a6c6c581cdc9885bc1702b00f31612a0dc",
   "change": null
  },
  {
   "path": "results/Chimney_2016/benchmarks/path_delay/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/path_delay/best_plan.npz",
-  "source_sha256": "722781e8edfaf7e4d513260e7d3e69570e0a1f7b67202ef61264fd5ccc58cbc4",
-  "bytes": 145334,
-  "sha256": "722781e8edfaf7e4d513260e7d3e69570e0a1f7b67202ef61264fd5ccc58cbc4",
-  "change": null
+  "source": "control/results/cellwise_protection_v1/benchmark/Chimney_2016/path_delay/best_plan.npz",
+  "source_sha256": "7eeb7580c1f566c11ae0fc2fccf0116589962a5af035aaf279c2bdf0294efcb3",
+  "bytes": 142166,
+  "sha256": "e8592a14cc4698fb57df14a53aa56c8c384cd6041407ec5e9ffd01b7633c3105",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
   "path": "results/Chimney_2016/benchmarks/path_delay/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/path_delay/completion.json",
-  "source_sha256": "d7b8eb94e295302445fbfbc342943e8c8919186df3cc5a053cc67e8daa194772",
-  "bytes": 881,
-  "sha256": "d7b8eb94e295302445fbfbc342943e8c8919186df3cc5a053cc67e8daa194772",
+  "source": "control/results/cellwise_protection_v1/benchmark/Chimney_2016/path_delay/completion.json",
+  "source_sha256": "f716d07f31fb49e0e899dab15193dd5c2ffc55993e729bc6a07cd3973b13f365",
+  "bytes": 893,
+  "sha256": "f716d07f31fb49e0e899dab15193dd5c2ffc55993e729bc6a07cd3973b13f365",
   "change": null
  },
  {
-  "path": "results/Chimney_2016/dpv_ordered_removal/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/dpv/best_plan.npz",
-  "source_sha256": "852fdcacbe3493b3fb88108cf904f0e7d43dc9abdbb56ce28092848493008d47",
-  "bytes": 125608,
-  "sha256": "852fdcacbe3493b3fb88108cf904f0e7d43dc9abdbb56ce28092848493008d47",
-  "change": null
+  "path": "results/Chimney_2016/dpv_guidance_comparison/rothermel/best_plan.npz",
+  "source": "control/results/cellwise_protection_v1/benchmark/Chimney_2016/dpv/best_plan.npz",
+  "source_sha256": "eeca584ae3ac65c5ba0f6e4469d22ddf0654e45d195aa624825999fc95bf9c74",
+  "bytes": 124029,
+  "sha256": "a460ab7329c6bc462a5da8edc489b6ddda7cc36eb3293c2c3359dc7a5a43facf",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
-  "path": "results/Chimney_2016/dpv_ordered_removal/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Chimney_2016/dpv/completion.json",
-  "source_sha256": "751581dd9d23e7e0ba783ebff58c87589064d01ef744e19459c1773dd005abc5",
-  "bytes": 868,
-  "sha256": "751581dd9d23e7e0ba783ebff58c87589064d01ef744e19459c1773dd005abc5",
+  "path": "results/Chimney_2016/dpv_guidance_comparison/rothermel/completion.json",
+  "source": "control/results/cellwise_protection_v1/benchmark/Chimney_2016/dpv/completion.json",
+  "source_sha256": "a35637eac7c4651bc749493eb9b33a162b60dac471f51ce1fe38e64e6d4745b8",
+  "bytes": 883,
+  "sha256": "a35637eac7c4651bc749493eb9b33a162b60dac471f51ce1fe38e64e6d4745b8",
   "change": null
  },
  {
@@ -649,31 +713,15 @@
  },
  {
   "path": "results/Ferguson_2018/two_phase/protocol.json",
-  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/protocol.json",
-  "source_sha256": "6857cdcc795a7ade5d491d32eac67c7e40cdf4406c5578a1ab4c625cfa1432f8",
-  "bytes": 3141,
-  "sha256": "7470c7e4dad040f48da466038a23fd0bbf744b75a93deaaeac850ef55433556c",
+  "source": "control/results/cellwise_protection_v1/main/Ferguson_2018/protocol.json",
+  "source_sha256": "3381a841487cfa141a441f6706f4635895f8ef2beb508f9cabc30bc1707b990c",
+  "bytes": 3355,
+  "sha256": "c3d85992d3f71c834edd88c57390faa025da08731dd1899454d0f7e079759141",
   "change": "local path prefixes removed"
  },
  {
-  "path": "results/Ferguson_2018/two_phase/reference.npz",
-  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/reference.npz",
-  "source_sha256": "756549a049fb7049dc32c15cd966d5d5ac3ed752a958fa89705f1b6183e54307",
-  "bytes": 277075,
-  "sha256": "20052f839116f47ce128cea43e5b29a4dd26ff8c964c0821ae2ac1b7c247a94d",
-  "change": "arrays removed: fuel, unburned_history"
- },
- {
-  "path": "results/Ferguson_2018/two_phase/screened_plan.npz",
-  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/screened_plan.npz",
-  "source_sha256": "1d9043d82eb2051186a27ed45a99dc854413bdad4507e0ca0fe4c06a0c68af38",
-  "bytes": 86959,
-  "sha256": "f8bfd402e3c8d46ecdb62c787703a0a7b2ffd732f438d39e860e227952726814",
-  "change": "arrays removed: fuel, unburned_history"
- },
- {
   "path": "results/Ferguson_2018/two_phase/removal_order.npz",
-  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/removal_order.npz",
+  "source": "control/results/cellwise_protection_v1/main/Ferguson_2018/removal_order.npz",
   "source_sha256": "8d638d82cbcbdfeea180747eed9a63b597cf3c2cc49bcd7672c32b72c81df577",
   "bytes": 22365,
   "sha256": "8d638d82cbcbdfeea180747eed9a63b597cf3c2cc49bcd7672c32b72c81df577",
@@ -681,170 +729,194 @@
  },
  {
   "path": "results/Ferguson_2018/two_phase/timing.json",
-  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/timing.json",
-  "source_sha256": "abf5aaafdbade62c894815b8624ed4e3394106c1fa9d6de0a9c404c83f88485f",
-  "bytes": 1144,
-  "sha256": "195bb69c97969b1c81bcd99e769136b2b3f08da29c0ade7adb994669f50d2c47",
+  "source": "control/results/cellwise_protection_v1/main/Ferguson_2018/timing.json",
+  "source_sha256": "6d9b3e2d08c606ebc37f510d00c76d92bbdec5df98fdb6e0cfb6b0e021b86c37",
+  "bytes": 749,
+  "sha256": "b3949b178b815e59bc2d10b50cb604338179dbb5e410c8bb2d9f45b4664bd376",
   "change": "local path prefixes removed"
  },
  {
-  "path": "results/Ferguson_2018/two_phase/optimized_plan.npz",
-  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/optimized_plan.npz",
-  "source_sha256": "b03c41eb72d5c985ebc8f1d072def79558bc9df780b5b0a58252937fa9819de5",
-  "bytes": 86755,
-  "sha256": "ac319e10b8072c0f64628a6bab4ec7a1dba424753be389b287d85fee572b5fde",
-  "change": "arrays removed: fuel, unburned_history"
+  "path": "results/Ferguson_2018/two_phase/status.json",
+  "source": "control/results/cellwise_protection_v1/main/Ferguson_2018/status.json",
+  "source_sha256": "44f2e420b510171cb9deb98859c5c8d5abd0a3f6e69a6bd40f5b9242db3c4b1d",
+  "bytes": 435,
+  "sha256": "44f2e420b510171cb9deb98859c5c8d5abd0a3f6e69a6bd40f5b9242db3c4b1d",
+  "change": null
  },
  {
-  "path": "results/Ferguson_2018/two_phase/status.json",
-  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/status.json",
-  "source_sha256": "f79d5ef681c2d7df07a26572b21e48c09404a60340c8780e239774a6708f081c",
-  "bytes": 434,
-  "sha256": "f79d5ef681c2d7df07a26572b21e48c09404a60340c8780e239774a6708f081c",
+  "path": "results/Ferguson_2018/two_phase/reference.npz",
+  "source": "control/results/cellwise_protection_v1/main/Ferguson_2018/reference.npz",
+  "source_sha256": "ccebcd96a27a19681e8c40ca8cd27388d52ba108a304a02548676bf80a84c641",
+  "bytes": 274205,
+  "sha256": "f36f7e700c09b842133e6f092cbf5a7648cfbe9ce0a66437adc96609d95e34ac",
+  "change": "arrays removed: fuel, unburned_history, affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Ferguson_2018/two_phase/screened_plan.npz",
+  "source": "control/results/cellwise_protection_v1/main/Ferguson_2018/screened_plan.npz",
+  "source_sha256": "239f27ac191ca30431411863fbe270a7391961faa96085a2d76aace5ba5a7dae",
+  "bytes": 85237,
+  "sha256": "a8f3b871ce0c5c3b60e5d4de0013cc2f2babf914d91d2bc4d680e0c36fc11128",
+  "change": "arrays removed: fuel, unburned_history, affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Ferguson_2018/two_phase/optimized_plan.npz",
+  "source": "control/results/cellwise_protection_v1/main/Ferguson_2018/optimized_plan.npz",
+  "source_sha256": "dcf6279bc3642e1fe39fec0fc607b258b265e4cc6b69acbec21b020be000e025",
+  "bytes": 85212,
+  "sha256": "da7549ca7ab8703f0405b9ce929175b221dce3d85bd4204787cf4cf1ff8ca573",
+  "change": "arrays removed: fuel, unburned_history, affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Ferguson_2018/dpv_ordered_removal/best_plan.npz",
+  "source": "control/results/ca_transmission_dpv_v1/Ferguson_2018/ca/best_plan.npz",
+  "source_sha256": "9b1b15be78519714410a0c6501f91716c0c8d49ea90c1675b4ba1d8ad52c563f",
+  "bytes": 92973,
+  "sha256": "1459356c2a39c33a152e839b23076f06ac5168fb251982ebd9875e14f1fb6eef",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Ferguson_2018/dpv_ordered_removal/completion.json",
+  "source": "control/results/ca_transmission_dpv_v1/Ferguson_2018/ca/completion.json",
+  "source_sha256": "9d031f3529a11e2bffd0d1e467d79588d04420c75ea4e6c7823f7cbbe4feaed0",
+  "bytes": 872,
+  "sha256": "9d031f3529a11e2bffd0d1e467d79588d04420c75ea4e6c7823f7cbbe4feaed0",
   "change": null
  },
  {
   "path": "results/Ferguson_2018/benchmarks/annealing/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/annealing/best_plan.npz",
-  "source_sha256": "eb66fa1490f57ab56e9fd5059c3cff19e3ddb09dddadee7dcb37e08e7948dd8e",
-  "bytes": 224818,
-  "sha256": "eb66fa1490f57ab56e9fd5059c3cff19e3ddb09dddadee7dcb37e08e7948dd8e",
-  "change": null
+  "source": "control/results/cellwise_protection_v1/benchmark/Ferguson_2018/annealing/best_plan.npz",
+  "source_sha256": "f1bb11cb17d9eca2005b645369781aa51b1307859f28a72fd63896ac51cdc62c",
+  "bytes": 244855,
+  "sha256": "e8756ce270fabae22480842a923e2d0899b31dd7b4675b9de530b0bff38afe92",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
   "path": "results/Ferguson_2018/benchmarks/annealing/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/annealing/completion.json",
-  "source_sha256": "765e7fac3a2079f253cb8586c2da19716f837eaa763448887179b0481aefc508",
-  "bytes": 873,
-  "sha256": "765e7fac3a2079f253cb8586c2da19716f837eaa763448887179b0481aefc508",
+  "source": "control/results/cellwise_protection_v1/benchmark/Ferguson_2018/annealing/completion.json",
+  "source_sha256": "1844caf97583af74b6e46c561a6aefe28c3211fc00ed7e49c415cf3bbd7a8f09",
+  "bytes": 879,
+  "sha256": "1844caf97583af74b6e46c561a6aefe28c3211fc00ed7e49c415cf3bbd7a8f09",
   "change": null
  },
  {
   "path": "results/Ferguson_2018/benchmarks/nsga2/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/nsga2/best_plan.npz",
-  "source_sha256": "d0669f7e72dc5b60c95382d70ed784dba39057807510f4e83f042cb165562c44",
-  "bytes": 259738,
-  "sha256": "d0669f7e72dc5b60c95382d70ed784dba39057807510f4e83f042cb165562c44",
-  "change": null
+  "source": "control/results/cellwise_protection_v1/benchmark/Ferguson_2018/nsga2/best_plan.npz",
+  "source_sha256": "9830c2ce5b1e09d602dfa3a39deae3d149313f91c5e129d32da87a78934b8817",
+  "bytes": 266830,
+  "sha256": "31474b1c2d4a0fc182911cbba1ddb775243d1032b77e0f11e30a8c86a3b8b073",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
   "path": "results/Ferguson_2018/benchmarks/nsga2/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/nsga2/completion.json",
-  "source_sha256": "e94490e144b648b12bc73f1a10a386e2c93bced6de73249acc1f1458b854046f",
-  "bytes": 864,
-  "sha256": "e94490e144b648b12bc73f1a10a386e2c93bced6de73249acc1f1458b854046f",
+  "source": "control/results/cellwise_protection_v1/benchmark/Ferguson_2018/nsga2/completion.json",
+  "source_sha256": "15e8ff15c804927eb07cc8e13615d92d92fb4a35426cff0ba0b522670d01eef8",
+  "bytes": 875,
+  "sha256": "15e8ff15c804927eb07cc8e13615d92d92fb4a35426cff0ba0b522670d01eef8",
   "change": null
  },
  {
   "path": "results/Ferguson_2018/benchmarks/path_delay/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/path_delay/best_plan.npz",
-  "source_sha256": "794adfa3cddd6494893d4dfea227802e070acac7bb4bd0b1d7cf15caeaf1ad51",
-  "bytes": 254512,
-  "sha256": "794adfa3cddd6494893d4dfea227802e070acac7bb4bd0b1d7cf15caeaf1ad51",
-  "change": null
+  "source": "control/results/cellwise_protection_v1/benchmark/Ferguson_2018/path_delay/best_plan.npz",
+  "source_sha256": "79ce651020d21c4b2621ac3527fcd177c62dc49cbe4574606d0177d033179bf6",
+  "bytes": 264851,
+  "sha256": "4f04222d68337d10f59cf1ff2717003a13603cfe4b01486b3d55c96bbd9d3703",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
  },
  {
   "path": "results/Ferguson_2018/benchmarks/path_delay/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/path_delay/completion.json",
-  "source_sha256": "c419c424d8f21557a930e2119c4bef6d807bd737b4c76790203004f257a3f1f3",
-  "bytes": 887,
-  "sha256": "c419c424d8f21557a930e2119c4bef6d807bd737b4c76790203004f257a3f1f3",
+  "source": "control/results/cellwise_protection_v1/benchmark/Ferguson_2018/path_delay/completion.json",
+  "source_sha256": "6de86fe2ddcc873f23594367d6dc3617e97b6a84c885c97682749e663952aa55",
+  "bytes": 897,
+  "sha256": "6de86fe2ddcc873f23594367d6dc3617e97b6a84c885c97682749e663952aa55",
   "change": null
  },
  {
-  "path": "results/Ferguson_2018/dpv_ordered_removal/best_plan.npz",
-  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/dpv/best_plan.npz",
-  "source_sha256": "5debfb22330742a55575c9f7755978c76fc6fa11c45b3b527aae915ce0567f55",
-  "bytes": 92434,
-  "sha256": "5debfb22330742a55575c9f7755978c76fc6fa11c45b3b527aae915ce0567f55",
+  "path": "results/Ferguson_2018/dpv_guidance_comparison/rothermel/best_plan.npz",
+  "source": "control/results/cellwise_protection_v1/benchmark/Ferguson_2018/dpv/best_plan.npz",
+  "source_sha256": "4ee4e68dcaec3dca085fc1d44b99e7f63a58cc1aa587b48e96be3dbc60497927",
+  "bytes": 159291,
+  "sha256": "d29a299962a1541eadbd9ac764ac952a943f0132853417683880aa31ad7aa513",
+  "change": "arrays removed: affected_cell_probability, limits_probability"
+ },
+ {
+  "path": "results/Ferguson_2018/dpv_guidance_comparison/rothermel/completion.json",
+  "source": "control/results/cellwise_protection_v1/benchmark/Ferguson_2018/dpv/completion.json",
+  "source_sha256": "e121b11c5cae7744802b03006a7b0c1992621b6b5ac479f2ec50a22f22796742",
+  "bytes": 885,
+  "sha256": "e121b11c5cae7744802b03006a7b0c1992621b6b5ac479f2ec50a22f22796742",
   "change": null
  },
  {
-  "path": "results/Ferguson_2018/dpv_ordered_removal/completion.json",
-  "source": "control/results/regional_literature_benchmarks_v2/Ferguson_2018/dpv/completion.json",
-  "source_sha256": "8dde409aaff85859656970b48e5c0afc8705fcca9050c7b373168da097bc2e89",
-  "bytes": 890,
-  "sha256": "8dde409aaff85859656970b48e5c0afc8705fcca9050c7b373168da097bc2e89",
-  "change": null
- },
- {
-  "path": "results/summary/benchmark_time_limits.json",
-  "source": "control/results/regional_polygon_protection_v1/benchmark_time_limits.json",
-  "source_sha256": "12072275b5026a1765d031ab6c3b887ec70a8d7f74e3088a31f5847e2d4f2a34",
-  "bytes": 730,
-  "sha256": "b8dfaed7a25145f8850a3905c86f4440dfbdedfc60481809a81056eda8817e0e",
+  "path": "results/summary/benchmark_budgets.json",
+  "source": "control/results/cellwise_protection_v1/benchmark_budgets.json",
+  "source_sha256": "a4ce17ea074f7a0e17d93947471d73b1f4c0a7e8420e567cd0c15637d8f7351e",
+  "bytes": 3150,
+  "sha256": "771b00ffec7058a0c26d8e0175dfeaa011e29b6dfb89dfc0e4723e09f81ba5e3",
   "change": "local path prefixes removed"
- },
- {
-  "path": "results/summary/benchmark_time_to_best.json",
-  "source": "control/results/regional_polygon_protection_v1/benchmark_time_to_best.json",
-  "source_sha256": "7f573f77859013d1fe30f4370c6f6ef49fea9c1a35545cfc97436393d7643d0d",
-  "bytes": 5193,
-  "sha256": "d1546373ec385dcec834c5a534bf78dd9a99c107c7ce5c4471eb1ba60d0366c0",
-  "change": "local path prefixes removed"
- },
- {
-  "path": "results/summary/regional_results_provenance.json",
-  "source": "control/docs/vegetation_management_ca/environmental_modelling_software/regional_results_provenance.json",
-  "source_sha256": "b5e7d68c13f54c19a9d7dfc07bac94948e3775411cb3be6ad884050d176bcdd5",
-  "bytes": 10504,
-  "sha256": "b5e7d68c13f54c19a9d7dfc07bac94948e3775411cb3be6ad884050d176bcdd5",
-  "change": null
  },
  {
   "path": "results/summary/regional_benchmark_provenance.json",
   "source": "control/docs/vegetation_management_ca/environmental_modelling_software/regional_benchmark_provenance.json",
-  "source_sha256": "e257ec4cdd034be4e56bbceceff0d2c50e9e0822841afb44413c9df883eca0b5",
-  "bytes": 14175,
-  "sha256": "e257ec4cdd034be4e56bbceceff0d2c50e9e0822841afb44413c9df883eca0b5",
+  "source_sha256": "01370d5e69271e06577c879630a36e5990edbd60d8dd1b4ee67061470aad2f1b",
+  "bytes": 14557,
+  "sha256": "01370d5e69271e06577c879630a36e5990edbd60d8dd1b4ee67061470aad2f1b",
   "change": null
  },
  {
   "path": "results/summary/sensitivity_provenance.json",
   "source": "control/docs/vegetation_management_ca/environmental_modelling_software/sensitivity_provenance.json",
-  "source_sha256": "0042273cfbe0ebedad9bd252e0d52550c0c580e7e5ded549c489416f871a03dc",
-  "bytes": 1756,
-  "sha256": "0042273cfbe0ebedad9bd252e0d52550c0c580e7e5ded549c489416f871a03dc",
+  "source_sha256": "68b7a79ec8ca9bb5ca571f9c36b41eabc0dd91765fd86c07455f87bc1a637119",
+  "bytes": 1329,
+  "sha256": "68b7a79ec8ca9bb5ca571f9c36b41eabc0dd91765fd86c07455f87bc1a637119",
+  "change": null
+ },
+ {
+  "path": "results/summary/dpv_guidance_four_fires.json",
+  "source": "control/results/ca_transmission_dpv_v1/four_fire_results.json",
+  "source_sha256": "036eef4f7585f6fe0e863e666db4a3ff3aee494fafb6f09f5f31ab54cc86fd96",
+  "bytes": 3042,
+  "sha256": "036eef4f7585f6fe0e863e666db4a3ff3aee494fafb6f09f5f31ab54cc86fd96",
+  "change": null
+ },
+ {
+  "path": "results/summary/dpv_guidance_pier.json",
+  "source": "control/results/pier_transmission_dpv_v1/Pier_2017/comparison.json",
+  "source_sha256": "2ab0d4a92e4377455b46a4ef0a6b15b96c331985e310a79c26a4d3964ee0173b",
+  "bytes": 1830,
+  "sha256": "2ab0d4a92e4377455b46a4ef0a6b15b96c331985e310a79c26a4d3964ee0173b",
   "change": null
  },
  {
   "path": "sensitivity/protocol.json",
-  "source": "control/results/vegetation_fixed_plan_sensitivity_v1/three_plan_protocol.json",
-  "source_sha256": "6c68fad4ce732ce2db8f94e82664e92bea04aae744401de93f85ca5ab3e6bdb2",
-  "bytes": 3179,
-  "sha256": "6c68fad4ce732ce2db8f94e82664e92bea04aae744401de93f85ca5ab3e6bdb2",
-  "change": null
+  "source": "control/results/ca_transmission_dpv_v1/sensitivity/protocol.json",
+  "source_sha256": "f50259368e44b675a2dd35701984ef6d513f451596bf595441859db60ee6e48f",
+  "bytes": 3605,
+  "sha256": "fb80d4e3fdc9d42113bd946667c111da1ca84a1fda7609844c849965d596f04f",
+  "change": "local path prefixes removed"
  },
  {
   "path": "sensitivity/summary.json",
-  "source": "control/results/vegetation_fixed_plan_sensitivity_v1/summary_three_plans.json",
-  "source_sha256": "becb331ac66fee4ba44a4b5be2d14b024264d6eb2f0dc90c7cf277e175947989",
-  "bytes": 29086,
-  "sha256": "becb331ac66fee4ba44a4b5be2d14b024264d6eb2f0dc90c7cf277e175947989",
+  "source": "control/results/ca_transmission_dpv_v1/sensitivity/summary.json",
+  "source_sha256": "d8b9162c49dafc9655d9dd8acad89577281063581db239fca85e94bf228522f4",
+  "bytes": 32028,
+  "sha256": "d8b9162c49dafc9655d9dd8acad89577281063581db239fca85e94bf228522f4",
   "change": null
  },
  {
   "path": "sensitivity/comparison.csv",
-  "source": "control/results/vegetation_fixed_plan_sensitivity_v1/comparison_three_plans.csv",
-  "source_sha256": "6259f795b19a2ebba1223fa0505e9992b60b25768e3b6b00ab0acd6c2fb23a83",
-  "bytes": 9336,
-  "sha256": "6259f795b19a2ebba1223fa0505e9992b60b25768e3b6b00ab0acd6c2fb23a83",
-  "change": null
- },
- {
-  "path": "sensitivity/Pier_2017/assets_reference_two_phase.csv",
-  "source": "control/results/vegetation_fixed_plan_sensitivity_v1/Pier_2017/assets.csv",
-  "source_sha256": "47ee63dd8ba25b55085a73409a9a9e94898d6d4a5b907a971907bfb96779fcf5",
-  "bytes": 369825,
-  "sha256": "47ee63dd8ba25b55085a73409a9a9e94898d6d4a5b907a971907bfb96779fcf5",
+  "source": "control/results/ca_transmission_dpv_v1/sensitivity/comparison.csv",
+  "source_sha256": "af52cfea9298e4bae7e4f35f8e7970d123b4f37218a3b9a274be4e66a7edc5cf",
+  "bytes": 10441,
+  "sha256": "af52cfea9298e4bae7e4f35f8e7970d123b4f37218a3b9a274be4e66a7edc5cf",
   "change": null
  },
  {
   "path": "sensitivity/Pier_2017/assets_dpv_ordered_removal.csv",
-  "source": "control/results/vegetation_fixed_plan_sensitivity_v1/Pier_2017/dpv/assets.csv",
-  "source_sha256": "fcb559f9e83182599046d0ea48d8c2dcd7f607c0bc4ea36399ae053a3360ac53",
-  "bytes": 175469,
-  "sha256": "fcb559f9e83182599046d0ea48d8c2dcd7f607c0bc4ea36399ae053a3360ac53",
+  "source": "control/results/ca_transmission_dpv_v1/sensitivity/Pier_2017/assets.csv",
+  "source_sha256": "4f6a07964de8814f30d1a4be45f40e036ee272f0212941a8a78194abceec843c",
+  "bytes": 143412,
+  "sha256": "4f6a07964de8814f30d1a4be45f40e036ee272f0212941a8a78194abceec843c",
   "change": null
  },
  {
@@ -880,19 +952,11 @@
   "change": "arrays removed: domains, fuel_codes, protected_regions, designation_or_riparian_review, shrub_ecological_review, grass_burn_plan_review"
  },
  {
-  "path": "sensitivity/Brattain_2020/assets_reference_two_phase.csv",
-  "source": "control/results/vegetation_fixed_plan_sensitivity_v1/Brattain_2020/assets.csv",
-  "source_sha256": "0668251c34d15c739fbe3856fc9282fe96fc9ce59d375933c66d5746bca88d82",
-  "bytes": 34933,
-  "sha256": "0668251c34d15c739fbe3856fc9282fe96fc9ce59d375933c66d5746bca88d82",
-  "change": null
- },
- {
   "path": "sensitivity/Brattain_2020/assets_dpv_ordered_removal.csv",
-  "source": "control/results/vegetation_fixed_plan_sensitivity_v1/Brattain_2020/dpv/assets.csv",
-  "source_sha256": "b6e138330d9d709d535bd15e3164d6409464c37caff5dc9d8cf3b8e7d5b11308",
-  "bytes": 16927,
-  "sha256": "b6e138330d9d709d535bd15e3164d6409464c37caff5dc9d8cf3b8e7d5b11308",
+  "source": "control/results/ca_transmission_dpv_v1/sensitivity/Brattain_2020/assets.csv",
+  "source_sha256": "570f7b854697fec121d80dd31b2de9cf8cae980b832cc9c23558cde1e52bf00d",
+  "bytes": 14336,
+  "sha256": "570f7b854697fec121d80dd31b2de9cf8cae980b832cc9c23558cde1e52bf00d",
   "change": null
  },
  {
@@ -928,19 +992,11 @@
   "change": "arrays removed: domains, fuel_codes, protected_regions, designation_or_riparian_review, shrub_ecological_review, grass_burn_plan_review"
  },
  {
-  "path": "sensitivity/Chimney_2016/assets_reference_two_phase.csv",
-  "source": "control/results/vegetation_fixed_plan_sensitivity_v1/Chimney_2016/assets.csv",
-  "source_sha256": "299f60fdf36adf46b21363167162cd7a746a8398efd90695a51600c41f05436c",
-  "bytes": 454411,
-  "sha256": "299f60fdf36adf46b21363167162cd7a746a8398efd90695a51600c41f05436c",
-  "change": null
- },
- {
   "path": "sensitivity/Chimney_2016/assets_dpv_ordered_removal.csv",
-  "source": "control/results/vegetation_fixed_plan_sensitivity_v1/Chimney_2016/dpv/assets.csv",
-  "source_sha256": "7afbf2866ec813bd1194b28cada586247d2b1424817b85cee2d7f95df1489315",
-  "bytes": 219079,
-  "sha256": "7afbf2866ec813bd1194b28cada586247d2b1424817b85cee2d7f95df1489315",
+  "source": "control/results/ca_transmission_dpv_v1/sensitivity/Chimney_2016/assets.csv",
+  "source_sha256": "c1e0dac41ab762612e827bfe49823117a09a2cc1be80a55377a7eaa6551b8e2c",
+  "bytes": 185197,
+  "sha256": "c1e0dac41ab762612e827bfe49823117a09a2cc1be80a55377a7eaa6551b8e2c",
   "change": null
  },
  {
@@ -976,19 +1032,11 @@
   "change": "arrays removed: domains, fuel_codes, protected_regions, designation_or_riparian_review, shrub_ecological_review, grass_burn_plan_review"
  },
  {
-  "path": "sensitivity/Ferguson_2018/assets_reference_two_phase.csv",
-  "source": "control/results/vegetation_fixed_plan_sensitivity_v1/Ferguson_2018/assets.csv",
-  "source_sha256": "6d9f2d4a95ea8e25e3ec8161c40b240f608a789c252b83349af3cd8c6db2c13e",
-  "bytes": 492457,
-  "sha256": "6d9f2d4a95ea8e25e3ec8161c40b240f608a789c252b83349af3cd8c6db2c13e",
-  "change": null
- },
- {
   "path": "sensitivity/Ferguson_2018/assets_dpv_ordered_removal.csv",
-  "source": "control/results/vegetation_fixed_plan_sensitivity_v1/Ferguson_2018/dpv/assets.csv",
-  "source_sha256": "4f25a2f3851a4e10b041044f1cbb98f9b68ec4b689616f9f1ab93ea0847ce465",
-  "bytes": 237010,
-  "sha256": "4f25a2f3851a4e10b041044f1cbb98f9b68ec4b689616f9f1ab93ea0847ce465",
+  "source": "control/results/ca_transmission_dpv_v1/sensitivity/Ferguson_2018/assets.csv",
+  "source_sha256": "6649fa1c219ee5b8c3b489a3cac90d7dcea46b2ad51cc04c929b8313ef0321bd",
+  "bytes": 201658,
+  "sha256": "6649fa1c219ee5b8c3b489a3cac90d7dcea46b2ad51cc04c929b8313ef0321bd",
   "change": null
  },
  {
@@ -1034,17 +1082,17 @@
  {
   "path": "docs/reproducibility.txt",
   "source": "control/docs/vegetation_management_ca/environmental_modelling_software/reproducibility.txt",
-  "source_sha256": "da429c5d787c2f0977c6d2952cea10a8551898d0ab35e108442c233425ee48f1",
-  "bytes": 10572,
-  "sha256": "da429c5d787c2f0977c6d2952cea10a8551898d0ab35e108442c233425ee48f1",
+  "source_sha256": "4569cc6012be03273d105c00f02c66211974afb4cb8c3cc79af62ae4f024655b",
+  "bytes": 14969,
+  "sha256": "4569cc6012be03273d105c00f02c66211974afb4cb8c3cc79af62ae4f024655b",
   "change": null
  },
  {
   "path": "docs/algorithm_settings.tex",
   "source": "control/docs/vegetation_management_ca/environmental_modelling_software/algorithm_settings.tex",
-  "source_sha256": "41e3318a87e97404dc359054c5506bce196d2da2f2debd6016679fd76ba1ad3a",
-  "bytes": 1106,
-  "sha256": "41e3318a87e97404dc359054c5506bce196d2da2f2debd6016679fd76ba1ad3a",
+  "source_sha256": "9133dae3d582a874784b674fb1083753767539c2618bdc5d004345f6f21825de",
+  "bytes": 1153,
+  "sha256": "9133dae3d582a874784b674fb1083753767539c2618bdc5d004345f6f21825de",
   "change": null
  },
  {
@@ -1066,9 +1114,9 @@
  {
   "path": "scripts/build_protected_regions.py",
   "source": "control/docs/vegetation_management_ca/environmental_modelling_software/data_package/branch/scripts/build_protected_regions.py",
-  "source_sha256": "187de1435587fc4d529a520ff9212cdbda1c2fec9f636907bc7fd4ba59b6c7f6",
-  "bytes": 15937,
-  "sha256": "187de1435587fc4d529a520ff9212cdbda1c2fec9f636907bc7fd4ba59b6c7f6",
+  "source_sha256": "c933feef5f863f796515f5cef8437530b0bc04e9ab5c591ee08c810e4db2d853",
+  "bytes": 16679,
+  "sha256": "c933feef5f863f796515f5cef8437530b0bc04e9ab5c591ee08c810e4db2d853",
   "change": null
  },
  {
@@ -1082,9 +1130,9 @@
  {
   "path": "README.md",
   "source": "control/docs/vegetation_management_ca/environmental_modelling_software/data_package/branch/README.md",
-  "source_sha256": "c9ce4a18beac058c9bdbf7a904feef37dbe0f9015cbd30348a5faa986626a273",
-  "bytes": 14026,
-  "sha256": "c9ce4a18beac058c9bdbf7a904feef37dbe0f9015cbd30348a5faa986626a273",
+  "source_sha256": "728c2004d599aab241e01c2b613ac8434b9b169b4e4f717f25483195cc3c81a2",
+  "bytes": 16491,
+  "sha256": "728c2004d599aab241e01c2b613ac8434b9b169b4e4f717f25483195cc3c81a2",
   "change": null
  },
  {
@@ -1097,11 +1145,11 @@
  },
  {
   "path": "results/Pier_2017/two_phase/regions_reference_band_150m.json",
-  "source": "control/results/regional_polygon_protection_v1/Pier_2017/constraints.npz",
-  "source_sha256": "6a57b8b4904033360690809cc9a5ec3ba0160b4180f26595ae5e68c3e5518d0f",
-  "bytes": 101800,
-  "sha256": "9efefdc1a33886c8c09f986ba47666292cc12e3407dd5de9d0de6d027e209a6d",
-  "change": "derived table: hashes, cell counts and bounds only"
+  "source": "control/results/cellwise_protection_v1/main/Pier_2017/constraints.npz",
+  "source_sha256": "9625e5680631e4b80b38596931afbbbbbb6785daa4f1550f84d5b0318d09bf69",
+  "bytes": 95402,
+  "sha256": "583eb627e993073383c6ddf9e3a8adafb097d46f2f65a6658cc1e4cf037965b4",
+  "change": "derived table: hashes and cell counts only"
  },
  {
   "path": "inputs/Brattain_2020/exposure.npz",
@@ -1113,11 +1161,11 @@
  },
  {
   "path": "results/Brattain_2020/two_phase/regions_reference_band_150m.json",
-  "source": "control/results/regional_polygon_protection_v1/Brattain_2020/constraints.npz",
-  "source_sha256": "6b16a9074eb13878c03348ae8535c42482582ec17c48a76948eca858d6f93613",
-  "bytes": 7506,
-  "sha256": "2a7be199f9c9433e6da93b480229aa457f6c1e3beba04e8c9d1aa659fbe15426",
-  "change": "derived table: hashes, cell counts and bounds only"
+  "source": "control/results/cellwise_protection_v1/main/Brattain_2020/constraints.npz",
+  "source_sha256": "bf9405bc2072374baf63606838023098ff01c27c466e8ebf33fd1317a44d1c83",
+  "bytes": 7264,
+  "sha256": "e5ef5c31444e02e63f1b7bec3fa35e6887225130a5d259dba940b3f5756aba7c",
+  "change": "derived table: hashes and cell counts only"
  },
  {
   "path": "inputs/Chimney_2016/exposure.npz",
@@ -1129,11 +1177,11 @@
  },
  {
   "path": "results/Chimney_2016/two_phase/regions_reference_band_150m.json",
-  "source": "control/results/regional_polygon_protection_v1/Chimney_2016/constraints.npz",
-  "source_sha256": "7d34461e8a97da940e3e94ac7e889457d92b9f754508ab2f6e4b75d22b679aa4",
-  "bytes": 73687,
-  "sha256": "28ce6403ff810d45bd1b2a582d1e92c0e450503ca3e20a7eaea12a032049202d",
-  "change": "derived table: hashes, cell counts and bounds only"
+  "source": "control/results/cellwise_protection_v1/main/Chimney_2016/constraints.npz",
+  "source_sha256": "e60d87093f517e7bbf231c420d6828ad758b04240dace3e4358f28fe69fd5d64",
+  "bytes": 69004,
+  "sha256": "d6a2935bc1977a5276ba03c3d3c372a4e3ce66f585310d6cc81e9d686dca3480",
+  "change": "derived table: hashes and cell counts only"
  },
  {
   "path": "inputs/Ferguson_2018/exposure.npz",
@@ -1145,10 +1193,58 @@
  },
  {
   "path": "results/Ferguson_2018/two_phase/regions_reference_band_150m.json",
-  "source": "control/results/regional_polygon_protection_v1/Ferguson_2018/constraints.npz",
-  "source_sha256": "b78ac6efc1a95c7e50f39680daefba956f3bdff17c6872405639ec0860c462c3",
-  "bytes": 87583,
-  "sha256": "6872f197ba1dd345d3d7e7361e7ff90368ff75556361da45db372f0473474094",
-  "change": "derived table: hashes, cell counts and bounds only"
+  "source": "control/results/cellwise_protection_v1/main/Ferguson_2018/constraints.npz",
+  "source_sha256": "a4c641df42affda4df10fbf51cf6aa3c096a38eb9b671e08a5b4c2bc74c6ce83",
+  "bytes": 81982,
+  "sha256": "4614a22f2cb7426b8d7462fe1836fe3ad999c7a28734c4af289bef43e311c88b",
+  "change": "derived table: hashes and cell counts only"
+ },
+ {
+  "path": "results/summary/regional_results_provenance.json",
+  "source": "control/docs/vegetation_management_ca/regional_results_provenance.json",
+  "source_sha256": "de7cbc40b2ce8b1241001fc249435936f0cafa43eb54bada16cacf44f608af74",
+  "bytes": 11647,
+  "sha256": "c0455ced32eaeb0a456046c55f390d8284807d986cefb17f933b59cdf211e566",
+  "change": "field removed: dpv_cost, the Rothermel-guided cost listed in dpv_guidance_four_fires.json"
+ },
+ {
+  "path": "results/summary/plan_checks.json",
+  "source": "the plan files of the study, before their per-cell arrays were removed",
+  "source_sha256": null,
+  "bytes": 10405,
+  "sha256": "66478db9ecd360c5914cdbd637541e10a1e6d960d007d4c4bb720aa580a52d59",
+  "change": "derived table: cost, largest excess over the cell limits and protected affected area of every plan"
+ },
+ {
+  "path": "sensitivity/Pier_2017/assets_reference_two_phase.csv",
+  "source": "control/results/cellwise_sensitivity_v1/Pier_2017/assets.csv",
+  "source_sha256": "a50a8422a13cc5bafbd05ddbd75600eb58ebebc505fa8fa90ec278a7c9deb604",
+  "bytes": 313354,
+  "sha256": "6e9458e1d2f9b23f0db064658e97c045fcde27370901f64c4ad84d1570e28926",
+  "change": "rows of the reference and two-phase plans"
+ },
+ {
+  "path": "sensitivity/Brattain_2020/assets_reference_two_phase.csv",
+  "source": "control/results/cellwise_sensitivity_v1/Brattain_2020/assets.csv",
+  "source_sha256": "5ad2d3ebf30d68b96f01168bb2b24f4cf1bf0a79480bbf653844833b6968be93",
+  "bytes": 29571,
+  "sha256": "ff3398f511221cf7a592408a0f41f0261a886f40674ed50596f00cb1167f136c",
+  "change": "rows of the reference and two-phase plans"
+ },
+ {
+  "path": "sensitivity/Chimney_2016/assets_reference_two_phase.csv",
+  "source": "control/results/cellwise_sensitivity_v1/Chimney_2016/assets.csv",
+  "source_sha256": "7d9fc1b05c9b0856d1d1a0ad0a6f63ac12820e7d9bc60fdba8d7e755854b3370",
+  "bytes": 383926,
+  "sha256": "a64ff456129ae3d5a2c36c0c5a0716f98cea60099acba7f74f13a23b07d5f01b",
+  "change": "rows of the reference and two-phase plans"
+ },
+ {
+  "path": "sensitivity/Ferguson_2018/assets_reference_two_phase.csv",
+  "source": "control/results/cellwise_sensitivity_v1/Ferguson_2018/assets.csv",
+  "source_sha256": "03a392afa56fa86622b91175505368981a765895a3b1d882c74d1658d218e823",
+  "bytes": 418267,
+  "sha256": "57f5e0e9d7c366bf7de02fb9c6349006854e3a2c1cfb652222ba906138eb18f2",
+  "change": "rows of the reference and two-phase plans"
  }
 ]

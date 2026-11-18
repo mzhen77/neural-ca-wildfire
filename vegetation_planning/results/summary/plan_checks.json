@@ -1,0 +1,299 @@
+[
+ {
+  "fire": "Pier_2017",
+  "plan": "results/Pier_2017/two_phase/reference.npz",
+  "cost_USD2025": 115380990.32423756,
+  "protected_cells": 91247,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 0.0,
+  "affected_protected_area_ha": 240.58130248999942
+ },
+ {
+  "fire": "Pier_2017",
+  "plan": "results/Pier_2017/two_phase/screened_plan.npz",
+  "cost_USD2025": 23459703.917604357,
+  "protected_cells": 91247,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 9.828449165638631e-11,
+  "affected_protected_area_ha": 240.58130249022943
+ },
+ {
+  "fire": "Pier_2017",
+  "plan": "results/Pier_2017/two_phase/optimized_plan.npz",
+  "cost_USD2025": 23323507.011113882,
+  "protected_cells": 91247,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 9.828449165638631e-11,
+  "affected_protected_area_ha": 240.58130249054057
+ },
+ {
+  "fire": "Pier_2017",
+  "plan": "results/Pier_2017/dpv_ordered_removal/best_plan.npz",
+  "cost_USD2025": 30355518.720392242,
+  "protected_cells": 91247,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 9.187695049206468e-11,
+  "affected_protected_area_ha": 240.58130249100404
+ },
+ {
+  "fire": "Pier_2017",
+  "plan": "results/Pier_2017/benchmarks/annealing/best_plan.npz",
+  "cost_USD2025": 81111149.63144608,
+  "protected_cells": 91247,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 4.233235983974737e-11,
+  "affected_protected_area_ha": 240.58130249001974
+ },
+ {
+  "fire": "Pier_2017",
+  "plan": "results/Pier_2017/benchmarks/nsga2/best_plan.npz",
+  "cost_USD2025": 97943935.79600969,
+  "protected_cells": 91247,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 6.217248937900877e-13,
+  "affected_protected_area_ha": 240.58130248999717
+ },
+ {
+  "fire": "Pier_2017",
+  "plan": "results/Pier_2017/benchmarks/path_delay/best_plan.npz",
+  "cost_USD2025": 101533827.72277963,
+  "protected_cells": 91247,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 4.233235983974737e-11,
+  "affected_protected_area_ha": 240.5813024900421
+ },
+ {
+  "fire": "Pier_2017",
+  "plan": "results/Pier_2017/dpv_guidance_comparison/rothermel/best_plan.npz",
+  "cost_USD2025": 37997401.08053826,
+  "protected_cells": 91247,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 8.156308961559944e-11,
+  "affected_protected_area_ha": 240.58130249078388
+ },
+ {
+  "fire": "Pier_2017",
+  "plan": "results/Pier_2017/dpv_guidance_comparison/ca_paths_rothermel_speeds/best_plan.npz",
+  "cost_USD2025": 35367369.331879035,
+  "protected_cells": 91247,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 9.003342515967461e-11,
+  "affected_protected_area_ha": 240.58130249086847
+ },
+ {
+  "fire": "Brattain_2020",
+  "plan": "results/Brattain_2020/two_phase/reference.npz",
+  "cost_USD2025": 104390140.1235736,
+  "protected_cells": 67000,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 0.0,
+  "affected_protected_area_ha": 1436.6761995979164
+ },
+ {
+  "fire": "Brattain_2020",
+  "plan": "results/Brattain_2020/two_phase/screened_plan.npz",
+  "cost_USD2025": 15869869.861417966,
+  "protected_cells": 67000,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 8.42190761574102e-11,
+  "affected_protected_area_ha": 1436.4714783782372
+ },
+ {
+  "fire": "Brattain_2020",
+  "plan": "results/Brattain_2020/two_phase/optimized_plan.npz",
+  "cost_USD2025": 15615711.61750687,
+  "protected_cells": 67000,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 8.42190761574102e-11,
+  "affected_protected_area_ha": 1436.4714783782372
+ },
+ {
+  "fire": "Brattain_2020",
+  "plan": "results/Brattain_2020/dpv_ordered_removal/best_plan.npz",
+  "cost_USD2025": 14470576.54139401,
+  "protected_cells": 67000,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 9.404510503685515e-11,
+  "affected_protected_area_ha": 1436.4714783782858
+ },
+ {
+  "fire": "Brattain_2020",
+  "plan": "results/Brattain_2020/benchmarks/annealing/best_plan.npz",
+  "cost_USD2025": 62823738.00487007,
+  "protected_cells": 67000,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 6.693579024386054e-11,
+  "affected_protected_area_ha": 1436.4714787108462
+ },
+ {
+  "fire": "Brattain_2020",
+  "plan": "results/Brattain_2020/benchmarks/nsga2/best_plan.npz",
+  "cost_USD2025": 67372490.37052423,
+  "protected_cells": 67000,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 6.693579024386054e-11,
+  "affected_protected_area_ha": 1436.4210583154281
+ },
+ {
+  "fire": "Brattain_2020",
+  "plan": "results/Brattain_2020/benchmarks/path_delay/best_plan.npz",
+  "cost_USD2025": 72676172.09557354,
+  "protected_cells": 67000,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 5.179967565993593e-12,
+  "affected_protected_area_ha": 1436.6761995973995
+ },
+ {
+  "fire": "Brattain_2020",
+  "plan": "results/Brattain_2020/dpv_guidance_comparison/rothermel/best_plan.npz",
+  "cost_USD2025": 16913682.86478356,
+  "protected_cells": 67000,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 4.104461215348465e-11,
+  "affected_protected_area_ha": 1436.6761949599636
+ },
+ {
+  "fire": "Chimney_2016",
+  "plan": "results/Chimney_2016/two_phase/reference.npz",
+  "cost_USD2025": 49005264.0193394,
+  "protected_cells": 108562,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 0.0,
+  "affected_protected_area_ha": 813.4445322167979
+ },
+ {
+  "fire": "Chimney_2016",
+  "plan": "results/Chimney_2016/two_phase/screened_plan.npz",
+  "cost_USD2025": 10229319.438990414,
+  "protected_cells": 108562,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 9.919887133946759e-11,
+  "affected_protected_area_ha": 813.4416922398132
+ },
+ {
+  "fire": "Chimney_2016",
+  "plan": "results/Chimney_2016/two_phase/optimized_plan.npz",
+  "cost_USD2025": 10229319.438990414,
+  "protected_cells": 108562,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 9.919887133946759e-11,
+  "affected_protected_area_ha": 813.4416922398132
+ },
+ {
+  "fire": "Chimney_2016",
+  "plan": "results/Chimney_2016/dpv_ordered_removal/best_plan.npz",
+  "cost_USD2025": 22160528.484887615,
+  "protected_cells": 108562,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 6.980682698554119e-11,
+  "affected_protected_area_ha": 813.4445322168408
+ },
+ {
+  "fire": "Chimney_2016",
+  "plan": "results/Chimney_2016/benchmarks/annealing/best_plan.npz",
+  "cost_USD2025": 38205959.39813327,
+  "protected_cells": 108562,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 3.247924151850157e-11,
+  "affected_protected_area_ha": 813.4445322168219
+ },
+ {
+  "fire": "Chimney_2016",
+  "plan": "results/Chimney_2016/benchmarks/nsga2/best_plan.npz",
+  "cost_USD2025": 44274251.67013952,
+  "protected_cells": 108562,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 0.0,
+  "affected_protected_area_ha": 813.4445322167979
+ },
+ {
+  "fire": "Chimney_2016",
+  "plan": "results/Chimney_2016/benchmarks/path_delay/best_plan.npz",
+  "cost_USD2025": 44549267.86677635,
+  "protected_cells": 108562,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 2.0862200855731317e-11,
+  "affected_protected_area_ha": 813.4445322168184
+ },
+ {
+  "fire": "Chimney_2016",
+  "plan": "results/Chimney_2016/dpv_guidance_comparison/rothermel/best_plan.npz",
+  "cost_USD2025": 28161288.422912247,
+  "protected_cells": 108562,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 6.980682698554119e-11,
+  "affected_protected_area_ha": 813.4445322168408
+ },
+ {
+  "fire": "Ferguson_2018",
+  "plan": "results/Ferguson_2018/two_phase/reference.npz",
+  "cost_USD2025": 217900988.51083648,
+  "protected_cells": 209651,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 0.0,
+  "affected_protected_area_ha": 2012.8066461543337
+ },
+ {
+  "fire": "Ferguson_2018",
+  "plan": "results/Ferguson_2018/two_phase/screened_plan.npz",
+  "cost_USD2025": 44815210.02432499,
+  "protected_cells": 209651,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 7.190448236826796e-11,
+  "affected_protected_area_ha": 2012.8066461544759
+ },
+ {
+  "fire": "Ferguson_2018",
+  "plan": "results/Ferguson_2018/two_phase/optimized_plan.npz",
+  "cost_USD2025": 44655648.79496376,
+  "protected_cells": 209651,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 7.190459339057043e-11,
+  "affected_protected_area_ha": 2012.8066461544759
+ },
+ {
+  "fire": "Ferguson_2018",
+  "plan": "results/Ferguson_2018/dpv_ordered_removal/best_plan.npz",
+  "cost_USD2025": 47630941.64946182,
+  "protected_cells": 209651,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 9.709455461859307e-11,
+  "affected_protected_area_ha": 2012.806646154429
+ },
+ {
+  "fire": "Ferguson_2018",
+  "plan": "results/Ferguson_2018/benchmarks/annealing/best_plan.npz",
+  "cost_USD2025": 172602766.41364574,
+  "protected_cells": 209651,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 9.756473406952182e-11,
+  "affected_protected_area_ha": 2012.8066461543867
+ },
+ {
+  "fire": "Ferguson_2018",
+  "plan": "results/Ferguson_2018/benchmarks/nsga2/best_plan.npz",
+  "cost_USD2025": 204994384.76719362,
+  "protected_cells": 209651,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 1.659561377209684e-12,
+  "affected_protected_area_ha": 2012.8066461543342
+ },
+ {
+  "fire": "Ferguson_2018",
+  "plan": "results/Ferguson_2018/benchmarks/path_delay/best_plan.npz",
+  "cost_USD2025": 196443266.7330592,
+  "protected_cells": 209651,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 3.167843765083944e-11,
+  "affected_protected_area_ha": 2012.8066461543526
+ },
+ {
+  "fire": "Ferguson_2018",
+  "plan": "results/Ferguson_2018/dpv_guidance_comparison/rothermel/best_plan.npz",
+  "cost_USD2025": 68895231.76523423,
+  "protected_cells": 209651,
+  "cells_above_limit_plus_tolerance": 0,
+  "maximum_cell_excess_probability": 9.810152690192808e-11,
+  "affected_protected_area_ha": 2012.8066461544488
+ }
+]

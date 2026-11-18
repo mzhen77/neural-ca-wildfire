@@ -1,15 +1,15 @@
 {
-  "event": 6261,
+  "event": 6578,
   "kind": "complete",
   "phase": "sequential_optimization",
-  "pid": 716599,
-  "elapsed_seconds": 6374.335463522933,
-  "forward_evaluations": 11433,
-  "region_gradient_evaluations": 0,
-  "retained_cost_USD2025": 11961574.53424425,
-  "cost_reduction_percent": 88.54147094727095,
-  "region_count": 22,
-  "violated_region_count": 0,
-  "max_constraint_excess_ha": 3.861707398300496e-09,
-  "all_regions_feasible": true
+  "pid": 979991,
+  "elapsed_seconds": 6446.2877366839675,
+  "forward_evaluations": 11686,
+  "gradient_evaluations": 0,
+  "retained_cost_USD2025": 15615711.61750687,
+  "cost_reduction_percent": 85.04100904642766,
+  "cell_count": 67000,
+  "violated_cell_count": 0,
+  "max_constraint_excess_probability": 8.42190761574102e-11,
+  "all_cells_feasible": true
 }

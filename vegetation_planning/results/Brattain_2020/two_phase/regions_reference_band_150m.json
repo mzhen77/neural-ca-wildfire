@@ -1,140 +1,123 @@
 {
  "fire": "Brattain_2020",
  "band_m": 150,
- "note": "Nominal study",
+ "note": "Nominal study, one constraint per protected cell",
  "hash_rule": "SHA-256 of the boolean raster in row-major order, one byte per cell",
+ "protected_cells": 67000,
+ "protected_cells_sha256": "c9063c3b47a2df5854ea4015e7f142451dccdd96297ad1217d495f79ad911b32",
+ "limits_rule": "Day-15 affected probability under the reference plan at every protected cell, in row-major order",
+ "limits_hash_rule": "SHA-256 of the limits as little-endian float64 values",
+ "limits_sha256": "52daf7959039dc22f911dfeae6021e3154a1c94c0009b04da2e09c32dafafef4",
  "regions": [
   {
    "index": 0,
    "sha256": "9e3b701627c3fa79ce9d96680698c5b3cd8f0bb8d6eb6fe4348ebdd376e97af5",
-   "cells": 1859,
-   "limit_ha": 59.04609015105362
+   "cells": 1859
   },
   {
    "index": 1,
    "sha256": "2b5640f7fb963a54579f607fd8e35a402563db424fb5dac836022cb970db1b9c",
-   "cells": 619,
-   "limit_ha": 13.387144283991727
+   "cells": 619
   },
   {
    "index": 2,
    "sha256": "67fdc7e950704e3d5288aa6c4549b8ab5b0fadacea5ea8f4c72884c13e42d27f",
-   "cells": 6014,
-   "limit_ha": 152.30982519004857
+   "cells": 6014
   },
   {
    "index": 3,
    "sha256": "04132f376e461b5e1daffba2247083845f12630c11ef0c949e4314c2f3937fde",
-   "cells": 16910,
-   "limit_ha": 314.7362357019602
+   "cells": 16910
   },
   {
    "index": 4,
    "sha256": "f17064f9191825b98c2b5577d85aa4216b54705833108d837ea09394fd802b3d",
-   "cells": 2576,
-   "limit_ha": 84.34394983397522
+   "cells": 2576
   },
   {
    "index": 5,
    "sha256": "607e8d738284373fcfbd4931544a01c8acf9dc63f747deb08e8d08a24b55b0a1",
-   "cells": 641,
-   "limit_ha": 15.262079603495888
+   "cells": 641
   },
   {
    "index": 6,
    "sha256": "3fff5f8a451445e32aef0384aa801937cb78d37ef964e794b65a925e7ed119f6",
-   "cells": 48287,
-   "limit_ha": 1090.1254062848104
+   "cells": 48287
   },
   {
    "index": 7,
    "sha256": "9e841f1d20b84497acbba944c6e9e995803e53f22f515f8f0fd6ab8db4ce8553",
-   "cells": 92,
-   "limit_ha": 4.5887307490248395
+   "cells": 92
   },
   {
    "index": 8,
    "sha256": "38be89ef52ce6a8ada6287058482fad148b9b3d4cf811e1aef019803d723b027",
-   "cells": 108,
-   "limit_ha": 3.7429145394085133
+   "cells": 108
   },
   {
    "index": 9,
    "sha256": "321564000bb026b476ae5b58a7930f30f57f5eaaa9216ba2d148a243cf1f17c7",
-   "cells": 117,
-   "limit_ha": 7.4315218233272065
+   "cells": 117
   },
   {
    "index": 10,
    "sha256": "f334a170f2ff915b6f3f5380ce387dfd66dc164e0fc9179193a38d0f25d1c1f2",
-   "cells": 112,
-   "limit_ha": 0.0
+   "cells": 112
   },
   {
    "index": 11,
    "sha256": "fa8b5b2e377ee44c3ecacfbb326ffb703bc2604ac501d0adccce3ff4e7da9c35",
-   "cells": 118,
-   "limit_ha": 4.95
+   "cells": 118
   },
   {
    "index": 12,
    "sha256": "6082f18f232c0cdc6a1fd6c7785c03efb18805b118b93dd2fd22bb00f6d20c1e",
-   "cells": 110,
-   "limit_ha": 0.022660515704168747
+   "cells": 110
   },
   {
    "index": 13,
    "sha256": "0c385e99d03ef012ca74dfb1448cb4b032c65aabe1a68008ae53d4de676ec08d",
-   "cells": 106,
-   "limit_ha": 0.0
+   "cells": 106
   },
   {
    "index": 14,
    "sha256": "1bb10a675992b2414a0fb2813294bf2ae39f9297967d48e2ee83763d221ee5d5",
-   "cells": 104,
-   "limit_ha": 4.409999999998577
+   "cells": 104
   },
   {
    "index": 15,
    "sha256": "6a378cda3c4c18766042bc01a7036630faf26e00d442155c40984b1c73677602",
-   "cells": 81,
-   "limit_ha": 2.61
+   "cells": 81
   },
   {
    "index": 16,
    "sha256": "9d50075ff298e78705cb780b7ec56b3557f1d45b863456146e0c4e13988532fd",
-   "cells": 96,
-   "limit_ha": 0.0
+   "cells": 96
   },
   {
    "index": 17,
    "sha256": "31870dbdda3a716b79d1256046f405b43e46c9ba65dc92146e6397baa97417ab",
-   "cells": 92,
-   "limit_ha": 1.9522125011612612
+   "cells": 92
   },
   {
    "index": 18,
    "sha256": "3a0252150308e8ccca8843067bce72b9a642ee81fcaf4e77d3b58866fb5ca072",
-   "cells": 176,
-   "limit_ha": 7.649697540643632
+   "cells": 176
   },
   {
    "index": 19,
    "sha256": "f8da2a5cac2b5e2a2e7beeb3dd91ee767020fed5b0db30432eaa1e4ccb1613f8",
-   "cells": 130,
-   "limit_ha": 5.31
+   "cells": 130
   },
   {
    "index": 20,
    "sha256": "83b84ee9d27cfc1e3c99d80abbdb23741b67c2045df996c67549cb3b44c0944d",
-   "cells": 134,
-   "limit_ha": 5.489999999998577
+   "cells": 134
   },
   {
    "index": 21,
    "sha256": "1cc97fc9d66a46bbdb849c0c5aa8d02a31709277c186bacc716dcad27ad01101",
-   "cells": 6641,
-   "limit_ha": 134.72944810383808
+   "cells": 6641
   }
  ],
  "assets": [
