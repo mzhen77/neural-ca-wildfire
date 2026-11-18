@@ -856,6 +856,14 @@
   "change": "local path prefixes removed"
  },
  {
+  "path": "results/summary/regional_results_provenance.json",
+  "source": "control/docs/vegetation_management_ca/environmental_modelling_software/regional_results_provenance.json",
+  "source_sha256": "00246088a9994296d219eb5ba8abe4b87097539fea76f6012fe58bbabd71a5ad",
+  "bytes": 11797,
+  "sha256": "00246088a9994296d219eb5ba8abe4b87097539fea76f6012fe58bbabd71a5ad",
+  "change": null
+ },
+ {
   "path": "results/summary/regional_benchmark_provenance.json",
   "source": "control/docs/vegetation_management_ca/environmental_modelling_software/regional_benchmark_provenance.json",
   "source_sha256": "01370d5e69271e06577c879630a36e5990edbd60d8dd1b4ee67061470aad2f1b",
@@ -1198,14 +1206,6 @@
   "bytes": 81982,
   "sha256": "4614a22f2cb7426b8d7462fe1836fe3ad999c7a28734c4af289bef43e311c88b",
   "change": "derived table: hashes and cell counts only"
- },
- {
-  "path": "results/summary/regional_results_provenance.json",
-  "source": "control/docs/vegetation_management_ca/regional_results_provenance.json",
-  "source_sha256": "de7cbc40b2ce8b1241001fc249435936f0cafa43eb54bada16cacf44f608af74",
-  "bytes": 11647,
-  "sha256": "c0455ced32eaeb0a456046c55f390d8284807d986cefb17f933b59cdf211e566",
-  "change": "field removed: dpv_cost, the Rothermel-guided cost listed in dpv_guidance_four_fires.json"
  },
  {
   "path": "results/summary/plan_checks.json",

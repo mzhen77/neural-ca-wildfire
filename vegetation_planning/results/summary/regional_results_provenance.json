@@ -37,7 +37,8 @@
       "phase2_union_ha": 240.58130249054057,
       "phase2_core_ha": 42.084958157549025,
       "selected_polygons": 432,
-      "treated_ha": 9678.15
+      "treated_ha": 9678.15,
+      "dpv_cost": 30355518.720392242
     },
     {
       "fire": "Brattain_2020",
@@ -77,7 +78,8 @@
       "phase2_union_ha": 1436.4714783782372,
       "phase2_core_ha": 369.8900448011171,
       "selected_polygons": 843,
-      "treated_ha": 19425.239999999998
+      "treated_ha": 19425.239999999998,
+      "dpv_cost": 14470576.54139401
     },
     {
       "fire": "Chimney_2016",
@@ -113,7 +115,8 @@
       "phase2_union_ha": 813.4416922398132,
       "phase2_core_ha": 208.1047726245793,
       "selected_polygons": 303,
-      "treated_ha": 8158.139999999999
+      "treated_ha": 8158.139999999999,
+      "dpv_cost": 22160528.484887615
     },
     {
       "fire": "Ferguson_2018",
@@ -151,7 +154,8 @@
       "phase2_union_ha": 2012.8066461544759,
       "phase2_core_ha": 438.2596021710484,
       "selected_polygons": 669,
-      "treated_ha": 17857.71
+      "treated_ha": 17857.71,
+      "dpv_cost": 47630941.64946182
     }
   ],
   "source_sha256": {
