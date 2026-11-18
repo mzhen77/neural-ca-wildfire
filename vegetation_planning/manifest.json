@@ -192,38 +192,6 @@
   "change": null
  },
  {
-  "path": "results/Pier_2017/dpv_guidance_comparison/rothermel/best_plan.npz",
-  "source": "control/results/cellwise_protection_v1/benchmark/Pier_2017/dpv/best_plan.npz",
-  "source_sha256": "5e823ba6388d7ede89abb4443f6a98f1306c77d7653738b9791732bf1c1793fa",
-  "bytes": 92812,
-  "sha256": "13f0c0e1045214b269c7a192d5483fa10865479b1d55498d2377045d59d7235c",
-  "change": "arrays removed: affected_cell_probability, limits_probability"
- },
- {
-  "path": "results/Pier_2017/dpv_guidance_comparison/rothermel/completion.json",
-  "source": "control/results/cellwise_protection_v1/benchmark/Pier_2017/dpv/completion.json",
-  "source_sha256": "e4801cc2f36a65c0f4d477c21e67bb4e71dc3bbec8fa628a3d22605dc28e0ec3",
-  "bytes": 882,
-  "sha256": "e4801cc2f36a65c0f4d477c21e67bb4e71dc3bbec8fa628a3d22605dc28e0ec3",
-  "change": null
- },
- {
-  "path": "results/Pier_2017/dpv_guidance_comparison/ca_paths_rothermel_speeds/best_plan.npz",
-  "source": "control/results/pier_transmission_dpv_v1/Pier_2017/rothermel/best_plan.npz",
-  "source_sha256": "c93280a866f2dd9b9d67455c720f93e54eea221436fcf5782ba1bf3fb3b04ee8",
-  "bytes": 93457,
-  "sha256": "8241779a8583468a8ef2b352ec37213d1e688fc890a8f11d95339642e72ed4b2",
-  "change": "arrays removed: affected_cell_probability, limits_probability"
- },
- {
-  "path": "results/Pier_2017/dpv_guidance_comparison/ca_paths_rothermel_speeds/completion.json",
-  "source": "control/results/pier_transmission_dpv_v1/Pier_2017/rothermel/completion.json",
-  "source_sha256": "50e3457942a9334068ba5cc76777fde93a2f9cae46a9e72b1cc701de831bc0f9",
-  "bytes": 883,
-  "sha256": "50e3457942a9334068ba5cc76777fde93a2f9cae46a9e72b1cc701de831bc0f9",
-  "change": null
- },
- {
   "path": "inputs/Brattain_2020/candidate_operations.npz",
   "source": "control/results/management_polygons_v3/Brattain_2020/inputs/candidate_operations.npz",
   "source_sha256": "b4d543cfeea71063523cf813e0e14fd11b5c8f2f5e8d5f5b5c0302dcce6e9715",
@@ -413,22 +381,6 @@
   "source_sha256": "35cec9a13392a4236376eaa1234606b02bd4db2d162e18d7cc928cb91089ac09",
   "bytes": 896,
   "sha256": "35cec9a13392a4236376eaa1234606b02bd4db2d162e18d7cc928cb91089ac09",
-  "change": null
- },
- {
-  "path": "results/Brattain_2020/dpv_guidance_comparison/rothermel/best_plan.npz",
-  "source": "control/results/cellwise_protection_v1/benchmark/Brattain_2020/dpv/best_plan.npz",
-  "source_sha256": "ae3c204608432911a7a1ad9a93c8f23434ab5223d7010fab2f4e1322d79677ab",
-  "bytes": 77419,
-  "sha256": "168e309212cba9480d1eb6df27cae4a9626b10b4999ae6e49b67342c90ec1f3f",
-  "change": "arrays removed: affected_cell_probability, limits_probability"
- },
- {
-  "path": "results/Brattain_2020/dpv_guidance_comparison/rothermel/completion.json",
-  "source": "control/results/cellwise_protection_v1/benchmark/Brattain_2020/dpv/completion.json",
-  "source_sha256": "89d31e6bb1b67d77402012b15a58a96eafd8484c41644c1be37682bfb1100ec6",
-  "bytes": 881,
-  "sha256": "89d31e6bb1b67d77402012b15a58a96eafd8484c41644c1be37682bfb1100ec6",
   "change": null
  },
  {
@@ -624,22 +576,6 @@
   "change": null
  },
  {
-  "path": "results/Chimney_2016/dpv_guidance_comparison/rothermel/best_plan.npz",
-  "source": "control/results/cellwise_protection_v1/benchmark/Chimney_2016/dpv/best_plan.npz",
-  "source_sha256": "eeca584ae3ac65c5ba0f6e4469d22ddf0654e45d195aa624825999fc95bf9c74",
-  "bytes": 124029,
-  "sha256": "a460ab7329c6bc462a5da8edc489b6ddda7cc36eb3293c2c3359dc7a5a43facf",
-  "change": "arrays removed: affected_cell_probability, limits_probability"
- },
- {
-  "path": "results/Chimney_2016/dpv_guidance_comparison/rothermel/completion.json",
-  "source": "control/results/cellwise_protection_v1/benchmark/Chimney_2016/dpv/completion.json",
-  "source_sha256": "a35637eac7c4651bc749493eb9b33a162b60dac471f51ce1fe38e64e6d4745b8",
-  "bytes": 883,
-  "sha256": "a35637eac7c4651bc749493eb9b33a162b60dac471f51ce1fe38e64e6d4745b8",
-  "change": null
- },
- {
   "path": "inputs/Ferguson_2018/candidate_operations.npz",
   "source": "control/results/management_polygon_two_stage_v1/Ferguson_2018/inputs/candidate_operations.npz",
   "source_sha256": "fdf3080c3ab7263dbceebb4c3748e4f5d7635be1d323daee0b2d1c86d1ddb9f5",
@@ -832,22 +768,6 @@
   "change": null
  },
  {
-  "path": "results/Ferguson_2018/dpv_guidance_comparison/rothermel/best_plan.npz",
-  "source": "control/results/cellwise_protection_v1/benchmark/Ferguson_2018/dpv/best_plan.npz",
-  "source_sha256": "4ee4e68dcaec3dca085fc1d44b99e7f63a58cc1aa587b48e96be3dbc60497927",
-  "bytes": 159291,
-  "sha256": "d29a299962a1541eadbd9ac764ac952a943f0132853417683880aa31ad7aa513",
-  "change": "arrays removed: affected_cell_probability, limits_probability"
- },
- {
-  "path": "results/Ferguson_2018/dpv_guidance_comparison/rothermel/completion.json",
-  "source": "control/results/cellwise_protection_v1/benchmark/Ferguson_2018/dpv/completion.json",
-  "source_sha256": "e121b11c5cae7744802b03006a7b0c1992621b6b5ac479f2ec50a22f22796742",
-  "bytes": 885,
-  "sha256": "e121b11c5cae7744802b03006a7b0c1992621b6b5ac479f2ec50a22f22796742",
-  "change": null
- },
- {
   "path": "results/summary/benchmark_budgets.json",
   "source": "control/results/cellwise_protection_v1/benchmark_budgets.json",
   "source_sha256": "a4ce17ea074f7a0e17d93947471d73b1f4c0a7e8420e567cd0c15637d8f7351e",
@@ -874,25 +794,9 @@
  {
   "path": "results/summary/sensitivity_provenance.json",
   "source": "control/docs/vegetation_management_ca/environmental_modelling_software/sensitivity_provenance.json",
-  "source_sha256": "68b7a79ec8ca9bb5ca571f9c36b41eabc0dd91765fd86c07455f87bc1a637119",
+  "source_sha256": "11f0d4870e4d1238d6e61fd842a1845ccfe21d3096833ef36b5f02b1cfc8dc0d",
   "bytes": 1329,
-  "sha256": "68b7a79ec8ca9bb5ca571f9c36b41eabc0dd91765fd86c07455f87bc1a637119",
-  "change": null
- },
- {
-  "path": "results/summary/dpv_guidance_four_fires.json",
-  "source": "control/results/ca_transmission_dpv_v1/four_fire_results.json",
-  "source_sha256": "036eef4f7585f6fe0e863e666db4a3ff3aee494fafb6f09f5f31ab54cc86fd96",
-  "bytes": 3042,
-  "sha256": "036eef4f7585f6fe0e863e666db4a3ff3aee494fafb6f09f5f31ab54cc86fd96",
-  "change": null
- },
- {
-  "path": "results/summary/dpv_guidance_pier.json",
-  "source": "control/results/pier_transmission_dpv_v1/Pier_2017/comparison.json",
-  "source_sha256": "2ab0d4a92e4377455b46a4ef0a6b15b96c331985e310a79c26a4d3964ee0173b",
-  "bytes": 1830,
-  "sha256": "2ab0d4a92e4377455b46a4ef0a6b15b96c331985e310a79c26a4d3964ee0173b",
+  "sha256": "11f0d4870e4d1238d6e61fd842a1845ccfe21d3096833ef36b5f02b1cfc8dc0d",
   "change": null
  },
  {
@@ -1138,9 +1042,9 @@
  {
   "path": "README.md",
   "source": "control/docs/vegetation_management_ca/environmental_modelling_software/data_package/branch/README.md",
-  "source_sha256": "728c2004d599aab241e01c2b613ac8434b9b169b4e4f717f25483195cc3c81a2",
-  "bytes": 16491,
-  "sha256": "728c2004d599aab241e01c2b613ac8434b9b169b4e4f717f25483195cc3c81a2",
+  "source_sha256": "8130e897cc3a0b91bd92cb6e5a3ca576a056b4c9c4a7a5130ffea6fbc82e22e0",
+  "bytes": 16003,
+  "sha256": "8130e897cc3a0b91bd92cb6e5a3ca576a056b4c9c4a7a5130ffea6fbc82e22e0",
   "change": null
  },
  {
@@ -1211,8 +1115,8 @@
   "path": "results/summary/plan_checks.json",
   "source": "the plan files of the study, before their per-cell arrays were removed",
   "source_sha256": null,
-  "bytes": 10405,
-  "sha256": "66478db9ecd360c5914cdbd637541e10a1e6d960d007d4c4bb720aa580a52d59",
+  "bytes": 8734,
+  "sha256": "b3652fed794c672a43a25eb57ad0ada45264c2276db7ea4e2d311ed588ab494c",
   "change": "derived table: cost, largest excess over the cell limits and protected affected area of every plan"
  },
  {

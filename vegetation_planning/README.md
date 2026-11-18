@@ -40,7 +40,6 @@ All outputs go to `vegetation_planning/generated/<fire>/`, which git ignores.
 inputs/<fire>/                 polygons, programs, costs, named assets, georeferencing
 results/<fire>/two_phase/      reference, Phase 1 and Phase 2 plans, reference table of the protected cells, timings
 results/<fire>/dpv_ordered_removal/   final plan of DPV-ordered removal
-results/<fire>/dpv_guidance_comparison/   the same search guided by the Rothermel model
 results/<fire>/benchmarks/     final plans of the three literature benchmarks
 results/summary/               cost and time summaries behind the paper's tables, check values of every plan
 sensitivity/                   fixed-plan sensitivity of three plans on the four fires
@@ -181,12 +180,6 @@ DPV-ordered removal (Section 4.2 of the paper). It applies the grouped removal t
 on repeated passes, in an order derived from the downstream protection value. Routes traced
 through the untreated CA-CNN forecast and local spread scores give this value. The paper's
 benchmark tables and the files in `results/summary/` list the method under the key `dpv`.
-
-`results/<fire>/dpv_guidance_comparison/rothermel/` holds the plan of the same grouped search
-when the Rothermel model supplies the paths and the local spread rates. For Pier,
-`ca_paths_rothermel_speeds/` holds the plan obtained with CA-CNN paths and Rothermel speeds.
-The paper reports these costs in its text. `results/summary/dpv_guidance_four_fires.json` and
-`dpv_guidance_pier.json` list them.
 
 `results/<fire>/benchmarks/<method>/` holds the final plan and the completion record of the
 three literature benchmarks: `annealing`, `nsga2` and `path_delay` (spread-path placement).

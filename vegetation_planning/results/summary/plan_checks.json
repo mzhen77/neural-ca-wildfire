@@ -63,24 +63,6 @@
   "affected_protected_area_ha": 240.5813024900421
  },
  {
-  "fire": "Pier_2017",
-  "plan": "results/Pier_2017/dpv_guidance_comparison/rothermel/best_plan.npz",
-  "cost_USD2025": 37997401.08053826,
-  "protected_cells": 91247,
-  "cells_above_limit_plus_tolerance": 0,
-  "maximum_cell_excess_probability": 8.156308961559944e-11,
-  "affected_protected_area_ha": 240.58130249078388
- },
- {
-  "fire": "Pier_2017",
-  "plan": "results/Pier_2017/dpv_guidance_comparison/ca_paths_rothermel_speeds/best_plan.npz",
-  "cost_USD2025": 35367369.331879035,
-  "protected_cells": 91247,
-  "cells_above_limit_plus_tolerance": 0,
-  "maximum_cell_excess_probability": 9.003342515967461e-11,
-  "affected_protected_area_ha": 240.58130249086847
- },
- {
   "fire": "Brattain_2020",
   "plan": "results/Brattain_2020/two_phase/reference.npz",
   "cost_USD2025": 104390140.1235736,
@@ -142,15 +124,6 @@
   "cells_above_limit_plus_tolerance": 0,
   "maximum_cell_excess_probability": 5.179967565993593e-12,
   "affected_protected_area_ha": 1436.6761995973995
- },
- {
-  "fire": "Brattain_2020",
-  "plan": "results/Brattain_2020/dpv_guidance_comparison/rothermel/best_plan.npz",
-  "cost_USD2025": 16913682.86478356,
-  "protected_cells": 67000,
-  "cells_above_limit_plus_tolerance": 0,
-  "maximum_cell_excess_probability": 4.104461215348465e-11,
-  "affected_protected_area_ha": 1436.6761949599636
  },
  {
   "fire": "Chimney_2016",
@@ -216,15 +189,6 @@
   "affected_protected_area_ha": 813.4445322168184
  },
  {
-  "fire": "Chimney_2016",
-  "plan": "results/Chimney_2016/dpv_guidance_comparison/rothermel/best_plan.npz",
-  "cost_USD2025": 28161288.422912247,
-  "protected_cells": 108562,
-  "cells_above_limit_plus_tolerance": 0,
-  "maximum_cell_excess_probability": 6.980682698554119e-11,
-  "affected_protected_area_ha": 813.4445322168408
- },
- {
   "fire": "Ferguson_2018",
   "plan": "results/Ferguson_2018/two_phase/reference.npz",
   "cost_USD2025": 217900988.51083648,
@@ -286,14 +250,5 @@
   "cells_above_limit_plus_tolerance": 0,
   "maximum_cell_excess_probability": 3.167843765083944e-11,
   "affected_protected_area_ha": 2012.8066461543526
- },
- {
-  "fire": "Ferguson_2018",
-  "plan": "results/Ferguson_2018/dpv_guidance_comparison/rothermel/best_plan.npz",
-  "cost_USD2025": 68895231.76523423,
-  "protected_cells": 209651,
-  "cells_above_limit_plus_tolerance": 0,
-  "maximum_cell_excess_probability": 9.810152690192808e-11,
-  "affected_protected_area_ha": 2012.8066461544488
  }
 ]
